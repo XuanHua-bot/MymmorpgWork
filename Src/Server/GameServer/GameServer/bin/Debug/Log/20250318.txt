@@ -1,0 +1,57 @@
+
+2025-03-18 19:36:05,408 [1] [INFO ] [GameServer] ：Game Server Init
+2025-03-18 19:36:05,601 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-03-18 19:36:05,801 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-03-18 19:36:05,802 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-03-18 19:36:05,802 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-03-18 19:36:05,802 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-03-18 19:36:05,804 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-03-18 19:36:05,847 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-18 19:36:05,847 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-18 19:36:05,848 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-18 19:36:05,847 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-18 19:36:05,849 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-18 19:36:05,849 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-18 19:36:05,847 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-18 19:36:05,850 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-18 19:36:05,917 [1] [WARN ] [GameServer] ：NetService Started
+2025-03-18 19:36:27,715 [3] [WARN ] [GameServer] ：Client[127.0.0.1:54260]] Connected
+2025-03-18 19:36:27,755 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2025-03-18 19:36:27,922 [5] [INFO ] [GameServer] ：UserLoginRequest: User:3meng  Pass:123123
+2025-03-18 19:36:34,822 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-03-18 19:36:34,826 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:5:大贝塔 Map:1
+2025-03-18 19:36:34,832 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-03-18 19:37:20,218 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-18 20:30:11,114 [16] [WARN ] [GameServer] ：Client[127.0.0.1:57529]] Connected
+2025-03-18 20:30:11,155 [58] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2025-03-18 20:30:11,156 [5] [INFO ] [GameServer] ：UserLoginRequest: User:3meng  Pass:123123
+2025-03-18 20:30:15,470 [57] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-03-18 20:30:15,471 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:3:蔡依林 Map:1
+2025-03-18 20:30:15,472 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-03-18 20:31:20,069 [57] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-18 20:41:49,073 [55] [WARN ] [GameServer] ：Client[127.0.0.1:58024]] Connected
+2025-03-18 20:41:49,113 [32] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2025-03-18 20:41:49,114 [5] [INFO ] [GameServer] ：UserLoginRequest: User:3meng  Pass:123123
+2025-03-18 20:42:00,866 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-03-18 20:42:00,866 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:8:灵感菇 Map:1
+2025-03-18 20:42:00,866 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-03-18 20:43:43,723 [31] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-18 20:46:00,038 [31] [WARN ] [GameServer] ：Client[127.0.0.1:58151]] Connected
+2025-03-18 20:46:00,072 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2025-03-18 20:46:00,072 [5] [INFO ] [GameServer] ：UserLoginRequest: User:3meng  Pass:123123
+2025-03-18 20:46:02,925 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-18 20:46:02,926 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:达柔帮 Map:1
+2025-03-18 20:46:02,927 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-03-18 20:46:19,400 [31] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-18 20:59:16,729 [1] [INFO ] [GameServer] ：Game Server Exiting...
+2025-03-18 20:59:16,814 [1] [WARN ] [GameServer] ：Stop NetService...
+2025-03-18 20:59:16,814 [1] [WARN ] [GameServer] ：Stoping Message Handler...
+2025-03-18 20:59:16,816 [5] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-03-18 20:59:16,817 [7] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-03-18 20:59:16,817 [6] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-03-18 20:59:16,817 [8] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-03-18 20:59:16,819 [9] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-03-18 20:59:16,820 [11] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-03-18 20:59:16,821 [12] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-03-18 20:59:16,822 [14] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-03-18 20:59:16,932 [1] [INFO ] [GameServer] ：Game Server Exited

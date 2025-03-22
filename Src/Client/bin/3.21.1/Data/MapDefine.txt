@@ -1,0 +1,42 @@
+{
+  "1": {
+    "ID": 1,
+    "Name": "多伦郡 ",
+    "Type": "Normal",
+    "SubType": "Normal",
+    "PKMode": false,
+    "Resource": "MainCity",
+    "MiniMap": "duolunjun",
+    "Description": "通往卡西米尔北部道路上必经的小村庄。"
+  },
+  "2": {
+    "ID": 2,
+    "Name": "华光林",
+    "Type": "Normal",
+    "SubType": "Normal",
+    "PKMode": false,
+    "Resource": "Map01",
+    "MiniMap": "huaguanglin",
+    "Description": "多伦郡南部广大的森林地带"
+  },
+  "3": {
+    "ID": 3,
+    "Name": "华光林",
+    "Type": "Normal",
+    "SubType": "Normal",
+    "PKMode": false,
+    "Resource": "Map02",
+    "MiniMap": "huaguanglin",
+    "Description": "多伦郡南部广大的森林地带"
+  },
+  "4": {
+    "ID": 4,
+    "Name": "失落的层岩官邸",
+    "Type": "Normal",
+    "SubType": "Normal",
+    "PKMode": false,
+    "Resource": "Map03",
+    "MiniMap": "shiluodecengyanguandi.PNG",
+    "Description": "四国战争中消失的神秘官邸"
+  }
+}

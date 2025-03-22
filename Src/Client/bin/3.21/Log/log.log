@@ -1,0 +1,653 @@
+2025-03-21 15:27:13,384 [ 1] INFO  Unity: LoadingManager start
+2025-03-21 15:27:16,394 [ 1] INFO  Unity: DataManager > DataManager()
+2025-03-21 15:27:24,077 [ 1] INFO  Unity: UserLoginRequest::user :3meng psw:123123
+2025-03-21 15:27:24,077 [ 1] INFO  Unity: ConnectToServer() Start 
+2025-03-21 15:27:24,080 [ 1] INFO  Unity: DoConnect
+2025-03-21 15:27:24,081 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2025-03-21 15:27:24,082 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2025-03-21 15:27:24,093 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2025-03-21 15:27:24,146 [ 1] INFO  Unity: OnLogin:Success [None]
+2025-03-21 15:27:24,146 [ 1] INFO  Unity: LoadLevel: CharSelect
+2025-03-21 15:27:24,219 [ 1] INFO  Unity: LevelLoadCompleted:1
+2025-03-21 15:27:25,496 [ 1] INFO  Unity: Select Char:[2]达柔帮[Archer]
+2025-03-21 15:27:26,093 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2025-03-21 15:27:26,112 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2025-03-21 15:27:26,114 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:3
+2025-03-21 15:27:26,114 [ 1] INFO  Unity: AddCharacter:2:达柔帮 Map:1 Entity:(3:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-03-21 15:27:26,115 [ 1] INFO  Unity: AddCharacter:5:大贝塔 Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-03-21 15:27:26,115 [ 1] INFO  Unity: AddCharacter:5:大贝塔 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-03-21 15:27:26,115 [ 1] INFO  Unity: LoadLevel: MainCity
+2025-03-21 15:27:26,327 [ 1] INFO  Unity: LevelLoadCompleted:1
+2025-03-21 15:27:26,330 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, UIMiniMap.InitMap ()
+UIMiniMap.Start ()
+}</args></log4net.Error>
+2025-03-21 15:27:27,211 [ 1] INFO  Unity: SetDirection:(98, -19, 0)
+2025-03-21 15:27:27,308 [ 1] INFO  Unity: SetDirection:(93, -37, 0)
+2025-03-21 15:27:27,391 [ 1] INFO  Unity: SetDirection:(85, -53, 0)
+2025-03-21 15:27:27,495 [ 1] INFO  Unity: MoveForward
+2025-03-21 15:27:27,496 [ 1] INFO  Unity: SetDirection:(72, -69, 0)
+2025-03-21 15:27:27,591 [ 1] INFO  Unity: SetDirection:(57, -82, 0)
+2025-03-21 15:27:27,726 [ 1] INFO  Unity: SetDirection:(42, -91, 0)
+2025-03-21 15:27:28,229 [ 1] INFO  Unity: SetDirection:(24, -97, 0)
+2025-03-21 15:27:28,343 [ 1] INFO  Unity: SetDirection:(4, -100, 0)
+2025-03-21 15:27:28,428 [ 1] INFO  Unity: Stop
+2025-03-21 15:27:28,446 [ 1] INFO  Unity: SetDirection:(-16, -99, 0)
+2025-03-21 15:27:28,530 [ 1] INFO  Unity: SetDirection:(-33, -94, 0)
+2025-03-21 15:27:28,616 [ 1] INFO  Unity: SetDirection:(-49, -87, 0)
+2025-03-21 15:27:28,695 [ 1] INFO  Unity: SetDirection:(-64, -77, 0)
+2025-03-21 15:27:28,798 [ 1] INFO  Unity: SetDirection:(-78, -62, 0)
+2025-03-21 15:27:28,896 [ 1] INFO  Unity: SetDirection:(-89, -45, 0)
+2025-03-21 15:27:28,980 [ 1] INFO  Unity: MoveForward
+2025-03-21 15:27:28,980 [ 1] INFO  Unity: SetDirection:(-96, -28, 0)
+2025-03-21 15:27:29,082 [ 1] INFO  Unity: SetDirection:(-100, -8, 0)
+2025-03-21 15:27:29,161 [ 1] INFO  Unity: SetDirection:(-100, 10, 0)
+2025-03-21 15:27:29,264 [ 1] INFO  Unity: SetDirection:(-95, 30, 0)
+2025-03-21 15:27:29,683 [ 1] INFO  Unity: SetDirection:(-99, 12, 0)
+2025-03-21 15:27:29,767 [ 1] INFO  Unity: SetDirection:(-100, -6, 0)
+2025-03-21 15:27:29,815 [ 1] INFO  Unity: Stop
+2025-03-21 15:27:29,864 [ 1] INFO  Unity: SetDirection:(-96, -26, 0)
+2025-03-21 15:27:29,950 [ 1] INFO  Unity: SetDirection:(-90, -43, 0)
+2025-03-21 15:27:30,015 [ 1] INFO  Unity: MoveForward
+2025-03-21 15:27:30,052 [ 1] INFO  Unity: SetDirection:(-80, -61, 0)
+2025-03-21 15:27:30,149 [ 1] INFO  Unity: SetDirection:(-65, -76, 0)
+2025-03-21 15:27:30,252 [ 1] INFO  Unity: SetDirection:(-48, -88, 0)
+2025-03-21 15:27:30,349 [ 1] INFO  Unity: SetDirection:(-29, -96, 0)
+2025-03-21 15:27:30,432 [ 1] INFO  Unity: SetDirection:(-12, -99, 0)
+2025-03-21 15:27:30,516 [ 1] INFO  Unity: SetDirection:(6, -100, 0)
+2025-03-21 15:27:30,636 [ 1] INFO  Unity: SetDirection:(24, -97, 0)
+2025-03-21 15:27:31,034 [ 1] INFO  Unity: SetDirection:(6, -100, 0)
+2025-03-21 15:27:31,136 [ 1] INFO  Unity: SetDirection:(-14, -99, 0)
+2025-03-21 15:27:31,218 [ 1] INFO  Unity: SetDirection:(-31, -95, 0)
+2025-03-21 15:27:31,319 [ 1] INFO  Unity: SetDirection:(-49, -87, 0)
+2025-03-21 15:27:31,481 [ 1] INFO  Unity: Stop
+2025-03-21 15:28:37,424 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-03-21 15:28:37,424 [ 1] INFO  Unity: AddCharacter:12:完颜慧德 Map:1 Entity:(4:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-03-21 15:28:48,239 [ 1] INFO  Unity: SetDirection:(-64, -77, 0)
+2025-03-21 15:28:48,391 [ 1] INFO  Unity: SetDirection:(-77, -64, 0)
+2025-03-21 15:28:48,488 [ 1] INFO  Unity: SetDirection:(-88, -48, 0)
+2025-03-21 15:28:48,590 [ 1] INFO  Unity: SetDirection:(-96, -29, 0)
+2025-03-21 15:28:48,687 [ 1] INFO  Unity: SetDirection:(-100, -9, 0)
+2025-03-21 15:28:48,772 [ 1] INFO  Unity: SetDirection:(-100, 9, 0)
+2025-03-21 15:28:48,876 [ 1] INFO  Unity: SetDirection:(-96, 29, 0)
+2025-03-21 15:28:48,960 [ 1] INFO  Unity: SetDirection:(-89, 46, 0)
+2025-03-21 15:28:49,057 [ 1] INFO  Unity: SetDirection:(-78, 63, 0)
+2025-03-21 15:28:49,142 [ 1] INFO  Unity: SetDirection:(-66, 76, 0)
+2025-03-21 15:28:49,208 [ 1] INFO  Unity: MoveForward
+2025-03-21 15:28:49,226 [ 1] INFO  Unity: SetDirection:(-51, 86, 0)
+2025-03-21 15:28:49,323 [ 1] INFO  Unity: SetDirection:(-32, 95, 0)
+2025-03-21 15:28:49,427 [ 1] INFO  Unity: SetDirection:(-12, 99, 0)
+2025-03-21 15:28:49,559 [ 1] INFO  Unity: SetDirection:(7, 100, 0)
+2025-03-21 15:28:49,912 [ 1] INFO  Unity: SetDirection:(25, 97, 0)
+2025-03-21 15:28:50,026 [ 1] INFO  Unity: SetDirection:(42, 91, 0)
+2025-03-21 15:28:50,111 [ 1] INFO  Unity: SetDirection:(57, 82, 0)
+2025-03-21 15:28:50,190 [ 1] INFO  Unity: SetDirection:(71, 71, 0)
+2025-03-21 15:28:50,294 [ 1] INFO  Unity: SetDirection:(84, 55, 0)
+2025-03-21 15:28:50,377 [ 1] INFO  Unity: SetDirection:(92, 39, 0)
+2025-03-21 15:28:50,474 [ 1] INFO  Unity: SetDirection:(98, 21, 0)
+2025-03-21 15:28:50,761 [ 1] INFO  Unity: SetDirection:(92, 38, 0)
+2025-03-21 15:28:50,862 [ 1] INFO  Unity: SetDirection:(83, 55, 0)
+2025-03-21 15:28:50,960 [ 1] INFO  Unity: SetDirection:(70, 71, 0)
+2025-03-21 15:28:51,044 [ 1] INFO  Unity: SetDirection:(57, 82, 0)
+2025-03-21 15:28:51,130 [ 1] INFO  Unity: SetDirection:(41, 91, 0)
+2025-03-21 15:28:51,227 [ 1] INFO  Unity: SetDirection:(22, 98, 0)
+2025-03-21 15:28:51,312 [ 1] INFO  Unity: SetDirection:(4, 100, 0)
+2025-03-21 15:28:51,414 [ 1] INFO  Unity: SetDirection:(-16, 99, 0)
+2025-03-21 15:28:51,862 [ 1] INFO  Unity: SetDirection:(4, 100, 0)
+2025-03-21 15:28:51,948 [ 1] INFO  Unity: SetDirection:(21, 98, 0)
+2025-03-21 15:28:52,032 [ 1] INFO  Unity: SetDirection:(38, 92, 0)
+2025-03-21 15:28:52,128 [ 1] INFO  Unity: SetDirection:(56, 83, 0)
+2025-03-21 15:28:52,414 [ 1] INFO  Unity: SetDirection:(41, 91, 0)
+2025-03-21 15:28:52,511 [ 1] INFO  Unity: SetDirection:(22, 97, 0)
+2025-03-21 15:28:52,613 [ 1] INFO  Unity: SetDirection:(2, 100, 0)
+2025-03-21 15:28:52,699 [ 1] INFO  Unity: SetDirection:(-16, 99, 0)
+2025-03-21 15:28:52,795 [ 1] INFO  Unity: SetDirection:(-36, 93, 0)
+2025-03-21 15:28:52,899 [ 1] INFO  Unity: SetDirection:(-53, 85, 0)
+2025-03-21 15:28:53,068 [ 1] INFO  Unity: SetDirection:(-67, 74, 0)
+2025-03-21 15:28:53,348 [ 1] INFO  Unity: SetDirection:(-51, 86, 0)
+2025-03-21 15:28:53,450 [ 1] INFO  Unity: SetDirection:(-34, 94, 0)
+2025-03-21 15:28:53,547 [ 1] INFO  Unity: SetDirection:(-16, 99, 0)
+2025-03-21 15:28:53,734 [ 1] INFO  Unity: SetDirection:(1, 100, 0)
+2025-03-21 15:28:54,219 [ 1] INFO  Unity: SetDirection:(-18, 98, 0)
+2025-03-21 15:28:54,317 [ 1] INFO  Unity: SetDirection:(-36, 93, 0)
+2025-03-21 15:28:54,399 [ 1] INFO  Unity: Stop
+2025-03-21 15:28:54,401 [ 1] INFO  Unity: SetPosition:(4977, 4716, 804)
+2025-03-21 15:28:54,419 [ 1] INFO  Unity: SetDirection:(-54, 84, 0)
+2025-03-21 15:28:54,505 [ 1] INFO  Unity: SetDirection:(-68, 73, 0)
+2025-03-21 15:28:54,601 [ 1] INFO  Unity: SetDirection:(-82, 57, 0)
+2025-03-21 15:28:54,704 [ 1] INFO  Unity: SetDirection:(-92, 39, 0)
+2025-03-21 15:28:54,801 [ 1] INFO  Unity: SetDirection:(-98, 19, 0)
+2025-03-21 15:28:54,904 [ 1] INFO  Unity: SetDirection:(-100, -2, 0)
+2025-03-21 15:28:55,001 [ 1] INFO  Unity: SetDirection:(-97, -22, 0)
+2025-03-21 15:28:55,087 [ 1] INFO  Unity: SetDirection:(-92, -39, 0)
+2025-03-21 15:28:55,190 [ 1] INFO  Unity: SetDirection:(-82, -57, 0)
+2025-03-21 15:28:55,268 [ 1] INFO  Unity: SetDirection:(-71, -71, 0)
+2025-03-21 15:28:55,371 [ 1] INFO  Unity: SetDirection:(-55, -84, 0)
+2025-03-21 15:28:55,456 [ 1] INFO  Unity: SetDirection:(-39, -92, 0)
+2025-03-21 15:28:55,552 [ 1] INFO  Unity: SetDirection:(-19, -98, 0)
+2025-03-21 15:28:55,656 [ 1] INFO  Unity: SetDirection:(2, -100, 0)
+2025-03-21 15:28:55,752 [ 1] INFO  Unity: SetDirection:(20, -98, 0)
+2025-03-21 15:28:55,921 [ 1] INFO  Unity: SetDirection:(37, -93, 0)
+2025-03-21 15:28:55,941 [ 1] INFO  Unity: MoveForward
+2025-03-21 15:28:56,624 [ 1] INFO  Unity: SetDirection:(53, -85, 0)
+2025-03-21 15:28:56,724 [ 1] INFO  Unity: SetDirection:(67, -74, 0)
+2025-03-21 15:28:56,825 [ 1] INFO  Unity: SetDirection:(79, -61, 0)
+2025-03-21 15:28:57,008 [ 1] INFO  Unity: SetDirection:(89, -46, 0)
+2025-03-21 15:28:57,292 [ 1] INFO  Unity: Stop
+2025-03-21 15:28:57,408 [ 1] INFO  Unity: SetDirection:(78, -62, 0)
+2025-03-21 15:28:57,510 [ 1] INFO  Unity: SetDirection:(65, -76, 0)
+2025-03-21 15:28:57,589 [ 1] INFO  Unity: SetDirection:(51, -86, 0)
+2025-03-21 15:28:57,674 [ 1] INFO  Unity: SetDirection:(35, -94, 0)
+2025-03-21 15:28:57,692 [ 1] INFO  Unity: MoveForward
+2025-03-21 15:28:57,789 [ 1] INFO  Unity: SetDirection:(18, -98, 0)
+2025-03-21 15:28:58,377 [ 1] INFO  Unity: SetDirection:(36, -93, 0)
+2025-03-21 15:28:58,941 [ 1] INFO  Unity: Stop
+2025-03-21 15:29:00,334 [ 1] INFO  Unity: LoadLevel: CharSelect
+2025-03-21 15:29:00,334 [ 1] INFO  Unity: UserGameLeaveRequest
+2025-03-21 15:29:00,348 [ 1] ERROR Unity: OnMapCharacterLeave: CharID 2
+
+2025-03-21 15:29:00,349 [ 1] INFO  Unity: RemoveCharacter:2
+2025-03-21 15:29:00,349 [ 1] INFO  Unity: RemoveCharacter:5
+2025-03-21 15:29:00,349 [ 1] INFO  Unity: RemoveCharacter:12
+2025-03-21 15:29:00,349 [ 1] INFO  Unity: OnGameLeave:Success [None]
+2025-03-21 15:29:00,392 [ 1] INFO  Unity: LevelLoadCompleted:1
+2025-03-21 15:29:00,687 [ 1] INFO  Unity: SetPosition:(5309, 4044, 757)
+2025-03-21 15:29:00,837 [ 1] INFO  Unity: SetPosition:(5309, 4044, 700)
+2025-03-21 15:29:00,953 [ 1] INFO  Unity: SetPosition:(5309, 4044, 641)
+2025-03-21 15:29:01,036 [ 1] INFO  Unity: SetPosition:(5309, 4044, 590)
+2025-03-21 15:29:01,117 [ 1] INFO  Unity: SetPosition:(5309, 4044, 533)
+2025-03-21 15:29:01,188 [ 1] INFO  Unity: SetPosition:(5309, 4044, 482)
+2025-03-21 15:29:01,254 [ 1] INFO  Unity: SetPosition:(5309, 4044, 427)
+2025-03-21 15:29:01,320 [ 1] INFO  Unity: SetPosition:(5309, 4044, 367)
+2025-03-21 15:29:01,389 [ 1] INFO  Unity: SetPosition:(5309, 4044, 303)
+2025-03-21 15:29:01,436 [ 1] INFO  Unity: SetPosition:(5309, 4044, 252)
+2025-03-21 15:29:01,563 [ 1] INFO  Unity: SetPosition:(5309, 4044, 124)
+2025-03-21 15:29:01,605 [ 1] INFO  Unity: SetPosition:(5309, 4044, 65)
+2025-03-21 15:29:01,654 [ 1] INFO  Unity: SetPosition:(5309, 4044, 3)
+2025-03-21 15:29:01,713 [ 1] INFO  Unity: SetPosition:(5309, 4044, -61)
+2025-03-21 15:29:01,762 [ 1] INFO  Unity: SetPosition:(5309, 4044, -127)
+2025-03-21 15:29:01,820 [ 1] INFO  Unity: SetPosition:(5309, 4044, -220)
+2025-03-21 15:29:01,887 [ 1] INFO  Unity: SetPosition:(5309, 4044, -317)
+2025-03-21 15:29:01,946 [ 1] INFO  Unity: SetPosition:(5309, 4044, -392)
+2025-03-21 15:29:01,983 [ 1] INFO  Unity: SetPosition:(5309, 4044, -444)
+2025-03-21 15:29:02,020 [ 1] INFO  Unity: SetPosition:(5309, 4044, -524)
+2025-03-21 15:29:02,061 [ 1] INFO  Unity: SetPosition:(5309, 4044, -578)
+2025-03-21 15:29:02,094 [ 1] INFO  Unity: SetPosition:(5309, 4044, -634)
+2025-03-21 15:29:02,124 [ 1] INFO  Unity: SetPosition:(5309, 4044, -690)
+2025-03-21 15:29:02,159 [ 1] INFO  Unity: SetPosition:(5309, 4044, -748)
+2025-03-21 15:29:02,186 [ 1] INFO  Unity: SetPosition:(5309, 4044, -807)
+2025-03-21 15:29:02,222 [ 1] INFO  Unity: SetPosition:(5309, 4044, -867)
+2025-03-21 15:29:02,253 [ 1] INFO  Unity: SetPosition:(5309, 4044, -928)
+2025-03-21 15:29:02,296 [ 1] INFO  Unity: SetPosition:(5309, 4044, -990)
+2025-03-21 15:29:02,327 [ 1] INFO  Unity: SetPosition:(5309, 4044, -1053)
+2025-03-21 15:29:02,359 [ 1] INFO  Unity: SetPosition:(5309, 4044, -1117)
+2025-03-21 15:29:02,389 [ 1] INFO  Unity: SetPosition:(5309, 4044, -1183)
+2025-03-21 15:29:02,438 [ 1] INFO  Unity: SetPosition:(5309, 4044, -1283)
+2025-03-21 15:29:02,481 [ 1] INFO  Unity: SetPosition:(5309, 4044, -1351)
+2025-03-21 15:29:02,520 [ 1] INFO  Unity: SetPosition:(5309, 4044, -1420)
+2025-03-21 15:29:02,563 [ 1] INFO  Unity: SetPosition:(5309, 4044, -1526)
+2025-03-21 15:29:02,594 [ 1] INFO  Unity: SetPosition:(5309, 4044, -1598)
+2025-03-21 15:29:02,631 [ 1] INFO  Unity: SetPosition:(5309, 4044, -1671)
+2025-03-21 15:29:02,657 [ 1] INFO  Unity: SetPosition:(5309, 4044, -1745)
+2025-03-21 15:29:02,689 [ 1] INFO  Unity: SetPosition:(5309, 4044, -1820)
+2025-03-21 15:29:02,737 [ 1] INFO  Unity: SetPosition:(5309, 4044, -1897)
+2025-03-21 15:29:02,754 [ 1] INFO  Unity: SetPosition:(5309, 4044, -1974)
+2025-03-21 15:29:02,814 [ 1] INFO  Unity: SetPosition:(5309, 4044, -2092)
+2025-03-21 15:29:02,837 [ 1] INFO  Unity: SetPosition:(5309, 4044, -2173)
+2025-03-21 15:29:02,891 [ 1] INFO  Unity: SetPosition:(5309, 4044, -2295)
+2025-03-21 15:29:02,924 [ 1] INFO  Unity: SetPosition:(5309, 4044, -2378)
+2025-03-21 15:29:02,957 [ 1] INFO  Unity: SetPosition:(5309, 4044, -2462)
+2025-03-21 15:29:03,001 [ 1] INFO  Unity: SetPosition:(5309, 4044, -2547)
+2025-03-21 15:29:03,049 [ 1] INFO  Unity: SetPosition:(5309, 4044, -2677)
+2025-03-21 15:29:03,071 [ 1] INFO  Unity: SetPosition:(5309, 4044, -2764)
+2025-03-21 15:29:03,126 [ 1] INFO  Unity: SetPosition:(5309, 4044, -2898)
+2025-03-21 15:29:03,157 [ 1] INFO  Unity: SetPosition:(5309, 4044, -2989)
+2025-03-21 15:29:03,196 [ 1] INFO  Unity: SetPosition:(5309, 4044, -3080)
+2025-03-21 15:29:03,232 [ 1] INFO  Unity: SetPosition:(5309, 4044, -3173)
+2025-03-21 15:29:03,267 [ 1] INFO  Unity: SetPosition:(5309, 4044, -3267)
+2025-03-21 15:29:03,298 [ 1] INFO  Unity: SetPosition:(5309, 4044, -3362)
+2025-03-21 15:29:03,329 [ 1] INFO  Unity: SetPosition:(5309, 4044, -3458)
+2025-03-21 15:29:03,358 [ 1] INFO  Unity: SetPosition:(5309, 4044, -3555)
+2025-03-21 15:29:03,387 [ 1] INFO  Unity: SetPosition:(5309, 4044, -3653)
+2025-03-21 15:29:03,436 [ 1] INFO  Unity: SetPosition:(5309, 4044, -3753)
+2025-03-21 15:29:03,455 [ 1] INFO  Unity: SetPosition:(5309, 4044, -3853)
+2025-03-21 15:29:03,484 [ 1] INFO  Unity: SetPosition:(5309, 4044, -3904)
+2025-03-21 15:29:03,508 [ 1] INFO  Unity: SetPosition:(5309, 4044, -4006)
+2025-03-21 15:29:03,544 [ 1] INFO  Unity: SetPosition:(5309, 4044, -4109)
+2025-03-21 15:29:03,574 [ 1] INFO  Unity: SetPosition:(5309, 4044, -4213)
+2025-03-21 15:29:03,590 [ 1] INFO  Unity: SetPosition:(5309, 4044, -4266)
+2025-03-21 15:29:03,607 [ 1] INFO  Unity: SetPosition:(5309, 4044, -4318)
+2025-03-21 15:29:03,637 [ 1] INFO  Unity: SetPosition:(5309, 4044, -4371)
+2025-03-21 15:29:03,652 [ 1] INFO  Unity: SetPosition:(5309, 4044, -4425)
+2025-03-21 15:29:03,668 [ 1] INFO  Unity: SetPosition:(5309, 4044, -4478)
+2025-03-21 15:29:03,683 [ 1] INFO  Unity: SetPosition:(5309, 4044, -4532)
+2025-03-21 15:29:03,699 [ 1] INFO  Unity: SetPosition:(5309, 4044, -4586)
+2025-03-21 15:29:03,706 [ 1] INFO  Unity: SetPosition:(5309, 4044, -4641)
+2025-03-21 15:29:03,726 [ 1] INFO  Unity: SetPosition:(5309, 4044, -4696)
+2025-03-21 15:29:03,744 [ 1] INFO  Unity: SetPosition:(5309, 4044, -4751)
+2025-03-21 15:29:03,759 [ 1] INFO  Unity: SetPosition:(5309, 4044, -4806)
+2025-03-21 15:29:03,776 [ 1] INFO  Unity: SetPosition:(5309, 4044, -4861)
+2025-03-21 15:29:03,792 [ 1] INFO  Unity: SetPosition:(5309, 4044, -4917)
+2025-03-21 15:29:03,807 [ 1] INFO  Unity: SetPosition:(5309, 4044, -4973)
+2025-03-21 15:29:03,822 [ 1] INFO  Unity: SetPosition:(5309, 4044, -5030)
+2025-03-21 15:29:03,853 [ 1] INFO  Unity: SetPosition:(5309, 4044, -5086)
+2025-03-21 15:29:03,871 [ 1] INFO  Unity: SetPosition:(5309, 4044, -5143)
+2025-03-21 15:29:03,887 [ 1] INFO  Unity: SetPosition:(5309, 4044, -5200)
+2025-03-21 15:29:03,911 [ 1] INFO  Unity: SetPosition:(5309, 4044, -5316)
+2025-03-21 15:29:03,936 [ 1] INFO  Unity: SetPosition:(5309, 4044, -5374)
+2025-03-21 15:29:03,952 [ 1] INFO  Unity: SetPosition:(5309, 4044, -5432)
+2025-03-21 15:29:03,966 [ 1] INFO  Unity: SetPosition:(5309, 4044, -5490)
+2025-03-21 15:29:03,980 [ 1] INFO  Unity: SetPosition:(5309, 4044, -5549)
+2025-03-21 15:29:04,000 [ 1] INFO  Unity: SetPosition:(5309, 4044, -5608)
+2025-03-21 15:29:04,015 [ 1] INFO  Unity: SetPosition:(5309, 4044, -5668)
+2025-03-21 15:29:04,031 [ 1] INFO  Unity: SetPosition:(5309, 4044, -5727)
+2025-03-21 15:29:04,045 [ 1] INFO  Unity: SetPosition:(5309, 4044, -5787)
+2025-03-21 15:29:04,060 [ 1] INFO  Unity: SetPosition:(5309, 4044, -5847)
+2025-03-21 15:29:04,086 [ 1] INFO  Unity: SetPosition:(5309, 4044, -5908)
+2025-03-21 15:29:04,109 [ 1] INFO  Unity: SetPosition:(5309, 4044, -6030)
+2025-03-21 15:29:04,124 [ 1] INFO  Unity: SetPosition:(5309, 4044, -6091)
+2025-03-21 15:29:04,149 [ 1] INFO  Unity: SetPosition:(5309, 4044, -6152)
+2025-03-21 15:29:04,164 [ 1] INFO  Unity: SetPosition:(5309, 4044, -6214)
+2025-03-21 15:29:04,179 [ 1] INFO  Unity: SetPosition:(5309, 4044, -6276)
+2025-03-21 15:29:04,196 [ 1] INFO  Unity: SetPosition:(5309, 4044, -6339)
+2025-03-21 15:29:04,210 [ 1] INFO  Unity: SetPosition:(5309, 4044, -6401)
+2025-03-21 15:29:04,229 [ 1] INFO  Unity: SetPosition:(5309, 4044, -6464)
+2025-03-21 15:29:04,242 [ 1] INFO  Unity: SetPosition:(5309, 4044, -6528)
+2025-03-21 15:29:04,259 [ 1] INFO  Unity: SetPosition:(5309, 4044, -6591)
+2025-03-21 15:29:04,272 [ 1] INFO  Unity: SetPosition:(5309, 4044, -6655)
+2025-03-21 15:29:04,305 [ 1] INFO  Unity: SetPosition:(5309, 4044, -6719)
+2025-03-21 15:29:04,320 [ 1] INFO  Unity: SetPosition:(5309, 4044, -6783)
+2025-03-21 15:29:04,336 [ 1] INFO  Unity: SetPosition:(5309, 4044, -6848)
+2025-03-21 15:29:04,349 [ 1] INFO  Unity: SetPosition:(5309, 4044, -6913)
+2025-03-21 15:29:04,364 [ 1] INFO  Unity: SetPosition:(5309, 4044, -6978)
+2025-03-21 15:29:04,381 [ 1] INFO  Unity: SetPosition:(5309, 4044, -7043)
+2025-03-21 15:29:04,397 [ 1] INFO  Unity: SetPosition:(5309, 4044, -7109)
+2025-03-21 15:29:04,415 [ 1] INFO  Unity: SetPosition:(5309, 4044, -7175)
+2025-03-21 15:29:04,424 [ 1] INFO  Unity: SetPosition:(5309, 4044, -7241)
+2025-03-21 15:29:04,441 [ 1] INFO  Unity: SetPosition:(5309, 4044, -7307)
+2025-03-21 15:29:04,461 [ 1] INFO  Unity: SetPosition:(5309, 4044, -7374)
+2025-03-21 15:29:04,479 [ 1] INFO  Unity: SetPosition:(5309, 4044, -7441)
+2025-03-21 15:29:04,491 [ 1] INFO  Unity: SetPosition:(5309, 4044, -7508)
+2025-03-21 15:29:04,510 [ 1] INFO  Unity: SetPosition:(5309, 4044, -7576)
+2025-03-21 15:29:04,528 [ 1] INFO  Unity: SetPosition:(5309, 4044, -7644)
+2025-03-21 15:29:04,540 [ 1] INFO  Unity: SetPosition:(5309, 4044, -7712)
+2025-03-21 15:29:04,559 [ 1] INFO  Unity: SetPosition:(5309, 4044, -7780)
+2025-03-21 15:29:04,576 [ 1] INFO  Unity: SetPosition:(5309, 4044, -7849)
+2025-03-21 15:29:04,593 [ 1] INFO  Unity: SetPosition:(5309, 4044, -7918)
+2025-03-21 15:29:04,612 [ 1] INFO  Unity: SetPosition:(5309, 4044, -7987)
+2025-03-21 15:29:04,624 [ 1] INFO  Unity: SetPosition:(5309, 4044, -8057)
+2025-03-21 15:29:04,642 [ 1] INFO  Unity: SetPosition:(5309, 4044, -8126)
+2025-03-21 15:29:04,661 [ 1] INFO  Unity: SetPosition:(5309, 4044, -8196)
+2025-03-21 15:29:04,679 [ 1] INFO  Unity: SetPosition:(5309, 4044, -8267)
+2025-03-21 15:29:04,690 [ 1] INFO  Unity: SetPosition:(5309, 4044, -8337)
+2025-03-21 15:29:04,709 [ 1] INFO  Unity: SetPosition:(5309, 4044, -8408)
+2025-03-21 15:29:04,727 [ 1] INFO  Unity: SetPosition:(5309, 4044, -8479)
+2025-03-21 15:29:04,745 [ 1] INFO  Unity: SetPosition:(5309, 4044, -8551)
+2025-03-21 15:29:04,757 [ 1] INFO  Unity: SetPosition:(5309, 4044, -8622)
+2025-03-21 15:29:04,775 [ 1] INFO  Unity: SetPosition:(5309, 4044, -8694)
+2025-03-21 15:29:04,797 [ 1] INFO  Unity: SetPosition:(5309, 4044, -8767)
+2025-03-21 15:29:04,813 [ 1] INFO  Unity: SetPosition:(5309, 4044, -8839)
+2025-03-21 15:29:04,824 [ 1] INFO  Unity: SetPosition:(5309, 4044, -8912)
+2025-03-21 15:29:04,842 [ 1] INFO  Unity: SetPosition:(5309, 4044, -8985)
+2025-03-21 15:29:04,860 [ 1] INFO  Unity: SetPosition:(5309, 4044, -9058)
+2025-03-21 15:29:04,880 [ 1] INFO  Unity: SetPosition:(5309, 4044, -9132)
+2025-03-21 15:29:04,897 [ 1] INFO  Unity: SetPosition:(5309, 4044, -9206)
+2025-03-21 15:29:04,909 [ 1] INFO  Unity: SetPosition:(5309, 4044, -9280)
+2025-03-21 15:29:04,927 [ 1] INFO  Unity: SetPosition:(5309, 4044, -9354)
+2025-03-21 15:29:04,945 [ 1] INFO  Unity: SetPosition:(5309, 4044, -9429)
+2025-03-21 15:29:04,958 [ 1] INFO  Unity: SetPosition:(5309, 4044, -9504)
+2025-03-21 15:29:04,963 [ 1] INFO  Unity: Select Char:[3]蔡依林[Wizard]
+2025-03-21 15:29:04,976 [ 1] INFO  Unity: SetPosition:(5309, 4044, -9579)
+2025-03-21 15:29:04,994 [ 1] INFO  Unity: SetPosition:(5309, 4044, -9655)
+2025-03-21 15:29:05,013 [ 1] INFO  Unity: SetPosition:(5309, 4044, -9731)
+2025-03-21 15:29:05,026 [ 1] INFO  Unity: SetPosition:(5309, 4044, -9807)
+2025-03-21 15:29:05,042 [ 1] INFO  Unity: SetPosition:(5309, 4044, -9883)
+2025-03-21 15:29:05,059 [ 1] INFO  Unity: SetPosition:(5309, 4044, -9960)
+2025-03-21 15:29:05,076 [ 1] INFO  Unity: SetPosition:(5309, 4044, -10036)
+2025-03-21 15:29:05,096 [ 1] INFO  Unity: SetPosition:(5309, 4044, -10114)
+2025-03-21 15:29:05,108 [ 1] INFO  Unity: SetPosition:(5309, 4044, -10191)
+2025-03-21 15:29:05,126 [ 1] INFO  Unity: SetPosition:(5309, 4044, -10269)
+2025-03-21 15:29:05,146 [ 1] INFO  Unity: SetPosition:(5309, 4044, -10347)
+2025-03-21 15:29:05,164 [ 1] INFO  Unity: SetPosition:(5309, 4044, -10425)
+2025-03-21 15:29:05,175 [ 1] INFO  Unity: SetPosition:(5309, 4044, -10503)
+2025-03-21 15:29:05,201 [ 1] INFO  Unity: SetPosition:(5309, 4044, -10582)
+2025-03-21 15:29:05,213 [ 1] INFO  Unity: SetPosition:(5309, 4044, -10661)
+2025-03-21 15:29:05,227 [ 1] INFO  Unity: SetPosition:(5309, 4044, -10741)
+2025-03-21 15:29:05,242 [ 1] INFO  Unity: SetPosition:(5309, 4044, -10820)
+2025-03-21 15:29:05,259 [ 1] INFO  Unity: SetPosition:(5309, 4044, -10900)
+2025-03-21 15:29:05,278 [ 1] INFO  Unity: SetPosition:(5309, 4044, -10980)
+2025-03-21 15:29:05,296 [ 1] INFO  Unity: SetPosition:(5309, 4044, -11061)
+2025-03-21 15:29:05,309 [ 1] INFO  Unity: SetPosition:(5309, 4044, -11141)
+2025-03-21 15:29:05,328 [ 1] INFO  Unity: SetPosition:(5309, 4044, -11222)
+2025-03-21 15:29:05,348 [ 1] INFO  Unity: SetPosition:(5309, 4044, -11304)
+2025-03-21 15:29:05,363 [ 1] INFO  Unity: SetPosition:(5309, 4044, -11385)
+2025-03-21 15:29:05,375 [ 1] INFO  Unity: SetPosition:(5309, 4044, -11467)
+2025-03-21 15:29:05,395 [ 1] INFO  Unity: SetPosition:(5309, 4044, -11549)
+2025-03-21 15:29:05,413 [ 1] INFO  Unity: SetPosition:(5309, 4044, -11631)
+2025-03-21 15:29:05,432 [ 1] INFO  Unity: SetPosition:(5309, 4044, -11714)
+2025-03-21 15:29:05,446 [ 1] INFO  Unity: SetPosition:(5309, 4044, -11797)
+2025-03-21 15:29:05,461 [ 1] INFO  Unity: SetPosition:(5309, 4044, -11880)
+2025-03-21 15:29:05,479 [ 1] INFO  Unity: SetPosition:(5309, 4044, -11964)
+2025-03-21 15:29:05,496 [ 1] INFO  Unity: SetPosition:(5309, 4044, -12047)
+2025-03-21 15:29:05,509 [ 1] INFO  Unity: SetPosition:(5309, 4044, -12131)
+2025-03-21 15:29:05,526 [ 1] INFO  Unity: SetPosition:(5309, 4044, -12216)
+2025-03-21 15:29:05,546 [ 1] INFO  Unity: SetPosition:(5309, 4044, -12300)
+2025-03-21 15:29:05,564 [ 1] INFO  Unity: SetPosition:(5309, 4044, -12385)
+2025-03-21 15:29:05,575 [ 1] INFO  Unity: SetPosition:(5309, 4044, -12470)
+2025-03-21 15:29:05,594 [ 1] INFO  Unity: SetPosition:(5309, 4044, -12555)
+2025-03-21 15:29:05,614 [ 1] INFO  Unity: SetPosition:(5309, 4044, -12641)
+2025-03-21 15:29:05,632 [ 1] INFO  Unity: SetPosition:(5309, 4044, -12727)
+2025-03-21 15:29:05,642 [ 1] INFO  Unity: SetPosition:(5309, 4044, -12813)
+2025-03-21 15:29:05,660 [ 1] INFO  Unity: SetPosition:(5309, 4044, -12900)
+2025-03-21 15:29:05,678 [ 1] INFO  Unity: SetPosition:(5309, 4044, -12986)
+2025-03-21 15:29:05,695 [ 1] INFO  Unity: SetPosition:(5309, 4044, -13073)
+2025-03-21 15:29:05,714 [ 1] INFO  Unity: SetPosition:(5309, 4044, -13161)
+2025-03-21 15:29:05,727 [ 1] INFO  Unity: SetPosition:(5309, 4044, -13248)
+2025-03-21 15:29:05,745 [ 1] INFO  Unity: UserGameEnterRequest::characterId :1
+2025-03-21 15:29:05,745 [ 1] INFO  Unity: SetPosition:(5309, 4044, -13336)
+2025-03-21 15:29:05,756 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2025-03-21 15:29:05,757 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-03-21 15:29:05,757 [ 1] INFO  Unity: AddCharacter:3:蔡依林 Map:1 Entity:(5:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-03-21 15:29:05,758 [ 1] ERROR Unity: Message handler exception:, Object reference not set to an instance of an object, Assembly-CSharp,   at GameObjectManager.CreateCharacterObject (Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.OnCharacterEnter (Entities.Character cha) [0x00000] in <filename unknown>:0 
+  at Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha) [0x00000] in <filename unknown>:0 
+  at Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response) [0x00000] in <filename unknown>:0 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg) [0x00000] in <filename unknown>:0 
+2025-03-21 15:29:05,760 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, GameObjectManager.CreateCharacterObject (Entities.Character character)
+GameObjectManager.OnCharacterEnter (Entities.Character cha)
+Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha)
+Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response)
+Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg)
+}</args></log4net.Error>
+2025-03-21 15:29:05,762 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:4
+2025-03-21 15:29:05,762 [ 1] INFO  Unity: AddCharacter:3:蔡依林 Map:1 Entity:(5:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-03-21 15:29:05,762 [ 1] ERROR Unity: Message handler exception:, Object reference not set to an instance of an object, Assembly-CSharp,   at GameObjectManager.InitGameObject (UnityEngine.GameObject go, Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.CreateCharacterObject (Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.OnCharacterEnter (Entities.Character cha) [0x00000] in <filename unknown>:0 
+  at Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha) [0x00000] in <filename unknown>:0 
+  at Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response) [0x00000] in <filename unknown>:0 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg) [0x00000] in <filename unknown>:0 
+2025-03-21 15:29:05,762 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, GameObjectManager.InitGameObject (UnityEngine.GameObject go, Entities.Character character)
+GameObjectManager.CreateCharacterObject (Entities.Character character)
+GameObjectManager.OnCharacterEnter (Entities.Character cha)
+Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha)
+Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response)
+Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg)
+}</args></log4net.Error>
+2025-03-21 15:29:05,763 [ 1] INFO  Unity: SetPosition:(5309, 4044, -13424)
+2025-03-21 15:29:05,763 [ 1] INFO  Unity: SetPosition:(5000, 4000, 820)
+2025-03-21 15:29:05,781 [ 1] INFO  Unity: SetPosition:(5309, 4044, -13512)
+2025-03-21 15:29:05,793 [ 1] INFO  Unity: SetPosition:(5309, 4044, -13601)
+2025-03-21 15:29:05,812 [ 1] INFO  Unity: SetPosition:(5309, 4044, -13690)
+2025-03-21 15:29:05,832 [ 1] INFO  Unity: SetPosition:(5309, 4044, -13779)
+2025-03-21 15:29:05,849 [ 1] INFO  Unity: SetPosition:(5309, 4044, -13869)
+2025-03-21 15:29:05,860 [ 1] INFO  Unity: SetPosition:(5309, 4044, -13958)
+2025-03-21 15:29:05,879 [ 1] INFO  Unity: SetPosition:(5309, 4044, -14048)
+2025-03-21 15:29:05,897 [ 1] INFO  Unity: SetPosition:(5309, 4044, -14139)
+2025-03-21 15:29:05,913 [ 1] INFO  Unity: SetPosition:(5309, 4044, -14229)
+2025-03-21 15:29:05,928 [ 1] INFO  Unity: SetPosition:(5309, 4044, -14320)
+2025-03-21 15:29:05,945 [ 1] INFO  Unity: SetPosition:(5309, 4044, -14411)
+2025-03-21 15:29:05,963 [ 1] INFO  Unity: SetPosition:(5309, 4044, -14502)
+2025-03-21 15:29:05,977 [ 1] INFO  Unity: SetPosition:(5309, 4044, -14594)
+2025-03-21 15:29:05,996 [ 1] INFO  Unity: SetPosition:(5309, 4044, -14686)
+2025-03-21 15:29:06,014 [ 1] INFO  Unity: SetPosition:(5309, 4044, -14778)
+2025-03-21 15:29:06,029 [ 1] INFO  Unity: SetPosition:(5309, 4044, -14871)
+2025-03-21 15:29:06,049 [ 1] INFO  Unity: SetPosition:(5309, 4044, -14963)
+2025-03-21 15:29:06,060 [ 1] INFO  Unity: SetPosition:(5309, 4044, -15057)
+2025-03-21 15:29:06,078 [ 1] INFO  Unity: SetPosition:(5309, 4044, -15150)
+2025-03-21 15:29:06,099 [ 1] INFO  Unity: SetPosition:(5309, 4044, -15243)
+2025-03-21 15:29:06,111 [ 1] INFO  Unity: SetPosition:(5309, 4044, -15337)
+2025-03-21 15:29:06,127 [ 1] INFO  Unity: SetPosition:(5309, 4044, -15431)
+2025-03-21 15:29:06,145 [ 1] INFO  Unity: SetPosition:(5309, 4044, -15526)
+2025-03-21 15:29:06,163 [ 1] INFO  Unity: SetPosition:(5309, 4044, -15620)
+2025-03-21 15:29:06,181 [ 1] INFO  Unity: SetPosition:(5309, 4044, -15715)
+2025-03-21 15:29:06,193 [ 1] INFO  Unity: SetPosition:(5309, 4044, -15811)
+2025-03-21 15:29:06,212 [ 1] INFO  Unity: SetPosition:(5309, 4044, -15906)
+2025-03-21 15:29:06,230 [ 1] INFO  Unity: SetPosition:(5309, 4044, -16002)
+2025-03-21 15:29:06,248 [ 1] INFO  Unity: SetPosition:(5309, 4044, -16098)
+2025-03-21 15:29:06,266 [ 1] INFO  Unity: SetPosition:(5309, 4044, -16194)
+2025-03-21 15:29:06,278 [ 1] INFO  Unity: SetPosition:(5309, 4044, -16291)
+2025-03-21 15:29:06,297 [ 1] INFO  Unity: SetPosition:(5309, 4044, -16388)
+2025-03-21 15:29:06,315 [ 1] INFO  Unity: SetPosition:(5309, 4044, -16485)
+2025-03-21 15:29:06,327 [ 1] INFO  Unity: SetPosition:(5309, 4044, -16582)
+2025-03-21 15:29:06,345 [ 1] INFO  Unity: SetPosition:(5309, 4044, -16680)
+2025-03-21 15:29:06,364 [ 1] INFO  Unity: SetPosition:(5309, 4044, -16778)
+2025-03-21 15:29:06,380 [ 1] INFO  Unity: SetPosition:(5309, 4044, -16876)
+2025-03-21 15:29:06,393 [ 1] INFO  Unity: SetPosition:(5309, 4044, -16974)
+2025-03-21 15:29:06,412 [ 1] INFO  Unity: SetPosition:(5309, 4044, -17073)
+2025-03-21 15:29:06,431 [ 1] INFO  Unity: SetPosition:(5309, 4044, -17172)
+2025-03-21 15:29:06,449 [ 1] INFO  Unity: SetPosition:(5309, 4044, -17272)
+2025-03-21 15:29:06,467 [ 1] INFO  Unity: SetPosition:(5309, 4044, -17371)
+2025-03-21 15:29:06,479 [ 1] INFO  Unity: SetPosition:(5309, 4044, -17471)
+2025-03-21 15:29:06,496 [ 1] INFO  Unity: SetPosition:(5309, 4044, -17571)
+2025-03-21 15:29:06,516 [ 1] INFO  Unity: SetPosition:(5309, 4044, -17672)
+2025-03-21 15:29:06,534 [ 1] INFO  Unity: SetPosition:(5309, 4044, -17772)
+2025-03-21 15:29:06,547 [ 1] INFO  Unity: SetPosition:(5309, 4044, -17873)
+2025-03-21 15:29:06,564 [ 1] INFO  Unity: SetPosition:(5309, 4044, -17974)
+2025-03-21 15:29:06,578 [ 1] INFO  Unity: SetPosition:(5309, 4044, -18076)
+2025-03-21 15:29:06,599 [ 1] INFO  Unity: SetPosition:(5309, 4044, -18178)
+2025-03-21 15:29:06,612 [ 1] INFO  Unity: SetPosition:(5309, 4044, -18280)
+2025-03-21 15:29:06,631 [ 1] INFO  Unity: SetPosition:(5309, 4044, -18382)
+2025-03-21 15:29:06,650 [ 1] INFO  Unity: SetPosition:(5309, 4044, -18485)
+2025-03-21 15:29:06,671 [ 1] INFO  Unity: SetPosition:(5309, 4044, -18587)
+2025-03-21 15:29:06,678 [ 1] INFO  Unity: SetPosition:(5309, 4044, -18691)
+2025-03-21 15:29:06,696 [ 1] INFO  Unity: SetPosition:(5309, 4044, -18794)
+2025-03-21 15:29:06,715 [ 1] INFO  Unity: SetPosition:(5309, 4044, -18898)
+2025-03-21 15:29:06,734 [ 1] INFO  Unity: SetPosition:(5309, 4044, -19002)
+2025-03-21 15:29:06,746 [ 1] INFO  Unity: SetPosition:(5309, 4044, -19106)
+2025-03-21 15:29:06,764 [ 1] INFO  Unity: SetPosition:(5309, 4044, -19210)
+2025-03-21 15:29:06,781 [ 1] INFO  Unity: SetPosition:(5309, 4044, -19315)
+2025-03-21 15:29:06,799 [ 1] INFO  Unity: SetPosition:(5309, 4044, -19420)
+2025-03-21 15:29:06,819 [ 1] INFO  Unity: SetPosition:(5309, 4044, -19526)
+2025-03-21 15:29:06,830 [ 1] INFO  Unity: SetPosition:(5309, 4044, -19631)
+2025-03-21 15:29:06,847 [ 1] INFO  Unity: SetPosition:(5309, 4044, -19737)
+2025-03-21 15:29:06,866 [ 1] INFO  Unity: SetPosition:(5309, 4044, -19843)
+2025-03-21 15:29:06,879 [ 1] INFO  Unity: SetPosition:(5309, 4044, -19950)
+2025-03-21 15:29:06,895 [ 1] INFO  Unity: SetPosition:(5309, 4044, -20056)
+2025-03-21 15:29:06,914 [ 1] INFO  Unity: SetPosition:(5309, 4044, -20163)
+2025-03-21 15:29:06,932 [ 1] INFO  Unity: SetPosition:(5309, 4044, -20271)
+2025-03-21 15:29:06,938 [ 1] INFO  Unity: UserGameEnterRequest::characterId :1
+2025-03-21 15:29:06,945 [ 1] INFO  Unity: SetPosition:(5309, 4044, -20378)
+2025-03-21 15:29:06,951 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2025-03-21 15:29:06,951 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-03-21 15:29:06,951 [ 1] INFO  Unity: AddCharacter:3:蔡依林 Map:1 Entity:(6:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-03-21 15:29:06,952 [ 1] ERROR Unity: Message handler exception:, Object reference not set to an instance of an object, Assembly-CSharp,   at GameObjectManager.CreateCharacterObject (Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.OnCharacterEnter (Entities.Character cha) [0x00000] in <filename unknown>:0 
+  at Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha) [0x00000] in <filename unknown>:0 
+  at Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response) [0x00000] in <filename unknown>:0 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg) [0x00000] in <filename unknown>:0 
+2025-03-21 15:29:06,952 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, GameObjectManager.CreateCharacterObject (Entities.Character character)
+GameObjectManager.OnCharacterEnter (Entities.Character cha)
+Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha)
+Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response)
+Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg)
+}</args></log4net.Error>
+2025-03-21 15:29:06,956 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-03-21 15:29:06,957 [ 1] INFO  Unity: AddCharacter:3:蔡依林 Map:1 Entity:(6:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-03-21 15:29:06,957 [ 1] ERROR Unity: Message handler exception:, Object reference not set to an instance of an object, Assembly-CSharp,   at GameObjectManager.InitGameObject (UnityEngine.GameObject go, Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.CreateCharacterObject (Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.OnCharacterEnter (Entities.Character cha) [0x00000] in <filename unknown>:0 
+  at Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha) [0x00000] in <filename unknown>:0 
+  at Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response) [0x00000] in <filename unknown>:0 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg) [0x00000] in <filename unknown>:0 
+2025-03-21 15:29:06,957 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, GameObjectManager.InitGameObject (UnityEngine.GameObject go, Entities.Character character)
+GameObjectManager.CreateCharacterObject (Entities.Character character)
+GameObjectManager.OnCharacterEnter (Entities.Character cha)
+Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha)
+Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response)
+Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg)
+}</args></log4net.Error>
+2025-03-21 15:29:06,957 [ 1] INFO  Unity: SetPosition:(5000, 4000, 820)
+2025-03-21 15:29:06,962 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:5
+2025-03-21 15:29:06,962 [ 1] INFO  Unity: AddCharacter:3:蔡依林 Map:1 Entity:(6:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-03-21 15:29:06,962 [ 1] ERROR Unity: Message handler exception:, Object reference not set to an instance of an object, Assembly-CSharp,   at GameObjectManager.InitGameObject (UnityEngine.GameObject go, Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.CreateCharacterObject (Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.OnCharacterEnter (Entities.Character cha) [0x00000] in <filename unknown>:0 
+  at Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha) [0x00000] in <filename unknown>:0 
+  at Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response) [0x00000] in <filename unknown>:0 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg) [0x00000] in <filename unknown>:0 
+2025-03-21 15:29:06,962 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, GameObjectManager.InitGameObject (UnityEngine.GameObject go, Entities.Character character)
+GameObjectManager.CreateCharacterObject (Entities.Character character)
+GameObjectManager.OnCharacterEnter (Entities.Character cha)
+Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha)
+Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response)
+Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg)
+}</args></log4net.Error>
+2025-03-21 15:29:06,963 [ 1] INFO  Unity: SetPosition:(5309, 4044, -20486)
+2025-03-21 15:29:06,982 [ 1] INFO  Unity: SetPosition:(5309, 4044, -20594)
+2025-03-21 15:29:06,999 [ 1] INFO  Unity: SetPosition:(5309, 4044, -20702)
+2025-03-21 15:29:07,011 [ 1] INFO  Unity: SetPosition:(5309, 4044, -20811)
+2025-03-21 15:29:07,029 [ 1] INFO  Unity: SetPosition:(5309, 4044, -20920)
+2025-03-21 15:29:07,048 [ 1] INFO  Unity: SetPosition:(5309, 4044, -21029)
+2025-03-21 15:29:07,063 [ 1] INFO  Unity: SetPosition:(5309, 4044, -21138)
+2025-03-21 15:29:07,085 [ 1] INFO  Unity: SetPosition:(5309, 4044, -21248)
+2025-03-21 15:29:07,098 [ 1] INFO  Unity: SetPosition:(5309, 4044, -21358)
+2025-03-21 15:29:07,115 [ 1] INFO  Unity: SetPosition:(5309, 4044, -21468)
+2025-03-21 15:29:07,133 [ 1] INFO  Unity: SetPosition:(5309, 4044, -21579)
+2025-03-21 15:29:07,151 [ 1] INFO  Unity: SetPosition:(5309, 4044, -21690)
+2025-03-21 15:29:07,163 [ 1] INFO  Unity: SetPosition:(5309, 4044, -21801)
+2025-03-21 15:29:07,181 [ 1] INFO  Unity: SetPosition:(5309, 4044, -21912)
+2025-03-21 15:29:07,200 [ 1] INFO  Unity: SetPosition:(5309, 4044, -22024)
+2025-03-21 15:29:07,213 [ 1] INFO  Unity: SetPosition:(5309, 4044, -22136)
+2025-03-21 15:29:07,230 [ 1] INFO  Unity: SetPosition:(5309, 4044, -22248)
+2025-03-21 15:29:07,246 [ 1] INFO  Unity: SetPosition:(5309, 4044, -22360)
+2025-03-21 15:29:07,266 [ 1] INFO  Unity: SetPosition:(5309, 4044, -22473)
+2025-03-21 15:29:07,281 [ 1] INFO  Unity: SetPosition:(5309, 4044, -22586)
+2025-03-21 15:29:07,302 [ 1] INFO  Unity: SetPosition:(5309, 4044, -22699)
+2025-03-21 15:29:07,314 [ 1] INFO  Unity: SetPosition:(5309, 4044, -22813)
+2025-03-21 15:29:07,332 [ 1] INFO  Unity: SetPosition:(5309, 4044, -22927)
+2025-03-21 15:29:07,351 [ 1] INFO  Unity: SetPosition:(5309, 4044, -23041)
+2025-03-21 15:29:07,362 [ 1] INFO  Unity: SetPosition:(5309, 4044, -23155)
+2025-03-21 15:29:07,374 [ 1] INFO  Unity: UserGameEnterRequest::characterId :1
+2025-03-21 15:29:07,381 [ 1] INFO  Unity: SetPosition:(5309, 4044, -23270)
+2025-03-21 15:29:07,389 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2025-03-21 15:29:07,389 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-03-21 15:29:07,389 [ 1] INFO  Unity: AddCharacter:3:蔡依林 Map:1 Entity:(7:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-03-21 15:29:07,390 [ 1] ERROR Unity: Message handler exception:, Object reference not set to an instance of an object, Assembly-CSharp,   at GameObjectManager.CreateCharacterObject (Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.OnCharacterEnter (Entities.Character cha) [0x00000] in <filename unknown>:0 
+  at Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha) [0x00000] in <filename unknown>:0 
+  at Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response) [0x00000] in <filename unknown>:0 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg) [0x00000] in <filename unknown>:0 
+2025-03-21 15:29:07,390 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, GameObjectManager.CreateCharacterObject (Entities.Character character)
+GameObjectManager.OnCharacterEnter (Entities.Character cha)
+Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha)
+Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response)
+Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg)
+}</args></log4net.Error>
+2025-03-21 15:29:07,392 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-03-21 15:29:07,392 [ 1] INFO  Unity: AddCharacter:3:蔡依林 Map:1 Entity:(7:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-03-21 15:29:07,392 [ 1] ERROR Unity: Message handler exception:, Object reference not set to an instance of an object, Assembly-CSharp,   at GameObjectManager.InitGameObject (UnityEngine.GameObject go, Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.CreateCharacterObject (Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.OnCharacterEnter (Entities.Character cha) [0x00000] in <filename unknown>:0 
+  at Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha) [0x00000] in <filename unknown>:0 
+  at Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response) [0x00000] in <filename unknown>:0 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg) [0x00000] in <filename unknown>:0 
+2025-03-21 15:29:07,393 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, GameObjectManager.InitGameObject (UnityEngine.GameObject go, Entities.Character character)
+GameObjectManager.CreateCharacterObject (Entities.Character character)
+GameObjectManager.OnCharacterEnter (Entities.Character cha)
+Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha)
+Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response)
+Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg)
+}</args></log4net.Error>
+2025-03-21 15:29:07,393 [ 1] INFO  Unity: SetPosition:(5000, 4000, 820)
+2025-03-21 15:29:07,399 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-03-21 15:29:07,399 [ 1] INFO  Unity: AddCharacter:3:蔡依林 Map:1 Entity:(7:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-03-21 15:29:07,399 [ 1] ERROR Unity: Message handler exception:, Object reference not set to an instance of an object, Assembly-CSharp,   at GameObjectManager.InitGameObject (UnityEngine.GameObject go, Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.CreateCharacterObject (Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.OnCharacterEnter (Entities.Character cha) [0x00000] in <filename unknown>:0 
+  at Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha) [0x00000] in <filename unknown>:0 
+  at Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response) [0x00000] in <filename unknown>:0 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg) [0x00000] in <filename unknown>:0 
+2025-03-21 15:29:07,399 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, GameObjectManager.InitGameObject (UnityEngine.GameObject go, Entities.Character character)
+GameObjectManager.CreateCharacterObject (Entities.Character character)
+GameObjectManager.OnCharacterEnter (Entities.Character cha)
+Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha)
+Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response)
+Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg)
+}</args></log4net.Error>
+2025-03-21 15:29:07,400 [ 1] INFO  Unity: SetPosition:(5309, 4044, -23385)
+2025-03-21 15:29:07,405 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:6
+2025-03-21 15:29:07,405 [ 1] INFO  Unity: AddCharacter:3:蔡依林 Map:1 Entity:(7:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-03-21 15:29:07,405 [ 1] ERROR Unity: Message handler exception:, Object reference not set to an instance of an object, Assembly-CSharp,   at GameObjectManager.InitGameObject (UnityEngine.GameObject go, Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.CreateCharacterObject (Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.OnCharacterEnter (Entities.Character cha) [0x00000] in <filename unknown>:0 
+  at Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha) [0x00000] in <filename unknown>:0 
+  at Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response) [0x00000] in <filename unknown>:0 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg) [0x00000] in <filename unknown>:0 
+2025-03-21 15:29:07,406 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, GameObjectManager.InitGameObject (UnityEngine.GameObject go, Entities.Character character)
+GameObjectManager.CreateCharacterObject (Entities.Character character)
+GameObjectManager.OnCharacterEnter (Entities.Character cha)
+Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha)
+Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response)
+Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg)
+}</args></log4net.Error>
+2025-03-21 15:29:07,418 [ 1] INFO  Unity: SetPosition:(5309, 4044, -23500)
+2025-03-21 15:29:07,429 [ 1] INFO  Unity: SetPosition:(5309, 4044, -23615)
+2025-03-21 15:29:07,447 [ 1] INFO  Unity: SetPosition:(5309, 4044, -23731)
+2025-03-21 15:29:07,466 [ 1] INFO  Unity: SetPosition:(5309, 4044, -23847)
+2025-03-21 15:29:07,484 [ 1] INFO  Unity: SetPosition:(5309, 4044, -23963)
+2025-03-21 15:29:07,496 [ 1] INFO  Unity: SetPosition:(5309, 4044, -24080)
+2025-03-21 15:29:07,515 [ 1] INFO  Unity: SetPosition:(5309, 4044, -24197)
+2025-03-21 15:29:07,532 [ 1] INFO  Unity: SetPosition:(5309, 4044, -24314)
+2025-03-21 15:29:07,550 [ 1] INFO  Unity: SetPosition:(5309, 4044, -24431)
+2025-03-21 15:29:07,563 [ 1] INFO  Unity: SetPosition:(5309, 4044, -24549)
+2025-03-21 15:29:07,581 [ 1] INFO  Unity: SetPosition:(5309, 4044, -24667)
+2025-03-21 15:29:07,601 [ 1] INFO  Unity: SetPosition:(5309, 4044, -24785)
+2025-03-21 15:29:07,620 [ 1] INFO  Unity: SetPosition:(5309, 4044, -24903)
+2025-03-21 15:29:07,629 [ 1] INFO  Unity: SetPosition:(5309, 4044, -25022)
+2025-03-21 15:29:07,648 [ 1] INFO  Unity: SetPosition:(5309, 4044, -25141)
+2025-03-21 15:29:07,666 [ 1] INFO  Unity: SetPosition:(5309, 4044, -25260)
+2025-03-21 15:29:07,684 [ 1] INFO  Unity: SetPosition:(5309, 4044, -25380)
+2025-03-21 15:29:07,697 [ 1] INFO  Unity: SetPosition:(5309, 4044, -25500)
+2025-03-21 15:29:07,713 [ 1] INFO  Unity: SetPosition:(5309, 4044, -25620)
+2025-03-21 15:29:07,732 [ 1] INFO  Unity: SetPosition:(5309, 4044, -25740)
+2025-03-21 15:29:07,751 [ 1] INFO  Unity: SetPosition:(5309, 4044, -25861)
+2025-03-21 15:29:07,768 [ 1] INFO  Unity: SetPosition:(5309, 4044, -25982)
+2025-03-21 15:29:07,780 [ 1] INFO  Unity: SetPosition:(5309, 4044, -26103)
+2025-03-21 15:29:07,799 [ 1] INFO  Unity: SetPosition:(5309, 4044, -26224)
+2025-03-21 15:29:07,817 [ 1] INFO  Unity: SetPosition:(5309, 4044, -26346)
+2025-03-21 15:29:07,830 [ 1] INFO  Unity: SetPosition:(5309, 4044, -26468)
+2025-03-21 15:29:07,848 [ 1] INFO  Unity: SetPosition:(5309, 4044, -26591)
+2025-03-21 15:29:07,867 [ 1] INFO  Unity: SetPosition:(5309, 4044, -26713)
+2025-03-21 15:29:07,885 [ 1] INFO  Unity: SetPosition:(5309, 4044, -26836)
+2025-03-21 15:29:07,897 [ 1] INFO  Unity: SetPosition:(5309, 4044, -26959)
+2025-03-21 15:29:07,914 [ 1] INFO  Unity: SetPosition:(5309, 4044, -27082)
+2025-03-21 15:29:07,933 [ 1] INFO  Unity: SetPosition:(5309, 4044, -27206)
+2025-03-21 15:29:07,950 [ 1] INFO  Unity: SetPosition:(5309, 4044, -27330)
+2025-03-21 15:29:07,964 [ 1] INFO  Unity: SetPosition:(5309, 4044, -27454)
+2025-03-21 15:29:07,981 [ 1] INFO  Unity: SetPosition:(5309, 4044, -27579)
+2025-03-21 15:29:07,999 [ 1] INFO  Unity: SetPosition:(5309, 4044, -27704)
+2025-03-21 15:29:08,018 [ 1] INFO  Unity: SetPosition:(5309, 4044, -27829)
+2025-03-21 15:29:08,036 [ 1] INFO  Unity: SetPosition:(5309, 4044, -27954)
+2025-03-21 15:29:08,049 [ 1] INFO  Unity: SetPosition:(5309, 4044, -28079)
+2025-03-21 15:29:08,066 [ 1] INFO  Unity: SetPosition:(5309, 4044, -28205)
+2025-03-21 15:29:08,084 [ 1] INFO  Unity: SetPosition:(5309, 4044, -28331)
+2025-03-21 15:29:08,102 [ 1] INFO  Unity: SetPosition:(5309, 4044, -28458)
+2025-03-21 15:29:08,116 [ 1] INFO  Unity: SetPosition:(5309, 4044, -28584)
+2025-03-21 15:29:08,132 [ 1] INFO  Unity: SetPosition:(5309, 4044, -28711)
+2025-03-21 15:29:08,150 [ 1] INFO  Unity: SetPosition:(5309, 4044, -28839)
+2025-03-21 15:29:08,169 [ 1] INFO  Unity: SetPosition:(5309, 4044, -28966)
+2025-03-21 15:29:08,182 [ 1] INFO  Unity: SetPosition:(5309, 4044, -29094)
+2025-03-21 15:29:08,198 [ 1] INFO  Unity: SetPosition:(5309, 4044, -29222)
+2025-03-21 15:29:08,218 [ 1] INFO  Unity: SetPosition:(5309, 4044, -29350)
+2025-03-21 15:29:08,235 [ 1] INFO  Unity: SetPosition:(5309, 4044, -29479)
+2025-03-21 15:29:08,253 [ 1] INFO  Unity: SetPosition:(5309, 4044, -29608)
+2025-03-21 15:29:08,403 [ 1] INFO  Unity: Character_3_达柔帮 OnDestroy :ID:3 POS:(5309, 4044, -29608) DIR:(36, -93, 0) SPD:0 
+2025-03-21 15:29:08,403 [ 1] INFO  Unity: Character_2_大贝塔 OnDestroy :ID:2 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2025-03-21 15:29:08,403 [ 1] INFO  Unity: Character_4_完颜慧德 OnDestroy :ID:4 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2025-03-21 15:29:08,403 [ 1] INFO  Unity: Character_5_蔡依林 OnDestroy :ID:5 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2025-03-21 15:29:08,403 [ 1] INFO  Unity: Character_6_蔡依林 OnDestroy :ID:6 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2025-03-21 15:29:08,403 [ 1] INFO  Unity: Character_7_蔡依林 OnDestroy :ID:7 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2025-03-21 15:29:08,403 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2025-03-21 15:29:08,403 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+

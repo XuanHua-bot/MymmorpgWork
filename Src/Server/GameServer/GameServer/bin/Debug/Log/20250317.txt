@@ -1,0 +1,219 @@
+
+2025-03-17 13:13:19,212 [1] [INFO ] [GameServer] ：Game Server Init
+2025-03-17 13:13:20,246 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-03-17 13:13:20,747 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-03-17 13:13:20,749 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-03-17 13:13:20,749 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-03-17 13:13:20,749 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-03-17 13:13:20,749 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-03-17 13:13:20,784 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-17 13:13:20,791 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-17 13:13:20,791 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-17 13:13:20,791 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-17 13:13:20,791 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-17 13:13:20,791 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-17 13:13:20,812 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-17 13:13:20,812 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-17 13:13:20,859 [1] [WARN ] [GameServer] ：NetService Started
+2025-03-17 13:14:11,827 [3] [WARN ] [GameServer] ：Client[127.0.0.1:57411]] Connected
+2025-03-17 13:14:11,861 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:27
+2025-03-17 13:14:12,021 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:qiaobiluo  Pass:123123
+2025-03-17 13:14:17,286 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:27
+2025-03-17 13:14:17,290 [6] [INFO ] [GameServer] ：UserLoginRequest: User:qiaobiluo  Pass:123123
+2025-03-17 13:14:26,402 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2025-03-17 13:14:26,405 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:nayina  Class:Wizard
+2025-03-17 13:14:29,088 [14] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-17 13:14:44,569 [14] [WARN ] [GameServer] ：Client[127.0.0.1:57438]] Connected
+2025-03-17 13:14:44,605 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:27
+2025-03-17 13:14:44,606 [5] [INFO ] [GameServer] ：UserLoginRequest: User:qiaobiluo  Pass:123123
+2025-03-17 13:14:44,734 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:27
+2025-03-17 13:14:44,734 [5] [INFO ] [GameServer] ：UserLoginRequest: User:qiaobiluo  Pass:123123
+2025-03-17 13:14:47,727 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-17 13:14:47,729 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:nayina Map:1
+2025-03-17 13:14:47,734 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-03-17 13:15:30,460 [16] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-17 14:35:29,738 [17] [WARN ] [GameServer] ：Client[127.0.0.1:3744]] Connected
+2025-03-17 14:35:29,775 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:27
+2025-03-17 14:35:29,775 [5] [INFO ] [GameServer] ：UserLoginRequest: User:qiaobiluo  Pass:123123
+2025-03-17 14:35:33,973 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-17 14:35:33,973 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:nayina Map:1
+2025-03-17 14:35:33,973 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-03-17 14:35:59,234 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-17 14:37:00,104 [25] [WARN ] [GameServer] ：Client[127.0.0.1:3778]] Connected
+2025-03-17 14:37:00,138 [28] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-17 14:37:00,138 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:132123
+2025-03-17 14:37:09,665 [29] [WARN ] [GameServer] ：Client[] DataReceived Len:27
+2025-03-17 14:37:09,666 [5] [INFO ] [GameServer] ：UserLoginRequest: User:qiaobiluo  Pass:123123
+2025-03-17 14:37:09,779 [28] [WARN ] [GameServer] ：Client[] DataReceived Len:27
+2025-03-17 14:37:09,779 [6] [INFO ] [GameServer] ：UserLoginRequest: User:qiaobiluo  Pass:123123
+2025-03-17 14:37:11,564 [29] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-17 14:37:11,565 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:nayina Map:1
+2025-03-17 14:37:11,565 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-03-17 14:37:39,564 [29] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-17 16:26:03,808 [30] [WARN ] [GameServer] ：Client[127.0.0.1:36157]] Connected
+2025-03-17 16:26:03,842 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:27
+2025-03-17 16:26:03,843 [5] [INFO ] [GameServer] ：UserLoginRequest: User:qiaobiluo  Pass:123123
+2025-03-17 16:26:07,143 [74] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-17 16:26:07,144 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:nayina Map:1
+2025-03-17 16:26:07,144 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-03-17 16:27:10,777 [74] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-17 16:37:41,794 [72] [WARN ] [GameServer] ：Client[127.0.0.1:26313]] Connected
+2025-03-17 16:37:41,842 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:27
+2025-03-17 16:37:41,842 [5] [INFO ] [GameServer] ：UserLoginRequest: User:qiaobiluo  Pass:123123
+2025-03-17 16:37:45,289 [50] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-17 16:37:45,290 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:nayina Map:1
+2025-03-17 16:37:45,290 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-03-17 16:37:56,457 [50] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-17 16:39:32,741 [50] [WARN ] [GameServer] ：Client[127.0.0.1:20551]] Connected
+2025-03-17 16:39:32,777 [50] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-17 16:39:32,779 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-17 16:39:40,850 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:27
+2025-03-17 16:39:40,851 [5] [INFO ] [GameServer] ：UserLoginRequest: User:qiaobiluo  Pass:123123
+2025-03-17 16:39:42,914 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-17 16:39:42,915 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:nayina Map:1
+2025-03-17 16:39:42,915 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-03-17 16:39:53,018 [45] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-17 16:42:56,867 [45] [WARN ] [GameServer] ：Client[127.0.0.1:36983]] Connected
+2025-03-17 16:42:56,910 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:27
+2025-03-17 16:42:56,910 [5] [INFO ] [GameServer] ：UserLoginRequest: User:qiaobiluo  Pass:123123
+2025-03-17 16:42:58,530 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-17 16:42:58,531 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:nayina Map:1
+2025-03-17 16:42:58,531 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-03-17 16:43:12,847 [38] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-17 16:51:51,621 [37] [WARN ] [GameServer] ：Client[127.0.0.1:44148]] Connected
+2025-03-17 16:51:51,669 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:27
+2025-03-17 16:51:51,670 [5] [INFO ] [GameServer] ：UserLoginRequest: User:qiaobiluo  Pass:123123
+2025-03-17 16:51:55,045 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-17 16:51:55,046 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:nayina Map:1
+2025-03-17 16:51:55,046 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-03-17 16:52:29,109 [14] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-17 16:53:46,287 [17] [WARN ] [GameServer] ：Client[127.0.0.1:16560]] Connected
+2025-03-17 16:53:46,331 [88] [WARN ] [GameServer] ：Client[] DataReceived Len:27
+2025-03-17 16:53:46,331 [5] [INFO ] [GameServer] ：UserLoginRequest: User:qiaobiluo  Pass:123123
+2025-03-17 16:53:48,068 [89] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-17 16:53:48,068 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:nayina Map:1
+2025-03-17 16:53:48,068 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-03-17 16:55:16,827 [89] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-17 17:39:47,237 [86] [WARN ] [GameServer] ：Client[127.0.0.1:6012]] Connected
+2025-03-17 17:39:47,270 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2025-03-17 17:39:47,271 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:3meng  Pass:123123
+2025-03-17 17:39:57,928 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2025-03-17 17:39:57,928 [5] [INFO ] [GameServer] ：UserLoginRequest: User:3meng  Pass:123123
+2025-03-17 17:40:01,657 [65] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-17 17:41:13,692 [65] [WARN ] [GameServer] ：Client[127.0.0.1:6050]] Connected
+2025-03-17 17:41:13,730 [65] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2025-03-17 17:41:13,730 [5] [INFO ] [GameServer] ：UserLoginRequest: User:3meng  Pass:123123
+2025-03-17 17:41:36,545 [65] [WARN ] [GameServer] ：Client[] DataReceived Len:21
+2025-03-17 17:41:36,546 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:达柔帮  Class:Archer
+2025-03-17 17:41:42,136 [60] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-17 17:43:12,764 [60] [WARN ] [GameServer] ：Client[127.0.0.1:17759]] Connected
+2025-03-17 17:43:12,802 [60] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2025-03-17 17:43:12,803 [5] [INFO ] [GameServer] ：UserLoginRequest: User:3meng  Pass:123123
+2025-03-17 17:43:12,945 [60] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2025-03-17 17:43:12,946 [6] [INFO ] [GameServer] ：UserLoginRequest: User:3meng  Pass:123123
+2025-03-17 17:43:37,104 [55] [WARN ] [GameServer] ：Client[] DataReceived Len:21
+2025-03-17 17:43:37,104 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:蔡依林  Class:Wizard
+2025-03-17 17:43:43,505 [56] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-17 17:51:51,491 [56] [WARN ] [GameServer] ：Client[127.0.0.1:7342]] Connected
+2025-03-17 17:51:51,527 [56] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2025-03-17 17:51:51,528 [5] [INFO ] [GameServer] ：UserLoginRequest: User:3meng  Pass:23123
+2025-03-17 17:51:57,386 [35] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2025-03-17 17:51:57,387 [5] [INFO ] [GameServer] ：UserLoginRequest: User:3meng  Pass:123123
+2025-03-17 17:52:42,813 [35] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-17 17:52:42,814 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:椎名林檎  Class:Warrior
+2025-03-17 17:52:53,523 [33] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-17 18:07:35,290 [33] [WARN ] [GameServer] ：Client[127.0.0.1:3938]] Connected
+2025-03-17 18:07:35,345 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2025-03-17 18:07:35,346 [5] [INFO ] [GameServer] ：UserLoginRequest: User:3meng  Pass:123123
+2025-03-17 18:08:06,103 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:21
+2025-03-17 18:08:06,103 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:大贝塔  Class:Wizard
+2025-03-17 18:08:14,845 [18] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-17 18:27:43,367 [18] [WARN ] [GameServer] ：Client[127.0.0.1:30012]] Connected
+2025-03-17 18:27:43,405 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2025-03-17 18:27:43,406 [5] [INFO ] [GameServer] ：UserLoginRequest: User:3meng  Pass:123123
+2025-03-17 18:28:01,473 [64] [WARN ] [GameServer] ：Client[] DataReceived Len:17
+2025-03-17 18:28:01,473 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:Test1  Class:Wizard
+2025-03-17 18:28:09,482 [63] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-17 22:23:23,773 [63] [WARN ] [GameServer] ：Client[127.0.0.1:47725]] Connected
+2025-03-17 22:23:23,814 [63] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2025-03-17 22:23:23,815 [5] [INFO ] [GameServer] ：UserLoginRequest: User:3meng  Pass:123123
+2025-03-17 22:23:23,862 [63] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2025-03-17 22:23:23,862 [6] [INFO ] [GameServer] ：UserLoginRequest: User:3meng  Pass:123123
+2025-03-17 22:23:23,943 [6] [ERROR] [GameServer] ：Message handler exception:System.InvalidOperationException: 连接未关闭。 连接的当前状态为正在连接。
+   在 System.Data.ProviderBase.DbConnectionClosedConnecting.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open(), 基础提供程序在 Open 上失败。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) 位置 E:\MymmorpgWork\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 42
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\MymmorpgWork\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-03-17 22:23:54,069 [63] [WARN ] [GameServer] ：Client[] DataReceived Len:21
+2025-03-17 22:23:54,070 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:小贝塔  Class:Wizard
+2025-03-17 22:23:59,517 [63] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-17 22:25:50,621 [63] [WARN ] [GameServer] ：Client[127.0.0.1:43595]] Connected
+2025-03-17 22:25:50,660 [63] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2025-03-17 22:25:50,660 [5] [INFO ] [GameServer] ：UserLoginRequest: User:3meng  Pass:123123
+2025-03-17 22:26:11,252 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:21
+2025-03-17 22:26:11,252 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:灵感菇  Class:Archer
+2025-03-17 22:26:48,166 [81] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-17 22:27:30,160 [78] [WARN ] [GameServer] ：Client[127.0.0.1:43618]] Connected
+2025-03-17 22:27:30,200 [74] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2025-03-17 22:27:30,200 [5] [INFO ] [GameServer] ：UserLoginRequest: User:3meng  Pass:123123
+2025-03-17 22:28:13,059 [78] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-17 22:31:52,092 [78] [WARN ] [GameServer] ：Client[127.0.0.1:43731]] Connected
+2025-03-17 22:31:52,130 [78] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2025-03-17 22:31:52,131 [5] [INFO ] [GameServer] ：UserLoginRequest: User:3meng  Pass:123123
+2025-03-17 22:31:59,516 [66] [WARN ] [GameServer] ：Client[] DataReceived Len:17
+2025-03-17 22:31:59,517 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:debug  Class:Wizard
+2025-03-17 22:32:15,526 [66] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-17 22:33:31,044 [68] [WARN ] [GameServer] ：Client[127.0.0.1:43767]] Connected
+2025-03-17 22:33:31,292 [60] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2025-03-17 22:33:31,293 [5] [INFO ] [GameServer] ：UserLoginRequest: User:3meng  Pass:123123
+2025-03-17 22:37:26,205 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2025-03-17 22:37:26,205 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:nonono  Class:Wizard
+2025-03-17 22:38:43,836 [1] [INFO ] [GameServer] ：Game Server Init
+2025-03-17 22:38:43,976 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-03-17 22:38:44,201 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-03-17 22:38:44,202 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-03-17 22:38:44,202 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-03-17 22:38:44,202 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-03-17 22:38:44,204 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-03-17 22:38:44,268 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-17 22:38:44,268 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-17 22:38:44,268 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-17 22:38:44,268 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-17 22:38:44,269 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-17 22:38:44,269 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-17 22:38:44,269 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-17 22:38:44,269 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-17 22:38:44,308 [1] [WARN ] [GameServer] ：NetService Started
+2025-03-17 22:47:37,434 [3] [WARN ] [GameServer] ：Client[127.0.0.1:43764]] Connected
+2025-03-17 22:47:37,478 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2025-03-17 22:47:37,555 [7] [INFO ] [GameServer] ：UserLoginRequest: User:3meng  Pass:123123
+2025-03-17 22:47:55,533 [6] [WARN ] [GameServer] ：Client[] DataReceived Len:17
+2025-03-17 22:47:55,535 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:buyao  Class:Wizard
+2025-03-17 23:00:02,249 [16] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-17 23:00:10,202 [1] [INFO ] [GameServer] ：Game Server Exiting...
+2025-03-17 23:00:10,317 [1] [WARN ] [GameServer] ：Stop NetService...
+2025-03-17 23:00:10,342 [1] [WARN ] [GameServer] ：Stoping Message Handler...
+2025-03-17 23:00:10,358 [8] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-03-17 23:00:10,358 [11] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-03-17 23:00:10,358 [12] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-03-17 23:00:10,358 [7] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-03-17 23:00:10,359 [13] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-03-17 23:00:10,358 [10] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-03-17 23:00:10,358 [9] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-03-17 23:00:10,360 [15] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-03-17 23:00:10,479 [1] [INFO ] [GameServer] ：Game Server Exited
