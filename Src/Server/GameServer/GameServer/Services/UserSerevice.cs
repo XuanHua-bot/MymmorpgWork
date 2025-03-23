@@ -57,15 +57,18 @@ namespace GameServer.Services
                 message.Response.userLogin.Result = Result.Success;
                 message.Response.userLogin.Errormsg = "None";
                 message.Response.userLogin.Userinfo = new NUserInfo();
-                message.Response.userLogin.Userinfo.Id = 1;
+                message.Response.userLogin.Userinfo.Id =  (int)user.ID;
                 message.Response.userLogin.Userinfo.Player = new NPlayerInfo();
                 message.Response.userLogin.Userinfo.Player.Id = user.Player.ID;
                 foreach (var c in user.Player.Characters)
                 {
+                    //只有角色 有db
                     NCharacterInfo info = new NCharacterInfo();
                     info.Id = c.ID;
                     info.Name = c.Name;
+                    info.Type = CharacterType.Player;
                     info.Class = (CharacterClass)c.Class;
+                    info.Tid = c.ID;
                     message.Response.userLogin.Userinfo.Player.Characters.Add(info);
                 }
 
@@ -131,10 +134,11 @@ namespace GameServer.Services
             foreach (var c in sender.Session.User.Player.Characters)
             {
                 NCharacterInfo info = new NCharacterInfo();
-                info.Id = c.ID;
+                info.Id = 0;
                 info.Name = c.Name;
+                info.Type = CharacterType.Player;
                 info.Class = (CharacterClass)c.Class;
-                info.Tid = c.TID;
+                info.Tid = c.ID;
                 message.Response.createChar.Characters.Add(info);
 
             }
@@ -146,6 +150,7 @@ namespace GameServer.Services
 
         void OnGameEnter(NetConnection<NetSession> sender, UserGameEnterRequest request)
         {
+            //dbchar 从数据库中获取的新玩家选择的角色信息
             TCharacter dbchar = sender.Session.User.Player.Characters.ElementAt(request.characterIdx);
             Log.InfoFormat("UserGameEnterRequest: characterID:{0}:{1} Map:{2}", dbchar.ID, dbchar.Name, dbchar.MapID);
             Character character = CharacterManager.Instance.AddCharacter(dbchar);
@@ -155,7 +160,7 @@ namespace GameServer.Services
             message.Response.gameEnter = new UserGameEnterResponse();
             message.Response.gameEnter.Result = Result.Success;
             message.Response.gameEnter.Errormsg = "None";
-
+            //如果验证成功，将用户信息存储在会话中，并返回登录成功和用户的角色信息。  只是存储 并未加入到客户端中哈
             byte[] data = PackageHandler.PackMessage(message);
             sender.SendData(data, 0, data.Length);
             sender.Session.Character = character;
@@ -167,7 +172,7 @@ namespace GameServer.Services
             Character character = sender.Session.Character;
             Log.InfoFormat("OnGameLeaveRequest: characterID:{0}:{1} Map:{2}", character.Id, character.Info.Name, character.Info.mapId);
             CharacterManager.Instance.RemoveCharacter(character.Id);
-            MapManager.Instance[character.Info.mapId].CharacterLeave(character.Info);
+            MapManager.Instance[character.Info.mapId].CharacterLeave(character);
 
             NetMessage message = new NetMessage();
             message.Response = new NetMessageResponse();

@@ -29,9 +29,9 @@ namespace GameServer.Services
         }
         
 
-        private void OnMapEntitySync(NetConnection<NetSession> sender, MapEntitySyncRequest request)
+        private void OnMapEntitySync(NetConnection<NetSession> sender, MapEntitySyncRequest request)//接收与广播同步请求
         {
-            Character character = sender.Session.Character;
+            Character character = sender.Session.Character;//通过sender.Session.Character获取当前玩家角色，确保更新正确实体。
             Log.InfoFormat("OnMapEntitySync: characterID: {0}:{1} Entity.Id:{2} Evt:{3} Entity:{4}",character.Id, character.Info.Name, request.entitySync.Id, request.entitySync.Event, request.entitySync.Entity.String());
 
 

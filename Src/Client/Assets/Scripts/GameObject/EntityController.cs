@@ -29,7 +29,7 @@ public class EntityController : MonoBehaviour,IEntityNotify
     void Start () {
         if (entity != null)
         {
-            EnityManager.Instance.RegisterEnityChangeNotify(entity.entityId, this);
+            EnityManager.Instance.RegisterEnityChangeNotify(entity.entityId, this);//注册了对实体变化的监听。
 
             this.UpdateTransform();
         }
@@ -61,7 +61,7 @@ public class EntityController : MonoBehaviour,IEntityNotify
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void FixedUpdate()//更新实体状态
     {
         if (this.entity == null)
             return;
@@ -70,7 +70,7 @@ public class EntityController : MonoBehaviour,IEntityNotify
 
         if (!this.isPlayer)
         {
-            this.UpdateTransform();
+            this.UpdateTransform();//若当前角色不是本地玩家，会调用 UpdateTransform 方法更新角色的位置和方向：
         }
     }
     public void OnEntityRemoved()
@@ -82,7 +82,7 @@ public class EntityController : MonoBehaviour,IEntityNotify
         throw new System.NotImplementedException();
     }
 
-    public void OnEntityEvent(EntityEvent entityEvent)
+    public void OnEntityEvent(EntityEvent entityEvent)//接收到实体事件（如移动、跳跃等）时
     {
         switch(entityEvent)
         {

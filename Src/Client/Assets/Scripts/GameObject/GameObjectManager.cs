@@ -10,7 +10,7 @@ using Models;
 
 public class GameObjectManager : MonoSingleton<GameObjectManager>
 {
-    Dictionary<int, GameObject> Characters = new Dictionary<int, GameObject>();
+    Dictionary<int, GameObject> Characters = new Dictionary<int, GameObject>();//用于存储游戏中的所有角色对象
 
     // Use this for initialization
     protected override void OnStart()
@@ -20,7 +20,7 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
         CharacterManager.Instance.OnCharacterLeave += OnCharacterLeave;
     }
 
-    private void OnDestroy()
+    private void OnDestroy()//在 GameObjectManager 被销毁时，取消订阅 
     {
         CharacterManager.Instance.OnCharacterEnter -= OnCharacterEnter;
         CharacterManager.Instance.OnCharacterLeave -= OnCharacterLeave;
@@ -32,7 +32,7 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
 
     }
 
-    void OnCharacterEnter(Character cha)
+    void OnCharacterEnter(Character cha)//当有新角色进入游戏时，调用 CreateCharacterObject 方法为该角色创建游戏对象。
     {
         CreateCharacterObject(cha);
     }
@@ -71,14 +71,14 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
             GameObject go = (GameObject)Instantiate(obj, this.transform);
             go.name = "Character_" + character.entityId + "_" + character.Info.Name;
 
-            Characters[character.entityId] = go;
+            Characters[character.entityId] = go;//将游戏对象存储到 Characters 字典中
 
             // 初始化角色对象
             InitGameObject(go, character);
         }
     }
 
-    private void InitGameObject(GameObject go, Character character)
+    private void InitGameObject(GameObject go, Character character)//会根据接收到的角色信息初始化游戏对象：
     {
         go.transform.position = GameObjectTool.LogicToWorld(character.position);
         go.transform.forward = GameObjectTool.LogicToWorld(character.direction);
@@ -105,5 +105,6 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
                 pc.enabled = false;
             }
         }
+        UIWorldElementManager.Instance.AddCharacterNameBar(go.transform,character);
     }
 }

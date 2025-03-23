@@ -78,10 +78,9 @@ namespace GameServer.Models
 
        
 
-        internal void CharacterLeave(NCharacterInfo cha)
+        internal void CharacterLeave(Character cha)
         {
             Log.InfoFormat("CharacterLeave: Map:{0} characterId:{1}", this.Define.ID, cha.Id);
-            this.MapCharacters.Remove(cha.Id);
             foreach (var kv in this.MapCharacters)
             {
                 this.SendCharacterLeaveMap(kv.Value.connection, cha);
@@ -104,7 +103,7 @@ namespace GameServer.Models
 
         
 
-        private void SendCharacterLeaveMap(NetConnection<NetSession> connection, NCharacterInfo cha)
+        private void SendCharacterLeaveMap(NetConnection<NetSession> connection, Character cha)
         {
             NetMessage message = new NetMessage();
             message.Response = new NetMessageResponse();
@@ -115,19 +114,22 @@ namespace GameServer.Models
             byte[] data = PackageHandler.PackMessage(message);
             connection.SendData(data, 0, data.Length);
         }
-        internal void UpdateEntity(NEntitySync entity)
+        internal void UpdateEntity(NEntitySync entity)//更新地图实体并广播
         {
             foreach (var  kv in this.MapCharacters)
             {
                 if (kv.Value.character.entityId == entity.Id)
                 {
+                    // 更新自己的状态（无需网络发送）
                     kv.Value.character.Position = entity.Entity.Position;
                     kv.Value.character.Direction = entity.Entity.Direction;
                     kv.Value.character.Speed = entity.Entity.Speed;
                 }
                 else
                 {
+                    // 发送给其他玩家
                     MapService.Instance.SendEntityUpdate(kv.Value.connection, entity);
+                    //kv.Value.connection：表示其他玩家的网络连接，用于向他们发送新玩家的信息。
                 }
             }
         }

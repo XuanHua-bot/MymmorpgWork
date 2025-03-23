@@ -124,8 +124,9 @@ public class PlayerInputController : MonoBehaviour {
         this.transform.position = this.rb.transform.position;
     }
 
-    void SendEntityEvent(EntityEvent entityEvent)
+    void SendEntityEvent(EntityEvent entityEvent)//通过entityController处理客户端自定义事件（如播放移动动画）。
     {
+        // 修改：添加空值检查
         if (entityController != null)
             entityController.OnEntityEvent(entityEvent);
         MapService.Instance.SendMapEntitySync(entityEvent, this.character.EntityData);
