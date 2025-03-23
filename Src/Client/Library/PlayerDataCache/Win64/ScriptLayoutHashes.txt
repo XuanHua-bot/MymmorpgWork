@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-E:/MymmorpgWork/Src/Client/bin/3.21.1/ExtremeWorld.exe
+E:/MymmorpgWork/Src/Client/bin/3.23.1/ExtremeWorld.exe
 SceneListBegin?
 Assets/Levels/Loading.unity
 Assets/Levels/CharSelect.unity

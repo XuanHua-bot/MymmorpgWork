@@ -13,7 +13,7 @@ namespace Managers
         void OnEntityChaged(Entity entity);
         void OnEntityEvent(EntityEvent @event);
     }
-    class EnityManager:Singleton<EnityManager>
+    class EntityManager:Singleton<EntityManager>
     {
 
         Dictionary<int, Entity> entities = new Dictionary<int, Entity>();

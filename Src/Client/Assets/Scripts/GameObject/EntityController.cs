@@ -29,7 +29,7 @@ public class EntityController : MonoBehaviour,IEntityNotify
     void Start () {
         if (entity != null)
         {
-            EnityManager.Instance.RegisterEnityChangeNotify(entity.entityId, this);//注册了对实体变化的监听。
+            EntityManager.Instance.RegisterEnityChangeNotify(entity.entityId, this);//注册了对实体变化的监听。
 
             this.UpdateTransform();
         }

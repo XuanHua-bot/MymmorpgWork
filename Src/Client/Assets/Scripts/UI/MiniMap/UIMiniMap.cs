@@ -31,11 +31,15 @@ public class UIMiniMap : MonoBehaviour {
         //this.Description.text = User.Instance.CurrentMapData.Description;
         this.miniMap.SetNativeSize();
         this.miniMap.transform.localPosition = Vector3.zero;
-        this.playerTransform = User.Instance.CurrentCharacterObject.transform;
     }
 
     // Update is called once per frame
     void Update () {
+        if (playerTransform==null)
+        {
+
+            playerTransform = MiniMapManager.Instance.PlayerTransform;
+        }
         if (MiniMapBoundingBox == null || playerTransform == null)
             return;
    
