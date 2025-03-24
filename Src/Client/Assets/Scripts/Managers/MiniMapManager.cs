@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace Managers
 {
-    class MiniMapManager : Singleton<MiniMapManager> {
+    class MiniMapManager : MonoSingleton<MiniMapManager> {
         public Transform PlayerTransform {
             get
             {

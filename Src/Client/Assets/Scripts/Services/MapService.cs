@@ -54,9 +54,11 @@ namespace Services
             }
         }
 
+        
+
         private void OnMapCharacterLeave(object sender, MapCharacterLeaveResponse response)
         {
-            Debug.LogErrorFormat("OnMapCharacterLeave: CharID {0}", response.characterId);
+            Debug.LogFormat("OnMapCharacterLeave: CharID {0}", response.characterId);
             if (response.characterId != User.Instance.CurrentCharacter.Id)
                 CharacterManager.Instance.RemoveCharacter(response.characterId);
             else
@@ -106,6 +108,16 @@ namespace Services
                 sb.AppendLine();
             }
             Debug.Log(sb.ToString());
+        }
+
+        internal void SendMapTeleport(int teleporterID)//发送传送点 点
+        {
+            Debug.LogFormat("MapTeleportRequest :teleporterID : {0}", teleporterID);
+            NetMessage message = new NetMessage();
+            message.Request = new NetMessageRequest();
+            message.Request.mapTeleport = new MapTeleportRequest();
+            message.Request.mapTeleport.teleporterId = teleporterID;
+            NetClient.Instance.SendMessage(message);
         }
 
 

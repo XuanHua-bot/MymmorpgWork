@@ -16,7 +16,7 @@ public class UIMiniMap : MonoBehaviour {
     public Text Description;
     private Transform playerTransform;
     // Use this for initialization
-    void Start () {
+    void Start() {
 
         InitMap();
     }
