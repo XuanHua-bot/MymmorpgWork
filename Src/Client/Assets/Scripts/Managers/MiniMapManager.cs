@@ -8,10 +8,20 @@ using UnityEngine;
 namespace Managers
 {
     class MiniMapManager : MonoSingleton<MiniMapManager> {
+
+        public UIMiniMap miniMap;
+
+        private Collider minimapBoundingBox;
+        public Collider MinimapBoundingBox
+        {
+            get { return minimapBoundingBox; }
+        }
+
+
         public Transform PlayerTransform {
             get
             {
-                if (User.Instance.CurrentCharacter == null)
+                if (User.Instance.CurrentCharacterObject == null)
                 {
                     return null;
                 }
@@ -20,7 +30,16 @@ namespace Managers
         }
         public Sprite LoadCurrentMiniMap()
         {
-            return Resloader.Load<Sprite>("UI/MiniMap/" + User.Instance.CurrentMapData.Name);
+            return Resloader.Load<Sprite>("UI/Minimap/" + User.Instance.CurrentMapData.MiniMap);
+        }
+
+        public void UpdateMinimap(Collider minimapBoundingBox)
+        {
+            this.minimapBoundingBox = minimapBoundingBox;
+            if (this.miniMap!=null)
+            {
+                this.miniMap.UpdateMap();
+            }
         }
 
 

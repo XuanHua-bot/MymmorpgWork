@@ -67,6 +67,7 @@ namespace Network
         /// <param name="e"></param>
         static void Disconnected(NetConnection<NetSession> sender, SocketAsyncEventArgs e)
         {
+            sender.Session.Disconnected();
             //Performance.ServerConnect = Interlocked.Decrement(ref Performance.ServerConnect);
             Log.WarningFormat("Client[{0}] Disconnected", e.RemoteEndPoint);
         }

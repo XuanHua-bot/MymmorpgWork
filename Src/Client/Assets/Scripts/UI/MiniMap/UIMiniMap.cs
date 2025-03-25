@@ -13,28 +13,33 @@ public class UIMiniMap : MonoBehaviour {
     public Image miniMap;
     public Image arrow;
     public Text mapName;
-    public Text Description;
+    //public Text Description;
+
     private Transform playerTransform;
     // Use this for initialization
     void Start() {
-
-        InitMap();
+        MiniMapManager.Instance.miniMap = this;
+        this.UpdateMap();
     }
-    void InitMap()
+    public void UpdateMap ()
     {
         this.mapName.text = User.Instance.CurrentMapData.Name;
-        if (this.miniMap.overrideSprite!=null)
-        {
-            this.miniMap.overrideSprite = MiniMapManager.Instance.LoadCurrentMiniMap();
 
-        }
+        
+        this.miniMap.overrideSprite = MiniMapManager.Instance.LoadCurrentMiniMap();
+        
+        //this.miniMap.overrideSprite = MiniMapManager.Instance.LoadCurrentMiniMap();
+
+        
         //this.Description.text = User.Instance.CurrentMapData.Description;
         this.miniMap.SetNativeSize();
         this.miniMap.transform.localPosition = Vector3.zero;
+        this.MiniMapBoundingBox = MiniMapManager.Instance.MinimapBoundingBox;
+        this.playerTransform = null;
     }
 
     // Update is called once per frame
-    void Update () {
+    void Update () { 
         if (playerTransform==null)
         {
 

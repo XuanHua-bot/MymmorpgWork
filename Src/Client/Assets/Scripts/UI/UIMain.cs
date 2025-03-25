@@ -1,11 +1,12 @@
 ﻿using Models;
 using Services;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIMainCity : MonoSingleton<UIMainCity> {
+public class UIMain : MonoSingleton<UIMain> {
     public Text avatarName;
     public Text avatarLevel;
 
@@ -26,5 +27,18 @@ public class UIMainCity : MonoSingleton<UIMainCity> {
     {
         SceneManager.Instance.LoadScene("CharSelect");
         UserService.Instance.SendGameLeave();
+    }
+
+    //测试用方法
+    public void OnclickTest()
+    {
+       UITest test = UIManager.Instance.Show<UITest>();
+       test.SetTitle("这是一个测试");
+       test.Onclose += Test_OnClose;
+    }
+
+    private void Test_OnClose(UIWindow sender, UIWindow.WindowResule result)
+    {
+        MessageBox.Show("你关闭了 测试对话UI" + result, "对话框相应结果",MessageBoxType.Information);
     }
 }
