@@ -2637,3 +2637,1453 @@
 2025-03-25 22:42:11,230 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:3
 2025-03-25 22:51:18,881 [45] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:3
 2025-03-25 22:51:18,882 [45] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-25 23:09:50,267 [1] [INFO ] [GameServer] ：Game Server Init
+2025-03-25 23:09:50,546 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-03-25 23:09:50,731 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-03-25 23:09:50,734 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-03-25 23:09:50,734 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-03-25 23:09:50,734 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-03-25 23:09:50,735 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-03-25 23:09:50,798 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-25 23:09:50,798 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-25 23:09:50,798 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-25 23:09:50,800 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-25 23:09:50,800 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-25 23:09:50,800 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-25 23:09:50,800 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-25 23:09:50,801 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-25 23:09:50,842 [1] [WARN ] [GameServer] ：NetService Started
+2025-03-25 23:10:30,817 [3] [WARN ] [GameServer] ：Client[127.0.0.1:25099]] Connected
+2025-03-25 23:10:30,858 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2025-03-25 23:10:30,937 [5] [INFO ] [GameServer] ：UserLoginRequest: User:3meng  Pass:123123
+2025-03-25 23:10:37,832 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-03-25 23:10:37,836 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:7:小贝塔 Map:1
+2025-03-25 23:10:37,847 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2025-03-25 23:15:36,366 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2025-03-25 23:15:36,367 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-25 23:15:58,306 [3] [WARN ] [GameServer] ：Client[127.0.0.1:14232]] Connected
+2025-03-25 23:15:58,350 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2025-03-25 23:15:58,350 [5] [INFO ] [GameServer] ：UserLoginRequest: User:3meng  Pass:123123
+2025-03-25 23:16:00,036 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-03-25 23:16:00,037 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:5:大贝塔 Map:1
+2025-03-25 23:16:00,037 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2025-03-25 23:16:01,341 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-25 23:16:01,345 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 2:大贝塔 Entity.Id:2 Evt:None Entity:(2:pos:(5000,4000,820),dir:(98,-19,0),spd:0
+2025-03-25 23:16:01,393 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-03-25 23:16:01,393 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 2:大贝塔 Entity.Id:2 Evt:MoveFwd Entity:(2:pos:(5000,4000,820),dir:(98,-19,0),spd:300
+2025-03-25 23:16:01,436 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:16:01,437 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 2:大贝塔 Entity.Id:2 Evt:None Entity:(2:pos:(5015,3997,820),dir:(93,-36,0),spd:300
+2025-03-25 23:16:01,520 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:16:01,520 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 2:大贝塔 Entity.Id:2 Evt:None Entity:(2:pos:(5040,3987,820),dir:(85,-52,0),spd:300
+2025-03-25 23:16:01,620 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:16:01,620 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 2:大贝塔 Entity.Id:2 Evt:None Entity:(2:pos:(5064,3969,820),dir:(73,-69,0),spd:300
+2025-03-25 23:16:01,736 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:16:01,736 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 2:大贝塔 Entity.Id:2 Evt:None Entity:(2:pos:(5091,3947,820),dir:(57,-82,0),spd:300
+2025-03-25 23:16:01,804 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:16:01,804 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 2:大贝塔 Entity.Id:2 Evt:None Entity:(2:pos:(5103,3931,820),dir:(42,-91,0),spd:300
+2025-03-25 23:16:01,885 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:16:01,886 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 2:大贝塔 Entity.Id:2 Evt:None Entity:(2:pos:(5113,3906,820),dir:(25,-97,0),spd:300
+2025-03-25 23:16:01,989 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:16:01,989 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 2:大贝塔 Entity.Id:2 Evt:None Entity:(2:pos:(5119,3876,820),dir:(6,-100,0),spd:300
+2025-03-25 23:16:03,154 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:16:03,155 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 2:大贝塔 Entity.Id:2 Evt:Idle Entity:(2:pos:(5119,3526,820),dir:(6,-100,0),spd:0
+2025-03-25 23:16:03,451 [19] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2025-03-25 23:16:03,451 [19] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-25 23:16:41,523 [19] [WARN ] [GameServer] ：Client[127.0.0.1:14259]] Connected
+2025-03-25 23:16:41,566 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2025-03-25 23:16:41,567 [5] [INFO ] [GameServer] ：UserLoginRequest: User:3meng  Pass:123123
+2025-03-25 23:16:43,565 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-03-25 23:16:43,565 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:5:大贝塔 Map:1
+2025-03-25 23:16:43,565 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:3
+2025-03-25 23:16:45,696 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:16:45,696 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:大贝塔 Entity.Id:3 Evt:MoveFwd Entity:(3:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2025-03-25 23:16:46,233 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:16:46,233 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:大贝塔 Entity.Id:3 Evt:None Entity:(3:pos:(5170,4000,820),dir:(98,-18,0),spd:300
+2025-03-25 23:16:46,336 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:16:46,337 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:大贝塔 Entity.Id:3 Evt:None Entity:(3:pos:(5200,3994,820),dir:(93,-35,0),spd:300
+2025-03-25 23:16:46,415 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:16:46,416 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:大贝塔 Entity.Id:3 Evt:None Entity:(3:pos:(5225,3984,820),dir:(86,-51,0),spd:300
+2025-03-25 23:16:46,499 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:16:46,500 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:大贝塔 Entity.Id:3 Evt:None Entity:(3:pos:(5245,3969,820),dir:(76,-65,0),spd:300
+2025-03-25 23:16:46,609 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:16:46,609 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:大贝塔 Entity.Id:3 Evt:None Entity:(3:pos:(5269,3951,820),dir:(62,-79,0),spd:300
+2025-03-25 23:16:46,853 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:16:46,853 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:大贝塔 Entity.Id:3 Evt:None Entity:(3:pos:(5314,3891,820),dir:(75,-66,0),spd:300
+2025-03-25 23:16:47,536 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:16:47,538 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:大贝塔 Entity.Id:3 Evt:Idle Entity:(3:pos:(5478,3768,820),dir:(75,-66,0),spd:0
+2025-03-25 23:18:15,658 [24] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:3
+2025-03-25 23:18:15,658 [24] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-25 23:44:39,327 [26] [WARN ] [GameServer] ：Client[127.0.0.1:29182]] Connected
+2025-03-25 23:44:39,368 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2025-03-25 23:44:39,369 [5] [INFO ] [GameServer] ：UserLoginRequest: User:3meng  Pass:123123
+2025-03-25 23:44:44,387 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-03-25 23:44:44,387 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:4:椎名林檎 Map:1
+2025-03-25 23:44:44,389 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:4
+2025-03-25 23:44:48,297 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:44:48,299 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveFwd Entity:(4:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2025-03-25 23:44:48,397 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:44:48,398 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5035,4000,820),dir:(98,-19,0),spd:300
+2025-03-25 23:44:48,500 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:44:48,500 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5065,3994,820),dir:(93,-36,0),spd:300
+2025-03-25 23:44:48,581 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:44:48,581 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5090,3984,820),dir:(85,-52,0),spd:300
+2025-03-25 23:44:48,681 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:44:48,681 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5114,3966,820),dir:(73,-69,0),spd:300
+2025-03-25 23:44:48,772 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:44:48,772 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5134,3951,820),dir:(60,-80,0),spd:300
+2025-03-25 23:44:48,859 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:44:48,860 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5149,3931,820),dir:(45,-89,0),spd:300
+2025-03-25 23:44:48,933 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:44:48,933 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5159,3911,820),dir:(29,-96,0),spd:300
+2025-03-25 23:44:49,031 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:44:49,031 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5165,3881,820),dir:(10,-100,0),spd:300
+2025-03-25 23:44:49,189 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:44:49,189 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5174,3836,820),dir:(-8,-100,0),spd:300
+2025-03-25 23:44:49,750 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:44:49,750 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5174,3666,820),dir:(10,-99,0),spd:300
+2025-03-25 23:44:49,904 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:44:49,904 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5183,3621,820),dir:(28,-96,0),spd:300
+2025-03-25 23:44:50,202 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:44:50,203 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5201,3531,820),dir:(9,-100,0),spd:300
+2025-03-25 23:44:50,302 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:44:50,302 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5201,3501,820),dir:(-10,-99,0),spd:300
+2025-03-25 23:44:50,395 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:44:50,396 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5196,3476,820),dir:(-28,-96,0),spd:300
+2025-03-25 23:44:50,490 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:44:50,491 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5190,3446,820),dir:(-47,-88,0),spd:300
+2025-03-25 23:44:50,657 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:44:50,657 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5172,3414,820),dir:(-64,-77,0),spd:300
+2025-03-25 23:44:50,737 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:44:50,737 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5155,3396,820),dir:(-77,-64,0),spd:300
+2025-03-25 23:44:50,802 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:44:50,802 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5139,3384,820),dir:(-88,-47,0),spd:300
+2025-03-25 23:44:50,857 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:44:50,857 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5119,3374,820),dir:(-95,-31,0),spd:300
+2025-03-25 23:44:50,936 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:44:50,936 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5094,3364,820),dir:(-99,-14,0),spd:300
+2025-03-25 23:44:51,022 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:44:51,022 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5069,3359,820),dir:(-100,3,0),spd:300
+2025-03-25 23:44:51,108 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:44:51,109 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5044,3359,820),dir:(-98,21,0),spd:300
+2025-03-25 23:44:51,221 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:44:51,221 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5009,3366,820),dir:(-92,39,0),spd:300
+2025-03-25 23:44:51,474 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:44:51,475 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4934,3396,820),dir:(-84,54,0),spd:300
+2025-03-25 23:44:51,628 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:44:51,628 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4898,3423,820),dir:(-73,69,0),spd:300
+2025-03-25 23:44:51,895 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:44:51,896 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4834,3471,820),dir:(-85,53,0),spd:300
+2025-03-25 23:44:51,990 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:44:51,990 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4810,3489,820),dir:(-93,37,0),spd:300
+2025-03-25 23:44:52,079 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:44:52,080 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4785,3499,820),dir:(-98,20,0),spd:300
+2025-03-25 23:44:52,155 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:44:52,155 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4760,3504,820),dir:(-100,3,0),spd:300
+2025-03-25 23:44:52,239 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:44:52,240 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4735,3504,820),dir:(-99,-15,0),spd:300
+2025-03-25 23:44:52,354 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:44:52,355 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4705,3498,820),dir:(-94,-34,0),spd:300
+2025-03-25 23:44:52,471 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:44:52,471 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4665,3482,820),dir:(-86,-51,0),spd:300
+2025-03-25 23:44:52,565 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:44:52,565 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4687,3492,806),dir:(-86,-51,0),spd:300
+2025-03-25 23:44:53,025 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:44:53,026 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(4587,3417,806),dir:(-86,-51,0),spd:0
+2025-03-25 23:44:53,742 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2025-03-25 23:44:53,743 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveFwd Entity:(4:pos:(4587,3417,806),dir:(-86,-51,0),spd:300
+2025-03-25 23:44:54,901 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:44:54,902 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4285,3253,806),dir:(-86,-51,0),spd:300
+2025-03-25 23:44:55,967 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:44:55,967 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4029,3061,806),dir:(-94,-35,0),spd:300
+2025-03-25 23:44:57,371 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:44:57,371 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(3614,2943,806),dir:(-94,-35,0),spd:300
+2025-03-25 23:44:57,884 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:44:57,885 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(3459,2881,806),dir:(-99,-17,0),spd:300
+2025-03-25 23:44:58,255 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:44:58,255 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(3349,2859,806),dir:(-93,-36,0),spd:300
+2025-03-25 23:44:58,635 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:44:58,635 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(3234,2813,806),dir:(-98,-18,0),spd:300
+2025-03-25 23:44:58,727 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:44:58,728 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(3209,2808,806),dir:(-100,-1,0),spd:300
+2025-03-25 23:44:59,640 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:44:59,640 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(2934,2808,806),dir:(-98,-21,0),spd:300
+2025-03-25 23:44:59,788 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:44:59,789 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(2894,2800,806),dir:(-93,-38,0),spd:300
+2025-03-25 23:45:00,441 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:45:00,441 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(2694,2720,806),dir:(-98,-20,0),spd:300
+2025-03-25 23:45:02,195 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:45:02,195 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(2169,2615,806),dir:(-100,-3,0),spd:300
+2025-03-25 23:45:02,307 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:45:02,307 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(2134,2615,806),dir:(-99,17,0),spd:300
+2025-03-25 23:45:03,141 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:45:03,141 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1884,2665,806),dir:(-100,-1,0),spd:300
+2025-03-25 23:45:03,245 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:45:03,246 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1854,2665,806),dir:(-98,-21,0),spd:300
+2025-03-25 23:45:03,325 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:45:03,325 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1829,2660,806),dir:(-92,-38,0),spd:300
+2025-03-25 23:45:03,431 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:45:03,431 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1799,2648,806),dir:(-83,-57,0),spd:300
+2025-03-25 23:45:03,711 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:45:03,711 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1731,2597,806),dir:(-91,-41,0),spd:300
+2025-03-25 23:45:03,815 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:45:03,816 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1701,2585,806),dir:(-97,-23,0),spd:300
+2025-03-25 23:45:03,895 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:45:03,896 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1676,2580,806),dir:(-100,-5,0),spd:300
+2025-03-25 23:45:04,005 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:45:04,005 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1646,2580,806),dir:(-99,16,0),spd:300
+2025-03-25 23:45:04,315 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:45:04,316 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1551,2599,806),dir:(-100,-2,0),spd:300
+2025-03-25 23:45:04,412 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:45:04,412 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1521,2599,806),dir:(-98,-21,0),spd:300
+2025-03-25 23:45:04,500 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:45:04,501 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1496,2594,806),dir:(-92,-38,0),spd:300
+2025-03-25 23:45:04,590 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:45:04,590 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1521,2587,806),dir:(-92,-38,0),spd:300
+2025-03-25 23:45:04,896 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:45:04,896 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1426,2549,806),dir:(-98,-20,0),spd:300
+2025-03-25 23:45:04,999 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:45:04,999 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1396,2543,806),dir:(-100,1,0),spd:300
+2025-03-25 23:45:05,112 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:45:05,112 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1361,2543,806),dir:(-98,21,0),spd:300
+2025-03-25 23:45:05,719 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:45:05,719 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1181,2579,806),dir:(-100,1,0),spd:300
+2025-03-25 23:45:05,801 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:45:05,801 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1156,2579,806),dir:(-99,-16,0),spd:300
+2025-03-25 23:45:05,909 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:45:05,909 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1126,2573,806),dir:(-94,-35,0),spd:300
+2025-03-25 23:45:06,185 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:45:06,185 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1041,2539,806),dir:(-98,-18,0),spd:300
+2025-03-25 23:45:06,503 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-03-25 23:45:06,505 [5] [INFO ] [GameServer] ：OnMapTeleport:characterID:4:System.Data.Entity.DynamicProxies.TCharacter_29305D9B8C771FE69D27D2DC78E470854EC421142454E0B7F58780371AC6853F TeleporterID:1
+2025-03-25 23:45:06,506 [5] [WARN ] [GameServer] ：Source TeleporterID [1] LinkTo[6] not existed
+2025-03-25 23:45:06,506 [5] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:4
+2025-03-25 23:45:06,507 [5] [INFO ] [GameServer] ：CharacterEnter: Map:2 characterId:4
+2025-03-25 23:45:06,775 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2025-03-25 23:45:06,777 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveFwd Entity:(4:pos:(1011,2533,806),dir:(-98,-18,0),spd:300
+2025-03-25 23:45:06,942 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:06,942 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(991,2529,806),dir:(-98,-18,0),spd:0
+2025-03-25 23:45:06,979 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-03-25 23:45:06,980 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1014,2537,850),dir:(-98,-18,0),spd:0
+2025-03-25 23:45:07,014 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-03-25 23:45:07,016 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1014,2537,908),dir:(-98,-18,0),spd:0
+2025-03-25 23:45:07,129 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-03-25 23:45:07,130 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1035,2528,957),dir:(-98,-18,0),spd:0
+2025-03-25 23:45:07,648 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:40
+2025-03-25 23:45:07,650 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1035,2528,957),dir:(-100,0,0),spd:0
+2025-03-25 23:45:07,793 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:40
+2025-03-25 23:45:07,793 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1055,2485,938),dir:(-100,0,0),spd:0
+2025-03-25 23:45:07,851 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-25 23:45:07,851 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1055,2485,938),dir:(-98,18,0),spd:0
+2025-03-25 23:45:07,944 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-25 23:45:07,945 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1076,2485,891),dir:(-98,18,0),spd:0
+2025-03-25 23:45:07,963 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-25 23:45:07,963 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1076,2485,891),dir:(-93,36,0),spd:0
+2025-03-25 23:45:08,052 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-25 23:45:08,052 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1076,2485,891),dir:(-84,54,0),spd:0
+2025-03-25 23:45:08,080 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-25 23:45:08,080 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1098,2486,838),dir:(-84,54,0),spd:0
+2025-03-25 23:45:08,129 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-25 23:45:08,129 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1098,2486,838),dir:(-73,68,0),spd:0
+2025-03-25 23:45:08,175 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-25 23:45:08,176 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1119,2488,791),dir:(-73,68,0),spd:0
+2025-03-25 23:45:08,237 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-25 23:45:08,237 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1119,2488,791),dir:(-58,82,0),spd:0
+2025-03-25 23:45:08,260 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-03-25 23:45:08,261 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveFwd Entity:(4:pos:(1119,2488,791),dir:(-58,82,0),spd:300
+2025-03-25 23:45:08,313 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:45:08,313 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1107,2504,791),dir:(-43,91,0),spd:300
+2025-03-25 23:45:08,401 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:45:08,401 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1097,2529,791),dir:(-26,97,0),spd:300
+2025-03-25 23:45:08,500 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:45:08,501 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1091,2559,791),dir:(-6,100,0),spd:300
+2025-03-25 23:45:08,512 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:45:08,513 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1120,2564,749),dir:(-6,100,0),spd:300
+2025-03-25 23:45:08,579 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:08,580 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1120,2584,749),dir:(12,99,0),spd:300
+2025-03-25 23:45:08,685 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:08,685 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1126,2614,749),dir:(32,95,0),spd:300
+2025-03-25 23:45:08,765 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:08,765 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1136,2639,749),dir:(48,88,0),spd:300
+2025-03-25 23:45:08,789 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:08,789 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1133,2645,698),dir:(48,88,0),spd:300
+2025-03-25 23:45:08,867 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:08,868 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1143,2665,698),dir:(65,76,0),spd:300
+2025-03-25 23:45:08,925 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:08,925 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1155,2679,646),dir:(65,76,0),spd:300
+2025-03-25 23:45:09,020 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:09,020 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1173,2703,646),dir:(78,63,0),spd:300
+2025-03-25 23:45:09,032 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:09,032 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1179,2706,596),dir:(78,63,0),spd:300
+2025-03-25 23:45:09,120 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:09,120 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1200,2723,536),dir:(78,63,0),spd:300
+2025-03-25 23:45:09,208 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:09,209 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1222,2739,486),dir:(78,63,0),spd:300
+2025-03-25 23:45:09,326 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:09,327 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1251,2762,434),dir:(78,63,0),spd:300
+2025-03-25 23:45:09,469 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:09,470 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1285,2787,384),dir:(78,63,0),spd:300
+2025-03-25 23:45:09,549 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:09,549 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1309,2805,384),dir:(65,76,0),spd:300
+2025-03-25 23:45:09,605 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:09,605 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1321,2818,332),dir:(65,76,0),spd:300
+2025-03-25 23:45:09,668 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:09,668 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1333,2834,332),dir:(49,87,0),spd:300
+2025-03-25 23:45:09,845 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:09,845 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1362,2876,282),dir:(49,87,0),spd:300
+2025-03-25 23:45:10,203 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:10,203 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1406,2964,282),dir:(65,76,0),spd:300
+2025-03-25 23:45:10,290 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:10,291 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(1421,2984,282),dir:(77,63,0),spd:0
+2025-03-25 23:45:10,303 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-03-25 23:45:10,303 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1421,2984,282),dir:(77,63,0),spd:0
+2025-03-25 23:45:10,378 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2025-03-25 23:45:10,379 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveFwd Entity:(4:pos:(1421,2984,282),dir:(77,63,0),spd:300
+2025-03-25 23:45:10,392 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:10,392 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1441,2993,235),dir:(89,46,0),spd:300
+2025-03-25 23:45:10,407 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:10,407 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1445,2995,235),dir:(89,46,0),spd:300
+2025-03-25 23:45:10,491 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:10,492 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1465,3005,235),dir:(96,27,0),spd:300
+2025-03-25 23:45:10,596 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:10,596 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1490,3010,235),dir:(100,9,0),spd:300
+2025-03-25 23:45:10,668 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:45:10,669 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1520,3010,235),dir:(99,-11,0),spd:300
+2025-03-25 23:45:10,754 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:45:10,754 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1545,3005,235),dir:(96,-29,0),spd:300
+2025-03-25 23:45:10,852 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:45:10,852 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1575,2999,235),dir:(89,-46,0),spd:300
+2025-03-25 23:45:11,026 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:45:11,026 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1615,2979,235),dir:(79,-61,0),spd:300
+2025-03-25 23:45:11,421 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:45:11,422 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1711,2907,235),dir:(89,-46,0),spd:300
+2025-03-25 23:45:11,525 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:45:11,525 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1735,2895,235),dir:(96,-28,0),spd:300
+2025-03-25 23:45:11,622 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:45:11,622 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1765,2889,235),dir:(100,-8,0),spd:300
+2025-03-25 23:45:11,719 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:11,720 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1795,2889,235),dir:(99,12,0),spd:300
+2025-03-25 23:45:11,887 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:11,887 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(1845,2899,235),dir:(95,30,0),spd:300
+2025-03-25 23:45:12,793 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:12,793 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(2115,3007,235),dir:(99,12,0),spd:300
+2025-03-25 23:45:13,069 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:13,069 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(2185,2987,201),dir:(99,12,0),spd:300
+2025-03-25 23:45:13,419 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:45:13,419 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(2291,3002,151),dir:(99,12,0),spd:300
+2025-03-25 23:45:13,700 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:13,700 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(2377,3015,101),dir:(99,12,0),spd:300
+2025-03-25 23:45:13,942 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:13,942 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(2454,3026,49),dir:(99,12,0),spd:300
+2025-03-25 23:45:15,152 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:15,152 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(2811,3072,6),dir:(99,12,0),spd:300
+2025-03-25 23:45:16,065 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:16,065 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(3086,3127,6),dir:(95,30,0),spd:300
+2025-03-25 23:45:16,140 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:16,141 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(3095,3114,51),dir:(95,30,0),spd:300
+2025-03-25 23:45:17,220 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:17,220 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(3405,3217,10),dir:(95,30,0),spd:300
+2025-03-25 23:45:17,498 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:17,499 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(3490,3251,10),dir:(99,11,0),spd:300
+2025-03-25 23:45:17,922 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:17,922 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(3615,3276,10),dir:(96,28,0),spd:300
+2025-03-25 23:45:18,005 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:18,005 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(3640,3281,10),dir:(90,44,0),spd:300
+2025-03-25 23:45:18,114 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:18,114 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(3670,3293,10),dir:(81,59,0),spd:300
+2025-03-25 23:45:18,304 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:18,304 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(3718,3329,10),dir:(69,72,0),spd:300
+2025-03-25 23:45:19,511 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:19,511 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(3958,3572,6),dir:(69,72,0),spd:300
+2025-03-25 23:45:19,636 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:19,638 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(3973,3592,6),dir:(82,58,0),spd:300
+2025-03-25 23:45:19,692 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:19,692 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(3997,3610,6),dir:(91,40,0),spd:300
+2025-03-25 23:45:19,789 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:19,789 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4027,3622,6),dir:(97,22,0),spd:300
+2025-03-25 23:45:19,956 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:19,957 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4077,3632,6),dir:(100,5,0),spd:300
+2025-03-25 23:45:20,287 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:20,287 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4177,3632,6),dir:(97,23,0),spd:300
+2025-03-25 23:45:20,489 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:20,490 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4237,3644,6),dir:(92,40,0),spd:300
+2025-03-25 23:45:20,810 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:20,810 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4332,3682,6),dir:(98,22,0),spd:300
+2025-03-25 23:45:20,905 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:20,905 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4362,3688,6),dir:(100,3,0),spd:300
+2025-03-25 23:45:21,003 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:21,005 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4392,3688,6),dir:(98,-18,0),spd:300
+2025-03-25 23:45:21,113 [84] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:21,114 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4422,3682,6),dir:(93,-38,0),spd:300
+2025-03-25 23:45:21,190 [84] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:21,190 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4447,3672,6),dir:(85,-53,0),spd:300
+2025-03-25 23:45:21,282 [84] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:21,282 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4467,3657,6),dir:(74,-67,0),spd:300
+2025-03-25 23:45:21,366 [84] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:21,366 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4487,3642,6),dir:(61,-79,0),spd:300
+2025-03-25 23:45:21,461 [84] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:21,462 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4505,3618,6),dir:(43,-90,0),spd:300
+2025-03-25 23:45:21,559 [84] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:21,559 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4517,3588,6),dir:(27,-96,0),spd:300
+2025-03-25 23:45:21,913 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:21,914 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4538,3483,6),dir:(10,-100,0),spd:300
+2025-03-25 23:45:22,111 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:22,111 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4550,3423,6),dir:(-8,-100,0),spd:300
+2025-03-25 23:45:22,209 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:22,210 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4550,3393,6),dir:(-27,-96,0),spd:300
+2025-03-25 23:45:22,320 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:22,321 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4544,3363,6),dir:(-46,-89,0),spd:300
+2025-03-25 23:45:22,430 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:22,431 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4532,3339,6),dir:(-61,-79,0),spd:300
+2025-03-25 23:45:23,615 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:23,616 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4316,3051,6),dir:(-46,-89,0),spd:300
+2025-03-25 23:45:23,721 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:23,722 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4304,3027,6),dir:(-27,-96,0),spd:300
+2025-03-25 23:45:23,802 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:23,802 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4299,3002,6),dir:(-9,-100,0),spd:300
+2025-03-25 23:45:23,905 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:23,905 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4299,2972,6),dir:(11,-99,0),spd:300
+2025-03-25 23:45:23,980 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:23,980 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4304,2947,6),dir:(28,-96,0),spd:300
+2025-03-25 23:45:24,064 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:24,064 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4309,2922,6),dir:(45,-89,0),spd:300
+2025-03-25 23:45:24,166 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:24,167 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4321,2898,6),dir:(62,-78,0),spd:300
+2025-03-25 23:45:24,243 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:24,244 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4336,2878,6),dir:(75,-66,0),spd:300
+2025-03-25 23:45:24,351 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:24,351 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4360,2860,6),dir:(87,-49,0),spd:300
+2025-03-25 23:45:24,450 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:24,450 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4384,2848,6),dir:(95,-30,0),spd:300
+2025-03-25 23:45:24,537 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:24,537 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4409,2838,6),dir:(99,-13,0),spd:300
+2025-03-25 23:45:24,623 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:24,624 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4434,2833,6),dir:(100,4,0),spd:300
+2025-03-25 23:45:24,713 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:24,713 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4464,2833,6),dir:(97,23,0),spd:300
+2025-03-25 23:45:24,865 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:24,865 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4509,2842,6),dir:(92,40,0),spd:300
+2025-03-25 23:45:25,677 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:25,677 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4702,2955,8),dir:(92,40,0),spd:300
+2025-03-25 23:45:27,643 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:27,643 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5292,3191,8),dir:(97,23,0),spd:300
+2025-03-25 23:45:27,797 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:27,797 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5337,3200,8),dir:(100,5,0),spd:300
+2025-03-25 23:45:28,563 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:28,563 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5519,3214,6),dir:(100,5,0),spd:300
+2025-03-25 23:45:29,156 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:29,158 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5699,3214,6),dir:(97,23,0),spd:300
+2025-03-25 23:45:30,192 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:30,192 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6009,3276,6),dir:(92,40,0),spd:300
+2025-03-25 23:45:31,296 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:31,296 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6339,3408,6),dir:(83,55,0),spd:300
+2025-03-25 23:45:31,515 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:31,515 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6391,3447,6),dir:(72,70,0),spd:300
+2025-03-25 23:45:32,291 [84] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:32,292 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6525,3624,6),dir:(72,70,0),spd:300
+2025-03-25 23:45:32,335 [84] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:32,335 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6537,3636,6),dir:(57,82,0),spd:300
+2025-03-25 23:45:32,533 [84] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:32,533 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6573,3684,6),dir:(42,91,0),spd:300
+2025-03-25 23:45:34,115 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:34,115 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6763,4159,6),dir:(25,97,0),spd:300
+2025-03-25 23:45:34,502 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:34,502 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6786,4274,6),dir:(43,90,0),spd:300
+2025-03-25 23:45:34,598 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:34,598 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6798,4304,6),dir:(59,80,0),spd:300
+2025-03-25 23:45:34,611 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:34,611 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6812,4255,6),dir:(59,80,0),spd:300
+2025-03-25 23:45:34,688 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:34,689 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6827,4275,6),dir:(73,69,0),spd:300
+2025-03-25 23:45:34,783 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:34,784 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6851,4293,6),dir:(85,52,0),spd:300
+2025-03-25 23:45:34,885 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:34,886 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6875,4311,6),dir:(94,33,0),spd:300
+2025-03-25 23:45:34,986 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:34,986 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6905,4323,6),dir:(99,13,0),spd:300
+2025-03-25 23:45:35,087 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:35,087 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6935,4329,6),dir:(100,-8,0),spd:300
+2025-03-25 23:45:35,187 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:35,190 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6965,4329,6),dir:(96,-28,0),spd:300
+2025-03-25 23:45:35,268 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:35,268 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6990,4324,6),dir:(89,-45,0),spd:300
+2025-03-25 23:45:35,370 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:35,370 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7014,4312,6),dir:(78,-62,0),spd:300
+2025-03-25 23:45:35,468 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:35,468 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7034,4297,6),dir:(66,-75,0),spd:300
+2025-03-25 23:45:35,554 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:35,554 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7052,4273,6),dir:(49,-87,0),spd:300
+2025-03-25 23:45:35,654 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:35,654 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7064,4249,6),dir:(30,-95,0),spd:300
+2025-03-25 23:45:35,736 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:35,737 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7074,4224,6),dir:(13,-99,0),spd:300
+2025-03-25 23:45:35,841 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:35,841 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7080,4194,6),dir:(-8,-100,0),spd:300
+2025-03-25 23:45:35,949 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:35,949 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7080,4164,6),dir:(-28,-96,0),spd:300
+2025-03-25 23:45:36,021 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:36,022 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7075,4139,6),dir:(-45,-89,0),spd:300
+2025-03-25 23:45:36,053 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:45:36,053 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(7071,4131,6),dir:(-45,-89,0),spd:0
+2025-03-25 23:45:36,121 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2025-03-25 23:45:36,122 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7071,4131,6),dir:(-62,-78,0),spd:0
+2025-03-25 23:45:36,207 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:63
+2025-03-25 23:45:36,208 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveBack Entity:(4:pos:(7074,4135,6),dir:(-62,-78,0),spd:-300
+2025-03-25 23:45:36,226 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:61
+2025-03-25 23:45:36,226 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7081,4142,6),dir:(-75,-66,0),spd:-300
+2025-03-25 23:45:36,338 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:61
+2025-03-25 23:45:36,340 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7101,4157,6),dir:(-87,-49,0),spd:-300
+2025-03-25 23:45:36,442 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:61
+2025-03-25 23:45:36,442 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7130,4171,6),dir:(-95,-30,0),spd:-300
+2025-03-25 23:45:36,488 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:61
+2025-03-25 23:45:36,488 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7150,4179,6),dir:(-99,-13,0),spd:-300
+2025-03-25 23:45:36,593 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:45:36,593 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7180,4185,6),dir:(-100,8,0),spd:-300
+2025-03-25 23:45:36,608 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-03-25 23:45:36,609 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(7185,4185,6),dir:(-100,8,0),spd:0
+2025-03-25 23:45:36,688 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-03-25 23:45:36,688 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7185,4185,6),dir:(-96,28,0),spd:0
+2025-03-25 23:45:36,713 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:46
+2025-03-25 23:45:36,713 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveFwd Entity:(4:pos:(7185,4185,6),dir:(-96,28,0),spd:300
+2025-03-25 23:45:36,770 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:36,770 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7165,4189,6),dir:(-89,45,0),spd:300
+2025-03-25 23:45:36,874 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:36,874 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7141,4201,6),dir:(-78,62,0),spd:300
+2025-03-25 23:45:36,975 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:36,975 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7117,4219,6),dir:(-66,75,0),spd:300
+2025-03-25 23:45:37,167 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:37,168 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7084,4263,6),dir:(-52,85,0),spd:300
+2025-03-25 23:45:37,504 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:37,504 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7021,4347,6),dir:(-68,74,0),spd:300
+2025-03-25 23:45:37,608 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:37,609 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7003,4371,6),dir:(-80,59,0),spd:300
+2025-03-25 23:45:37,708 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-03-25 23:45:37,708 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(6979,4389,6),dir:(-91,41,0),spd:0
+2025-03-25 23:45:37,722 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-03-25 23:45:37,723 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6979,4389,6),dir:(-91,41,0),spd:0
+2025-03-25 23:45:37,805 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-03-25 23:45:37,805 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6979,4389,6),dir:(-98,22,0),spd:0
+2025-03-25 23:45:37,894 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-03-25 23:45:37,894 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6979,4389,6),dir:(-100,4,0),spd:0
+2025-03-25 23:45:37,993 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2025-03-25 23:45:37,994 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6979,4389,6),dir:(-99,-16,0),spd:0
+2025-03-25 23:45:38,077 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2025-03-25 23:45:38,077 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6979,4389,6),dir:(-94,-33,0),spd:0
+2025-03-25 23:45:38,159 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2025-03-25 23:45:38,159 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6979,4389,6),dir:(-87,-49,0),spd:0
+2025-03-25 23:45:38,239 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2025-03-25 23:45:38,239 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6979,4389,6),dir:(-77,-64,0),spd:0
+2025-03-25 23:45:38,296 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2025-03-25 23:45:38,296 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveFwd Entity:(4:pos:(6979,4389,6),dir:(-77,-64,0),spd:300
+2025-03-25 23:45:38,343 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:38,344 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6967,4380,6),dir:(-62,-78,0),spd:300
+2025-03-25 23:45:38,440 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:38,440 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6949,4356,6),dir:(-45,-89,0),spd:300
+2025-03-25 23:45:38,525 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:38,525 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6939,4336,6),dir:(-28,-96,0),spd:300
+2025-03-25 23:45:38,626 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:38,626 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6933,4306,6),dir:(-8,-100,0),spd:300
+2025-03-25 23:45:38,728 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:38,728 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6933,4276,6),dir:(12,-99,0),spd:300
+2025-03-25 23:45:38,893 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:38,894 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6943,4226,6),dir:(30,-95,0),spd:300
+2025-03-25 23:45:39,189 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:39,190 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6927,4137,6),dir:(30,-95,0),spd:300
+2025-03-25 23:45:39,201 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:39,203 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6929,4132,6),dir:(47,-89,0),spd:300
+2025-03-25 23:45:39,309 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:39,309 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6943,4104,6),dir:(64,-77,0),spd:300
+2025-03-25 23:45:39,380 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-03-25 23:45:39,380 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(6955,4088,6),dir:(64,-77,0),spd:0
+2025-03-25 23:45:39,411 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-03-25 23:45:39,411 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6955,4088,6),dir:(78,-62,0),spd:0
+2025-03-25 23:45:39,490 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-03-25 23:45:39,490 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6955,4088,6),dir:(88,-47,0),spd:0
+2025-03-25 23:45:39,562 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:45:39,562 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveBack Entity:(4:pos:(6955,4088,6),dir:(88,-47,0),spd:-300
+2025-03-25 23:45:39,595 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:45:39,595 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6947,4092,6),dir:(96,-28,0),spd:-300
+2025-03-25 23:45:39,700 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:45:39,700 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6917,4098,6),dir:(100,-8,0),spd:-300
+2025-03-25 23:45:39,781 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-03-25 23:45:39,782 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6892,4098,6),dir:(100,10,0),spd:-300
+2025-03-25 23:45:39,875 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-03-25 23:45:39,875 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6862,4092,6),dir:(95,30,0),spd:-300
+2025-03-25 23:45:39,960 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-03-25 23:45:39,960 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6837,4082,6),dir:(89,46,0),spd:-300
+2025-03-25 23:45:40,051 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-03-25 23:45:40,052 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6817,4072,6),dir:(79,61,0),spd:-300
+2025-03-25 23:45:40,095 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2025-03-25 23:45:40,095 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(6805,4063,6),dir:(79,61,0),spd:0
+2025-03-25 23:45:40,116 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:37
+2025-03-25 23:45:40,116 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveFwd Entity:(4:pos:(6805,4063,6),dir:(79,61,0),spd:300
+2025-03-25 23:45:40,127 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:40,128 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6809,4066,6),dir:(67,74,0),spd:300
+2025-03-25 23:45:40,234 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:40,235 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6827,4090,6),dir:(50,86,0),spd:300
+2025-03-25 23:45:40,336 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:40,336 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6845,4114,6),dir:(33,94,0),spd:300
+2025-03-25 23:45:40,482 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:40,482 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6863,4159,6),dir:(16,99,0),spd:300
+2025-03-25 23:45:41,016 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:41,017 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6895,4319,6),dir:(35,94,0),spd:300
+2025-03-25 23:45:41,114 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:41,114 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6907,4349,6),dir:(53,85,0),spd:300
+2025-03-25 23:45:41,130 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2025-03-25 23:45:41,132 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(6910,4353,6),dir:(53,85,0),spd:0
+2025-03-25 23:45:41,214 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:32
+2025-03-25 23:45:41,216 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6910,4353,6),dir:(69,72,0),spd:0
+2025-03-25 23:45:41,306 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:32
+2025-03-25 23:45:41,307 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6910,4353,6),dir:(81,59,0),spd:0
+2025-03-25 23:45:41,403 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:32
+2025-03-25 23:45:41,404 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6910,4353,6),dir:(91,41,0),spd:0
+2025-03-25 23:45:41,489 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:32
+2025-03-25 23:45:41,489 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6910,4353,6),dir:(97,25,0),spd:0
+2025-03-25 23:45:41,519 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:45:41,520 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveBack Entity:(4:pos:(6910,4353,6),dir:(97,25,0),spd:-300
+2025-03-25 23:45:41,568 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-03-25 23:45:41,568 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6895,4350,6),dir:(100,7,0),spd:-300
+2025-03-25 23:45:41,673 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:45:41,673 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6865,4350,6),dir:(99,-14,0),spd:-300
+2025-03-25 23:45:41,770 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:45:41,770 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6835,4356,6),dir:(94,-34,0),spd:-300
+2025-03-25 23:45:41,863 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:45:41,864 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6805,4368,6),dir:(85,-53,0),spd:-300
+2025-03-25 23:45:41,902 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-03-25 23:45:41,903 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(6797,4374,6),dir:(85,-53,0),spd:0
+2025-03-25 23:45:41,952 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:46
+2025-03-25 23:45:41,953 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveFwd Entity:(4:pos:(6797,4374,6),dir:(85,-53,0),spd:300
+2025-03-25 23:45:41,966 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:41,966 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6801,4371,6),dir:(72,-69,0),spd:300
+2025-03-25 23:45:42,044 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:42,045 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6821,4356,6),dir:(59,-81,0),spd:300
+2025-03-25 23:45:42,159 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:42,159 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6839,4332,6),dir:(41,-91,0),spd:300
+2025-03-25 23:45:42,248 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:42,248 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6851,4302,6),dir:(24,-97,0),spd:300
+2025-03-25 23:45:42,454 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:42,455 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6863,4242,6),dir:(6,-100,0),spd:300
+2025-03-25 23:45:42,875 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-03-25 23:45:42,875 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(6863,4117,6),dir:(6,-100,0),spd:0
+2025-03-25 23:45:42,991 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-03-25 23:45:42,991 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6863,4117,6),dir:(26,-97,0),spd:0
+2025-03-25 23:45:43,087 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-03-25 23:45:43,088 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6863,4117,6),dir:(43,-90,0),spd:0
+2025-03-25 23:45:43,168 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-03-25 23:45:43,169 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6863,4117,6),dir:(58,-81,0),spd:0
+2025-03-25 23:45:43,256 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-03-25 23:45:43,256 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6863,4117,6),dir:(72,-70,0),spd:0
+2025-03-25 23:45:43,351 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-03-25 23:45:43,352 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6863,4117,6),dir:(84,-54,0),spd:0
+2025-03-25 23:45:43,454 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-03-25 23:45:43,455 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6863,4117,6),dir:(93,-37,0),spd:0
+2025-03-25 23:45:43,619 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-03-25 23:45:43,619 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6863,4117,6),dir:(98,-20,0),spd:0
+2025-03-25 23:45:44,755 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:46
+2025-03-25 23:45:44,756 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveFwd Entity:(4:pos:(6863,4117,6),dir:(98,-20,0),spd:300
+2025-03-25 23:45:44,803 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:44,804 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6878,4114,6),dir:(100,-1,0),spd:300
+2025-03-25 23:45:44,906 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:44,906 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6908,4114,6),dir:(98,18,0),spd:300
+2025-03-25 23:45:45,004 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:45,004 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6938,4120,6),dir:(93,38,0),spd:300
+2025-03-25 23:45:45,104 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:45,105 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6968,4132,6),dir:(83,55,0),spd:300
+2025-03-25 23:45:45,265 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:45,266 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7004,4159,6),dir:(72,70,0),spd:300
+2025-03-25 23:45:45,293 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2025-03-25 23:45:45,294 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(7012,4167,6),dir:(72,70,0),spd:0
+2025-03-25 23:45:45,366 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:45:45,367 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveBack Entity:(4:pos:(7012,4167,6),dir:(72,70,0),spd:-300
+2025-03-25 23:45:45,890 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-03-25 23:45:45,891 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6884,4039,6),dir:(58,82,0),spd:-300
+2025-03-25 23:45:46,004 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-03-25 23:45:46,005 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6863,4011,6),dir:(40,91,0),spd:-300
+2025-03-25 23:45:46,091 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2025-03-25 23:45:46,093 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(6853,3986,6),dir:(40,91,0),spd:0
+2025-03-25 23:45:46,105 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:37
+2025-03-25 23:45:46,106 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveFwd Entity:(4:pos:(6853,3986,6),dir:(21,98,0),spd:300
+2025-03-25 23:45:46,118 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:46,119 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6853,3986,6),dir:(21,98,0),spd:300
+2025-03-25 23:45:46,190 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:46,191 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6858,4011,6),dir:(3,100,0),spd:300
+2025-03-25 23:45:46,293 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:46,293 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6858,4041,6),dir:(-15,99,0),spd:300
+2025-03-25 23:45:46,343 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:46,343 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6898,4083,6),dir:(-15,99,0),spd:300
+2025-03-25 23:45:46,463 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:46,463 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6891,4118,6),dir:(-32,95,0),spd:300
+2025-03-25 23:45:46,791 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:46,792 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6851,4218,6),dir:(-13,99,0),spd:300
+2025-03-25 23:45:46,891 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:46,891 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6845,4248,6),dir:(7,100,0),spd:300
+2025-03-25 23:45:47,001 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:47,002 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6845,4278,6),dir:(27,96,0),spd:300
+2025-03-25 23:45:47,073 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:47,073 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6850,4303,6),dir:(44,90,0),spd:300
+2025-03-25 23:45:47,176 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:47,176 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6862,4333,6),dir:(61,79,0),spd:300
+2025-03-25 23:45:47,534 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:47,535 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6925,4417,6),dir:(45,89,0),spd:300
+2025-03-25 23:45:47,626 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:47,626 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6937,4441,6),dir:(26,96,0),spd:300
+2025-03-25 23:45:47,727 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:47,727 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6943,4471,6),dir:(6,100,0),spd:300
+2025-03-25 23:45:47,807 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:47,807 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6943,4496,6),dir:(-12,99,0),spd:300
+2025-03-25 23:45:47,910 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:47,911 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6937,4526,6),dir:(-29,96,0),spd:300
+2025-03-25 23:45:48,281 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:48,281 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6915,4636,6),dir:(-11,99,0),spd:300
+2025-03-25 23:45:48,387 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:48,388 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6909,4666,6),dir:(10,100,0),spd:300
+2025-03-25 23:45:48,482 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:48,483 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6915,4696,6),dir:(30,96,0),spd:300
+2025-03-25 23:45:48,614 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:48,615 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6931,4736,6),dir:(47,88,0),spd:300
+2025-03-25 23:45:49,065 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:49,065 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6985,4844,6),dir:(63,77,0),spd:300
+2025-03-25 23:45:49,201 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:49,201 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7009,4876,6),dir:(77,64,0),spd:300
+2025-03-25 23:45:49,499 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2025-03-25 23:45:49,499 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(7081,4930,6),dir:(77,64,0),spd:0
+2025-03-25 23:45:49,512 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:32
+2025-03-25 23:45:49,513 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7081,4930,6),dir:(87,49,0),spd:0
+2025-03-25 23:45:49,653 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:32
+2025-03-25 23:45:49,654 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7081,4930,6),dir:(95,33,0),spd:0
+2025-03-25 23:45:49,745 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:32
+2025-03-25 23:45:49,746 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7081,4930,6),dir:(99,13,0),spd:0
+2025-03-25 23:45:49,852 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-03-25 23:45:49,852 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7081,4930,6),dir:(100,-8,0),spd:0
+2025-03-25 23:45:49,868 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:46
+2025-03-25 23:45:49,868 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveFwd Entity:(4:pos:(7081,4930,6),dir:(100,-8,0),spd:300
+2025-03-25 23:45:49,949 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:49,949 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7106,4930,6),dir:(96,-28,0),spd:300
+2025-03-25 23:45:50,049 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:50,049 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7136,4924,6),dir:(89,-46,0),spd:300
+2025-03-25 23:45:50,200 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:50,200 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7172,4906,6),dir:(79,-61,0),spd:300
+2025-03-25 23:45:50,652 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:50,652 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7280,4825,6),dir:(67,-75,0),spd:300
+2025-03-25 23:45:50,766 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:50,767 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7301,4797,6),dir:(50,-86,0),spd:300
+2025-03-25 23:45:50,870 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:50,871 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7319,4773,6),dir:(31,-95,0),spd:300
+2025-03-25 23:45:50,970 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:50,970 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7331,4743,6),dir:(13,-99,0),spd:300
+2025-03-25 23:45:51,135 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:51,135 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7341,4693,6),dir:(-5,-100,0),spd:300
+2025-03-25 23:45:51,563 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:51,563 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7352,4618,6),dir:(-5,-100,0),spd:300
+2025-03-25 23:45:51,610 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:51,611 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7352,4603,6),dir:(13,-99,0),spd:300
+2025-03-25 23:45:51,742 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:51,744 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7353,4617,6),dir:(13,-99,0),spd:300
+2025-03-25 23:45:51,890 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:51,891 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7352,4622,6),dir:(13,-99,0),spd:300
+2025-03-25 23:45:52,063 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:52,065 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7352,4622,6),dir:(13,-99,0),spd:300
+2025-03-25 23:45:52,140 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-03-25 23:45:52,140 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(7357,4597,6),dir:(13,-99,0),spd:0
+2025-03-25 23:45:52,157 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:63
+2025-03-25 23:45:52,157 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveBack Entity:(4:pos:(7357,4597,6),dir:(-5,-100,0),spd:-300
+2025-03-25 23:45:52,173 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:61
+2025-03-25 23:45:52,173 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7357,4602,6),dir:(-5,-100,0),spd:-300
+2025-03-25 23:45:52,266 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:61
+2025-03-25 23:45:52,267 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7357,4627,6),dir:(-25,-97,0),spd:-300
+2025-03-25 23:45:52,335 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:61
+2025-03-25 23:45:52,335 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7362,4652,6),dir:(-42,-91,0),spd:-300
+2025-03-25 23:45:52,444 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:61
+2025-03-25 23:45:52,444 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7374,4682,6),dir:(-60,-80,0),spd:-300
+2025-03-25 23:45:52,540 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:61
+2025-03-25 23:45:52,540 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7392,4706,6),dir:(-75,-66,0),spd:-300
+2025-03-25 23:45:52,659 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:45:52,660 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(7412,4721,6),dir:(-75,-66,0),spd:0
+2025-03-25 23:45:52,705 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2025-03-25 23:45:52,708 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveFwd Entity:(4:pos:(7400,4715,6),dir:(-87,-49,0),spd:300
+2025-03-25 23:45:52,750 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:52,752 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7387,4709,6),dir:(-94,-33,0),spd:300
+2025-03-25 23:45:52,766 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:52,767 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7382,4707,6),dir:(-94,-33,0),spd:300
+2025-03-25 23:45:52,844 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:52,844 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7362,4699,6),dir:(-99,-14,0),spd:300
+2025-03-25 23:45:52,965 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:52,965 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7322,4691,6),dir:(-100,5,0),spd:300
+2025-03-25 23:45:53,356 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:53,356 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7202,4691,6),dir:(-99,-13,0),spd:300
+2025-03-25 23:45:53,461 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:53,461 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7172,4685,6),dir:(-94,-33,0),spd:300
+2025-03-25 23:45:53,558 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:53,559 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7142,4673,6),dir:(-86,-52,0),spd:300
+2025-03-25 23:45:53,659 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:53,660 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7118,4655,6),dir:(-73,-68,0),spd:300
+2025-03-25 23:45:53,745 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:53,745 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7098,4640,6),dir:(-60,-80,0),spd:300
+2025-03-25 23:45:53,843 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:53,844 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7080,4616,6),dir:(-43,-90,0),spd:300
+2025-03-25 23:45:53,975 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:53,976 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7064,4576,6),dir:(-26,-97,0),spd:300
+2025-03-25 23:45:54,298 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:54,300 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7023,4526,9),dir:(-26,-97,0),spd:300
+2025-03-25 23:45:54,368 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:54,370 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7019,4506,9),dir:(-43,-90,0),spd:300
+2025-03-25 23:45:54,744 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:54,744 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6973,4391,9),dir:(-27,-96,0),spd:300
+2025-03-25 23:45:55,457 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:55,457 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6930,4176,9),dir:(-10,-100,0),spd:300
+2025-03-25 23:45:55,562 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:55,563 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6924,4146,9),dir:(9,-100,0),spd:300
+2025-03-25 23:45:55,890 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:55,890 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6924,4046,9),dir:(-11,-99,0),spd:300
+2025-03-25 23:45:55,992 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:55,992 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6918,4016,9),dir:(-31,-95,0),spd:300
+2025-03-25 23:45:56,063 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:45:56,063 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(6910,3996,9),dir:(-31,-95,0),spd:0
+2025-03-25 23:45:56,077 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:63
+2025-03-25 23:45:56,077 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveBack Entity:(4:pos:(6910,3996,9),dir:(-31,-95,0),spd:-300
+2025-03-25 23:45:56,090 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:61
+2025-03-25 23:45:56,091 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6912,4001,9),dir:(-50,-87,0),spd:-300
+2025-03-25 23:45:56,196 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:61
+2025-03-25 23:45:56,197 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6930,4025,9),dir:(-65,-76,0),spd:-300
+2025-03-25 23:45:56,362 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:61
+2025-03-25 23:45:56,363 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6960,4065,9),dir:(-78,-63,0),spd:-300
+2025-03-25 23:45:57,016 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:45:57,017 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(7116,4182,9),dir:(-78,-63,0),spd:0
+2025-03-25 23:45:57,033 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2025-03-25 23:45:57,033 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveFwd Entity:(4:pos:(7116,4182,9),dir:(-78,-63,0),spd:300
+2025-03-25 23:45:57,047 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:57,047 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7112,4179,9),dir:(-88,-47,0),spd:300
+2025-03-25 23:45:57,145 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:57,145 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7088,4167,9),dir:(-95,-31,0),spd:300
+2025-03-25 23:45:57,313 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:57,314 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7038,4147,9),dir:(-99,-13,0),spd:300
+2025-03-25 23:45:57,898 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:57,898 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6863,4112,9),dir:(-95,-32,0),spd:300
+2025-03-25 23:45:58,183 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:45:58,183 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6778,4078,9),dir:(-99,-14,0),spd:300
+2025-03-25 23:45:58,268 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:45:58,269 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(6753,4073,9),dir:(-99,-14,0),spd:0
+2025-03-25 23:45:58,283 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-03-25 23:45:58,283 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6753,4073,9),dir:(-100,5,0),spd:0
+2025-03-25 23:45:58,315 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:45:58,316 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveBack Entity:(4:pos:(6753,4073,9),dir:(-100,5,0),spd:-300
+2025-03-25 23:45:58,366 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:45:58,366 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6768,4073,9),dir:(-97,23,0),spd:-300
+2025-03-25 23:45:58,474 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:45:58,474 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6798,4067,9),dir:(-91,42,0),spd:-300
+2025-03-25 23:45:58,553 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:45:58,554 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6823,4057,9),dir:(-82,57,0),spd:-300
+2025-03-25 23:45:58,653 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:45:58,653 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6847,4039,9),dir:(-69,72,0),spd:-300
+2025-03-25 23:45:58,693 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:45:58,694 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6833,4077,6),dir:(-69,72,0),spd:-300
+2025-03-25 23:45:58,816 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:45:58,818 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6854,4049,6),dir:(-55,83,0),spd:-300
+2025-03-25 23:45:59,085 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:45:59,086 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6905,3981,6),dir:(-39,92,0),spd:-300
+2025-03-25 23:45:59,116 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-03-25 23:45:59,116 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(6909,3971,6),dir:(-39,92,0),spd:0
+2025-03-25 23:45:59,138 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:46
+2025-03-25 23:45:59,138 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveFwd Entity:(4:pos:(6909,3971,6),dir:(-39,92,0),spd:300
+2025-03-25 23:45:59,198 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:59,198 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6901,3991,6),dir:(-21,98,0),spd:300
+2025-03-25 23:45:59,301 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:59,301 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6895,4021,6),dir:(-1,100,0),spd:300
+2025-03-25 23:45:59,430 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:45:59,430 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6895,4061,6),dir:(17,98,0),spd:300
+2025-03-25 23:45:59,936 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:45:59,936 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6925,4211,6),dir:(-1,100,0),spd:300
+2025-03-25 23:46:00,034 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:46:00,034 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6925,4241,6),dir:(-21,98,0),spd:300
+2025-03-25 23:46:00,058 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-03-25 23:46:00,058 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(6924,4246,6),dir:(-21,98,0),spd:0
+2025-03-25 23:46:00,070 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:46:00,070 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveBack Entity:(4:pos:(6924,4246,6),dir:(-21,98,0),spd:-300
+2025-03-25 23:46:00,121 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:46:00,121 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6927,4231,6),dir:(-38,92,0),spd:-300
+2025-03-25 23:46:00,217 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:46:00,217 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6939,4201,6),dir:(-56,83,0),spd:-300
+2025-03-25 23:46:00,306 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:46:00,306 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6954,4181,6),dir:(-70,72,0),spd:-300
+2025-03-25 23:46:00,384 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:46:00,384 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6974,4161,6),dir:(-81,58,0),spd:-300
+2025-03-25 23:46:00,483 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:46:00,483 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6998,4143,6),dir:(-92,40,0),spd:-300
+2025-03-25 23:46:00,918 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:46:00,919 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7128,4091,6),dir:(-82,58,0),spd:-300
+2025-03-25 23:46:01,009 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:46:01,010 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7148,4076,6),dir:(-70,71,0),spd:-300
+2025-03-25 23:46:01,038 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:46:01,040 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7105,4096,6),dir:(-70,71,0),spd:-300
+2025-03-25 23:46:01,106 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:46:01,106 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7125,4076,6),dir:(-56,83,0),spd:-300
+2025-03-25 23:46:01,203 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:46:01,207 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7108,4092,6),dir:(-56,83,0),spd:-300
+2025-03-25 23:46:01,290 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:46:01,292 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7123,4072,6),dir:(-41,91,0),spd:-300
+2025-03-25 23:46:01,364 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:46:01,364 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7105,4096,6),dir:(-41,91,0),spd:-300
+2025-03-25 23:46:01,540 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:46:01,540 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7107,4091,6),dir:(-41,91,0),spd:-300
+2025-03-25 23:46:01,691 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:46:01,692 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7105,4096,6),dir:(-41,91,0),spd:-300
+2025-03-25 23:46:01,868 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:46:01,869 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7105,4096,6),dir:(-41,91,0),spd:-300
+2025-03-25 23:46:02,028 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:46:02,028 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7105,4096,6),dir:(-41,91,0),spd:-300
+2025-03-25 23:46:02,196 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:46:02,198 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7105,4096,6),dir:(-41,91,0),spd:-300
+2025-03-25 23:46:02,364 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:46:02,364 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7105,4096,6),dir:(-41,91,0),spd:-300
+2025-03-25 23:46:02,532 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:46:02,532 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7105,4096,6),dir:(-41,91,0),spd:-300
+2025-03-25 23:46:02,698 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:46:02,698 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7105,4096,6),dir:(-41,91,0),spd:-300
+2025-03-25 23:46:02,868 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:46:02,868 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7105,4096,6),dir:(-41,91,0),spd:-300
+2025-03-25 23:46:03,023 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-03-25 23:46:03,023 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(7125,4046,6),dir:(-41,91,0),spd:0
+2025-03-25 23:46:03,036 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-03-25 23:46:03,036 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7105,4096,6),dir:(-41,91,0),spd:0
+2025-03-25 23:46:03,506 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:46
+2025-03-25 23:46:03,506 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveFwd Entity:(4:pos:(7103,4101,6),dir:(-41,91,0),spd:300
+2025-03-25 23:46:03,774 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-03-25 23:46:03,775 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(7069,4186,6),dir:(-41,91,0),spd:0
+2025-03-25 23:46:04,058 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:46
+2025-03-25 23:46:04,058 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveFwd Entity:(4:pos:(7069,4186,6),dir:(-41,91,0),spd:300
+2025-03-25 23:46:04,576 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:46:04,577 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(7007,4341,6),dir:(-57,82,0),spd:300
+2025-03-25 23:46:04,676 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:46:04,677 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6989,4365,6),dir:(-72,69,0),spd:300
+2025-03-25 23:46:04,748 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-03-25 23:46:04,748 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(6973,4377,6),dir:(-72,69,0),spd:0
+2025-03-25 23:46:04,782 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-03-25 23:46:04,784 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6973,4377,6),dir:(-85,53,0),spd:0
+2025-03-25 23:46:04,864 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-03-25 23:46:04,864 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6973,4377,6),dir:(-93,37,0),spd:0
+2025-03-25 23:46:04,965 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-03-25 23:46:04,966 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6973,4377,6),dir:(-98,17,0),spd:0
+2025-03-25 23:46:05,060 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2025-03-25 23:46:05,061 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6973,4377,6),dir:(-100,-4,0),spd:0
+2025-03-25 23:46:05,159 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2025-03-25 23:46:05,159 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6973,4377,6),dir:(-97,-24,0),spd:0
+2025-03-25 23:46:05,252 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2025-03-25 23:46:05,252 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6973,4377,6),dir:(-91,-41,0),spd:0
+2025-03-25 23:46:05,344 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2025-03-25 23:46:05,344 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6973,4377,6),dir:(-81,-59,0),spd:0
+2025-03-25 23:46:05,449 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2025-03-25 23:46:05,450 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6973,4377,6),dir:(-67,-74,0),spd:0
+2025-03-25 23:46:05,498 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2025-03-25 23:46:05,499 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveFwd Entity:(4:pos:(6973,4377,6),dir:(-67,-74,0),spd:300
+2025-03-25 23:46:05,534 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:05,534 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6967,4369,6),dir:(-53,-85,0),spd:300
+2025-03-25 23:46:05,627 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:05,627 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6949,4345,6),dir:(-35,-94,0),spd:300
+2025-03-25 23:46:05,781 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:05,781 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6931,4300,6),dir:(-17,-99,0),spd:300
+2025-03-25 23:46:06,144 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:06,144 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6909,4190,6),dir:(-35,-94,0),spd:300
+2025-03-25 23:46:06,246 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:06,247 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6897,4160,6),dir:(-53,-85,0),spd:300
+2025-03-25 23:46:06,332 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:06,332 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6882,4140,6),dir:(-67,-74,0),spd:300
+2025-03-25 23:46:06,432 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:06,432 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6864,4116,6),dir:(-80,-60,0),spd:300
+2025-03-25 23:46:06,596 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:06,597 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6824,4086,6),dir:(-89,-45,0),spd:300
+2025-03-25 23:46:07,150 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:07,150 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6692,4020,6),dir:(-96,-27,0),spd:300
+2025-03-25 23:46:07,251 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:07,252 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6662,4014,6),dir:(-100,-10,0),spd:300
+2025-03-25 23:46:07,333 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:46:07,333 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6637,4009,6),dir:(-100,7,0),spd:300
+2025-03-25 23:46:07,420 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:46:07,420 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6612,4009,6),dir:(-97,25,0),spd:300
+2025-03-25 23:46:07,516 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:46:07,516 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6582,4015,6),dir:(-90,44,0),spd:300
+2025-03-25 23:46:07,603 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:46:07,603 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6557,4025,6),dir:(-81,59,0),spd:300
+2025-03-25 23:46:07,686 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:46:07,686 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6537,4040,6),dir:(-69,72,0),spd:300
+2025-03-25 23:46:07,770 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:46:07,771 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6522,4060,6),dir:(-55,83,0),spd:300
+2025-03-25 23:46:07,869 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:46:07,870 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6504,4084,6),dir:(-37,93,0),spd:300
+2025-03-25 23:46:07,976 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:46:07,976 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6492,4114,6),dir:(-17,99,0),spd:300
+2025-03-25 23:46:08,068 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:46:08,069 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6486,4144,6),dir:(3,100,0),spd:300
+2025-03-25 23:46:08,199 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:46:08,200 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6486,4184,6),dir:(21,98,0),spd:300
+2025-03-25 23:46:08,953 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:46:08,954 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6531,4409,6),dir:(1,100,0),spd:300
+2025-03-25 23:46:09,058 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:46:09,059 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6531,4439,6),dir:(-19,98,0),spd:300
+2025-03-25 23:46:09,156 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:46:09,157 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6525,4469,6),dir:(-39,92,0),spd:300
+2025-03-25 23:46:09,288 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:46:09,288 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6509,4509,6),dir:(-56,83,0),spd:300
+2025-03-25 23:46:09,486 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:46:09,487 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6473,4557,6),dir:(-70,71,0),spd:300
+2025-03-25 23:46:09,602 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:46:09,602 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6445,4585,6),dir:(-83,56,0),spd:300
+2025-03-25 23:46:09,706 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:46:09,706 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6421,4603,6),dir:(-93,38,0),spd:300
+2025-03-25 23:46:09,797 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:46:09,797 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6396,4613,6),dir:(-98,21,0),spd:300
+2025-03-25 23:46:09,854 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-03-25 23:46:09,854 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(6376,4617,6),dir:(-98,21,0),spd:0
+2025-03-25 23:46:09,875 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-03-25 23:46:09,876 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6376,4617,6),dir:(-100,4,0),spd:0
+2025-03-25 23:46:09,925 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:46
+2025-03-25 23:46:09,925 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:MoveFwd Entity:(4:pos:(6376,4617,6),dir:(-100,4,0),spd:300
+2025-03-25 23:46:09,962 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:09,962 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6366,4617,6),dir:(-99,-14,0),spd:300
+2025-03-25 23:46:10,052 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:10,052 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6336,4611,6),dir:(-94,-34,0),spd:300
+2025-03-25 23:46:10,134 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:10,136 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6311,4601,6),dir:(-87,-50,0),spd:300
+2025-03-25 23:46:10,223 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:10,224 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6291,4586,6),dir:(-77,-64,0),spd:300
+2025-03-25 23:46:10,304 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:10,305 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6271,4571,6),dir:(-64,-77,0),spd:300
+2025-03-25 23:46:10,410 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:10,410 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6253,4547,6),dir:(-47,-88,0),spd:300
+2025-03-25 23:46:10,519 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:10,519 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6239,4519,6),dir:(-30,-95,0),spd:300
+2025-03-25 23:46:11,995 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:11,995 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6063,4079,6),dir:(-47,-88,0),spd:300
+2025-03-25 23:46:12,124 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:12,124 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6047,4047,6),dir:(-62,-79,0),spd:300
+2025-03-25 23:46:12,228 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:12,229 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(6029,4023,6),dir:(-76,-65,0),spd:300
+2025-03-25 23:46:12,360 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:12,360 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5997,3999,6),dir:(-87,-50,0),spd:300
+2025-03-25 23:46:14,612 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:14,613 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5454,3644,6),dir:(-87,-50,0),spd:300
+2025-03-25 23:46:15,415 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:15,415 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5262,3500,6),dir:(-95,-32,0),spd:300
+2025-03-25 23:46:15,621 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:15,622 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(5207,3478,6),dir:(-99,-15,0),spd:300
+2025-03-25 23:46:16,370 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:46:16,371 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4977,3432,6),dir:(-100,4,0),spd:300
+2025-03-25 23:46:17,091 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:46:17,091 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4749,3481,6),dir:(-100,4,0),spd:300
+2025-03-25 23:46:17,218 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:46:17,218 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(4714,3481,6),dir:(-98,22,0),spd:300
+2025-03-25 23:46:20,625 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:46:20,625 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(3689,3686,6),dir:(-100,3,0),spd:300
+2025-03-25 23:46:21,426 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:46:21,426 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(3449,3686,6),dir:(-98,21,0),spd:300
+2025-03-25 23:46:21,981 [88] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:46:21,982 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(3284,3719,6),dir:(-100,4,0),spd:300
+2025-03-25 23:46:23,255 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:46:23,257 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(2925,3765,6),dir:(-100,4,0),spd:300
+2025-03-25 23:46:23,637 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:23,638 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(2810,3765,6),dir:(-99,-14,0),spd:300
+2025-03-25 23:46:23,736 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:23,737 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(2780,3759,6),dir:(-95,-31,0),spd:300
+2025-03-25 23:46:23,816 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:23,816 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(2755,3749,6),dir:(-88,-47,0),spd:300
+2025-03-25 23:46:23,922 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:23,923 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(2731,3737,6),dir:(-77,-64,0),spd:300
+2025-03-25 23:46:24,063 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:46:24,063 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:None Entity:(4:pos:(2695,3710,6),dir:(-64,-77,0),spd:300
+2025-03-25 23:46:24,768 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:46:24,768 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:椎名林檎 Entity.Id:4 Evt:Idle Entity:(4:pos:(2569,3542,6),dir:(-64,-77,0),spd:0
+2025-03-25 23:46:25,181 [81] [INFO ] [GameServer] ：CharacterLeave: Map:2 characterId:4
+2025-03-25 23:46:25,182 [81] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-25 23:47:43,822 [81] [WARN ] [GameServer] ：Client[127.0.0.1:6736]] Connected
+2025-03-25 23:47:43,867 [81] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2025-03-25 23:47:43,867 [5] [INFO ] [GameServer] ：UserLoginRequest: User:3meng  Pass:123123
+2025-03-25 23:47:46,089 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-03-25 23:47:46,089 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:5:大贝塔 Map:1
+2025-03-25 23:47:46,090 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:5
+2025-03-25 23:47:46,916 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-25 23:47:46,918 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(5000,4000,820),dir:(98,-20,0),spd:0
+2025-03-25 23:47:46,950 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-03-25 23:47:46,950 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:MoveFwd Entity:(5:pos:(5000,4000,820),dir:(98,-20,0),spd:300
+2025-03-25 23:47:47,014 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:47:47,014 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(5020,3996,820),dir:(93,-38,0),spd:300
+2025-03-25 23:47:47,097 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:47:47,098 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(5045,3986,820),dir:(85,-53,0),spd:300
+2025-03-25 23:47:47,184 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:47:47,184 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(5065,3971,820),dir:(74,-67,0),spd:300
+2025-03-25 23:47:47,263 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:47:47,264 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(5085,3956,820),dir:(61,-79,0),spd:300
+2025-03-25 23:47:47,370 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:47:47,370 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(5103,3932,820),dir:(43,-90,0),spd:300
+2025-03-25 23:47:47,468 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:47:47,468 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(5115,3902,820),dir:(25,-97,0),spd:300
+2025-03-25 23:47:47,635 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:47:47,637 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(5125,3852,820),dir:(7,-100,0),spd:300
+2025-03-25 23:47:48,135 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:48,136 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(5125,3702,820),dir:(-13,-99,0),spd:300
+2025-03-25 23:47:48,254 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:48,254 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(5118,3667,820),dir:(-33,-94,0),spd:300
+2025-03-25 23:47:48,354 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:48,354 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(5106,3637,820),dir:(-51,-86,0),spd:300
+2025-03-25 23:47:48,485 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:48,485 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(5082,3605,820),dir:(-66,-75,0),spd:300
+2025-03-25 23:47:48,982 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:48,983 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4992,3485,820),dir:(-78,-62,0),spd:300
+2025-03-25 23:47:49,104 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:49,105 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4964,3464,820),dir:(-88,-47,0),spd:300
+2025-03-25 23:47:49,403 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:49,403 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4892,3428,820),dir:(-78,-62,0),spd:300
+2025-03-25 23:47:49,703 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:49,703 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4820,3374,820),dir:(-89,-45,0),spd:300
+2025-03-25 23:47:49,801 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:49,801 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4796,3362,820),dir:(-96,-27,0),spd:300
+2025-03-25 23:47:49,886 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:49,886 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4771,3357,820),dir:(-100,-10,0),spd:300
+2025-03-25 23:47:49,972 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:47:49,972 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4746,3352,820),dir:(-100,8,0),spd:300
+2025-03-25 23:47:50,070 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:47:50,070 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4716,3352,820),dir:(-96,28,0),spd:300
+2025-03-25 23:47:50,173 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:47:50,174 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4686,3358,820),dir:(-89,46,0),spd:300
+2025-03-25 23:47:50,322 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:47:50,322 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4650,3376,820),dir:(-79,62,0),spd:300
+2025-03-25 23:47:50,640 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:47:50,640 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4574,3433,820),dir:(-89,46,0),spd:300
+2025-03-25 23:47:50,740 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:47:50,741 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4550,3445,820),dir:(-96,28,0),spd:300
+2025-03-25 23:47:50,843 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:47:50,843 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4520,3451,820),dir:(-100,8,0),spd:300
+2025-03-25 23:47:50,954 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:50,954 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4485,3451,820),dir:(-100,-10,0),spd:300
+2025-03-25 23:47:51,460 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:47:51,461 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4335,3421,820),dir:(-100,9,0),spd:300
+2025-03-25 23:47:51,842 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:51,843 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4220,3421,820),dir:(-100,-10,0),spd:300
+2025-03-25 23:47:52,016 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:52,016 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4174,3459,805),dir:(-100,-10,0),spd:300
+2025-03-25 23:47:52,235 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:47:52,236 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4109,3446,805),dir:(-100,8,0),spd:300
+2025-03-25 23:47:52,611 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:52,612 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3994,3446,805),dir:(-99,-12,0),spd:300
+2025-03-25 23:47:52,696 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:52,696 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3969,3441,805),dir:(-96,-29,0),spd:300
+2025-03-25 23:47:52,777 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:52,778 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3944,3436,805),dir:(-89,-45,0),spd:300
+2025-03-25 23:47:52,858 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:52,858 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3924,3426,805),dir:(-80,-60,0),spd:300
+2025-03-25 23:47:53,247 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:53,248 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3832,3357,805),dir:(-90,-43,0),spd:300
+2025-03-25 23:47:53,325 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:53,325 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3807,3347,805),dir:(-96,-27,0),spd:300
+2025-03-25 23:47:53,735 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:53,735 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3687,3323,805),dir:(-89,-46,0),spd:300
+2025-03-25 23:47:53,978 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:53,979 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3627,3293,805),dir:(-96,-29,0),spd:300
+2025-03-25 23:47:54,078 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:54,080 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3597,3287,805),dir:(-99,-11,0),spd:300
+2025-03-25 23:47:54,326 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:54,327 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3522,3272,805),dir:(-96,-29,0),spd:300
+2025-03-25 23:47:54,429 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:54,429 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3492,3266,805),dir:(-89,-46,0),spd:300
+2025-03-25 23:47:54,529 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:54,529 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3468,3254,805),dir:(-77,-63,0),spd:300
+2025-03-25 23:47:54,818 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:54,819 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3400,3203,805),dir:(-88,-48,0),spd:300
+2025-03-25 23:47:54,915 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:54,916 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3376,3191,805),dir:(-95,-31,0),spd:300
+2025-03-25 23:47:55,199 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:55,200 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3291,3157,805),dir:(-88,-48,0),spd:300
+2025-03-25 23:47:55,307 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:55,308 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3267,3145,805),dir:(-77,-64,0),spd:300
+2025-03-25 23:47:55,583 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:55,583 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3199,3094,805),dir:(-87,-49,0),spd:300
+2025-03-25 23:47:55,684 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:55,685 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3175,3082,805),dir:(-95,-31,0),spd:300
+2025-03-25 23:47:55,766 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:55,767 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3150,3072,805),dir:(-99,-14,0),spd:300
+2025-03-25 23:47:56,140 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:56,141 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3040,3050,805),dir:(-95,-32,0),spd:300
+2025-03-25 23:47:56,219 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:56,220 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3015,3040,805),dir:(-88,-48,0),spd:300
+2025-03-25 23:47:56,314 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:56,314 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2991,3028,805),dir:(-76,-65,0),spd:300
+2025-03-25 23:47:56,605 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:56,606 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2923,2977,805),dir:(-87,-49,0),spd:300
+2025-03-25 23:47:56,703 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:56,703 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2899,2965,805),dir:(-95,-32,0),spd:300
+2025-03-25 23:47:56,786 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:56,786 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2874,2955,805),dir:(-99,-15,0),spd:300
+2025-03-25 23:47:56,870 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:47:56,870 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2849,2950,805),dir:(-100,3,0),spd:300
+2025-03-25 23:47:57,235 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:57,235 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2739,2950,805),dir:(-99,-16,0),spd:300
+2025-03-25 23:47:57,338 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:57,339 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2709,2944,805),dir:(-93,-36,0),spd:300
+2025-03-25 23:47:57,433 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:57,433 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2679,2932,805),dir:(-84,-54,0),spd:300
+2025-03-25 23:47:57,834 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:57,835 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2583,2860,805),dir:(-93,-37,0),spd:300
+2025-03-25 23:47:58,099 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:58,100 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2508,2830,805),dir:(-84,-54,0),spd:300
+2025-03-25 23:47:58,436 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:58,437 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2424,2767,805),dir:(-93,-36,0),spd:300
+2025-03-25 23:47:58,539 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:58,539 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2394,2755,805),dir:(-99,-16,0),spd:300
+2025-03-25 23:47:58,637 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:47:58,638 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2364,2749,805),dir:(-100,4,0),spd:300
+2025-03-25 23:47:58,961 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:58,962 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2269,2749,805),dir:(-99,-15,0),spd:300
+2025-03-25 23:47:59,056 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:59,059 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2239,2743,805),dir:(-94,-35,0),spd:300
+2025-03-25 23:47:59,164 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:59,164 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2209,2731,805),dir:(-85,-53,0),spd:300
+2025-03-25 23:47:59,623 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:59,623 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2097,2647,805),dir:(-93,-36,0),spd:300
+2025-03-25 23:47:59,725 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:47:59,726 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2067,2635,805),dir:(-99,-16,0),spd:300
+2025-03-25 23:47:59,826 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:47:59,827 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2037,2629,805),dir:(-100,3,0),spd:300
+2025-03-25 23:47:59,975 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:47:59,975 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1992,2629,805),dir:(-98,20,0),spd:300
+2025-03-25 23:48:00,490 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:48:00,490 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1837,2660,805),dir:(-100,1,0),spd:300
+2025-03-25 23:48:02,192 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:48:02,192 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1332,2660,805),dir:(-98,-18,0),spd:300
+2025-03-25 23:48:02,683 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-25 23:48:02,684 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1188,2680,805),dir:(-98,-18,0),spd:300
+2025-03-25 23:48:03,434 [85] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-03-25 23:48:03,434 [8] [INFO ] [GameServer] ：OnMapTeleport:characterID:5:System.Data.Entity.DynamicProxies.TCharacter_29305D9B8C771FE69D27D2DC78E470854EC421142454E0B7F58780371AC6853F TeleporterID:1
+2025-03-25 23:48:03,434 [8] [WARN ] [GameServer] ：Source TeleporterID [1] LinkTo[6] not existed
+2025-03-25 23:48:03,434 [8] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:5
+2025-03-25 23:48:03,436 [8] [INFO ] [GameServer] ：CharacterEnter: Map:2 characterId:5
+2025-03-25 23:48:03,652 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2025-03-25 23:48:03,654 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:MoveFwd Entity:(5:pos:(1158,2674,805),dir:(-98,-18,0),spd:300
+2025-03-25 23:48:03,816 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:48:03,816 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:Idle Entity:(5:pos:(1148,2672,805),dir:(-98,-18,0),spd:0
+2025-03-25 23:48:04,124 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-03-25 23:48:04,124 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1154,2674,753),dir:(-98,-18,0),spd:0
+2025-03-25 23:48:04,258 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-03-25 23:48:04,258 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1154,2674,702),dir:(-98,-18,0),spd:0
+2025-03-25 23:48:04,377 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-03-25 23:48:04,378 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1154,2674,643),dir:(-98,-18,0),spd:0
+2025-03-25 23:48:04,493 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-03-25 23:48:04,494 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1168,2678,592),dir:(-98,-18,0),spd:0
+2025-03-25 23:48:04,532 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:40
+2025-03-25 23:48:04,533 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1168,2678,592),dir:(-100,0,0),spd:0
+2025-03-25 23:48:04,608 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:40
+2025-03-25 23:48:04,608 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1193,2685,545),dir:(-100,0,0),spd:0
+2025-03-25 23:48:04,637 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-25 23:48:04,638 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1193,2685,545),dir:(-98,18,0),spd:0
+2025-03-25 23:48:04,714 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-25 23:48:04,715 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1218,2691,501),dir:(-98,18,0),spd:0
+2025-03-25 23:48:04,732 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-25 23:48:04,733 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1218,2691,501),dir:(-94,35,0),spd:0
+2025-03-25 23:48:04,801 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-25 23:48:04,801 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1218,2691,501),dir:(-86,51,0),spd:0
+2025-03-25 23:48:04,812 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-25 23:48:04,814 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1247,2698,456),dir:(-86,51,0),spd:0
+2025-03-25 23:48:04,907 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-25 23:48:04,907 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1247,2698,456),dir:(-74,68,0),spd:0
+2025-03-25 23:48:04,920 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-25 23:48:04,920 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1279,2705,408),dir:(-74,68,0),spd:0
+2025-03-25 23:48:04,987 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-25 23:48:04,987 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1279,2705,408),dir:(-61,79,0),spd:0
+2025-03-25 23:48:05,008 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-25 23:48:05,009 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1314,2711,365),dir:(-61,79,0),spd:0
+2025-03-25 23:48:05,072 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-25 23:48:05,072 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1314,2711,365),dir:(-46,89,0),spd:0
+2025-03-25 23:48:05,093 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-25 23:48:05,093 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1345,2715,324),dir:(-46,89,0),spd:0
+2025-03-25 23:48:05,183 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-25 23:48:05,185 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1345,2715,324),dir:(-27,96,0),spd:0
+2025-03-25 23:48:05,221 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-25 23:48:05,223 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1384,2722,279),dir:(-27,96,0),spd:0
+2025-03-25 23:48:05,258 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-25 23:48:05,258 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1384,2722,279),dir:(-9,100,0),spd:0
+2025-03-25 23:48:05,275 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-25 23:48:05,275 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1418,2727,237),dir:(-9,100,0),spd:0
+2025-03-25 23:48:05,356 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-03-25 23:48:05,356 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1418,2727,237),dir:(11,99,0),spd:0
+2025-03-25 23:48:05,402 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-03-25 23:48:05,403 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1464,2734,209),dir:(11,99,0),spd:0
+2025-03-25 23:48:05,440 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2025-03-25 23:48:05,443 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:MoveFwd Entity:(5:pos:(1465,2739,209),dir:(11,99,0),spd:300
+2025-03-25 23:48:05,468 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:48:05,468 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1468,2754,209),dir:(29,96,0),spd:300
+2025-03-25 23:48:05,535 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:48:05,535 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1472,2774,209),dir:(48,88,0),spd:300
+2025-03-25 23:48:05,637 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:48:05,637 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1484,2798,209),dir:(65,76,0),spd:300
+2025-03-25 23:48:05,718 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:48:05,718 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1499,2818,209),dir:(77,63,0),spd:300
+2025-03-25 23:48:05,822 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:48:05,823 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1523,2836,209),dir:(89,46,0),spd:300
+2025-03-25 23:48:05,920 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:48:05,920 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1547,2848,209),dir:(96,27,0),spd:300
+2025-03-25 23:48:06,022 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:48:06,022 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1577,2854,209),dir:(100,8,0),spd:300
+2025-03-25 23:48:06,168 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:48:06,169 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1622,2854,209),dir:(99,-10,0),spd:300
+2025-03-25 23:48:06,974 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-25 23:48:06,974 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(1863,2838,248),dir:(99,-10,0),spd:300
+2025-03-25 23:48:07,617 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:48:07,617 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2053,2800,248),dir:(99,10,0),spd:300
+2025-03-25 23:48:07,765 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:48:07,765 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2098,2809,248),dir:(96,27,0),spd:300
+2025-03-25 23:48:08,531 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:48:08,532 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2314,2887,210),dir:(96,27,0),spd:300
+2025-03-25 23:48:08,822 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:48:08,823 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2403,2913,160),dir:(96,27,0),spd:300
+2025-03-25 23:48:08,912 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:48:08,912 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2433,2919,160),dir:(90,44,0),spd:300
+2025-03-25 23:48:09,031 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-25 23:48:09,031 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2468,2933,160),dir:(79,61,0),spd:300
+2025-03-25 23:48:09,044 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:09,044 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2469,2941,106),dir:(79,61,0),spd:300
+2025-03-25 23:48:09,112 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:09,112 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2485,2953,106),dir:(67,74,0),spd:300
+2025-03-25 23:48:09,208 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:09,209 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2503,2977,106),dir:(52,85,0),spd:300
+2025-03-25 23:48:09,224 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:09,224 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2507,2977,53),dir:(52,85,0),spd:300
+2025-03-25 23:48:09,393 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:09,393 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2540,3021,53),dir:(37,93,0),spd:300
+2025-03-25 23:48:10,084 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:10,084 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2613,3215,5),dir:(37,93,0),spd:300
+2025-03-25 23:48:10,200 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:10,200 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2627,3250,5),dir:(20,98,0),spd:300
+2025-03-25 23:48:10,313 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:10,315 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2634,3285,5),dir:(2,100,0),spd:300
+2025-03-25 23:48:11,268 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:11,268 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2634,3570,5),dir:(20,98,0),spd:300
+2025-03-25 23:48:11,365 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:11,365 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2640,3600,5),dir:(39,92,0),spd:300
+2025-03-25 23:48:11,449 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:11,450 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2650,3625,5),dir:(55,84,0),spd:300
+2025-03-25 23:48:11,542 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:11,544 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2665,3645,5),dir:(69,73,0),spd:300
+2025-03-25 23:48:11,631 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:11,632 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2683,3669,5),dir:(82,57,0),spd:300
+2025-03-25 23:48:11,748 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:11,748 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2711,3690,5),dir:(91,41,0),spd:300
+2025-03-25 23:48:12,523 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:12,524 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2941,3782,5),dir:(97,24,0),spd:300
+2025-03-25 23:48:12,672 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:12,672 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2986,3791,5),dir:(100,5,0),spd:300
+2025-03-25 23:48:12,771 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:12,771 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3016,3791,5),dir:(99,-15,0),spd:300
+2025-03-25 23:48:12,889 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:12,889 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3051,3784,5),dir:(95,-32,0),spd:300
+2025-03-25 23:48:14,325 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:14,326 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3445,3647,5),dir:(95,-32,0),spd:300
+2025-03-25 23:48:15,999 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:16,000 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3945,3447,5),dir:(99,-14,0),spd:300
+2025-03-25 23:48:16,220 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:16,221 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3985,3478,5),dir:(99,-14,0),spd:300
+2025-03-25 23:48:17,733 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:17,733 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4440,3387,5),dir:(95,-31,0),spd:300
+2025-03-25 23:48:18,518 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:18,519 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4660,3341,5),dir:(95,-31,0),spd:300
+2025-03-25 23:48:18,817 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:18,818 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4750,3305,5),dir:(99,-12,0),spd:300
+2025-03-25 23:48:18,946 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:18,946 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4790,3297,5),dir:(100,7,0),spd:300
+2025-03-25 23:48:19,049 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:19,051 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4820,3297,5),dir:(97,25,0),spd:300
+2025-03-25 23:48:21,143 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:21,143 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(5423,3467,5),dir:(97,25,0),spd:300
+2025-03-25 23:48:21,675 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:21,675 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(5583,3499,5),dir:(91,42,0),spd:300
+2025-03-25 23:48:21,873 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:21,873 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(5643,3523,5),dir:(82,58,0),spd:300
+2025-03-25 23:48:22,055 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:22,056 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(5687,3556,5),dir:(70,72,0),spd:300
+2025-03-25 23:48:23,103 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:23,104 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(5939,3808,5),dir:(81,58,0),spd:300
+2025-03-25 23:48:23,224 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:23,224 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(5967,3829,5),dir:(91,41,0),spd:300
+2025-03-25 23:48:23,394 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:23,394 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(5971,3832,15),dir:(91,41,0),spd:300
+2025-03-25 23:48:23,407 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:23,407 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(5976,3834,15),dir:(97,24,0),spd:300
+2025-03-25 23:48:24,727 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:24,727 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(6371,3913,15),dir:(90,43,0),spd:300
+2025-03-25 23:48:24,875 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:24,875 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(6416,3931,15),dir:(81,58,0),spd:300
+2025-03-25 23:48:25,757 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:25,759 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(6628,4090,15),dir:(70,72,0),spd:300
+2025-03-25 23:48:26,102 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:26,102 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(6708,4170,15),dir:(82,57,0),spd:300
+2025-03-25 23:48:26,192 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:26,192 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(6732,4188,15),dir:(91,41,0),spd:300
+2025-03-25 23:48:26,298 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:26,298 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(6762,4200,15),dir:(98,22,0),spd:300
+2025-03-25 23:48:26,409 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:26,409 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(6797,4207,15),dir:(100,4,0),spd:300
+2025-03-25 23:48:26,610 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2025-03-25 23:48:26,611 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:Idle Entity:(5:pos:(6852,4207,15),dir:(100,4,0),spd:0
+2025-03-25 23:48:27,215 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:37
+2025-03-25 23:48:27,215 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:MoveFwd Entity:(5:pos:(6852,4207,15),dir:(100,4,0),spd:300
+2025-03-25 23:48:27,252 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:27,252 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(6862,4207,15),dir:(98,22,0),spd:300
+2025-03-25 23:48:27,347 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:27,347 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(6892,4213,15),dir:(91,42,0),spd:300
+2025-03-25 23:48:27,455 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:27,455 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(6922,4225,15),dir:(80,60,0),spd:300
+2025-03-25 23:48:27,550 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:27,550 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(6946,4243,15),dir:(66,75,0),spd:300
+2025-03-25 23:48:27,656 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:27,656 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(6964,4267,15),dir:(50,86,0),spd:300
+2025-03-25 23:48:27,800 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:27,800 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(6991,4303,15),dir:(34,94,0),spd:300
+2025-03-25 23:48:28,033 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-25 23:48:28,033 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(7019,4373,15),dir:(17,99,0),spd:300
+2025-03-25 23:48:28,151 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:28,152 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(7026,4408,15),dir:(-2,100,0),spd:300
+2025-03-25 23:48:30,223 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:30,223 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(6977,5035,5),dir:(-2,100,0),spd:300
+2025-03-25 23:48:30,621 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:30,621 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(6977,5155,5),dir:(-20,98,0),spd:300
+2025-03-25 23:48:33,279 [83] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:33,279 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(6818,5950,5),dir:(-37,93,0),spd:300
+2025-03-25 23:48:34,497 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:34,498 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(6672,6315,5),dir:(-53,85,0),spd:300
+2025-03-25 23:48:34,652 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:34,653 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(6645,6351,5),dir:(-67,74,0),spd:300
+2025-03-25 23:48:35,403 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:35,404 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(6505,6481,5),dir:(-67,74,0),spd:300
+2025-03-25 23:48:35,532 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:35,532 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(6481,6513,5),dir:(-79,61,0),spd:300
+2025-03-25 23:48:35,732 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:35,732 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(6433,6549,5),dir:(-89,46,0),spd:300
+2025-03-25 23:48:37,224 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:37,224 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(6034,6753,5),dir:(-89,46,0),spd:300
+2025-03-25 23:48:38,758 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:38,758 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(5624,6965,5),dir:(-89,46,0),spd:300
+2025-03-25 23:48:40,283 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:40,285 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(5218,7175,5),dir:(-89,46,0),spd:300
+2025-03-25 23:48:40,326 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:40,326 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(5206,7181,5),dir:(-96,28,0),spd:300
+2025-03-25 23:48:40,449 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:40,449 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(5171,7188,5),dir:(-100,9,0),spd:300
+2025-03-25 23:48:40,989 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:40,990 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(5006,7188,5),dir:(-96,27,0),spd:300
+2025-03-25 23:48:41,096 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:41,096 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4976,7194,5),dir:(-89,45,0),spd:300
+2025-03-25 23:48:41,244 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:41,244 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4940,7212,5),dir:(-80,60,0),spd:300
+2025-03-25 23:48:43,401 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:43,403 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4424,7599,5),dir:(-90,44,0),spd:300
+2025-03-25 23:48:43,545 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:43,545 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4379,7617,5),dir:(-96,26,0),spd:300
+2025-03-25 23:48:44,716 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:44,717 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4029,7687,5),dir:(-100,9,0),spd:300
+2025-03-25 23:48:44,843 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-25 23:48:44,844 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(4013,7736,5),dir:(-100,9,0),spd:300
+2025-03-25 23:48:44,919 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:48:44,920 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3983,7736,5),dir:(-100,-9,0),spd:300
+2025-03-25 23:48:46,861 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:48:46,862 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(3401,7686,5),dir:(-100,-9,0),spd:300
+2025-03-25 23:48:48,713 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-25 23:48:48,713 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:None Entity:(5:pos:(2845,7636,5),dir:(-100,-9,0),spd:300
+2025-03-25 23:48:49,242 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2025-03-25 23:48:49,243 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:大贝塔 Entity.Id:5 Evt:Idle Entity:(5:pos:(2685,7636,5),dir:(-100,-9,0),spd:0
+2025-03-25 23:52:28,727 [86] [INFO ] [GameServer] ：CharacterLeave: Map:2 characterId:5
+2025-03-25 23:52:28,727 [86] [WARN ] [GameServer] ：Client[] Disconnected

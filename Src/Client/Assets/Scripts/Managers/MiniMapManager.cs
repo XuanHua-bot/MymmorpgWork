@@ -7,7 +7,8 @@ using UnityEngine;
 
 namespace Managers
 {
-    class MiniMapManager : MonoSingleton<MiniMapManager> {
+    class MiniMapManager : Singleton<MiniMapManager>
+    {
 
         public UIMiniMap miniMap;
 

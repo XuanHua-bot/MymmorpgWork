@@ -18,6 +18,7 @@ public class UIMiniMap : MonoBehaviour {
     private Transform playerTransform;
     // Use this for initialization
     void Start() {
+      
         MiniMapManager.Instance.miniMap = this;
         this.UpdateMap();
     }
@@ -40,13 +41,11 @@ public class UIMiniMap : MonoBehaviour {
 
     // Update is called once per frame
     void Update () { 
-        if (playerTransform==null)
-        {
 
+        if (playerTransform==null)
             playerTransform = MiniMapManager.Instance.PlayerTransform;
-        }
-        if (MiniMapBoundingBox == null || playerTransform == null)
-            return;
+        
+        if (MiniMapBoundingBox == null || playerTransform == null) return;
    
         float realWidth = MiniMapBoundingBox.bounds.size.x;
         float realHight = MiniMapBoundingBox.bounds.size.z;
