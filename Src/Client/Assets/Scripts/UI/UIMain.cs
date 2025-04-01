@@ -1,4 +1,5 @@
-﻿using Models;
+﻿using Assets.Scripts.UI;
+using Models;
 using Services;
 using System;
 using System.Collections;
@@ -40,5 +41,10 @@ public class UIMain : MonoSingleton<UIMain> {
     private void Test_OnClose(UIWindow sender, UIWindow.WindowResule result)
     {
         MessageBox.Show("你关闭了 测试对话UI" + result, "对话框相应结果",MessageBoxType.Information);
+    }
+
+    public void OnClickBag()
+    {
+        UIManager.Instance.Show<UIBag>();
     }
 }

@@ -120,8 +120,14 @@ namespace GameServer.Services
                 MapPosZ = 820,
             };
 
+            //背包添加
+            var bag = new TCharacterBag();
+            bag.Owner = character;
+            bag.Items = new byte[0];
+            bag.UnLocked = 20;
+            character.Bag = DBService.Instance.Entities.CharacterBags.Add(bag);
 
-            DBService.Instance.Entities.Characters.Add(character);
+            character = DBService.Instance.Entities.Characters.Add(character);
             sender.Session.User.Player.Characters.Add(character);
             DBService.Instance.Entities.SaveChanges();
 
@@ -160,6 +166,37 @@ namespace GameServer.Services
             message.Response.gameEnter = new UserGameEnterResponse();
             message.Response.gameEnter.Result = Result.Success;
             message.Response.gameEnter.Errormsg = "None";
+
+            message.Response.gameEnter.Character = character.Info;
+
+            //道具系统测试
+            int itemId = 2;
+            bool hasItem = character.ItemManager.HasItem(itemId);
+            Log.InfoFormat("当前1号物品：HasItem:[{0}][{1}]", itemId, hasItem);
+            if (hasItem)
+            {
+                /*Log.InfoFormat("经过查询拥有1号物品，删除1个");
+                character.ItemManager.RemoveItem(itemId, 1);*/
+            }
+            else
+            {
+
+                //Log.InfoFormat("经过查询没拥有1号物品，添加2个");
+                character.ItemManager.AddItem(1, 200);
+                character.ItemManager.AddItem(2, 200);
+                character.ItemManager.AddItem(3, 30);
+                character.ItemManager.AddItem(4, 100);
+
+                //character.ItemManager.AddItem(itemId, 5);
+
+            }
+            Models.Item item = character.ItemManager.GetItem(itemId);
+
+            Log.InfoFormat("目前1号物体 ：item:[{0}][{1}]", itemId, item);
+            DBService.Instance.Save();
+
+
+
             //如果验证成功，将用户信息存储在会话中，并返回登录成功和用户的角色信息。  只是存储 并未加入到客户端中哈
             byte[] data = PackageHandler.PackMessage(message);
             sender.SendData(data, 0, data.Length);

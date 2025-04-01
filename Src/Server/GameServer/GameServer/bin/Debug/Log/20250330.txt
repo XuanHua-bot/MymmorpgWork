@@ -1,0 +1,15 @@
+
+2025-03-30 00:06:31,069 [21] [INFO ] [GameServer] £ºCharacterLeave: Map:1 characterId:2
+2025-03-30 00:06:31,072 [21] [WARN ] [GameServer] £ºClient[] Disconnected
+2025-03-30 00:06:38,316 [1] [INFO ] [GameServer] £ºGame Server Exiting...
+2025-03-30 00:06:38,416 [1] [WARN ] [GameServer] £ºStop NetService...
+2025-03-30 00:06:38,417 [1] [WARN ] [GameServer] £ºStoping Message Handler...
+2025-03-30 00:06:38,417 [5] [WARN ] [GameServer] £ºMessageDistribute thread end
+2025-03-30 00:06:38,417 [11] [WARN ] [GameServer] £ºMessageDistribute thread end
+2025-03-30 00:06:38,417 [6] [WARN ] [GameServer] £ºMessageDistribute thread end
+2025-03-30 00:06:38,417 [8] [WARN ] [GameServer] £ºMessageDistribute thread end
+2025-03-30 00:06:38,417 [9] [WARN ] [GameServer] £ºMessageDistribute thread end
+2025-03-30 00:06:38,417 [7] [WARN ] [GameServer] £ºMessageDistribute thread end
+2025-03-30 00:06:38,418 [12] [WARN ] [GameServer] £ºMessageDistribute thread end
+2025-03-30 00:06:38,418 [10] [WARN ] [GameServer] £ºMessageDistribute thread end
+2025-03-30 00:06:38,523 [1] [INFO ] [GameServer] £ºGame Server Exited

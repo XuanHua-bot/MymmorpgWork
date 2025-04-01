@@ -16,7 +16,7 @@
     "SubType": "Normal",
     "PKMode": false,
     "Resource": "Map01",
-    "MiniMap": "huaguanglin1",
+    "MiniMap": "huaguanglin",
     "Description": "多伦郡南部广大的森林地带"
   },
   "3": {
@@ -26,7 +26,7 @@
     "SubType": "Normal",
     "PKMode": false,
     "Resource": "Map02",
-    "MiniMap": "huaguanglin2",
+    "MiniMap": "huaguanglin",
     "Description": "多伦郡南部广大的森林地带"
   },
   "4": {

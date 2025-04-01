@@ -1,0 +1,69 @@
+2025-03-31 21:40:12,120 [ 1] INFO  Unity: LoadingManager start
+2025-03-31 21:40:15,187 [ 1] INFO  Unity: DataManager > DataManager()
+2025-03-31 21:40:25,984 [ 1] INFO  Unity: UserLoginRequest::user :nayina psw:123123
+2025-03-31 21:40:25,986 [ 1] INFO  Unity: ConnectToServer() Start 
+2025-03-31 21:40:25,988 [ 1] INFO  Unity: DoConnect
+2025-03-31 21:40:25,990 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2025-03-31 21:40:25,991 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2025-03-31 21:40:25,993 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2025-03-31 21:40:27,328 [ 1] INFO  Unity: OnLogin:Success [None]
+2025-03-31 21:40:27,329 [ 1] INFO  Unity: LoadLevel: CharSelect
+2025-03-31 21:40:27,481 [ 1] INFO  Unity: LevelLoadCompleted:1
+2025-03-31 21:40:28,363 [ 1] INFO  Unity: Select Char:[1]想听贝如塔[Wizard]
+2025-03-31 21:40:29,008 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2025-03-31 21:40:29,025 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2025-03-31 21:40:29,028 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:200]
+2025-03-31 21:40:29,028 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:200]
+2025-03-31 21:40:29,029 [ 1] INFO  Unity: ItemManager:Init[Id:3,Count:30]
+2025-03-31 21:40:29,030 [ 1] INFO  Unity: ItemManager:Init[Id:4,Count:100]
+2025-03-31 21:40:29,032 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-03-31 21:40:29,034 [ 1] INFO  Unity: AddCharacter:8:想听贝如塔 Map:1 Entity:(8:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-03-31 21:40:29,036 [ 1] INFO  Unity: LoadLevel: MainCity
+2025-03-31 21:40:29,495 [ 1] WARN  Unity: Asset 'DeliveryNpc': Transition 'DeliveryNPC_Talk -> DeliveryNPC_Idle' in state 'DeliveryNPC_Talk' doesn't have an Exit Time or any condition, transition will be ignored
+
+2025-03-31 21:40:29,496 [ 1] WARN  Unity: Asset 'Treasure_Poter': Transition 'Treasure_poter_Talk -> Treasure_poter_IdleA' in state 'Treasure_poter_Talk' doesn't have an Exit Time or any condition, transition will be ignored
+
+2025-03-31 21:40:29,519 [ 1] INFO  Unity: LevelLoadCompleted:1
+2025-03-31 21:40:30,225 [ 1] INFO  Unity: MoveForward
+2025-03-31 21:40:30,226 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:8  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
+2025-03-31 21:40:30,292 [ 1] INFO  Unity: SetDirection:(98, -18, 0)
+2025-03-31 21:40:30,293 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:8  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
+2025-03-31 21:40:30,390 [ 1] INFO  Unity: SetDirection:(93, -36, 0)
+2025-03-31 21:40:30,391 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:8  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
+2025-03-31 21:40:30,492 [ 1] INFO  Unity: SetDirection:(84, -54, 0)
+2025-03-31 21:40:30,492 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:8  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
+2025-03-31 21:40:30,575 [ 1] INFO  Unity: SetDirection:(73, -68, 0)
+2025-03-31 21:40:30,576 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:8  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
+2025-03-31 21:40:30,688 [ 1] INFO  Unity: SetDirection:(60, -80, 0)
+2025-03-31 21:40:30,689 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:8  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
+2025-03-31 21:40:31,123 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, UIIconItem.SetMainIcon (System.String iconName, System.String text) (at Assets/Scripts/UI/UIIconItem.cs:27)
+Assets.Scripts.UI.UIBag+<InitBags>c__Iterator0.MoveNext () (at Assets/Scripts/UI/UIBag.cs:52)
+UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) (at D:/unity/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+Assets.Scripts.UI.UIBag:Start() (at Assets/Scripts/UI/UIBag.cs:36)
+}</args></log4net.Error>
+2025-03-31 21:40:31,292 [ 1] INFO  Unity: Stop
+2025-03-31 21:40:31,293 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:8  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:0 
+2025-03-31 21:40:32,027 [ 1] INFO  Unity: MoveForward
+2025-03-31 21:40:32,027 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:8  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
+2025-03-31 21:40:32,508 [ 1] INFO  Unity: SetDirection:(44, -90, 0)
+2025-03-31 21:40:32,508 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:8  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
+2025-03-31 21:40:32,641 [ 1] INFO  Unity: SetDirection:(25, -97, 0)
+2025-03-31 21:40:32,642 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:8  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
+2025-03-31 21:40:32,745 [ 1] INFO  Unity: SetDirection:(5, -100, 0)
+2025-03-31 21:40:32,745 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:8  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
+2025-03-31 21:40:32,847 [ 1] INFO  Unity: SetDirection:(-14, -99, 0)
+2025-03-31 21:40:32,847 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:8  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
+2025-03-31 21:40:32,993 [ 1] INFO  Unity: SetDirection:(-31, -95, 0)
+2025-03-31 21:40:32,994 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:8  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
+2025-03-31 21:40:33,400 [ 1] INFO  Unity: Stop
+2025-03-31 21:40:33,400 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:8  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:0 
+2025-03-31 21:43:11,280 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2025-03-31 21:43:11,281 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:181)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:176)
+
+2025-03-31 21:43:11,283 [ 1] INFO  Unity: Character_8_想听贝如塔 OnDestroy :ID:8 POS:(5288, 3421, 820) DIR:(-31, -95, 0) SPD:0 

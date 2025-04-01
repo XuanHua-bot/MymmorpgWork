@@ -1,0 +1,1190 @@
+
+2025-03-31 18:24:25,215 [1] [INFO ] [GameServer] ：Game Server Init
+2025-03-31 18:24:26,443 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-03-31 18:27:28,045 [1] [INFO ] [GameServer] ：Game Server Init
+2025-03-31 18:27:28,321 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-03-31 18:30:23,834 [1] [INFO ] [GameServer] ：Game Server Init
+2025-03-31 18:30:24,122 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-03-31 19:21:39,511 [1] [INFO ] [GameServer] ：Game Server Init
+2025-03-31 19:21:39,918 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-03-31 19:25:07,643 [1] [INFO ] [GameServer] ：Game Server Init
+2025-03-31 19:25:07,999 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-03-31 19:25:08,403 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-03-31 19:25:08,404 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-03-31 19:25:08,405 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-03-31 19:25:08,405 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-03-31 19:25:08,405 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-03-31 19:25:08,454 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-31 19:25:08,454 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-31 19:25:08,454 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-31 19:25:08,490 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-31 19:25:08,490 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-31 19:25:08,490 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-31 19:25:08,490 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-31 19:25:08,490 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-31 19:25:08,527 [1] [WARN ] [GameServer] ：NetService Started
+2025-03-31 19:27:02,616 [3] [WARN ] [GameServer] ：Client[127.0.0.1:26156]] Connected
+2025-03-31 19:27:02,654 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-31 19:27:02,787 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:nayina  Pass:123123
+2025-03-31 19:27:15,582 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-31 19:27:15,585 [6] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-31 19:27:48,579 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:27
+2025-03-31 19:27:48,592 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:想听贝如塔  Class:Wizard
+2025-03-31 19:27:50,674 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-31 19:27:50,677 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:想听贝如塔 Map:1
+2025-03-31 19:27:50,684 [5] [INFO ] [GameServer] ：当前1号物品：HasItem:[2][False]
+2025-03-31 19:27:50,686 [5] [INFO ] [GameServer] ：[1]AddItem[ID :1.count:200] addCount[200]
+2025-03-31 19:27:50,687 [5] [INFO ] [GameServer] ：[1]AddItem[ID :2.count:200] addCount[200]
+2025-03-31 19:27:50,687 [5] [INFO ] [GameServer] ：[1]AddItem[ID :3.count:30] addCount[30]
+2025-03-31 19:27:50,687 [5] [INFO ] [GameServer] ：[1]AddItem[ID :4.count:100] addCount[100]
+2025-03-31 19:27:50,689 [5] [INFO ] [GameServer] ：[1]GetItem[2]:[ID :2.count:200]
+2025-03-31 19:27:50,689 [5] [INFO ] [GameServer] ：目前1号物体 ：item:[2][ID :2.count:200]
+2025-03-31 19:27:50,946 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2025-03-31 19:27:52,435 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 19:27:52,442 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2025-03-31 19:27:52,747 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:27:52,749 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(5095,4000,820),dir:(98,-18,0),spd:300
+2025-03-31 19:27:52,849 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:27:52,849 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(5125,3994,820),dir:(93,-36,0),spd:300
+2025-03-31 19:27:52,953 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:27:52,953 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(5155,3982,820),dir:(84,-54,0),spd:300
+2025-03-31 19:27:53,031 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:27:53,032 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(5175,3967,820),dir:(73,-68,0),spd:300
+2025-03-31 19:27:53,134 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:27:53,135 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(5199,3949,820),dir:(58,-82,0),spd:300
+2025-03-31 19:27:53,215 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:27:53,216 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(5214,3929,820),dir:(42,-91,0),spd:300
+2025-03-31 19:27:53,313 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:27:53,314 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(5226,3899,820),dir:(23,-97,0),spd:300
+2025-03-31 19:27:53,401 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:27:53,402 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(5231,3874,820),dir:(5,-100,0),spd:300
+2025-03-31 19:27:53,499 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:27:53,499 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(5231,3844,820),dir:(-15,-99,0),spd:300
+2025-03-31 19:27:53,580 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:27:53,581 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(5226,3819,820),dir:(-32,-95,0),spd:300
+2025-03-31 19:27:53,667 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:27:53,667 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(5216,3794,820),dir:(-48,-88,0),spd:300
+2025-03-31 19:27:53,753 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:27:53,753 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(5206,3774,820),dir:(-63,-78,0),spd:300
+2025-03-31 19:27:54,066 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:27:54,067 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(5149,3698,820),dir:(-48,-88,0),spd:300
+2025-03-31 19:27:54,168 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:27:54,169 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(5137,3674,820),dir:(-30,-95,0),spd:300
+2025-03-31 19:27:54,284 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:27:54,284 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(5123,3639,820),dir:(-11,-99,0),spd:300
+2025-03-31 19:27:54,568 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:27:54,568 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(5106,3554,820),dir:(-30,-95,0),spd:300
+2025-03-31 19:27:54,671 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:27:54,671 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(5094,3524,820),dir:(-48,-88,0),spd:300
+2025-03-31 19:27:54,752 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:27:54,753 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(5084,3504,820),dir:(-63,-78,0),spd:300
+2025-03-31 19:27:54,850 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:27:54,851 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(5066,3480,820),dir:(-78,-63,0),spd:300
+2025-03-31 19:27:55,888 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:27:55,889 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4818,3294,820),dir:(-88,-47,0),spd:300
+2025-03-31 19:27:55,985 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:27:55,986 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4794,3282,820),dir:(-96,-28,0),spd:300
+2025-03-31 19:27:56,091 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:27:56,092 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4764,3276,820),dir:(-100,-9,0),spd:300
+2025-03-31 19:27:56,219 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:27:56,220 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4724,3276,820),dir:(-100,9,0),spd:300
+2025-03-31 19:27:57,511 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:27:57,511 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4339,3276,820),dir:(-100,-9,0),spd:300
+2025-03-31 19:27:57,691 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:27:57,692 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4284,3276,820),dir:(-96,-27,0),spd:300
+2025-03-31 19:27:57,794 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:27:57,794 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4254,3270,820),dir:(-89,-45,0),spd:300
+2025-03-31 19:27:57,823 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-31 19:27:57,824 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:Idle Entity:(1:pos:(4246,3266,820),dir:(-89,-45,0),spd:0
+2025-03-31 19:27:57,891 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-03-31 19:27:57,891 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4246,3266,820),dir:(-78,-63,0),spd:0
+2025-03-31 19:27:57,989 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-03-31 19:27:57,990 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4246,3266,820),dir:(-63,-77,0),spd:0
+2025-03-31 19:27:58,077 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-03-31 19:27:58,078 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4246,3266,820),dir:(-49,-87,0),spd:0
+2025-03-31 19:27:58,161 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-03-31 19:27:58,162 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4246,3266,820),dir:(-33,-94,0),spd:0
+2025-03-31 19:27:58,242 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-03-31 19:27:58,242 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4246,3266,820),dir:(-16,-99,0),spd:0
+2025-03-31 19:27:58,345 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-31 19:27:58,346 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4246,3266,820),dir:(1,-100,0),spd:0
+2025-03-31 19:28:02,400 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-03-31 19:28:02,400 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(4246,3266,820),dir:(1,-100,0),spd:300
+2025-03-31 19:28:02,435 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:28:02,436 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4246,3256,820),dir:(-18,-98,0),spd:300
+2025-03-31 19:28:02,517 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:28:02,517 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4241,3231,820),dir:(-35,-94,0),spd:300
+2025-03-31 19:28:02,604 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:28:02,605 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4231,3206,820),dir:(-51,-86,0),spd:300
+2025-03-31 19:28:02,700 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:28:02,701 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4213,3182,820),dir:(-68,-74,0),spd:300
+2025-03-31 19:28:02,787 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:28:02,789 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4198,3162,820),dir:(-79,-61,0),spd:300
+2025-03-31 19:28:02,826 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:28:02,827 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4231,3188,805),dir:(-79,-61,0),spd:300
+2025-03-31 19:28:02,872 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:28:02,873 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4219,3179,805),dir:(-89,-46,0),spd:300
+2025-03-31 19:28:02,971 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:28:02,972 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4195,3167,805),dir:(-96,-27,0),spd:300
+2025-03-31 19:28:03,009 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:28:03,009 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4229,3189,805),dir:(-96,-27,0),spd:300
+2025-03-31 19:28:03,054 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:28:03,054 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4214,3186,805),dir:(-100,-9,0),spd:300
+2025-03-31 19:28:03,149 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:03,150 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4184,3186,805),dir:(-99,11,0),spd:300
+2025-03-31 19:28:03,233 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:03,233 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4159,3191,805),dir:(-96,29,0),spd:300
+2025-03-31 19:28:03,273 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:03,274 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4197,3208,805),dir:(-96,29,0),spd:300
+2025-03-31 19:28:03,352 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:03,353 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4177,3212,805),dir:(-88,48,0),spd:300
+2025-03-31 19:28:03,436 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:03,436 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4153,3224,805),dir:(-76,65,0),spd:300
+2025-03-31 19:28:03,517 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:03,519 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4133,3239,805),dir:(-63,77,0),spd:300
+2025-03-31 19:28:03,619 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:03,619 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4115,3263,805),dir:(-46,89,0),spd:300
+2025-03-31 19:28:03,726 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:03,726 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4103,3287,805),dir:(-27,96,0),spd:300
+2025-03-31 19:28:04,135 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:04,136 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4078,3412,805),dir:(-45,89,0),spd:300
+2025-03-31 19:28:04,238 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:04,239 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4066,3436,805),dir:(-62,78,0),spd:300
+2025-03-31 19:28:04,326 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:04,327 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4051,3456,805),dir:(-75,66,0),spd:300
+2025-03-31 19:28:04,424 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:04,425 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4027,3474,805),dir:(-87,49,0),spd:300
+2025-03-31 19:28:04,511 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:04,512 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4007,3484,805),dir:(-94,33,0),spd:300
+2025-03-31 19:28:04,605 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:04,606 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3977,3496,805),dir:(-99,15,0),spd:300
+2025-03-31 19:28:04,745 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:04,745 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3983,3482,805),dir:(-99,15,0),spd:300
+2025-03-31 19:28:04,756 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 19:28:04,756 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3978,3483,805),dir:(-100,-2,0),spd:300
+2025-03-31 19:28:06,047 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-31 19:28:06,048 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:Idle Entity:(1:pos:(3593,3483,805),dir:(-100,-2,0),spd:0
+2025-03-31 19:28:09,734 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2025-03-31 19:28:09,734 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(3593,3483,805),dir:(-100,-2,0),spd:300
+2025-03-31 19:28:10,682 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:10,683 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3308,3483,805),dir:(-98,18,0),spd:300
+2025-03-31 19:28:10,786 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:10,787 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3278,3489,805),dir:(-93,37,0),spd:300
+2025-03-31 19:28:10,886 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:10,887 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3248,3501,805),dir:(-83,55,0),spd:300
+2025-03-31 19:28:10,983 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:10,983 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3224,3519,805),dir:(-71,71,0),spd:300
+2025-03-31 19:28:11,116 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:11,117 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3192,3551,805),dir:(-57,82,0),spd:300
+2025-03-31 19:28:11,603 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:11,603 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3105,3667,805),dir:(-41,91,0),spd:300
+2025-03-31 19:28:11,716 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:11,717 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3091,3702,805),dir:(-23,97,0),spd:300
+2025-03-31 19:28:11,817 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:11,819 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3085,3732,805),dir:(-5,100,0),spd:300
+2025-03-31 19:28:12,076 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:12,076 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3085,3807,805),dir:(-23,97,0),spd:300
+2025-03-31 19:28:12,607 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:12,607 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3053,3967,805),dir:(-5,100,0),spd:300
+2025-03-31 19:28:12,701 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 19:28:12,701 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3053,3997,805),dir:(15,99,0),spd:300
+2025-03-31 19:28:13,122 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 19:28:13,122 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3078,4122,805),dir:(-3,100,0),spd:300
+2025-03-31 19:28:13,479 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 19:28:13,479 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3078,4227,805),dir:(17,99,0),spd:300
+2025-03-31 19:28:13,575 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 19:28:13,576 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3084,4257,805),dir:(37,93,0),spd:300
+2025-03-31 19:28:13,674 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 19:28:13,675 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3096,4287,805),dir:(55,83,0),spd:300
+2025-03-31 19:28:13,774 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 19:28:13,775 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3114,4311,805),dir:(71,70,0),spd:300
+2025-03-31 19:28:13,856 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 19:28:13,857 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3134,4331,805),dir:(82,57,0),spd:300
+2025-03-31 19:28:14,192 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 19:28:14,194 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3214,4391,805),dir:(69,72,0),spd:300
+2025-03-31 19:28:14,293 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 19:28:14,293 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3232,4415,805),dir:(54,84,0),spd:300
+2025-03-31 19:28:14,759 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 19:28:14,760 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3316,4527,805),dir:(70,71,0),spd:300
+2025-03-31 19:28:15,149 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 19:28:15,149 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3377,4578,805),dir:(70,71,0),spd:300
+2025-03-31 19:28:15,523 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 19:28:15,524 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3465,4666,805),dir:(83,56,0),spd:300
+2025-03-31 19:28:15,676 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 19:28:15,680 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3505,4696,805),dir:(91,40,0),spd:300
+2025-03-31 19:28:17,188 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 19:28:17,188 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(3906,4865,805),dir:(91,40,0),spd:300
+2025-03-31 19:28:19,105 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 19:28:19,106 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:None Entity:(1:pos:(4430,5095,805),dir:(91,40,0),spd:300
+2025-03-31 19:28:19,405 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-31 19:28:19,406 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:Idle Entity:(1:pos:(4520,5131,805),dir:(91,40,0),spd:0
+2025-03-31 19:28:23,107 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2025-03-31 19:28:23,107 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(4520,5131,805),dir:(91,40,0),spd:300
+2025-03-31 19:28:23,913 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-31 19:28:23,914 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:想听贝如塔 Entity.Id:1 Evt:Idle Entity:(1:pos:(4760,5227,805),dir:(91,40,0),spd:0
+2025-03-31 19:28:25,131 [20] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2025-03-31 19:28:25,133 [20] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-31 20:50:52,978 [1] [INFO ] [GameServer] ：Game Server Init
+2025-03-31 20:50:57,393 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-03-31 20:50:59,743 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-03-31 20:50:59,801 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-03-31 20:50:59,803 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-03-31 20:50:59,803 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-03-31 20:50:59,803 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-03-31 20:50:59,821 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-31 20:50:59,829 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-31 20:50:59,889 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-31 20:50:59,895 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-31 20:50:59,889 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-31 20:50:59,889 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-31 20:50:59,903 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-31 20:50:59,937 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-31 20:51:00,699 [1] [WARN ] [GameServer] ：NetService Started
+2025-03-31 20:52:05,753 [3] [WARN ] [GameServer] ：Client[127.0.0.1:50197]] Connected
+2025-03-31 20:52:05,791 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-31 20:52:05,877 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-31 20:52:20,427 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-31 20:52:20,431 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:想听贝如塔 Map:1
+2025-03-31 20:52:20,502 [6] [INFO ] [GameServer] ：当前1号物品：HasItem:[2][True]
+2025-03-31 20:52:20,502 [6] [INFO ] [GameServer] ：[1]GetItem[2]:[ID :2.count:200]
+2025-03-31 20:52:20,502 [6] [INFO ] [GameServer] ：目前1号物体 ：item:[2][ID :2.count:200]
+2025-03-31 20:52:20,566 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2025-03-31 20:54:11,252 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2025-03-31 20:54:11,254 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-31 20:54:49,855 [3] [WARN ] [GameServer] ：Client[127.0.0.1:2588]] Connected
+2025-03-31 20:54:50,006 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-31 20:54:50,007 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-31 20:54:51,849 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-31 20:54:51,849 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:想听贝如塔 Map:1
+2025-03-31 20:54:51,850 [5] [INFO ] [GameServer] ：当前1号物品：HasItem:[2][True]
+2025-03-31 20:54:51,850 [5] [INFO ] [GameServer] ：[1]GetItem[2]:[ID :2.count:200]
+2025-03-31 20:54:51,850 [5] [INFO ] [GameServer] ：目前1号物体 ：item:[2][ID :2.count:200]
+2025-03-31 20:54:51,853 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2025-03-31 21:00:36,383 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2025-03-31 21:00:36,384 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-31 21:01:21,067 [26] [WARN ] [GameServer] ：Client[127.0.0.1:2778]] Connected
+2025-03-31 21:01:21,103 [28] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-31 21:01:21,104 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-31 21:01:24,716 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-31 21:01:24,717 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:想听贝如塔 Map:1
+2025-03-31 21:01:24,717 [5] [INFO ] [GameServer] ：当前1号物品：HasItem:[2][True]
+2025-03-31 21:01:24,717 [5] [INFO ] [GameServer] ：[1]GetItem[2]:[ID :2.count:200]
+2025-03-31 21:01:24,718 [5] [INFO ] [GameServer] ：目前1号物体 ：item:[2][ID :2.count:200]
+2025-03-31 21:01:24,719 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:3
+2025-03-31 21:01:27,079 [29] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:01:27,088 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:MoveFwd Entity:(3:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2025-03-31 21:01:27,545 [29] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:27,546 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(5140,4000,820),dir:(98,-18,0),spd:300
+2025-03-31 21:01:27,647 [29] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:27,649 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(5170,3994,820),dir:(93,-36,0),spd:300
+2025-03-31 21:01:27,727 [29] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:27,727 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(5195,3984,820),dir:(86,-52,0),spd:300
+2025-03-31 21:01:27,814 [29] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:27,814 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(5215,3969,820),dir:(75,-66,0),spd:300
+2025-03-31 21:01:27,914 [29] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:27,914 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(5239,3951,820),dir:(60,-80,0),spd:300
+2025-03-31 21:01:28,052 [29] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:28,052 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(5263,3919,820),dir:(44,-90,0),spd:300
+2025-03-31 21:01:29,152 [29] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:29,152 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(5395,3589,820),dir:(27,-96,0),spd:300
+2025-03-31 21:01:29,567 [29] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-31 21:01:29,568 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:Idle Entity:(3:pos:(5420,3464,820),dir:(27,-96,0),spd:0
+2025-03-31 21:01:29,582 [29] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-31 21:01:29,582 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(5444,3508,805),dir:(27,-96,0),spd:0
+2025-03-31 21:01:31,458 [29] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-03-31 21:01:31,458 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:MoveFwd Entity:(3:pos:(5444,3508,805),dir:(27,-96,0),spd:300
+2025-03-31 21:01:32,079 [29] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-31 21:01:32,080 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:Idle Entity:(3:pos:(5480,3328,805),dir:(27,-96,0),spd:0
+2025-03-31 21:01:38,318 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-03-31 21:01:38,318 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:MoveFwd Entity:(3:pos:(5480,3328,805),dir:(27,-96,0),spd:300
+2025-03-31 21:01:38,699 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:38,700 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(5503,3213,805),dir:(9,-100,0),spd:300
+2025-03-31 21:01:38,904 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:01:38,904 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(5503,3153,805),dir:(-11,-99,0),spd:300
+2025-03-31 21:01:38,999 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:01:38,999 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(5497,3123,805),dir:(-29,-96,0),spd:300
+2025-03-31 21:01:39,126 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:01:39,128 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(5490,3088,805),dir:(-47,-88,0),spd:300
+2025-03-31 21:01:40,340 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:01:40,340 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(5344,2796,805),dir:(-29,-96,0),spd:300
+2025-03-31 21:01:40,625 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:01:40,625 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(5327,2711,805),dir:(-47,-88,0),spd:300
+2025-03-31 21:01:40,721 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:01:40,721 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(5315,2687,805),dir:(-63,-77,0),spd:300
+2025-03-31 21:01:40,813 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:01:40,815 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(5300,2667,805),dir:(-76,-65,0),spd:300
+2025-03-31 21:01:40,927 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:01:40,927 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(5272,2646,805),dir:(-87,-49,0),spd:300
+2025-03-31 21:01:41,717 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:01:41,717 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(5059,2508,805),dir:(-87,-49,0),spd:300
+2025-03-31 21:01:42,359 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-31 21:01:42,359 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:Idle Entity:(3:pos:(4903,2430,805),dir:(-87,-49,0),spd:0
+2025-03-31 21:01:47,407 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2025-03-31 21:01:47,408 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:MoveFwd Entity:(3:pos:(4903,2430,805),dir:(-87,-49,0),spd:300
+2025-03-31 21:01:47,753 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:01:47,753 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4819,2388,805),dir:(-94,-33,0),spd:300
+2025-03-31 21:01:47,903 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:01:47,904 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4774,2370,805),dir:(-99,-15,0),spd:300
+2025-03-31 21:01:48,006 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:48,006 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4744,2364,805),dir:(-100,5,0),spd:300
+2025-03-31 21:01:48,091 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:48,093 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4719,2364,805),dir:(-97,22,0),spd:300
+2025-03-31 21:01:48,172 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:48,173 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4694,2369,805),dir:(-92,39,0),spd:300
+2025-03-31 21:01:48,270 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:48,271 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4664,2381,805),dir:(-84,54,0),spd:300
+2025-03-31 21:01:48,639 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:48,639 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4576,2447,805),dir:(-93,37,0),spd:300
+2025-03-31 21:01:49,156 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:49,157 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4421,2509,805),dir:(-85,53,0),spd:300
+2025-03-31 21:01:49,238 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:49,239 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4401,2524,805),dir:(-74,67,0),spd:300
+2025-03-31 21:01:49,343 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:49,343 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4377,2542,805),dir:(-59,81,0),spd:300
+2025-03-31 21:01:49,625 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:49,626 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4326,2610,805),dir:(-72,69,0),spd:300
+2025-03-31 21:01:49,726 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:49,726 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4302,2628,805),dir:(-84,54,0),spd:300
+2025-03-31 21:01:49,840 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:49,840 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4274,2649,805),dir:(-93,37,0),spd:300
+2025-03-31 21:01:50,227 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:50,227 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4159,2695,805),dir:(-84,54,0),spd:300
+2025-03-31 21:01:50,321 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:50,322 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4135,2713,805),dir:(-72,69,0),spd:300
+2025-03-31 21:01:50,460 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:50,460 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4103,2737,805),dir:(-58,81,0),spd:300
+2025-03-31 21:01:50,911 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:50,911 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4022,2845,805),dir:(-73,69,0),spd:300
+2025-03-31 21:01:51,662 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:51,663 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(3842,2980,805),dir:(-84,54,0),spd:300
+2025-03-31 21:01:52,661 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:52,661 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(3602,3160,805),dir:(-71,70,0),spd:300
+2025-03-31 21:01:52,761 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:52,761 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(3578,3184,805),dir:(-56,83,0),spd:300
+2025-03-31 21:01:53,014 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:53,015 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(3533,3244,805),dir:(-70,71,0),spd:300
+2025-03-31 21:01:53,131 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:53,131 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(3505,3272,805),dir:(-82,58,0),spd:300
+2025-03-31 21:01:53,647 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:53,648 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(3381,3365,805),dir:(-69,72,0),spd:300
+2025-03-31 21:01:53,732 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:53,732 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(3366,3385,805),dir:(-55,83,0),spd:300
+2025-03-31 21:01:53,831 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:53,831 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(3348,3409,805),dir:(-37,93,0),spd:300
+2025-03-31 21:01:53,918 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:53,919 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(3338,3434,805),dir:(-20,98,0),spd:300
+2025-03-31 21:01:54,015 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:01:54,015 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(3332,3464,805),dir:(1,100,0),spd:300
+2025-03-31 21:01:54,115 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:01:54,115 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(3332,3494,805),dir:(21,98,0),spd:300
+2025-03-31 21:01:54,450 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:01:54,450 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(3352,3594,805),dir:(2,100,0),spd:300
+2025-03-31 21:01:55,015 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:01:55,016 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(3352,3764,805),dir:(20,98,0),spd:300
+2025-03-31 21:01:55,316 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:01:55,316 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(3370,3854,805),dir:(1,100,0),spd:300
+2025-03-31 21:01:56,020 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:01:56,021 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(3370,4064,805),dir:(-17,98,0),spd:300
+2025-03-31 21:01:56,322 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-31 21:01:56,322 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:Idle Entity:(3:pos:(3352,4154,805),dir:(-17,98,0),spd:0
+2025-03-31 21:01:56,335 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-31 21:01:56,336 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(3376,4108,805),dir:(-17,98,0),spd:0
+2025-03-31 21:02:11,923 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-03-31 21:02:11,924 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:MoveFwd Entity:(3:pos:(3376,4108,805),dir:(-17,98,0),spd:300
+2025-03-31 21:02:12,407 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:02:12,408 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(3347,4253,805),dir:(1,100,0),spd:300
+2025-03-31 21:02:12,511 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:02:12,511 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(3347,4283,805),dir:(20,98,0),spd:300
+2025-03-31 21:02:12,590 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:02:12,590 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(3352,4308,805),dir:(37,93,0),spd:300
+2025-03-31 21:02:12,706 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:02:12,706 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(3366,4343,805),dir:(54,84,0),spd:300
+2025-03-31 21:02:13,246 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:02:13,246 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(3462,4471,805),dir:(37,93,0),spd:300
+2025-03-31 21:02:13,666 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:02:13,667 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(3512,4596,805),dir:(53,85,0),spd:300
+2025-03-31 21:02:13,760 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:02:13,761 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(3530,4620,805),dir:(68,73,0),spd:300
+2025-03-31 21:02:13,858 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:02:13,858 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(3548,4644,805),dir:(81,59,0),spd:300
+2025-03-31 21:02:15,380 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:02:15,381 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(3912,4917,805),dir:(91,42,0),spd:300
+2025-03-31 21:02:15,887 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-31 21:02:15,889 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:Idle Entity:(3:pos:(4062,4977,805),dir:(91,42,0),spd:0
+2025-03-31 21:02:23,748 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2025-03-31 21:02:23,748 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:MoveFwd Entity:(3:pos:(4062,4977,805),dir:(91,42,0),spd:300
+2025-03-31 21:02:24,301 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:02:24,302 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4227,5043,805),dir:(97,25,0),spd:300
+2025-03-31 21:02:24,466 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:02:24,466 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4277,5053,805),dir:(100,5,0),spd:300
+2025-03-31 21:02:24,567 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:02:24,567 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4307,5053,805),dir:(99,-15,0),spd:300
+2025-03-31 21:02:24,670 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:02:24,670 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4337,5047,805),dir:(94,-35,0),spd:300
+2025-03-31 21:02:24,749 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:02:24,749 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4362,5037,805),dir:(86,-51,0),spd:300
+2025-03-31 21:02:24,846 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:02:24,846 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4386,5019,805),dir:(74,-68,0),spd:300
+2025-03-31 21:02:24,949 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:02:24,949 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4410,5001,805),dir:(58,-81,0),spd:300
+2025-03-31 21:02:25,032 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:02:25,032 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4425,4981,805),dir:(43,-90,0),spd:300
+2025-03-31 21:02:25,119 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:02:25,120 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4435,4956,805),dir:(27,-96,0),spd:300
+2025-03-31 21:02:25,198 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:02:25,198 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4440,4931,805),dir:(9,-100,0),spd:300
+2025-03-31 21:02:25,301 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:02:25,301 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4440,4901,805),dir:(-11,-99,0),spd:300
+2025-03-31 21:02:25,381 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:02:25,381 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4435,4876,805),dir:(-28,-96,0),spd:300
+2025-03-31 21:02:25,468 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:02:25,469 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4430,4851,805),dir:(-45,-89,0),spd:300
+2025-03-31 21:02:25,571 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:02:25,571 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4418,4827,805),dir:(-62,-78,0),spd:300
+2025-03-31 21:02:25,653 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:02:25,653 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4403,4807,805),dir:(-75,-66,0),spd:300
+2025-03-31 21:02:25,754 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:02:25,755 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4379,4789,805),dir:(-87,-50,0),spd:300
+2025-03-31 21:02:25,882 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:02:25,883 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4347,4765,805),dir:(-94,-34,0),spd:300
+2025-03-31 21:02:26,319 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:02:26,319 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4217,4713,805),dir:(-86,-51,0),spd:300
+2025-03-31 21:02:26,469 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:02:26,469 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:None Entity:(3:pos:(4181,4686,805),dir:(-75,-66,0),spd:300
+2025-03-31 21:02:27,020 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-31 21:02:27,020 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 3:想听贝如塔 Entity.Id:3 Evt:Idle Entity:(3:pos:(4049,4587,805),dir:(-75,-66,0),spd:0
+2025-03-31 21:02:50,210 [33] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:3
+2025-03-31 21:02:50,210 [33] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-31 21:03:07,892 [35] [WARN ] [GameServer] ：Client[127.0.0.1:2806]] Connected
+2025-03-31 21:03:07,923 [35] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-31 21:03:07,924 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-31 21:03:09,588 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-31 21:03:09,589 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:想听贝如塔 Map:1
+2025-03-31 21:03:09,589 [5] [INFO ] [GameServer] ：当前1号物品：HasItem:[2][True]
+2025-03-31 21:03:09,589 [5] [INFO ] [GameServer] ：[1]GetItem[2]:[ID :2.count:200]
+2025-03-31 21:03:09,590 [5] [INFO ] [GameServer] ：目前1号物体 ：item:[2][ID :2.count:200]
+2025-03-31 21:03:09,592 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:4
+2025-03-31 21:03:11,343 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:03:11,343 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:想听贝如塔 Entity.Id:4 Evt:MoveFwd Entity:(4:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2025-03-31 21:03:12,111 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:03:12,112 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:想听贝如塔 Entity.Id:4 Evt:None Entity:(4:pos:(5230,4000,820),dir:(98,-19,0),spd:300
+2025-03-31 21:03:12,209 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:03:12,209 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:想听贝如塔 Entity.Id:4 Evt:None Entity:(4:pos:(5260,3994,820),dir:(93,-37,0),spd:300
+2025-03-31 21:03:12,289 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:03:12,289 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:想听贝如塔 Entity.Id:4 Evt:None Entity:(4:pos:(5285,3984,820),dir:(85,-53,0),spd:300
+2025-03-31 21:03:12,389 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:03:12,389 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:想听贝如塔 Entity.Id:4 Evt:None Entity:(4:pos:(5309,3966,820),dir:(72,-69,0),spd:300
+2025-03-31 21:03:12,492 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:03:12,493 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:想听贝如塔 Entity.Id:4 Evt:None Entity:(4:pos:(5333,3948,820),dir:(58,-82,0),spd:300
+2025-03-31 21:03:12,639 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:03:12,639 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:想听贝如塔 Entity.Id:4 Evt:None Entity:(4:pos:(5360,3912,820),dir:(43,-91,0),spd:300
+2025-03-31 21:03:13,277 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-31 21:03:13,279 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 4:想听贝如塔 Entity.Id:4 Evt:Idle Entity:(4:pos:(5436,3722,820),dir:(43,-91,0),spd:0
+2025-03-31 21:03:21,722 [38] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:4
+2025-03-31 21:03:21,723 [38] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-31 21:10:35,743 [38] [WARN ] [GameServer] ：Client[127.0.0.1:3263]] Connected
+2025-03-31 21:10:35,778 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-31 21:10:35,778 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-31 21:10:38,796 [54] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-31 21:10:38,797 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:想听贝如塔 Map:1
+2025-03-31 21:10:38,798 [5] [INFO ] [GameServer] ：当前1号物品：HasItem:[2][True]
+2025-03-31 21:10:38,798 [5] [INFO ] [GameServer] ：[1]GetItem[2]:[ID :2.count:200]
+2025-03-31 21:10:38,798 [5] [INFO ] [GameServer] ：目前1号物体 ：item:[2][ID :2.count:200]
+2025-03-31 21:10:38,800 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:5
+2025-03-31 21:10:40,429 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:10:40,430 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:MoveFwd Entity:(5:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2025-03-31 21:10:40,447 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:40,447 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5005,4000,820),dir:(98,-19,0),spd:300
+2025-03-31 21:10:40,549 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:40,550 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5035,3994,820),dir:(93,-37,0),spd:300
+2025-03-31 21:10:40,632 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:40,633 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5060,3984,820),dir:(85,-53,0),spd:300
+2025-03-31 21:10:40,729 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:40,729 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5084,3966,820),dir:(72,-69,0),spd:300
+2025-03-31 21:10:40,831 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:40,831 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5108,3948,820),dir:(58,-81,0),spd:300
+2025-03-31 21:10:41,015 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:41,015 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5141,3904,820),dir:(43,-90,0),spd:300
+2025-03-31 21:10:41,382 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-31 21:10:41,383 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:Idle Entity:(5:pos:(5185,3794,820),dir:(43,-90,0),spd:0
+2025-03-31 21:10:42,668 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-31 21:10:42,669 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5185,3794,820),dir:(25,-97,0),spd:0
+2025-03-31 21:10:42,766 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-31 21:10:42,767 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5185,3794,820),dir:(7,-100,0),spd:0
+2025-03-31 21:10:42,869 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2025-03-31 21:10:42,869 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:MoveFwd Entity:(5:pos:(5185,3794,820),dir:(-13,-99,0),spd:300
+2025-03-31 21:10:42,881 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:10:42,881 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5185,3794,820),dir:(-13,-99,0),spd:300
+2025-03-31 21:10:42,952 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:10:42,952 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5180,3769,820),dir:(-30,-95,0),spd:300
+2025-03-31 21:10:43,037 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:10:43,037 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5170,3744,820),dir:(-47,-89,0),spd:300
+2025-03-31 21:10:43,133 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:10:43,133 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5158,3720,820),dir:(-64,-77,0),spd:300
+2025-03-31 21:10:43,253 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:10:43,253 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5137,3692,820),dir:(-76,-64,0),spd:300
+2025-03-31 21:10:43,639 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-31 21:10:43,639 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:Idle Entity:(5:pos:(5045,3623,820),dir:(-76,-64,0),spd:0
+2025-03-31 21:10:45,089 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2025-03-31 21:10:45,089 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:MoveFwd Entity:(5:pos:(5045,3623,820),dir:(-76,-64,0),spd:300
+2025-03-31 21:10:45,510 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:10:45,511 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(4945,3548,820),dir:(-64,-77,0),spd:300
+2025-03-31 21:10:45,676 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:10:45,676 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(4915,3508,820),dir:(-48,-88,0),spd:300
+2025-03-31 21:10:45,774 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:10:45,775 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(4903,3484,820),dir:(-30,-96,0),spd:300
+2025-03-31 21:10:45,854 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:10:45,856 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(4893,3459,820),dir:(-13,-99,0),spd:300
+2025-03-31 21:10:45,942 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:45,942 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(4888,3434,820),dir:(5,-100,0),spd:300
+2025-03-31 21:10:46,039 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:46,040 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(4888,3404,820),dir:(25,-97,0),spd:300
+2025-03-31 21:10:46,478 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:46,478 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(4914,3274,820),dir:(5,-100,0),spd:300
+2025-03-31 21:10:46,573 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:10:46,574 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(4914,3244,820),dir:(-16,-99,0),spd:300
+2025-03-31 21:10:46,925 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:46,925 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(4893,3139,820),dir:(2,-100,0),spd:300
+2025-03-31 21:10:47,026 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:47,028 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(4893,3109,820),dir:(23,-97,0),spd:300
+2025-03-31 21:10:47,127 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:47,129 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(4899,3079,820),dir:(42,-91,0),spd:300
+2025-03-31 21:10:47,243 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:47,244 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(4913,3044,820),dir:(59,-81,0),spd:300
+2025-03-31 21:10:47,560 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:47,560 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(4970,2968,820),dir:(42,-91,0),spd:300
+2025-03-31 21:10:47,666 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:47,666 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(4982,2938,820),dir:(24,-97,0),spd:300
+2025-03-31 21:10:47,745 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:47,746 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(4987,2913,820),dir:(7,-100,0),spd:300
+2025-03-31 21:10:48,096 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:48,097 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(4987,2808,820),dir:(24,-97,0),spd:300
+2025-03-31 21:10:48,195 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:48,195 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(4993,2778,820),dir:(42,-91,0),spd:300
+2025-03-31 21:10:48,562 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:48,563 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5037,2668,820),dir:(25,-97,0),spd:300
+2025-03-31 21:10:48,664 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:48,664 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5043,2638,820),dir:(4,-100,0),spd:300
+2025-03-31 21:10:48,765 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:10:48,765 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5043,2608,820),dir:(-16,-99,0),spd:300
+2025-03-31 21:10:48,779 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:10:48,780 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5085,2625,805),dir:(-16,-99,0),spd:300
+2025-03-31 21:10:49,018 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:49,019 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5071,2555,805),dir:(3,-100,0),spd:300
+2025-03-31 21:10:49,112 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:49,113 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5071,2525,805),dir:(22,-98,0),spd:300
+2025-03-31 21:10:49,216 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:49,216 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5077,2495,805),dir:(42,-91,0),spd:300
+2025-03-31 21:10:49,316 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:49,316 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5089,2465,805),dir:(57,-82,0),spd:300
+2025-03-31 21:10:49,581 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:49,583 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5137,2401,805),dir:(40,-92,0),spd:300
+2025-03-31 21:10:49,680 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:49,680 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5149,2371,805),dir:(21,-98,0),spd:300
+2025-03-31 21:10:49,786 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:49,786 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5155,2341,805),dir:(1,-100,0),spd:300
+2025-03-31 21:10:50,150 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:50,151 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5155,2231,805),dir:(20,-98,0),spd:300
+2025-03-31 21:10:50,787 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:50,787 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5193,2041,805),dir:(39,-92,0),spd:300
+2025-03-31 21:10:50,884 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:50,885 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5205,2011,805),dir:(56,-83,0),spd:300
+2025-03-31 21:10:50,989 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:50,989 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5223,1987,805),dir:(72,-70,0),spd:300
+2025-03-31 21:10:51,067 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:51,067 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5243,1967,805),dir:(83,-56,0),spd:300
+2025-03-31 21:10:51,169 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:51,170 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5267,1949,805),dir:(93,-38,0),spd:300
+2025-03-31 21:10:51,254 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:51,254 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5292,1939,805),dir:(98,-21,0),spd:300
+2025-03-31 21:10:51,357 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2025-03-31 21:10:51,357 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5322,1933,805),dir:(100,0,0),spd:300
+2025-03-31 21:10:51,451 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:10:51,451 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5352,1933,805),dir:(98,21,0),spd:300
+2025-03-31 21:10:51,553 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:10:51,553 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5382,1939,805),dir:(91,41,0),spd:300
+2025-03-31 21:10:51,654 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:10:51,654 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5412,1951,805),dir:(81,59,0),spd:300
+2025-03-31 21:10:51,754 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:10:51,754 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5436,1969,805),dir:(67,74,0),spd:300
+2025-03-31 21:10:51,836 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:10:51,836 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5451,1989,805),dir:(53,85,0),spd:300
+2025-03-31 21:10:51,934 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:10:51,934 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5469,2013,805),dir:(34,94,0),spd:300
+2025-03-31 21:10:52,034 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:10:52,034 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5481,2043,805),dir:(14,99,0),spd:300
+2025-03-31 21:10:52,135 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:52,135 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5487,2073,805),dir:(-5,100,0),spd:300
+2025-03-31 21:10:52,291 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:10:52,292 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:None Entity:(5:pos:(5487,2118,805),dir:(-23,97,0),spd:300
+2025-03-31 21:10:52,417 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-31 21:10:52,417 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 5:想听贝如塔 Entity.Id:5 Evt:Idle Entity:(5:pos:(5479,2158,805),dir:(-23,97,0),spd:0
+2025-03-31 21:10:52,605 [53] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:5
+2025-03-31 21:10:52,605 [53] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-31 21:12:50,886 [53] [WARN ] [GameServer] ：Client[127.0.0.1:3353]] Connected
+2025-03-31 21:12:51,141 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-31 21:12:51,144 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-31 21:12:54,302 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-31 21:12:54,303 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:想听贝如塔 Map:1
+2025-03-31 21:12:54,303 [5] [INFO ] [GameServer] ：当前1号物品：HasItem:[2][True]
+2025-03-31 21:12:54,303 [5] [INFO ] [GameServer] ：[1]GetItem[2]:[ID :2.count:200]
+2025-03-31 21:12:54,305 [5] [INFO ] [GameServer] ：目前1号物体 ：item:[2][ID :2.count:200]
+2025-03-31 21:12:54,307 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:6
+2025-03-31 21:16:24,705 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-31 21:16:24,705 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:None Entity:(6:pos:(5000,4000,820),dir:(98,-19,0),spd:0
+2025-03-31 21:16:24,782 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-03-31 21:16:24,782 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:MoveFwd Entity:(6:pos:(5000,4000,820),dir:(98,-19,0),spd:300
+2025-03-31 21:16:24,800 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:16:24,800 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:None Entity:(6:pos:(5005,3999,820),dir:(93,-37,0),spd:300
+2025-03-31 21:16:24,885 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:16:24,887 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:None Entity:(6:pos:(5030,3989,820),dir:(85,-53,0),spd:300
+2025-03-31 21:16:24,971 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:16:24,971 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:None Entity:(6:pos:(5050,3974,820),dir:(74,-67,0),spd:300
+2025-03-31 21:16:25,071 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:16:25,071 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:None Entity:(6:pos:(5074,3956,820),dir:(59,-81,0),spd:300
+2025-03-31 21:16:25,150 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:16:25,150 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:None Entity:(6:pos:(5089,3936,820),dir:(44,-90,0),spd:300
+2025-03-31 21:16:25,233 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:16:25,233 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:None Entity:(6:pos:(5099,3911,820),dir:(28,-96,0),spd:300
+2025-03-31 21:16:25,318 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:16:25,319 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:None Entity:(6:pos:(5104,3886,820),dir:(10,-99,0),spd:300
+2025-03-31 21:16:25,720 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:16:25,720 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:None Entity:(6:pos:(5128,3766,820),dir:(30,-96,0),spd:300
+2025-03-31 21:16:25,886 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:16:25,888 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:None Entity:(6:pos:(5148,3716,820),dir:(46,-89,0),spd:300
+2025-03-31 21:16:26,139 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:16:26,141 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:None Entity:(6:pos:(5178,3656,820),dir:(29,-96,0),spd:300
+2025-03-31 21:16:26,237 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:16:26,239 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:None Entity:(6:pos:(5184,3626,820),dir:(11,-99,0),spd:300
+2025-03-31 21:16:26,639 [68] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:16:26,639 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:None Entity:(6:pos:(5208,3506,820),dir:(30,-95,0),spd:300
+2025-03-31 21:16:27,054 [68] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:16:27,054 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:None Entity:(6:pos:(5258,3381,820),dir:(12,-99,0),spd:300
+2025-03-31 21:16:27,489 [68] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:16:27,489 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:None Entity:(6:pos:(5284,3251,820),dir:(30,-95,0),spd:300
+2025-03-31 21:16:27,778 [68] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:16:27,778 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:None Entity:(6:pos:(5318,3166,820),dir:(12,-99,0),spd:300
+2025-03-31 21:16:27,800 [68] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:16:27,800 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:None Entity:(6:pos:(5272,3173,805),dir:(12,-99,0),spd:300
+2025-03-31 21:16:27,873 [68] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:16:27,873 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:None Entity:(6:pos:(5277,3148,805),dir:(-8,-100,0),spd:300
+2025-03-31 21:16:27,975 [68] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:16:27,975 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:None Entity:(6:pos:(5277,3118,805),dir:(-28,-96,0),spd:300
+2025-03-31 21:16:28,058 [68] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:16:28,059 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:None Entity:(6:pos:(5272,3093,805),dir:(-44,-90,0),spd:300
+2025-03-31 21:16:28,339 [68] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:16:28,339 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:None Entity:(6:pos:(5238,3008,805),dir:(-27,-96,0),spd:300
+2025-03-31 21:16:28,446 [68] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:16:28,447 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:None Entity:(6:pos:(5232,2978,805),dir:(-8,-100,0),spd:300
+2025-03-31 21:16:28,541 [68] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:16:28,542 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:None Entity:(6:pos:(5232,2948,805),dir:(11,-99,0),spd:300
+2025-03-31 21:16:28,826 [68] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:16:28,827 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:None Entity:(6:pos:(5249,2863,805),dir:(-7,-100,0),spd:300
+2025-03-31 21:16:28,957 [68] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:16:28,957 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:None Entity:(6:pos:(5249,2823,805),dir:(-25,-97,0),spd:300
+2025-03-31 21:16:29,361 [68] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-31 21:16:29,361 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 6:想听贝如塔 Entity.Id:6 Evt:Idle Entity:(6:pos:(5225,2703,805),dir:(-25,-97,0),spd:0
+2025-03-31 21:16:36,730 [61] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:6
+2025-03-31 21:16:36,732 [61] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-31 21:34:02,600 [61] [WARN ] [GameServer] ：Client[127.0.0.1:4012]] Connected
+2025-03-31 21:34:02,635 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-31 21:34:02,636 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-31 21:34:05,574 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-31 21:34:05,575 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:想听贝如塔 Map:1
+2025-03-31 21:34:05,575 [5] [INFO ] [GameServer] ：当前1号物品：HasItem:[2][True]
+2025-03-31 21:34:05,575 [5] [INFO ] [GameServer] ：[1]GetItem[2]:[ID :2.count:200]
+2025-03-31 21:34:05,576 [5] [INFO ] [GameServer] ：目前1号物体 ：item:[2][ID :2.count:200]
+2025-03-31 21:34:05,578 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:7
+2025-03-31 21:34:06,989 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:34:06,990 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:MoveFwd Entity:(7:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2025-03-31 21:34:07,052 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:07,052 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5020,4000,820),dir:(98,-18,0),spd:300
+2025-03-31 21:34:07,152 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:07,152 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5050,3994,820),dir:(94,-35,0),spd:300
+2025-03-31 21:34:07,236 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:07,236 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5075,3984,820),dir:(86,-51,0),spd:300
+2025-03-31 21:34:07,340 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:07,340 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5099,3966,820),dir:(74,-68,0),spd:300
+2025-03-31 21:34:07,434 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:07,434 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5123,3948,820),dir:(58,-81,0),spd:300
+2025-03-31 21:34:07,567 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:07,568 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5147,3916,820),dir:(42,-91,0),spd:300
+2025-03-31 21:34:07,820 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:07,820 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5177,3841,820),dir:(25,-97,0),spd:300
+2025-03-31 21:34:08,000 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:08,000 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5188,3786,820),dir:(7,-100,0),spd:300
+2025-03-31 21:34:08,454 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-31 21:34:08,455 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:Idle Entity:(7:pos:(5188,3651,820),dir:(7,-100,0),spd:0
+2025-03-31 21:34:09,995 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-03-31 21:34:09,996 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:MoveFwd Entity:(7:pos:(5188,3651,820),dir:(7,-100,0),spd:300
+2025-03-31 21:34:10,457 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:10,457 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5188,3511,820),dir:(-13,-99,0),spd:300
+2025-03-31 21:34:10,555 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:10,555 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5182,3481,820),dir:(-31,-95,0),spd:300
+2025-03-31 21:34:10,658 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:10,658 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5170,3451,820),dir:(-50,-87,0),spd:300
+2025-03-31 21:34:10,761 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:10,761 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5152,3427,820),dir:(-64,-77,0),spd:300
+2025-03-31 21:34:11,160 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:11,161 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5080,3331,820),dir:(-48,-88,0),spd:300
+2025-03-31 21:34:11,260 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:11,260 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5068,3307,820),dir:(-29,-96,0),spd:300
+2025-03-31 21:34:11,343 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:11,343 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5063,3282,820),dir:(-12,-99,0),spd:300
+2025-03-31 21:34:11,442 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:11,443 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5057,3252,820),dir:(6,-100,0),spd:300
+2025-03-31 21:34:11,807 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:11,809 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5057,3142,820),dir:(-13,-99,0),spd:300
+2025-03-31 21:34:11,913 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:11,913 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5051,3112,820),dir:(-33,-94,0),spd:300
+2025-03-31 21:34:11,995 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:11,995 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5041,3087,820),dir:(-49,-87,0),spd:300
+2025-03-31 21:34:12,358 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:12,358 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4997,2999,820),dir:(-32,-95,0),spd:300
+2025-03-31 21:34:12,447 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:12,447 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4987,2974,820),dir:(-15,-99,0),spd:300
+2025-03-31 21:34:12,542 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:12,543 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4981,2944,820),dir:(4,-100,0),spd:300
+2025-03-31 21:34:12,701 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:12,701 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4981,2899,820),dir:(22,-98,0),spd:300
+2025-03-31 21:34:12,984 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:12,984 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4998,2814,820),dir:(2,-100,0),spd:300
+2025-03-31 21:34:13,083 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:13,084 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4998,2784,820),dir:(-17,-99,0),spd:300
+2025-03-31 21:34:13,177 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:13,178 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4992,2754,820),dir:(-37,-93,0),spd:300
+2025-03-31 21:34:13,281 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:13,282 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4980,2724,820),dir:(-55,-83,0),spd:300
+2025-03-31 21:34:13,664 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:13,664 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4911,2632,820),dir:(-40,-92,0),spd:300
+2025-03-31 21:34:13,746 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:13,747 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4901,2607,820),dir:(-23,-97,0),spd:300
+2025-03-31 21:34:13,867 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:13,869 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4894,2572,820),dir:(-4,-100,0),spd:300
+2025-03-31 21:34:14,318 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:14,318 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4894,2437,820),dir:(-23,-97,0),spd:300
+2025-03-31 21:34:14,414 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:14,414 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4888,2407,820),dir:(-43,-90,0),spd:300
+2025-03-31 21:34:14,517 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:14,517 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4876,2377,820),dir:(-61,-80,0),spd:300
+2025-03-31 21:34:14,616 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:14,617 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4858,2353,820),dir:(-76,-65,0),spd:300
+2025-03-31 21:34:14,985 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:14,986 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4770,2287,820),dir:(-61,-79,0),spd:300
+2025-03-31 21:34:15,088 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:15,088 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4752,2263,820),dir:(-44,-90,0),spd:300
+2025-03-31 21:34:15,164 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:15,165 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4742,2238,820),dir:(-27,-96,0),spd:300
+2025-03-31 21:34:15,268 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:15,268 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4736,2208,820),dir:(-9,-100,0),spd:300
+2025-03-31 21:34:15,483 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:15,484 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4736,2143,820),dir:(9,-100,0),spd:300
+2025-03-31 21:34:16,149 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:16,150 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4736,1943,820),dir:(27,-96,0),spd:300
+2025-03-31 21:34:16,175 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:16,175 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4784,1948,805),dir:(27,-96,0),spd:300
+2025-03-31 21:34:16,252 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:16,253 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4789,1923,805),dir:(43,-90,0),spd:300
+2025-03-31 21:34:16,455 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:16,455 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4813,1863,805),dir:(58,-81,0),spd:300
+2025-03-31 21:34:16,879 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:16,880 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4860,1810,805),dir:(58,-81,0),spd:300
+2025-03-31 21:34:17,057 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:17,057 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4860,1810,805),dir:(58,-81,0),spd:300
+2025-03-31 21:34:17,087 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:17,088 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4866,1802,805),dir:(74,-68,0),spd:300
+2025-03-31 21:34:17,169 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:17,170 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4886,1787,805),dir:(84,-54,0),spd:300
+2025-03-31 21:34:17,244 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:17,244 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4862,1810,805),dir:(84,-54,0),spd:300
+2025-03-31 21:34:17,256 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:17,258 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4866,1807,805),dir:(92,-38,0),spd:300
+2025-03-31 21:34:17,352 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:17,353 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4896,1795,805),dir:(98,-18,0),spd:300
+2025-03-31 21:34:17,452 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:34:17,452 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4926,1789,805),dir:(100,3,0),spd:300
+2025-03-31 21:34:17,560 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:34:17,561 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4956,1789,805),dir:(97,23,0),spd:300
+2025-03-31 21:34:17,636 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:34:17,636 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4981,1794,805),dir:(92,40,0),spd:300
+2025-03-31 21:34:17,736 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:34:17,736 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5011,1806,805),dir:(81,58,0),spd:300
+2025-03-31 21:34:17,838 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:34:17,840 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5035,1824,805),dir:(70,72,0),spd:300
+2025-03-31 21:34:18,183 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-31 21:34:18,183 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:Idle Entity:(7:pos:(5115,1904,805),dir:(70,72,0),spd:0
+2025-03-31 21:34:18,197 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-03-31 21:34:18,197 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5063,1914,805),dir:(70,72,0),spd:0
+2025-03-31 21:34:25,834 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2025-03-31 21:34:25,836 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:MoveFwd Entity:(7:pos:(5063,1914,805),dir:(70,72,0),spd:300
+2025-03-31 21:34:26,473 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:34:26,473 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5215,2066,805),dir:(83,56,0),spd:300
+2025-03-31 21:34:26,557 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:34:26,557 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5235,2081,805),dir:(91,40,0),spd:300
+2025-03-31 21:34:26,659 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:34:26,660 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5265,2093,805),dir:(98,21,0),spd:300
+2025-03-31 21:34:26,941 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:34:26,941 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5350,2110,805),dir:(92,38,0),spd:300
+2025-03-31 21:34:27,042 [71] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:34:27,043 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5380,2122,805),dir:(83,55,0),spd:300
+2025-03-31 21:34:27,124 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:34:27,124 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5400,2137,805),dir:(72,69,0),spd:300
+2025-03-31 21:34:27,228 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:34:27,230 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5424,2155,805),dir:(57,82,0),spd:300
+2025-03-31 21:34:27,573 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:34:27,573 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5487,2239,805),dir:(71,70,0),spd:300
+2025-03-31 21:34:27,676 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:34:27,677 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5511,2263,805),dir:(84,54,0),spd:300
+2025-03-31 21:34:27,775 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:34:27,776 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5535,2281,805),dir:(93,36,0),spd:300
+2025-03-31 21:34:27,862 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:34:27,862 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5560,2291,805),dir:(98,19,0),spd:300
+2025-03-31 21:34:28,146 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:34:28,147 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5645,2308,805),dir:(93,37,0),spd:300
+2025-03-31 21:34:28,241 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:34:28,241 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5675,2320,805),dir:(84,54,0),spd:300
+2025-03-31 21:34:28,342 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:34:28,343 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5699,2338,805),dir:(71,70,0),spd:300
+2025-03-31 21:34:28,442 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:34:28,442 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5723,2362,805),dir:(55,83,0),spd:300
+2025-03-31 21:34:28,529 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:34:28,529 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5738,2382,805),dir:(40,92,0),spd:300
+2025-03-31 21:34:28,625 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:34:28,625 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5750,2412,805),dir:(22,98,0),spd:300
+2025-03-31 21:34:28,796 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:34:28,796 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5760,2462,805),dir:(5,100,0),spd:300
+2025-03-31 21:34:29,878 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:29,878 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5760,2787,805),dir:(-13,99,0),spd:300
+2025-03-31 21:34:29,980 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:29,980 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5754,2817,805),dir:(-33,94,0),spd:300
+2025-03-31 21:34:30,063 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:30,064 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5744,2842,805),dir:(-49,87,0),spd:300
+2025-03-31 21:34:30,166 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:30,166 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5732,2866,805),dir:(-66,75,0),spd:300
+2025-03-31 21:34:30,280 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:30,281 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5711,2894,805),dir:(-79,62,0),spd:300
+2025-03-31 21:34:30,419 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:30,420 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5696,2868,805),dir:(-79,62,0),spd:300
+2025-03-31 21:34:30,606 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:30,607 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5695,2868,805),dir:(-79,62,0),spd:300
+2025-03-31 21:34:30,789 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:30,789 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5695,2868,805),dir:(-79,62,0),spd:300
+2025-03-31 21:34:30,914 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:30,915 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5663,2892,805),dir:(-89,46,0),spd:300
+2025-03-31 21:34:30,969 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:30,970 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5692,2868,805),dir:(-89,46,0),spd:300
+2025-03-31 21:34:31,048 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:31,048 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5672,2878,805),dir:(-96,27,0),spd:300
+2025-03-31 21:34:31,151 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:31,153 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5642,2884,805),dir:(-100,7,0),spd:300
+2025-03-31 21:34:31,249 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:31,249 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5612,2884,805),dir:(-99,-11,0),spd:300
+2025-03-31 21:34:31,752 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:31,752 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5462,2854,805),dir:(-96,-28,0),spd:300
+2025-03-31 21:34:31,932 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:31,932 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5407,2843,805),dir:(-89,-46,0),spd:300
+2025-03-31 21:34:32,098 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:32,100 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5367,2823,805),dir:(-79,-61,0),spd:300
+2025-03-31 21:34:32,718 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:32,718 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5219,2712,805),dir:(-89,-46,0),spd:300
+2025-03-31 21:34:32,966 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:32,966 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5159,2682,805),dir:(-96,-29,0),spd:300
+2025-03-31 21:34:33,138 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:33,138 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5109,2672,805),dir:(-100,-10,0),spd:300
+2025-03-31 21:34:33,150 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-31 21:34:33,150 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:Idle Entity:(7:pos:(5104,2671,805),dir:(-100,-10,0),spd:0
+2025-03-31 21:34:33,205 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2025-03-31 21:34:33,205 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:MoveFwd Entity:(7:pos:(5104,2671,805),dir:(-100,-10,0),spd:300
+2025-03-31 21:34:33,236 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:33,236 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5094,2669,805),dir:(-100,10,0),spd:300
+2025-03-31 21:34:33,338 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:33,338 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5064,2675,805),dir:(-95,30,0),spd:300
+2025-03-31 21:34:33,456 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:33,456 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(5029,2689,805),dir:(-88,48,0),spd:300
+2025-03-31 21:34:33,853 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:33,853 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4933,2737,805),dir:(-95,31,0),spd:300
+2025-03-31 21:34:33,957 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:33,957 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4903,2749,805),dir:(-99,11,0),spd:300
+2025-03-31 21:34:34,040 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:34,040 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4878,2754,805),dir:(-100,-7,0),spd:300
+2025-03-31 21:34:34,138 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:34,140 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4848,2754,805),dir:(-97,-24,0),spd:300
+2025-03-31 21:34:35,226 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:35,228 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4558,2653,805),dir:(-97,-24,0),spd:300
+2025-03-31 21:34:35,338 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-31 21:34:35,338 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:Idle Entity:(7:pos:(4523,2646,805),dir:(-97,-24,0),spd:0
+2025-03-31 21:34:35,477 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-03-31 21:34:35,477 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4523,2646,805),dir:(-100,-5,0),spd:0
+2025-03-31 21:34:35,560 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-31 21:34:35,560 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4523,2646,805),dir:(-99,13,0),spd:0
+2025-03-31 21:34:35,674 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-31 21:34:35,674 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4523,2646,805),dir:(-95,31,0),spd:0
+2025-03-31 21:34:35,983 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-03-31 21:34:35,984 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:MoveFwd Entity:(7:pos:(4523,2646,805),dir:(-95,31,0),spd:300
+2025-03-31 21:34:36,024 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:34:36,025 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4508,2652,805),dir:(-99,14,0),spd:300
+2025-03-31 21:34:36,125 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:36,126 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4478,2658,805),dir:(-100,-6,0),spd:300
+2025-03-31 21:34:36,227 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:36,228 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4448,2658,805),dir:(-97,-25,0),spd:300
+2025-03-31 21:34:36,375 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:34:36,376 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:None Entity:(7:pos:(4403,2649,805),dir:(-91,-42,0),spd:300
+2025-03-31 21:34:36,458 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-31 21:34:36,460 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 7:想听贝如塔 Entity.Id:7 Evt:Idle Entity:(7:pos:(4378,2639,805),dir:(-91,-42,0),spd:0
+2025-03-31 21:34:36,606 [69] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:7
+2025-03-31 21:34:36,606 [69] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-31 21:40:25,993 [69] [WARN ] [GameServer] ：Client[127.0.0.1:4355]] Connected
+2025-03-31 21:40:26,026 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-31 21:40:26,026 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-31 21:40:29,013 [55] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-31 21:40:29,013 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:想听贝如塔 Map:1
+2025-03-31 21:40:29,013 [5] [INFO ] [GameServer] ：当前1号物品：HasItem:[2][True]
+2025-03-31 21:40:29,015 [5] [INFO ] [GameServer] ：[1]GetItem[2]:[ID :2.count:200]
+2025-03-31 21:40:29,015 [5] [INFO ] [GameServer] ：目前1号物体 ：item:[2][ID :2.count:200]
+2025-03-31 21:40:29,016 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:8
+2025-03-31 21:40:30,233 [55] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 21:40:30,233 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 8:想听贝如塔 Entity.Id:8 Evt:MoveFwd Entity:(8:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2025-03-31 21:40:30,299 [55] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:40:30,299 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 8:想听贝如塔 Entity.Id:8 Evt:None Entity:(8:pos:(5020,4000,820),dir:(98,-18,0),spd:300
+2025-03-31 21:40:30,396 [55] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:40:30,408 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 8:想听贝如塔 Entity.Id:8 Evt:None Entity:(8:pos:(5050,3994,820),dir:(93,-36,0),spd:300
+2025-03-31 21:40:30,498 [55] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:40:30,498 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 8:想听贝如塔 Entity.Id:8 Evt:None Entity:(8:pos:(5080,3982,820),dir:(84,-54,0),spd:300
+2025-03-31 21:40:30,581 [55] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:40:30,582 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 8:想听贝如塔 Entity.Id:8 Evt:None Entity:(8:pos:(5100,3967,820),dir:(73,-68,0),spd:300
+2025-03-31 21:40:30,695 [55] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:40:30,695 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 8:想听贝如塔 Entity.Id:8 Evt:None Entity:(8:pos:(5128,3946,820),dir:(60,-80,0),spd:300
+2025-03-31 21:40:31,298 [55] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-31 21:40:31,299 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 8:想听贝如塔 Entity.Id:8 Evt:Idle Entity:(8:pos:(5236,3802,820),dir:(60,-80,0),spd:0
+2025-03-31 21:40:32,033 [55] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-03-31 21:40:32,033 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 8:想听贝如塔 Entity.Id:8 Evt:MoveFwd Entity:(8:pos:(5236,3802,820),dir:(60,-80,0),spd:300
+2025-03-31 21:40:32,514 [55] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:40:32,514 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 8:想听贝如塔 Entity.Id:8 Evt:None Entity:(8:pos:(5323,3686,820),dir:(44,-90,0),spd:300
+2025-03-31 21:40:32,647 [55] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:40:32,647 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 8:想听贝如塔 Entity.Id:8 Evt:None Entity:(8:pos:(5339,3646,820),dir:(25,-97,0),spd:300
+2025-03-31 21:40:32,750 [55] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 21:40:32,751 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 8:想听贝如塔 Entity.Id:8 Evt:None Entity:(8:pos:(5345,3616,820),dir:(5,-100,0),spd:300
+2025-03-31 21:40:32,854 [55] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:40:32,854 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 8:想听贝如塔 Entity.Id:8 Evt:None Entity:(8:pos:(5345,3586,820),dir:(-14,-99,0),spd:300
+2025-03-31 21:40:32,999 [55] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-31 21:40:32,999 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 8:想听贝如塔 Entity.Id:8 Evt:None Entity:(8:pos:(5336,3541,820),dir:(-31,-95,0),spd:300
+2025-03-31 21:40:33,406 [55] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-31 21:40:33,406 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 8:想听贝如塔 Entity.Id:8 Evt:Idle Entity:(8:pos:(5288,3421,820),dir:(-31,-95,0),spd:0
+2025-03-31 21:43:11,281 [55] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:8
+2025-03-31 21:43:11,282 [55] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-31 21:43:56,171 [49] [WARN ] [GameServer] ：Client[127.0.0.1:4433]] Connected
+2025-03-31 21:43:56,409 [49] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-31 21:43:56,409 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-31 21:43:58,481 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-31 21:43:58,481 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:想听贝如塔 Map:1
+2025-03-31 21:43:58,483 [5] [INFO ] [GameServer] ：当前1号物品：HasItem:[2][True]
+2025-03-31 21:43:58,483 [5] [INFO ] [GameServer] ：[1]GetItem[2]:[ID :2.count:200]
+2025-03-31 21:43:58,483 [5] [INFO ] [GameServer] ：目前1号物体 ：item:[2][ID :2.count:200]
+2025-03-31 21:43:58,485 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:9
+2025-03-31 21:48:44,456 [45] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:9
+2025-03-31 21:48:44,460 [45] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-31 21:52:37,247 [38] [WARN ] [GameServer] ：Client[127.0.0.1:4629]] Connected
+2025-03-31 21:52:37,279 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-31 21:52:37,279 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-31 21:52:40,411 [29] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-31 21:52:40,411 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:想听贝如塔 Map:1
+2025-03-31 21:52:40,412 [5] [INFO ] [GameServer] ：当前1号物品：HasItem:[2][True]
+2025-03-31 21:52:40,412 [5] [INFO ] [GameServer] ：[1]GetItem[2]:[ID :2.count:200]
+2025-03-31 21:52:40,413 [5] [INFO ] [GameServer] ：目前1号物体 ：item:[2][ID :2.count:200]
+2025-03-31 21:52:40,415 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:10
+2025-03-31 21:54:14,856 [29] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:10
+2025-03-31 21:54:14,857 [29] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-31 22:54:57,050 [24] [WARN ] [GameServer] ：Client[127.0.0.1:5354]] Connected
+2025-03-31 22:54:57,083 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-31 22:54:57,084 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-31 22:55:00,158 [52] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-31 22:55:00,158 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:想听贝如塔 Map:1
+2025-03-31 22:55:00,160 [5] [INFO ] [GameServer] ：当前1号物品：HasItem:[2][True]
+2025-03-31 22:55:00,160 [5] [INFO ] [GameServer] ：[1]GetItem[2]:[ID :2.count:200]
+2025-03-31 22:55:00,161 [5] [INFO ] [GameServer] ：目前1号物体 ：item:[2][ID :2.count:200]
+2025-03-31 22:55:00,162 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:11
+2025-03-31 22:55:03,168 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-31 22:55:03,169 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5000,4000,820),dir:(98,-20,0),spd:0
+2025-03-31 22:55:03,267 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-31 22:55:03,268 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5000,4000,820),dir:(92,-38,0),spd:0
+2025-03-31 22:55:03,320 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-03-31 22:55:03,321 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:MoveFwd Entity:(11:pos:(5000,4000,820),dir:(92,-38,0),spd:300
+2025-03-31 22:55:03,370 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 22:55:03,371 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5015,3994,820),dir:(83,-56,0),spd:300
+2025-03-31 22:55:03,450 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 22:55:03,450 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5035,3979,820),dir:(71,-70,0),spd:300
+2025-03-31 22:55:03,551 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 22:55:03,552 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5059,3955,820),dir:(55,-83,0),spd:300
+2025-03-31 22:55:03,654 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 22:55:03,654 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5077,3931,820),dir:(38,-93,0),spd:300
+2025-03-31 22:55:04,072 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 22:55:04,073 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5127,3806,820),dir:(54,-84,0),spd:300
+2025-03-31 22:55:05,157 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 22:55:05,157 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5322,3546,820),dir:(69,-73,0),spd:300
+2025-03-31 22:55:05,305 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 22:55:05,305 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5349,3510,820),dir:(82,-57,0),spd:300
+2025-03-31 22:55:05,419 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 22:55:05,420 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5377,3489,820),dir:(92,-40,0),spd:300
+2025-03-31 22:55:06,205 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 22:55:06,206 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5612,3395,820),dir:(97,-22,0),spd:300
+2025-03-31 22:55:06,357 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 22:55:06,357 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5657,3386,820),dir:(100,-5,0),spd:300
+2025-03-31 22:55:06,369 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 22:55:06,370 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5609,3388,805),dir:(100,-5,0),spd:300
+2025-03-31 22:55:06,530 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 22:55:06,530 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5608,3388,805),dir:(100,-5,0),spd:300
+2025-03-31 22:55:06,714 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 22:55:06,714 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5608,3388,805),dir:(100,-5,0),spd:300
+2025-03-31 22:55:06,773 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 22:55:06,774 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5628,3388,805),dir:(97,-24,0),spd:300
+2025-03-31 22:55:06,793 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-31 22:55:06,794 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:Idle Entity:(11:pos:(5633,3387,805),dir:(97,-24,0),spd:0
+2025-03-31 22:55:06,879 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-31 22:55:06,881 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5633,3387,805),dir:(90,-44,0),spd:0
+2025-03-31 22:55:06,976 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-31 22:55:06,977 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5633,3387,805),dir:(79,-61,0),spd:0
+2025-03-31 22:55:07,056 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-31 22:55:07,058 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5633,3387,805),dir:(67,-74,0),spd:0
+2025-03-31 22:55:07,110 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2025-03-31 22:55:07,110 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:MoveBack Entity:(11:pos:(5633,3387,805),dir:(67,-74,0),spd:-300
+2025-03-31 22:55:07,159 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-31 22:55:07,159 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5624,3399,805),dir:(50,-86,0),spd:-300
+2025-03-31 22:55:07,256 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-31 22:55:07,258 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5606,3423,805),dir:(31,-95,0),spd:-300
+2025-03-31 22:55:07,359 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-31 22:55:07,359 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5594,3453,805),dir:(11,-99,0),spd:-300
+2025-03-31 22:55:07,442 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:62
+2025-03-31 22:55:07,442 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5589,3478,805),dir:(-7,-100,0),spd:-300
+2025-03-31 22:55:07,547 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:62
+2025-03-31 22:55:07,548 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5589,3508,805),dir:(-27,-96,0),spd:-300
+2025-03-31 22:55:07,624 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:62
+2025-03-31 22:55:07,625 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5594,3533,805),dir:(-44,-90,0),spd:-300
+2025-03-31 22:55:07,723 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:62
+2025-03-31 22:55:07,723 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5606,3563,805),dir:(-61,-79,0),spd:-300
+2025-03-31 22:55:07,840 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:62
+2025-03-31 22:55:07,842 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:None Entity:(11:pos:(5627,3591,805),dir:(-75,-67,0),spd:-300
+2025-03-31 22:55:08,127 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-31 22:55:08,127 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 11:想听贝如塔 Entity.Id:11 Evt:Idle Entity:(11:pos:(5695,3642,805),dir:(-75,-67,0),spd:0
+2025-03-31 22:57:36,263 [53] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:11
+2025-03-31 22:57:36,263 [53] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-31 22:58:14,985 [53] [WARN ] [GameServer] ：Client[127.0.0.1:5383]] Connected
+2025-03-31 22:58:15,020 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2025-03-31 22:58:15,025 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:daoketa  Pass:123123
+2025-03-31 22:58:21,947 [46] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2025-03-31 22:58:21,947 [5] [INFO ] [GameServer] ：UserLoginRequest: User:daoketa  Pass:123123
+2025-03-31 22:58:29,039 [46] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2025-03-31 22:58:29,209 [46] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-31 22:58:29,241 [43] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-03-31 22:58:29,292 [6] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Services.MapService.OnMapEntitySync(NetConnection`1 sender, MapEntitySyncRequest request) 位置 E:\MymmorpgWork\Src\Server\GameServer\GameServer\Services\MapService.cs:行号 36
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\MymmorpgWork\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-03-31 22:58:29,293 [5] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Services.MapService.OnMapEntitySync(NetConnection`1 sender, MapEntitySyncRequest request) 位置 E:\MymmorpgWork\Src\Server\GameServer\GameServer\Services\MapService.cs:行号 36
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\MymmorpgWork\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-03-31 22:58:29,299 [7] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Services.MapService.OnMapEntitySync(NetConnection`1 sender, MapEntitySyncRequest request) 位置 E:\MymmorpgWork\Src\Server\GameServer\GameServer\Services\MapService.cs:行号 36
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\MymmorpgWork\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-03-31 22:58:30,608 [43] [WARN ] [GameServer] ：Client[] DataReceived Len:19
+2025-03-31 22:58:30,611 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:zhanshi  Class:Warrior
+2025-03-31 22:58:32,181 [43] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-31 22:58:32,181 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:zhanshi Map:1
+2025-03-31 22:58:32,182 [6] [INFO ] [GameServer] ：当前1号物品：HasItem:[2][False]
+2025-03-31 22:58:32,183 [6] [INFO ] [GameServer] ：[12]AddItem[ID :1.count:200] addCount[200]
+2025-03-31 22:58:32,183 [6] [INFO ] [GameServer] ：[12]AddItem[ID :2.count:200] addCount[200]
+2025-03-31 22:58:32,184 [6] [INFO ] [GameServer] ：[12]AddItem[ID :3.count:30] addCount[30]
+2025-03-31 22:58:32,184 [6] [INFO ] [GameServer] ：[12]AddItem[ID :4.count:100] addCount[100]
+2025-03-31 22:58:32,184 [6] [INFO ] [GameServer] ：[2]GetItem[2]:[ID :2.count:200]
+2025-03-31 22:58:32,185 [6] [INFO ] [GameServer] ：目前1号物体 ：item:[2][ID :2.count:200]
+2025-03-31 22:58:32,399 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:12
+2025-03-31 22:58:33,438 [43] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 22:58:33,438 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 12:zhanshi Entity.Id:12 Evt:MoveFwd Entity:(12:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2025-03-31 22:58:34,121 [46] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 22:58:34,122 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 12:zhanshi Entity.Id:12 Evt:None Entity:(12:pos:(5205,4000,820),dir:(98,-19,0),spd:300
+2025-03-31 22:58:34,453 [46] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-31 22:58:34,455 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 12:zhanshi Entity.Id:12 Evt:Idle Entity:(12:pos:(5295,3982,820),dir:(98,-19,0),spd:0
+2025-03-31 22:58:38,331 [46] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:12
+2025-03-31 22:58:38,332 [46] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-31 22:59:06,525 [46] [WARN ] [GameServer] ：Client[127.0.0.1:5392]] Connected
+2025-03-31 22:59:06,575 [46] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2025-03-31 22:59:06,576 [5] [INFO ] [GameServer] ：UserLoginRequest: User:daoketa  Pass:123132
+2025-03-31 22:59:10,725 [37] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2025-03-31 22:59:10,726 [5] [INFO ] [GameServer] ：UserLoginRequest: User:daoketa  Pass:123123
+2025-03-31 22:59:12,343 [37] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-31 22:59:12,343 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:zhanshi Map:1
+2025-03-31 22:59:12,344 [6] [INFO ] [GameServer] ：当前1号物品：HasItem:[2][True]
+2025-03-31 22:59:12,344 [6] [INFO ] [GameServer] ：[2]GetItem[2]:[ID :2.count:200]
+2025-03-31 22:59:12,344 [6] [INFO ] [GameServer] ：目前1号物体 ：item:[2][ID :2.count:200]
+2025-03-31 22:59:12,345 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:13
+2025-03-31 22:59:13,424 [37] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-31 22:59:13,425 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 13:zhanshi Entity.Id:13 Evt:MoveFwd Entity:(13:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2025-03-31 22:59:13,511 [37] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 22:59:13,511 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 13:zhanshi Entity.Id:13 Evt:None Entity:(13:pos:(5025,4000,820),dir:(98,-19,0),spd:300
+2025-03-31 22:59:13,611 [37] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 22:59:13,611 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 13:zhanshi Entity.Id:13 Evt:None Entity:(13:pos:(5055,3994,820),dir:(93,-37,0),spd:300
+2025-03-31 22:59:13,693 [37] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 22:59:13,693 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 13:zhanshi Entity.Id:13 Evt:None Entity:(13:pos:(5080,3984,820),dir:(85,-53,0),spd:300
+2025-03-31 22:59:13,792 [37] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 22:59:13,793 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 13:zhanshi Entity.Id:13 Evt:None Entity:(13:pos:(5104,3966,820),dir:(74,-67,0),spd:300
+2025-03-31 22:59:14,792 [37] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 22:59:14,793 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 13:zhanshi Entity.Id:13 Evt:None Entity:(13:pos:(5344,3786,820),dir:(60,-80,0),spd:300
+2025-03-31 22:59:15,091 [37] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-31 22:59:15,092 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 13:zhanshi Entity.Id:13 Evt:None Entity:(13:pos:(5398,3714,820),dir:(74,-68,0),spd:300
+2025-03-31 22:59:15,762 [37] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-31 22:59:15,764 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 13:zhanshi Entity.Id:13 Evt:Idle Entity:(13:pos:(5558,3594,820),dir:(74,-68,0),spd:0
+2025-03-31 23:00:04,622 [37] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:13
+2025-03-31 23:00:04,623 [37] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-31 23:01:16,830 [36] [WARN ] [GameServer] ：Client[127.0.0.1:5550]] Connected
+2025-03-31 23:01:16,871 [32] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-31 23:01:16,872 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-31 23:01:18,894 [32] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-31 23:01:18,895 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:想听贝如塔 Map:1
+2025-03-31 23:01:18,895 [5] [INFO ] [GameServer] ：当前1号物品：HasItem:[2][True]
+2025-03-31 23:01:18,895 [5] [INFO ] [GameServer] ：[1]GetItem[2]:[ID :2.count:200]
+2025-03-31 23:01:18,895 [5] [INFO ] [GameServer] ：目前1号物体 ：item:[2][ID :2.count:200]
+2025-03-31 23:01:18,898 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:14
+2025-03-31 23:08:44,886 [31] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:14
+2025-03-31 23:08:44,886 [31] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-31 23:09:01,142 [31] [WARN ] [GameServer] ：Client[127.0.0.1:5783]] Connected
+2025-03-31 23:09:01,181 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-31 23:09:01,181 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-31 23:09:04,053 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-31 23:09:04,054 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:想听贝如塔 Map:1
+2025-03-31 23:09:04,054 [5] [INFO ] [GameServer] ：当前1号物品：HasItem:[2][True]
+2025-03-31 23:09:04,055 [5] [INFO ] [GameServer] ：[1]GetItem[2]:[ID :2.count:200]
+2025-03-31 23:09:04,055 [5] [INFO ] [GameServer] ：目前1号物体 ：item:[2][ID :2.count:200]
+2025-03-31 23:09:04,058 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:15
+2025-03-31 23:09:18,919 [31] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:15
+2025-03-31 23:09:18,919 [31] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-31 23:10:30,112 [31] [WARN ] [GameServer] ：Client[127.0.0.1:5812]] Connected
+2025-03-31 23:10:30,147 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2025-03-31 23:10:30,147 [5] [INFO ] [GameServer] ：UserLoginRequest: User:daoketa  Pass:123123
+2025-03-31 23:10:31,856 [88] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-31 23:10:31,857 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:zhanshi Map:1
+2025-03-31 23:10:31,857 [5] [INFO ] [GameServer] ：当前1号物品：HasItem:[2][True]
+2025-03-31 23:10:31,857 [5] [INFO ] [GameServer] ：[2]GetItem[2]:[ID :2.count:200]
+2025-03-31 23:10:31,859 [5] [INFO ] [GameServer] ：目前1号物体 ：item:[2][ID :2.count:200]
+2025-03-31 23:10:31,860 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:16
+2025-03-31 23:10:38,994 [31] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:16
+2025-03-31 23:10:38,996 [31] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-31 23:11:13,263 [1] [INFO ] [GameServer] ：Game Server Init
+2025-03-31 23:11:14,673 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-03-31 23:11:15,460 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-03-31 23:11:15,462 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-03-31 23:11:15,462 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-03-31 23:11:15,463 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-03-31 23:11:15,465 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-03-31 23:11:15,504 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-31 23:11:15,504 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-31 23:11:15,505 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-31 23:11:15,540 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-31 23:11:15,540 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-31 23:11:15,540 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-31 23:11:15,540 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-31 23:11:15,540 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-31 23:11:15,574 [1] [WARN ] [GameServer] ：NetService Started
+2025-03-31 23:11:36,367 [3] [WARN ] [GameServer] ：Client[127.0.0.1:5852]] Connected
+2025-03-31 23:11:36,401 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2025-03-31 23:11:36,537 [5] [INFO ] [GameServer] ：UserLoginRequest: User:daoketa  Pass:123123
+2025-03-31 23:11:42,582 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-31 23:11:42,586 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:zhanshi Map:1
+2025-03-31 23:11:42,763 [6] [INFO ] [GameServer] ：当前1号物品：HasItem:[2][True]
+2025-03-31 23:11:42,763 [6] [INFO ] [GameServer] ：[2]GetItem[2]:[ID :2.count:200]
+2025-03-31 23:11:42,764 [6] [INFO ] [GameServer] ：目前1号物体 ：item:[2][ID :2.count:200]
+2025-03-31 23:11:42,911 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1

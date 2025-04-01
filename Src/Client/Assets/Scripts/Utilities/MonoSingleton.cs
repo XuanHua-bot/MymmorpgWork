@@ -27,7 +27,7 @@ public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour
     }
 
     // 当对象启动时调用此方法
-    void Awake()
+    void Awake()//mono单例需要牺牲所有的子类awake
     {
         // 检查全局标志是否为 true
         if (global)

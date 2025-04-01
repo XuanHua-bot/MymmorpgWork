@@ -18,6 +18,8 @@ namespace GameServer.Managers
         internal Dictionary<int, TeleporterDefine> Teleporters = null;
         public Dictionary<int, Dictionary<int, SpawnPointDefine>> SpawnPoints = null;
         public Dictionary<int, Dictionary<int,SpawnRuleDefine>> SpawnRules = null;
+        public Dictionary<int, NpcDefine> NPCs = null;
+        public Dictionary<int, ItemDefine> Items = null;
 
         public DataManager()
         {
@@ -36,6 +38,11 @@ namespace GameServer.Managers
             json = File.ReadAllText(this.DataPath + "TeleporterDefine.txt");
             this.Teleporters = JsonConvert.DeserializeObject<Dictionary<int, TeleporterDefine>>(json);
 
+            json = File.ReadAllText(this.DataPath + "NpcDefine.txt");
+            this.NPCs = JsonConvert.DeserializeObject<Dictionary<int, NpcDefine>>(json);
+
+            json = File.ReadAllText(this.DataPath + "ItemDefine.txt");
+            this.Items = JsonConvert.DeserializeObject<Dictionary<int, ItemDefine>>(json);
         }
     }
 }

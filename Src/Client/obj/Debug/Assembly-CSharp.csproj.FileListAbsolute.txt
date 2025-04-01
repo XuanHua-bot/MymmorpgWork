@@ -171,8 +171,10 @@ E:\MymmorpgWork\Src\Client\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
 E:\MymmorpgWork\Src\Client\Temp\bin\Debug\UnityEngine.HoloLens.xml
 E:\MymmorpgWork\Src\Client\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
 E:\MymmorpgWork\Src\Client\Temp\bin\Debug\Newtonsoft.Json.xml
+E:\MymmorpgWork\Src\Client\Temp\bin\Debug\Common.pdb
 E:\MymmorpgWork\Src\Client\Temp\bin\Debug\log4net.xml
 E:\MymmorpgWork\Src\Client\Temp\bin\Debug\protobuf-net.xml
+E:\MymmorpgWork\Src\Client\Temp\bin\Debug\Protocol.pdb
 E:\MymmorpgWork\Src\Client\Temp\bin\Debug\UnityEngine.ParticlesLegacyModule.xml
 E:\MymmorpgWork\Src\Client\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
 E:\MymmorpgWork\Src\Client\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

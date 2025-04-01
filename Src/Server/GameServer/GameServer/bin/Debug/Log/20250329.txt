@@ -1,0 +1,511 @@
+
+2025-03-29 22:16:38,869 [1] [INFO ] [GameServer] ：Game Server Init
+2025-03-29 22:16:40,059 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-03-29 22:16:40,883 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-03-29 22:16:40,890 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-03-29 22:16:40,890 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-03-29 22:16:40,891 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-03-29 22:16:40,896 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-03-29 22:16:40,956 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:16:40,956 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:16:40,956 [16] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:16:40,956 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:16:40,956 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:16:40,956 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:16:40,956 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:16:40,964 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:16:41,013 [1] [WARN ] [GameServer] ：NetService Started
+2025-03-29 22:16:45,039 [1] [INFO ] [GameServer] ：Game Server Exiting...
+2025-03-29 22:16:45,051 [1] [WARN ] [GameServer] ：Stop NetService...
+2025-03-29 22:16:45,052 [1] [WARN ] [GameServer] ：Stoping Message Handler...
+2025-03-29 22:16:45,055 [9] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-03-29 22:16:45,055 [8] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-03-29 22:16:45,055 [14] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-03-29 22:16:45,055 [16] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-03-29 22:16:45,055 [7] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-03-29 22:16:45,055 [11] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-03-29 22:16:45,055 [10] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-03-29 22:16:45,055 [12] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-03-29 22:16:45,159 [1] [INFO ] [GameServer] ：Game Server Exited
+2025-03-29 22:16:59,146 [1] [INFO ] [GameServer] ：Game Server Init
+2025-03-29 22:16:59,527 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-03-29 22:16:59,825 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-03-29 22:16:59,827 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-03-29 22:16:59,827 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-03-29 22:16:59,827 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-03-29 22:16:59,829 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-03-29 22:16:59,871 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:16:59,872 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:16:59,874 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:16:59,874 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:16:59,874 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:16:59,874 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:16:59,874 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:16:59,875 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:16:59,941 [1] [WARN ] [GameServer] ：NetService Started
+2025-03-29 22:17:44,809 [3] [WARN ] [GameServer] ：Client[127.0.0.1:42643]] Connected
+2025-03-29 22:17:44,842 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-29 22:17:45,090 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:nayina  Pass:123123
+2025-03-29 22:17:59,481 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-29 22:17:59,487 [6] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-29 22:18:26,849 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:21
+2025-03-29 22:18:26,855 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:大贝塔  Class:Archer
+2025-03-29 22:18:29,100 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-29 22:18:29,104 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大贝塔 Map:1
+2025-03-29 22:18:29,113 [5] [INFO ] [GameServer] ：HasItem:[1][False]
+2025-03-29 22:18:29,114 [5] [INFO ] [GameServer] ：[1]AddItem[ID :1.count:1] addCount[2]
+2025-03-29 22:18:29,455 [5] [INFO ] [GameServer] ：[1]GetItem[1]:[ID :1.count:1]
+2025-03-29 22:18:29,455 [5] [INFO ] [GameServer] ：item:[1][ID :1.count:1]
+2025-03-29 22:18:29,461 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2025-03-29 22:18:31,725 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-29 22:18:31,730 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2025-03-29 22:18:32,191 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:32,192 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(5145,4000,820),dir:(98,-20,0),spd:300
+2025-03-29 22:18:32,294 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:32,295 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(5175,3994,820),dir:(92,-38,0),spd:300
+2025-03-29 22:18:32,393 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:32,395 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(5205,3982,820),dir:(83,-56,0),spd:300
+2025-03-29 22:18:32,476 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:32,477 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(5225,3967,820),dir:(71,-70,0),spd:300
+2025-03-29 22:18:32,588 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:32,589 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(5249,3943,820),dir:(55,-83,0),spd:300
+2025-03-29 22:18:32,683 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:32,686 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(5267,3919,820),dir:(37,-93,0),spd:300
+2025-03-29 22:18:33,449 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:33,449 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(5359,3689,820),dir:(20,-98,0),spd:300
+2025-03-29 22:18:33,550 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-29 22:18:33,550 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(5365,3659,820),dir:(-1,-100,0),spd:300
+2025-03-29 22:18:33,646 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-29 22:18:33,646 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(5365,3629,820),dir:(-21,-98,0),spd:300
+2025-03-29 22:18:33,732 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-29 22:18:33,732 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(5360,3604,820),dir:(-38,-93,0),spd:300
+2025-03-29 22:18:34,165 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-29 22:18:34,165 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(5308,3474,820),dir:(-21,-98,0),spd:300
+2025-03-29 22:18:34,471 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-29 22:18:34,473 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(5290,3384,820),dir:(-39,-92,0),spd:300
+2025-03-29 22:18:34,566 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-29 22:18:34,566 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(5278,3354,820),dir:(-56,-83,0),spd:300
+2025-03-29 22:18:34,649 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-29 22:18:34,649 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(5263,3334,820),dir:(-69,-72,0),spd:300
+2025-03-29 22:18:34,730 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-29 22:18:34,731 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(5248,3314,820),dir:(-81,-59,0),spd:300
+2025-03-29 22:18:34,817 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-29 22:18:34,818 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(5228,3299,820),dir:(-90,-44,0),spd:300
+2025-03-29 22:18:34,921 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-29 22:18:34,922 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(5198,3287,820),dir:(-97,-26,0),spd:300
+2025-03-29 22:18:36,652 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-29 22:18:36,653 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(4678,3183,820),dir:(-100,-8,0),spd:300
+2025-03-29 22:18:37,479 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-29 22:18:37,480 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(4433,3183,820),dir:(-97,-26,0),spd:300
+2025-03-29 22:18:37,955 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-03-29 22:18:37,955 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:Idle Entity:(1:pos:(4288,3154,820),dir:(-97,-26,0),spd:0
+2025-03-29 22:18:41,226 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2025-03-29 22:18:41,227 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(4288,3154,820),dir:(-97,-26,0),spd:300
+2025-03-29 22:18:41,267 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-29 22:18:41,268 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(4278,3152,820),dir:(-100,-6,0),spd:300
+2025-03-29 22:18:41,368 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:41,369 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(4248,3152,820),dir:(-99,14,0),spd:300
+2025-03-29 22:18:41,446 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:41,446 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(4223,3157,820),dir:(-95,31,0),spd:300
+2025-03-29 22:18:41,507 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:41,507 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(4242,3126,804),dir:(-95,31,0),spd:300
+2025-03-29 22:18:41,534 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:41,538 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(4232,3130,804),dir:(-88,47,0),spd:300
+2025-03-29 22:18:41,629 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:41,629 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(4208,3142,804),dir:(-77,64,0),spd:300
+2025-03-29 22:18:41,683 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:41,684 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(4242,3128,804),dir:(-77,64,0),spd:300
+2025-03-29 22:18:41,785 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:41,786 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(4218,3146,804),dir:(-64,77,0),spd:300
+2025-03-29 22:18:41,906 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:41,907 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(4241,3146,804),dir:(-64,77,0),spd:300
+2025-03-29 22:18:42,138 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:42,139 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(4240,3171,804),dir:(-64,77,0),spd:300
+2025-03-29 22:18:42,369 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:42,369 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(4198,3227,804),dir:(-77,64,0),spd:300
+2025-03-29 22:18:42,409 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:42,410 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(4233,3206,804),dir:(-77,64,0),spd:300
+2025-03-29 22:18:43,984 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:43,986 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3907,3482,804),dir:(-77,64,0),spd:300
+2025-03-29 22:18:44,164 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:44,165 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3907,3482,804),dir:(-77,64,0),spd:300
+2025-03-29 22:18:44,341 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:44,341 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3907,3482,804),dir:(-77,64,0),spd:300
+2025-03-29 22:18:44,525 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:44,526 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3907,3482,804),dir:(-77,64,0),spd:300
+2025-03-29 22:18:44,703 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:44,703 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3863,3515,804),dir:(-87,49,0),spd:300
+2025-03-29 22:18:44,717 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:44,718 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3903,3484,804),dir:(-87,49,0),spd:300
+2025-03-29 22:18:44,802 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:44,803 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3883,3494,804),dir:(-95,32,0),spd:300
+2025-03-29 22:18:44,885 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:44,887 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3858,3504,804),dir:(-99,15,0),spd:300
+2025-03-29 22:18:44,989 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-29 22:18:44,990 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3828,3509,804),dir:(-100,-3,0),spd:300
+2025-03-29 22:18:45,010 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-29 22:18:45,011 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3865,3481,804),dir:(-100,-3,0),spd:300
+2025-03-29 22:18:45,068 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-29 22:18:45,068 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3845,3481,804),dir:(-97,-23,0),spd:300
+2025-03-29 22:18:45,322 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-03-29 22:18:45,325 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3770,3466,804),dir:(-100,-5,0),spd:300
+2025-03-29 22:18:45,421 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:45,423 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3740,3466,804),dir:(-99,14,0),spd:300
+2025-03-29 22:18:45,519 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:45,519 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3710,3472,804),dir:(-94,34,0),spd:300
+2025-03-29 22:18:45,622 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:45,622 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3680,3484,804),dir:(-85,53,0),spd:300
+2025-03-29 22:18:45,724 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:45,725 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3656,3502,804),dir:(-72,69,0),spd:300
+2025-03-29 22:18:45,802 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:45,803 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3636,3517,804),dir:(-59,81,0),spd:300
+2025-03-29 22:18:45,906 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:45,909 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3618,3541,804),dir:(-41,91,0),spd:300
+2025-03-29 22:18:45,994 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:45,995 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3608,3566,804),dir:(-25,97,0),spd:300
+2025-03-29 22:18:46,439 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:46,440 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3581,3701,804),dir:(-7,100,0),spd:300
+2025-03-29 22:18:46,825 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:46,827 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3581,3816,804),dir:(-25,97,0),spd:300
+2025-03-29 22:18:46,925 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:46,925 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3575,3846,804),dir:(-44,90,0),spd:300
+2025-03-29 22:18:47,013 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:47,014 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3565,3871,804),dir:(-59,81,0),spd:300
+2025-03-29 22:18:47,108 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:47,109 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3547,3895,804),dir:(-73,69,0),spd:300
+2025-03-29 22:18:47,606 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:47,606 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3427,3985,804),dir:(-59,81,0),spd:300
+2025-03-29 22:18:48,761 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:48,762 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3220,4261,804),dir:(-43,91,0),spd:300
+2025-03-29 22:18:49,850 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:49,851 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3090,4586,804),dir:(-25,97,0),spd:300
+2025-03-29 22:18:51,188 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:51,189 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(2984,4943,804),dir:(-25,97,0),spd:300
+2025-03-29 22:18:51,386 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:51,386 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(2972,5003,804),dir:(-7,100,0),spd:300
+2025-03-29 22:18:51,519 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-29 22:18:51,519 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(2972,5043,804),dir:(12,99,0),spd:300
+2025-03-29 22:18:51,700 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-29 22:18:51,700 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(2983,5098,804),dir:(29,96,0),spd:300
+2025-03-29 22:18:52,115 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-29 22:18:52,115 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3008,5223,804),dir:(46,89,0),spd:300
+2025-03-29 22:18:52,217 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-29 22:18:52,218 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3020,5247,804),dir:(61,79,0),spd:300
+2025-03-29 22:18:52,320 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-29 22:18:52,320 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3038,5271,804),dir:(74,67,0),spd:300
+2025-03-29 22:18:52,671 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-29 22:18:52,672 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3122,5334,804),dir:(60,80,0),spd:300
+2025-03-29 22:18:52,774 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-29 22:18:52,775 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3140,5358,804),dir:(43,90,0),spd:300
+2025-03-29 22:18:52,850 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-29 22:18:52,850 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3150,5383,804),dir:(27,96,0),spd:300
+2025-03-29 22:18:52,937 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-29 22:18:52,938 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3155,5408,804),dir:(9,100,0),spd:300
+2025-03-29 22:18:53,033 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:53,034 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3155,5438,804),dir:(-12,99,0),spd:300
+2025-03-29 22:18:53,140 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:53,141 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3149,5468,804),dir:(-32,95,0),spd:300
+2025-03-29 22:18:53,189 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-29 22:18:53,190 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:Idle Entity:(1:pos:(3143,5483,804),dir:(-32,95,0),spd:0
+2025-03-29 22:18:53,251 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-29 22:18:53,253 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3143,5483,804),dir:(-51,86,0),spd:0
+2025-03-29 22:18:53,269 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-03-29 22:18:53,270 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(3140,5487,804),dir:(-51,86,0),spd:300
+2025-03-29 22:18:53,334 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:53,334 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3128,5503,804),dir:(-68,74,0),spd:300
+2025-03-29 22:18:53,421 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:53,423 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3113,5523,804),dir:(-79,61,0),spd:300
+2025-03-29 22:18:53,523 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:53,523 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3089,5541,804),dir:(-90,44,0),spd:300
+2025-03-29 22:18:53,674 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:53,674 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3044,5559,804),dir:(-96,27,0),spd:300
+2025-03-29 22:18:53,772 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-29 22:18:53,773 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:Idle Entity:(1:pos:(3019,5564,804),dir:(-96,27,0),spd:0
+2025-03-29 22:18:55,510 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-03-29 22:18:55,511 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3019,5564,804),dir:(-89,45,0),spd:0
+2025-03-29 22:18:55,594 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-03-29 22:18:55,596 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(3019,5564,804),dir:(-89,45,0),spd:300
+2025-03-29 22:18:55,620 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:55,622 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3015,5566,804),dir:(-79,62,0),spd:300
+2025-03-29 22:18:55,712 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:55,713 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(2991,5584,804),dir:(-64,77,0),spd:300
+2025-03-29 22:18:55,804 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:55,806 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(2973,5608,804),dir:(-47,88,0),spd:300
+2025-03-29 22:18:55,889 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:55,890 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(2963,5628,804),dir:(-31,95,0),spd:300
+2025-03-29 22:18:55,980 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:55,981 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(2953,5653,804),dir:(-14,99,0),spd:300
+2025-03-29 22:18:56,056 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-29 22:18:56,058 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(2948,5678,804),dir:(4,100,0),spd:300
+2025-03-29 22:18:56,155 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-29 22:18:56,156 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(2948,5708,804),dir:(24,97,0),spd:300
+2025-03-29 22:18:56,242 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-29 22:18:56,244 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(2953,5733,804),dir:(41,91,0),spd:300
+2025-03-29 22:18:56,273 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-29 22:18:56,273 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(2960,5686,804),dir:(41,91,0),spd:300
+2025-03-29 22:18:56,286 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-03-29 22:18:56,286 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:Idle Entity:(1:pos:(2962,5691,804),dir:(41,91,0),spd:0
+2025-03-29 22:18:56,356 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-03-29 22:18:56,358 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(2962,5691,804),dir:(59,81,0),spd:0
+2025-03-29 22:18:56,381 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2025-03-29 22:18:56,381 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(2962,5691,804),dir:(59,81,0),spd:300
+2025-03-29 22:18:56,425 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-29 22:18:56,425 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(2971,5703,804),dir:(72,69,0),spd:300
+2025-03-29 22:18:56,535 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-29 22:18:56,536 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(2995,5721,804),dir:(85,53,0),spd:300
+2025-03-29 22:18:56,608 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-29 22:18:56,608 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3015,5736,804),dir:(93,37,0),spd:300
+2025-03-29 22:18:56,711 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-29 22:18:56,711 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3045,5748,804),dir:(99,17,0),spd:300
+2025-03-29 22:18:56,812 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:56,812 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3075,5754,804),dir:(100,-4,0),spd:300
+2025-03-29 22:18:56,915 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:56,915 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3105,5754,804),dir:(97,-24,0),spd:300
+2025-03-29 22:18:56,996 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:56,998 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3130,5749,804),dir:(91,-41,0),spd:300
+2025-03-29 22:18:57,048 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:57,049 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3116,5702,804),dir:(91,-41,0),spd:300
+2025-03-29 22:18:57,111 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:57,112 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3136,5694,804),dir:(81,-58,0),spd:300
+2025-03-29 22:18:57,621 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-29 22:18:57,624 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:Idle Entity:(1:pos:(3256,5604,804),dir:(81,-58,0),spd:0
+2025-03-29 22:18:57,930 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-03-29 22:18:57,930 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(3256,5604,804),dir:(81,-58,0),spd:300
+2025-03-29 22:18:58,749 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:58,749 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3452,5457,804),dir:(91,-41,0),spd:300
+2025-03-29 22:18:58,849 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:58,849 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3482,5445,804),dir:(98,-22,0),spd:300
+2025-03-29 22:18:58,965 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:58,965 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3517,5438,804),dir:(100,-3,0),spd:300
+2025-03-29 22:18:59,705 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:59,710 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3737,5438,804),dir:(97,-22,0),spd:300
+2025-03-29 22:18:59,965 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:18:59,967 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3817,5422,804),dir:(100,-4,0),spd:300
+2025-03-29 22:19:00,067 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-03-29 22:19:00,067 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3847,5422,804),dir:(99,14,0),spd:300
+2025-03-29 22:19:00,451 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-03-29 22:19:00,451 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:None Entity:(1:pos:(3962,5445,804),dir:(100,-5,0),spd:300
+2025-03-29 22:19:00,770 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-03-29 22:19:00,782 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:大贝塔 Entity.Id:1 Evt:Idle Entity:(1:pos:(4057,5445,804),dir:(100,-5,0),spd:0
+2025-03-29 22:21:07,269 [19] [WARN ] [GameServer] ：Client[127.0.0.1:35715]] Connected
+2025-03-29 22:21:07,270 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:816
+2025-03-29 22:21:07,532 [19] [WARN ] [GameServer] ：Client[127.0.0.1:35716]] Connected
+2025-03-29 22:21:30,542 [19] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2025-03-29 22:21:30,545 [19] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-29 22:21:31,030 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:823
+2025-03-29 22:21:34,906 [19] [WARN ] [GameServer] ：Client[127.0.0.1:35732]] Connected
+2025-03-29 22:21:34,912 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:836
+2025-03-29 22:21:43,924 [19] [WARN ] [GameServer] ：Client[127.0.0.1:35750]] Connected
+2025-03-29 22:21:43,968 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-29 22:21:43,969 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-29 22:21:46,087 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-29 22:21:46,088 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大贝塔 Map:1
+2025-03-29 22:21:46,090 [5] [INFO ] [GameServer] ：HasItem:[1][True]
+2025-03-29 22:21:46,091 [5] [INFO ] [GameServer] ：[1 RemoveItem[ID :1.count:0]] removeCount:1
+2025-03-29 22:21:46,133 [5] [INFO ] [GameServer] ：[1]GetItem[1]:[ID :1.count:0]
+2025-03-29 22:21:46,143 [5] [INFO ] [GameServer] ：item:[1][ID :1.count:0]
+2025-03-29 22:21:46,151 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2025-03-29 22:22:07,901 [13] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2025-03-29 22:22:07,901 [13] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-29 22:22:30,751 [20] [WARN ] [GameServer] ：Client[127.0.0.1:34865]] Connected
+2025-03-29 22:22:30,786 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-29 22:22:30,786 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-29 22:22:33,136 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-29 22:22:33,137 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大贝塔 Map:1
+2025-03-29 22:22:33,137 [5] [INFO ] [GameServer] ：HasItem:[1][True]
+2025-03-29 22:22:33,137 [5] [INFO ] [GameServer] ：[1 RemoveItem[ID :1.count:0]] removeCount:1
+2025-03-29 22:22:33,138 [5] [INFO ] [GameServer] ：[1]GetItem[1]:[ID :1.count:0]
+2025-03-29 22:22:33,138 [5] [INFO ] [GameServer] ：item:[1][ID :1.count:0]
+2025-03-29 22:22:33,139 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:3
+2025-03-29 22:23:10,618 [24] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:3
+2025-03-29 22:23:10,618 [24] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-29 22:23:23,470 [26] [WARN ] [GameServer] ：Client[127.0.0.1:34881]] Connected
+2025-03-29 22:23:23,513 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-29 22:23:23,513 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-29 22:23:25,299 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-29 22:23:25,300 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大贝塔 Map:1
+2025-03-29 22:23:25,300 [6] [INFO ] [GameServer] ：HasItem:[1][True]
+2025-03-29 22:23:25,301 [6] [INFO ] [GameServer] ：[1 RemoveItem[ID :1.count:0]] removeCount:1
+2025-03-29 22:23:25,303 [6] [INFO ] [GameServer] ：[1]GetItem[1]:[ID :1.count:0]
+2025-03-29 22:23:25,304 [6] [INFO ] [GameServer] ：item:[1][ID :1.count:0]
+2025-03-29 22:23:25,304 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:4
+2025-03-29 22:24:19,073 [26] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:4
+2025-03-29 22:24:19,073 [26] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-29 22:24:43,610 [26] [WARN ] [GameServer] ：Client[127.0.0.1:34923]] Connected
+2025-03-29 22:24:43,647 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-29 22:24:43,648 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-29 22:24:45,580 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-29 22:24:45,580 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大贝塔 Map:1
+2025-03-29 22:24:45,581 [5] [INFO ] [GameServer] ：HasItem:[1][True]
+2025-03-29 22:24:45,581 [5] [INFO ] [GameServer] ：[1 RemoveItem[ID :1.count:0]] removeCount:1
+2025-03-29 22:24:45,583 [5] [INFO ] [GameServer] ：[1]GetItem[1]:[ID :1.count:0]
+2025-03-29 22:24:45,583 [5] [INFO ] [GameServer] ：item:[1][ID :1.count:0]
+2025-03-29 22:24:45,584 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:5
+2025-03-29 22:34:29,891 [1] [INFO ] [GameServer] ：Game Server Init
+2025-03-29 22:34:31,241 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-03-29 22:34:31,848 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-03-29 22:34:31,850 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-03-29 22:34:31,851 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-03-29 22:34:31,851 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-03-29 22:34:31,852 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-03-29 22:34:31,908 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:34:31,908 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:34:31,908 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:34:31,909 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:34:31,910 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:34:31,911 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:34:31,912 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:34:31,914 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:34:31,961 [1] [WARN ] [GameServer] ：NetService Started
+2025-03-29 22:34:53,157 [3] [WARN ] [GameServer] ：Client[127.0.0.1:42533]] Connected
+2025-03-29 22:34:53,188 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-29 22:34:53,390 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-29 22:35:01,140 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-29 22:35:01,145 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大贝塔 Map:1
+2025-03-29 22:35:01,261 [5] [INFO ] [GameServer] ：HasItem:[1][True]
+2025-03-29 22:35:01,263 [5] [INFO ] [GameServer] ：[1 RemoveItem[ID :1.count:0]] removeCount:1
+2025-03-29 22:35:01,848 [5] [INFO ] [GameServer] ：[1]GetItem[1]:[ID :1.count:0]
+2025-03-29 22:35:01,850 [5] [INFO ] [GameServer] ：item:[1][ID :1.count:0]
+2025-03-29 22:35:01,873 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2025-03-29 22:35:41,167 [17] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2025-03-29 22:35:41,169 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-29 22:35:54,112 [19] [WARN ] [GameServer] ：Client[127.0.0.1:42549]] Connected
+2025-03-29 22:35:54,145 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-29 22:35:54,145 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-29 22:35:55,894 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-29 22:35:55,894 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大贝塔 Map:1
+2025-03-29 22:35:55,895 [6] [INFO ] [GameServer] ：HasItem:[1][True]
+2025-03-29 22:35:55,895 [6] [INFO ] [GameServer] ：[1 RemoveItem[ID :1.count:0]] removeCount:1
+2025-03-29 22:35:55,897 [6] [INFO ] [GameServer] ：[1]GetItem[1]:[ID :1.count:0]
+2025-03-29 22:35:55,898 [6] [INFO ] [GameServer] ：item:[1][ID :1.count:0]
+2025-03-29 22:35:55,898 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2025-03-29 22:48:52,421 [1] [INFO ] [GameServer] ：Game Server Init
+2025-03-29 22:48:52,739 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-03-29 22:48:52,985 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-03-29 22:48:52,987 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-03-29 22:48:52,987 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-03-29 22:48:52,988 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-03-29 22:48:52,991 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-03-29 22:48:53,034 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:48:53,034 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:48:53,034 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:48:53,071 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:48:53,071 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:48:53,071 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:48:53,071 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:48:53,071 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 22:48:53,099 [1] [WARN ] [GameServer] ：NetService Started
+2025-03-29 22:49:08,859 [3] [WARN ] [GameServer] ：Client[127.0.0.1:7471]] Connected
+2025-03-29 22:49:08,892 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-29 22:49:09,036 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-29 22:49:18,092 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-29 22:49:18,096 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大贝塔 Map:1
+2025-03-29 22:49:18,204 [6] [INFO ] [GameServer] ：当前1号物品：HasItem:[1][False]
+2025-03-29 22:49:18,205 [6] [INFO ] [GameServer] ：经过查询没拥有1号物品，添加2个
+2025-03-29 22:49:18,206 [6] [INFO ] [GameServer] ：[1]AddItem[ID :1.count:2] addCount[2]
+2025-03-29 22:49:18,795 [6] [INFO ] [GameServer] ：[1]GetItem[1]:[ID :1.count:2]
+2025-03-29 22:49:18,796 [6] [INFO ] [GameServer] ：目前1号物体 ：item:[1][ID :1.count:2]
+2025-03-29 22:49:18,814 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2025-03-29 22:49:50,401 [21] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2025-03-29 22:49:50,404 [21] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-29 22:50:04,856 [15] [WARN ] [GameServer] ：Client[127.0.0.1:7491]] Connected
+2025-03-29 22:50:04,901 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-29 22:50:04,901 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-29 22:50:07,054 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-29 22:50:07,055 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大贝塔 Map:1
+2025-03-29 22:50:07,056 [6] [INFO ] [GameServer] ：当前1号物品：HasItem:[1][True]
+2025-03-29 22:50:07,056 [6] [INFO ] [GameServer] ：经过查询拥有1号物品，删除1个
+2025-03-29 22:50:07,058 [6] [INFO ] [GameServer] ：[1 RemoveItem[ID :1.count:1]] removeCount:1
+2025-03-29 22:50:07,063 [6] [INFO ] [GameServer] ：[1]GetItem[1]:[ID :1.count:1]
+2025-03-29 22:50:07,064 [6] [INFO ] [GameServer] ：目前1号物体 ：item:[1][ID :1.count:1]
+2025-03-29 22:50:07,064 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2025-03-29 22:50:21,000 [15] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2025-03-29 22:50:21,001 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-29 22:50:36,676 [15] [WARN ] [GameServer] ：Client[127.0.0.1:7497]] Connected
+2025-03-29 22:50:36,716 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-29 22:50:36,717 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-29 22:50:39,864 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-29 22:50:39,865 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大贝塔 Map:1
+2025-03-29 22:50:39,865 [5] [INFO ] [GameServer] ：当前1号物品：HasItem:[1][True]
+2025-03-29 22:50:39,866 [5] [INFO ] [GameServer] ：经过查询拥有1号物品，删除1个
+2025-03-29 22:50:39,867 [5] [INFO ] [GameServer] ：[1 RemoveItem[ID :1.count:0]] removeCount:1
+2025-03-29 22:50:39,872 [5] [INFO ] [GameServer] ：[1]GetItem[1]:[ID :1.count:0]
+2025-03-29 22:50:39,872 [5] [INFO ] [GameServer] ：目前1号物体 ：item:[1][ID :1.count:0]
+2025-03-29 22:50:39,874 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:3
+2025-03-29 22:50:48,688 [17] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:3
+2025-03-29 22:50:48,688 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-29 22:51:00,701 [17] [WARN ] [GameServer] ：Client[127.0.0.1:7505]] Connected
+2025-03-29 22:51:00,737 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-29 22:51:00,737 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-29 22:51:02,420 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-29 22:51:02,420 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大贝塔 Map:1
+2025-03-29 22:51:02,421 [5] [INFO ] [GameServer] ：当前1号物品：HasItem:[1][False]
+2025-03-29 22:51:02,421 [5] [INFO ] [GameServer] ：经过查询没拥有1号物品，添加2个
+2025-03-29 22:51:02,421 [5] [INFO ] [GameServer] ：[4]AddItem[ID :1.count:2] addCount[2]
+2025-03-29 22:51:02,424 [5] [INFO ] [GameServer] ：[1]GetItem[1]:[ID :1.count:2]
+2025-03-29 22:51:02,424 [5] [INFO ] [GameServer] ：目前1号物体 ：item:[1][ID :1.count:2]
+2025-03-29 22:51:02,427 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:4
+2025-03-29 22:51:07,151 [24] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:4
+2025-03-29 22:51:07,152 [24] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-29 23:55:05,949 [1] [INFO ] [GameServer] ：Game Server Init
+2025-03-29 23:55:06,326 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-03-29 23:55:06,546 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-03-29 23:55:06,548 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-03-29 23:55:06,548 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-03-29 23:55:06,548 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-03-29 23:55:06,549 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-03-29 23:55:06,635 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 23:55:06,635 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 23:55:06,635 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 23:55:06,636 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 23:55:06,636 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 23:55:06,635 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 23:55:06,636 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 23:55:06,637 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 23:55:06,660 [1] [WARN ] [GameServer] ：NetService Started
+2025-03-29 23:55:13,850 [3] [WARN ] [GameServer] ：Client[127.0.0.1:7286]] Connected
+2025-03-29 23:55:13,851 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:825
+2025-03-29 23:55:14,046 [3] [WARN ] [GameServer] ：Client[127.0.0.1:7287]] Connected
+2025-03-29 23:55:14,046 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:818
+2025-03-29 23:55:14,107 [3] [WARN ] [GameServer] ：Client[127.0.0.1:7288]] Connected
+2025-03-29 23:55:14,497 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-29 23:55:58,651 [1] [INFO ] [GameServer] ：Game Server Init
+2025-03-29 23:55:58,982 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-03-29 23:55:59,214 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-03-29 23:55:59,216 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-03-29 23:55:59,216 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-03-29 23:55:59,216 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-03-29 23:55:59,217 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-03-29 23:55:59,271 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 23:55:59,275 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 23:55:59,275 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 23:55:59,276 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 23:55:59,276 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 23:55:59,283 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 23:55:59,286 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 23:55:59,290 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-03-29 23:55:59,334 [1] [WARN ] [GameServer] ：NetService Started
+2025-03-29 23:56:15,645 [3] [WARN ] [GameServer] ：Client[127.0.0.1:7321]] Connected
+2025-03-29 23:56:15,693 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-29 23:56:15,948 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-29 23:56:24,450 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-29 23:56:24,456 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大贝塔 Map:1
+2025-03-29 23:56:24,579 [6] [INFO ] [GameServer] ：当前1号物品：HasItem:[2][False]
+2025-03-29 23:56:24,580 [6] [INFO ] [GameServer] ：经过查询没拥有1号物品，添加2个
+2025-03-29 23:56:24,582 [6] [INFO ] [GameServer] ：[1]AddItem[ID :2.count:5] addCount[5]
+2025-03-29 23:56:25,266 [6] [INFO ] [GameServer] ：[1]GetItem[2]:[ID :2.count:5]
+2025-03-29 23:56:25,267 [6] [INFO ] [GameServer] ：目前1号物体 ：item:[2][ID :2.count:5]
+2025-03-29 23:56:25,287 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2025-03-29 23:57:09,105 [21] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2025-03-29 23:57:09,108 [21] [WARN ] [GameServer] ：Client[] Disconnected
+2025-03-29 23:57:23,562 [20] [WARN ] [GameServer] ：Client[127.0.0.1:7336]] Connected
+2025-03-29 23:57:23,623 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-03-29 23:57:23,624 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-03-29 23:57:26,162 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-03-29 23:57:26,164 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大贝塔 Map:1
+2025-03-29 23:57:26,165 [6] [INFO ] [GameServer] ：当前1号物品：HasItem:[2][True]
+2025-03-29 23:57:26,165 [6] [INFO ] [GameServer] ：经过查询拥有1号物品，删除1个
+2025-03-29 23:57:26,167 [6] [INFO ] [GameServer] ：[1 RemoveItem[ID :2.count:4]] removeCount:1
+2025-03-29 23:57:26,192 [6] [INFO ] [GameServer] ：[1]GetItem[2]:[ID :2.count:4]
+2025-03-29 23:57:26,192 [6] [INFO ] [GameServer] ：目前1号物体 ：item:[2][ID :2.count:4]
+2025-03-29 23:57:26,195 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2

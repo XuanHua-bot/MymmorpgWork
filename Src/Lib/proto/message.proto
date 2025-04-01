@@ -46,6 +46,12 @@ enum ENTITY_EVENT
 	JUMP = 4;
 }
 
+enum ITEM_TYPE{
+	NORMAL = 0;
+	MATERIAL = 1;
+	TASK = 2;//任务道具
+}
+
 message NUserInfo {
 	int32 id = 1;
 	NPlayerInfo player = 2;
@@ -65,6 +71,15 @@ message NCharacterInfo {
 	int32 level = 6;
 	int32 mapId = 7;
 	NEntity entity = 8;
+
+	repeated NItemInfo Items = 10; //服务器把玩家物品告诉客户端
+	NBagInfo Bag =11;
+}
+
+message NItemInfo{
+
+	int32 id =1;//id 
+	int32 count = 2;//数量
 }
 
 message NVector3
@@ -72,6 +87,12 @@ message NVector3
 	int32 x = 1;
 	int32 y = 2;
 	int32 z = 3;
+}
+
+message NBagInfo{
+
+	int32 Unlocked=1;//解锁的格子数
+	bytes Items = 2;//背包中有多少道具
 }
 
 ////////////////////////////////////////////////////////////////
@@ -177,9 +198,11 @@ message UserGameEnterRequest
 	int32 characterIdx = 1;
 }
 
+//角色进入游戏后
 message UserGameEnterResponse {
 	RESULT result = 1;
 	string errormsg = 2;
+	NCharacterInfo character =3;//角色信息
 }
 
 message UserGameLeaveRequest
@@ -223,4 +246,15 @@ message MapEntitySyncResponse
 message MapTeleportRequest
 {
 	int32 teleporterId = 1;
+}
+
+//背包保存
+message BagSaveRequest{
+	NBagInfo BagInfo = 1;//发送背包信息到服务器
+}
+
+//背包 
+message BagSaveResponse{
+	RESULT result=1;
+	string errormsg = 2;
 }
