@@ -11,7 +11,8 @@ public class UIManager : Singleton<UIManager> {
     class UIElement
     {
         public string Resources; //资源路径
-        public bool Cache;
+        public bool Cache;//Cache=true 时仅隐藏，保留实例供下次快速激活。Cache=false 时销毁实例，释放内存。
+
         public GameObject Instance;
     }
 
@@ -20,8 +21,9 @@ public class UIManager : Singleton<UIManager> {
     {
         //预先把 ui添加到ui管理器中  管理器才能管理 ui
         //测试用 ui
-        this.UIResources.Add(typeof(UITest), new UIElement() { Resources = "UI/UITest", Cache = true });
-        this.UIResources.Add(typeof(UIBag), new UIElement() { Resources = "UI/UIBag", Cache = true });
+        this.UIResources.Add(typeof(UITest), new UIElement() { Resources = "UI/UITest", Cache = true });//不销毁
+        this.UIResources.Add(typeof(UIBag), new UIElement() { Resources = "UI/UIBag", Cache = false });//会销毁 实例后再次执行start
+        //this.UIResources.Add(typeof(UIShop), new UIElement() { Resources = "UI/UIShop", Cache = false });
     }
 
     ~UIManager()

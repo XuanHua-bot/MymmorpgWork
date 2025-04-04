@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameServer.Managers
+namespace GameServer.Managers//主要负责管理玩家角色的物品，包括物品的初始化、使用、判断是否拥有、获取、添加和移除等操作。
 {
     class ItemManager
     {
@@ -27,7 +27,7 @@ namespace GameServer.Managers
             foreach (var item in owner.Data.Items)
             {
                 //添加到字典 
-                this.Items.Add(item.ItemID, new Item(item));
+                this.Items.Add(item.ItemID, new Item(item));//为每个物品创建一个 Item 对象，并将其添加到 Items 字典中，键为物品的 ID。
             }
         }
 
@@ -35,7 +35,7 @@ namespace GameServer.Managers
         {
             Log.InfoFormat("[{0}]UserItem[{1}:{2}]", this.Owner.Data.ID, itemId, count);
             Item item = null;
-            if (this.Items.TryGetValue(itemId,out  item))
+            if (this.Items.TryGetValue(itemId,out  item))//尝试从 Items 字典中获取指定 ID 的物品。
             {
                 if (item.Count<count)//检查 字典内的 物品个数 是否足够
                 {
@@ -66,16 +66,16 @@ namespace GameServer.Managers
             Item item = null;
             this.Items.TryGetValue(itemId, out item);
             Log.InfoFormat("[{0}]GetItem[{1}]:[{2}]", this.Owner.Data.ID, itemId, item);
-            return item;
+            return item;//返回获取到的物品对象，如果不存在则返回 null。
         }
 
         public bool AddItem(int itemId,int count)//增加道具
         {
             Item item = null;
 
-            if (this.Items.TryGetValue(itemId,out item))//判断是否存在，如果存在 直接Add
+            if (this.Items.TryGetValue(itemId,out item))//尝试从 Items 字典中获取指定 ID 的物品。
             {
-                item.Add(count);  
+                item.Add(count);  //调用 item.Add(count) 方法增加物品数量。
             }
             else//如果该道具不存在 则在数据库插入道具
             {

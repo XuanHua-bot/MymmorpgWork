@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="5412c163-c36a-4863-9b11-ead59b5dd35e" name="@localhost Mapping">
+      <data-sources db="28078fe5-16e2-4315-abbc-b265046da895" ddl="196d5571-3275-40bd-b305-bec12206074a" />
+      <scope>
+        <node kind="database" negative="1" />
+      </scope>
+    </mapping>
+  </component>
+</project>

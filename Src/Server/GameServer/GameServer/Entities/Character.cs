@@ -21,6 +21,8 @@ namespace GameServer.Entities
 
         public ItemManager ItemManager;
 
+        //public StatusManager StatusManager;
+
         public Character(CharacterType type,TCharacter cha):
             base(new Core.Vector3Int(cha.MapPosX, cha.MapPosY, cha.MapPosZ),new Core.Vector3Int(100,0,0))
         {
@@ -32,6 +34,7 @@ namespace GameServer.Entities
             this.Info.Level = 1;//cha.Level;
             this.Info.Tid = cha.TID;
             this.Info.Class = (CharacterClass)cha.Class;
+            this.Info.Gold = cha.Gold;
             this.Info.mapId = cha.MapID;
             this.Info.Entity = this.EntityData;
 

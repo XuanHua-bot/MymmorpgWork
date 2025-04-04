@@ -9,7 +9,7 @@ using UnityEngine;
 
 namespace Managers
 {
-    class ItemManager:Singleton<ItemManager>//因为客户端无法管理其他玩家  所以用单例
+    class ItemManager:Singleton<ItemManager>//负责管理玩家物品的本地数据
     {
         public Dictionary<int, Item> Items = new Dictionary<int, Item>();
         internal void Init(List<NItemInfo> items)

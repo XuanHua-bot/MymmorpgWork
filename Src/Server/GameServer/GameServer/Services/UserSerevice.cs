@@ -118,6 +118,7 @@ namespace GameServer.Services
                 MapPosX = 5000,
                 MapPosY = 4000,
                 MapPosZ = 820,
+                Gold = 10000,
             };
 
             //背包添加

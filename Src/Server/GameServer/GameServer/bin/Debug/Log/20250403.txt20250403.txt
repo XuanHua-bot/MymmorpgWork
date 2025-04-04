@@ -1,0 +1,8 @@
+
+2025-04-03 23:30:17,908 [1] [INFO ] [GameServer] ：Game Server Init
+2025-04-03 23:30:18,273 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-04-03 23:30:18,646 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-04-03 23:30:18,647 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-04-03 23:30:18,657 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-04-03 23:30:18,657 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-04-03 23:30:18,658 [1] [WARN ] [GameServer] ：Starting Listener...

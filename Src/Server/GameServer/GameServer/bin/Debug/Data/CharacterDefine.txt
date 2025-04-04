@@ -5,7 +5,7 @@
     "Type": "Normal",
     "Class": "WARRIOR",
     "Resource": "Character/Warrior",
-    "Description": "这是一个战士",
+    "Description": "巨剑震颤峡谷深处噜，汗水浸透皮甲の诱惑厚！",
     "InitLevel": 1,
     "Speed": 300
   },
@@ -15,7 +15,7 @@
     "Type": "Normal",
     "Class": "WIZARD",
     "Resource": "Character/Wizard",
-    "Description": "这是一个法师",
+    "Description": "法杖咏唱整夜不熄火，元素潮喷到天亮惹！",
     "InitLevel": 1,
     "Speed": 300
   },
@@ -25,7 +25,7 @@
     "Type": "Normal",
     "Class": "ARCHER",
     "Resource": "Character/Archer",
-    "Description": "这是一个弓箭手",
+    "Description": "连发速射百步穿杨噜，林间野性瞄准敏感带叭！",
     "InitLevel": 1,
     "Speed": 300
   },

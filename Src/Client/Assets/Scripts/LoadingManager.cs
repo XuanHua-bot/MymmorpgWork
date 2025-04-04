@@ -44,6 +44,7 @@ public class LoadingManager : MonoBehaviour {
 
 
         TestManager.Instance.Init();
+        ShopManager.Instance.Init();
 
         // Fake Loading Simulate
         for (float i = 50; i < 100;)

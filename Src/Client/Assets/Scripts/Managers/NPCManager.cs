@@ -1,24 +1,16 @@
 ﻿using Common.Data;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace Managers
 {
-    class NPCManager : Singleton<NPCManager>
+    class NPCManager :Singleton<NPCManager>
     {
         public delegate bool NpcActionHandler(NpcDefine npc);
 
-        internal void RegisterNpcEvent(NpcFunction npcFunction, object invokeShop, object onNpcInvokeShop)
-        {
-            throw new NotImplementedException();
-        }
-
-        //使用字典储存委托  一个function 对应一个action
-        //eventMap 是一个字典，键是 NpcFunction（如 OpenShop、Teleport），值是 NpcActionHandler 委托。
         Dictionary<NpcFunction, NpcActionHandler> eventMap = new Dictionary<NpcFunction, NpcActionHandler>();
 
+        
+        //调用shopManager中注册的 方法
         public void RegisterNpcEvent(NpcFunction function,NpcActionHandler action)
         {
             if (!eventMap.ContainsKey(function))
