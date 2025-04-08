@@ -28,6 +28,8 @@ namespace Common.Data
         public string Description {get;set;}
         public ItemType Type {get;set;}
         public string Category {get;set;}
+        public int Level { get; set; }//装备等级
+        public CharacterClass LimitClass { get; set; }//装备职业限制
         public bool CanUse {get;set;}
         public float UseCD {get;set;}
         public int Price {get;set;}

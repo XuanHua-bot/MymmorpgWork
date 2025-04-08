@@ -42,7 +42,8 @@ namespace GameServer.Managers//主要负责管理玩家角色的物品，包括�
                     return false;
                 }
 
-                //TODO 使用逻辑：：：：
+                //TODO
+                //道具使用逻辑 待完成：：：：
 
 
                 item.Remove(count);
@@ -89,6 +90,7 @@ namespace GameServer.Managers//主要负责管理玩家角色的物品，包括�
                 item = new Item(dbItem);
                 this.Items.Add(itemId, item);
             }
+            this.Owner.StatusManager.AddItemChange(itemId,count,StatusAction.Add);
             Log.InfoFormat("[{0}]AddItem[{1}] addCount[{2}]", this.Owner.Id, item, count);
             //DBService.Instance.Save();
             return true;
@@ -106,6 +108,7 @@ namespace GameServer.Managers//主要负责管理玩家角色的物品，包括�
                 return false;
             }
             item.Remove(count);
+            Owner.StatusManager.AddItemChange(ItemId,count,StatusAction.Delete);
             Log.InfoFormat("[{0} RemoveItem[{1}]] removeCount:{2}", this.Owner.Data.ID, item, count);
             //DBService.Instance.Save();
             return true; 

@@ -1,9 +1,11 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class UIMessageBox : MonoBehaviour {
 
+    
     public Text title;
     public Text message;
     public Image[] icons;
@@ -50,6 +52,7 @@ public class UIMessageBox : MonoBehaviour {
         Destroy(this.gameObject);
         if (this.OnYes != null)
             this.OnYes();
+        
     }
 
     void OnClickNo()

@@ -244,6 +244,7 @@ namespace Services
                 {
                     ItemManager.Instance.Init(response.Character.Items);//初始化道具管理器
                     BagManager.Instance.Init(response.Character.Bag);
+                    EquipManager.Instance.Init(response.Character.Equips);
                 }
             }
         }

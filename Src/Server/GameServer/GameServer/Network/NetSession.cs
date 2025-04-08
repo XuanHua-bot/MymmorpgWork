@@ -11,17 +11,56 @@ using SkillBridge.Message;
 
 namespace Network
 {
-    class NetSession
+    class NetSession : INetSession
     {
         public TUser User { get; set; }
         public Character Character { get; set; }
         public NEntity Entity { get; set; }
 
-        internal void Disconnected()
+        public void Disconnected()
         {
             if (this.Character != null)
-                UserService.Instance.CharacterRemove(this.Character);
-          
+                UserService.Instance.CharacterLeave(this.Character);
+        }
+
+        private NetMessage response;//根消息
+
+        public NetMessageResponse Response//response 属性  在session随时取得response
+        {
+            get
+            {
+                if (response==null)
+                {
+                    response = new NetMessage();
+      
+               }
+
+                if (response.Response==null)
+                {
+                    response.Response = new NetMessageResponse();
+                }
+
+                return response.Response;
+            }
+        }
+
+        //todo
+        //代码需补全
+        public byte[] GetResponse()
+        {
+            if (response !=null)
+            {
+                if (this.Character!=null && this.Character.StatusManager.HasStatus)//如果角色管理器上 有状态
+                {
+                    this.Character.StatusManager.ApplyResponse(Response);
+                }
+
+                byte[] data = PackageHandler.PackMessage(response);// response 发送给客户端后 立刻清空
+                response = null;
+                return data;
+            }
+
+            return null;
         }
     }
 }

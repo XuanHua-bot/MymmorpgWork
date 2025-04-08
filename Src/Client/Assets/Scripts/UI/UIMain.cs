@@ -4,6 +4,7 @@ using Services;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UI;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -46,5 +47,11 @@ public class UIMain : MonoSingleton<UIMain> {
     public void OnClickBag()
     {
         UIManager.Instance.Show<UIBag>();
+    }
+
+    public void OnClickCharEquip()
+    {
+        
+        UIManager.Instance.Show<UICharEquip>();
     }
 }

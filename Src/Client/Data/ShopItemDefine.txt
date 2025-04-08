@@ -10,7 +10,7 @@
     "2": {
       "ItemID": 1,
       "Count": 10,
-      "Price": 100,
+      "Price": 95,
       "Status": 1,
       "小型治疗药水X10": {}
     },
@@ -24,35 +24,35 @@
     "4": {
       "ItemID": 2,
       "Count": 10,
-      "Price": 100,
+      "Price": 95,
       "Status": 1,
       "小型法力药水X10": {}
     },
     "5": {
       "ItemID": 3,
       "Count": 1,
-      "Price": 20,
+      "Price": 15,
       "Status": 1,
       "面包": {}
     },
     "6": {
       "ItemID": 3,
       "Count": 10,
-      "Price": 200,
+      "Price": 145,
       "Status": 1,
       "面包X10": {}
     },
     "7": {
       "ItemID": 4,
       "Count": 1,
-      "Price": 20,
+      "Price": 17,
       "Status": 1,
       "海鲜汤": {}
     },
     "8": {
       "ItemID": 4,
       "Count": 10,
-      "Price": 200,
+      "Price": 165,
       "Status": 1,
       "海鲜汤X10": {}
     }

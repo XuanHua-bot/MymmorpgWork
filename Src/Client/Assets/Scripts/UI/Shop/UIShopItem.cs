@@ -49,14 +49,17 @@ public class UIShopItem : MonoBehaviour, ISelectHandler
 	}
     public void SetShopItem(int id,ShopItemDefine shopItem,UIShop owner)
     {
+        
         this.shop = owner;
         this.ShopItemID = id;
         this.ShopItem = shopItem;
         this.item = DataManager.Instance.Items[this.ShopItem.ItemID];
 
+        this.gameObject.name = this.item.Name;
         this.title.text = this.item.Name;
-        this.count.text = shopItem.Count.ToString();
+        this.count.text ="x" + shopItem.Count.ToString();
         this.price.text = ShopItem.Price.ToString();
+        this.limitClass.text = this.item.LimitClass.ToString();
         this.icon.overrideSprite = Resloader.Load<Sprite>(item.Icon);
     }
 

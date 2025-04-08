@@ -29,7 +29,11 @@ public class TabButton : MonoBehaviour {
 
     public void Select(bool select)
     {
-        tabImage.overrideSprite = select ? activeImage : normalImage; //三元运算符
+        if ( tabImage.overrideSprite!= null)
+        {
+            tabImage.overrideSprite = select ? activeImage : normalImage; //三元运算符
+        }
+        
     }
 
     void OnClick()

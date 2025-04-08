@@ -22,5 +22,5 @@ E:\MymmorpgWork\Src\Server\GameServer\GameServer\obj\Debug\GameServer.exe.config
 E:\MymmorpgWork\Src\Server\GameServer\GameServer\obj\Debug\GameServer.csproj.CoreCompileInputs.cache
 E:\MymmorpgWork\Src\Server\GameServer\GameServer\obj\Debug\GameServer.exe
 E:\MymmorpgWork\Src\Server\GameServer\GameServer\obj\Debug\GameServer.pdb
-E:\MymmorpgWork\Src\Server\GameServer\GameServer\obj\Debug\GameServer.csproj.CopyComplete
 E:\MymmorpgWork\Src\Server\GameServer\GameServer\obj\Debug\GameServer.csprojAssemblyReference.cache
+E:\MymmorpgWork\Src\Server\GameServer\GameServer\obj\Debug\GameServer.csproj.CopyComplete

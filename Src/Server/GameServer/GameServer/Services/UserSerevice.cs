@@ -34,32 +34,32 @@ namespace GameServer.Services
         {
             Log.InfoFormat("UserLoginRequest: User:{0}  Pass:{1}", request.User, request.Passward);
 
-            NetMessage message = new NetMessage();
+            /*NetMessage message = new NetMessage();
             message.Response = new NetMessageResponse();
-            message.Response.userLogin = new UserLoginResponse();
-
+            message.Response.userLogin = new UserLoginResponse();*/
+            sender.Session.Response.userLogin = new UserLoginResponse();
 
             TUser user = DBService.Instance.Entities.Users.Where(u => u.Username == request.User).FirstOrDefault();
             if (user == null)
             {
-                message.Response.userLogin.Result = Result.Failed;
-                message.Response.userLogin.Errormsg = "用户不存在";
+                sender.Session.Response.userLogin.Result = Result.Failed;
+                sender.Session.Response.userLogin.Errormsg = "用户不存在";
             }
             else if (user.Password != request.Passward)
             {
-                message.Response.userLogin.Result = Result.Failed;
-                message.Response.userLogin.Errormsg = "密码错误";
+                sender.Session.Response.userLogin.Result = Result.Failed;
+                sender.Session.Response.userLogin.Errormsg = "密码错误";
             }
             else
             {
                 sender.Session.User = user;
 
-                message.Response.userLogin.Result = Result.Success;
-                message.Response.userLogin.Errormsg = "None";
-                message.Response.userLogin.Userinfo = new NUserInfo();
-                message.Response.userLogin.Userinfo.Id =  (int)user.ID;
-                message.Response.userLogin.Userinfo.Player = new NPlayerInfo();
-                message.Response.userLogin.Userinfo.Player.Id = user.Player.ID;
+                sender.Session.Response.userLogin.Result = Result.Success;
+                sender.Session.Response.userLogin.Errormsg = "None";
+                sender.Session.Response.userLogin.Userinfo = new NUserInfo();
+                sender.Session.Response.userLogin.Userinfo.Id =  (int)user.ID;
+                sender.Session.Response.userLogin.Userinfo.Player = new NPlayerInfo();
+                sender.Session.Response.userLogin.Userinfo.Player.Id = user.Player.ID;
                 foreach (var c in user.Player.Characters)
                 {
                     //只有角色 有db
@@ -69,12 +69,14 @@ namespace GameServer.Services
                     info.Type = CharacterType.Player;
                     info.Class = (CharacterClass)c.Class;
                     info.Tid = c.ID;
-                    message.Response.userLogin.Userinfo.Player.Characters.Add(info);
+                    sender.Session.Response.userLogin.Userinfo.Player.Characters.Add(info);
+                    
                 }
 
             }
-            byte[] data = PackageHandler.PackMessage(message);
-            sender.SendData(data, 0, data.Length);
+            /*byte[] data = PackageHandler.PackMessage(message);
+            sender.SendData(data, 0, data.Length);*/
+            sender.SendResponse();
         }
 
         void OnRegister(NetConnection<NetSession> sender, UserRegisterRequest request)
@@ -119,6 +121,8 @@ namespace GameServer.Services
                 MapPosY = 4000,
                 MapPosZ = 820,
                 Gold = 10000,
+                Equips = new byte[28],
+                
             };
 
             //背包添加
@@ -129,7 +133,23 @@ namespace GameServer.Services
             character.Bag = DBService.Instance.Entities.CharacterBags.Add(bag);
 
             character = DBService.Instance.Entities.Characters.Add(character);
-            sender.Session.User.Player.Characters.Add(character);
+           //添加20 个血瓶蓝瓶
+            character.Items.Add(new TCharacterItem()
+            {
+                Owner = character,
+                ItemID = 1,
+                ItemCount = 20,
+            });
+            character.Items.Add(new TCharacterItem()
+            {
+                Owner = character,
+                ItemID = 2,
+                ItemCount = 20,
+            });
+           
+			  
+	
+			sender.Session.User.Player.Characters.Add(character);
             DBService.Instance.Entities.SaveChanges();
 
             NetMessage message = new NetMessage();
@@ -170,31 +190,7 @@ namespace GameServer.Services
 
             message.Response.gameEnter.Character = character.Info;
 
-            //道具系统测试
-            int itemId = 2;
-            bool hasItem = character.ItemManager.HasItem(itemId);
-            Log.InfoFormat("当前1号物品：HasItem:[{0}][{1}]", itemId, hasItem);
-            if (hasItem)
-            {
-                /*Log.InfoFormat("经过查询拥有1号物品，删除1个");
-                character.ItemManager.RemoveItem(itemId, 1);*/
-            }
-            else
-            {
-
-                //Log.InfoFormat("经过查询没拥有1号物品，添加2个");
-                character.ItemManager.AddItem(1, 200);
-                character.ItemManager.AddItem(2, 200);
-                character.ItemManager.AddItem(3, 30);
-                character.ItemManager.AddItem(4, 100);
-
-                //character.ItemManager.AddItem(itemId, 5);
-
-            }
-            Models.Item item = character.ItemManager.GetItem(itemId);
-
-            Log.InfoFormat("目前1号物体 ：item:[{0}][{1}]", itemId, item);
-            DBService.Instance.Save();
+          
 
 
 
@@ -209,7 +205,7 @@ namespace GameServer.Services
         {
             Character character = sender.Session.Character;
             Log.InfoFormat("OnGameLeaveRequest: characterID:{0}:{1} Map:{2}", character.Id, character.Info.Name, character.Info.mapId);
-            CharacterRemove(character);
+            CharacterLeave(character);
 
             NetMessage message = new NetMessage();
             message.Response = new NetMessageResponse();
@@ -222,7 +218,7 @@ namespace GameServer.Services
 
         }
 
-        public void CharacterRemove(Character character)
+        public void CharacterLeave(Character character)
         {
             CharacterManager.Instance.RemoveCharacter(character.Id);
             MapManager.Instance[character.Info.mapId].CharacterLeave(character);

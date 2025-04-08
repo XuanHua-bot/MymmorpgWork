@@ -50,6 +50,21 @@ enum ITEM_TYPE{
 	NORMAL = 0;
 	MATERIAL = 1;
 	TASK = 2;//任务道具
+	EQUIP = 3;//装备
+}
+ 
+//装备槽位
+enum EQUIP_SLOT{
+
+	WEAPON = 0;
+	ACCESSORY =1;
+	HELMET =2;//头盔
+	CHEST =3;//胸甲
+	SHOULDER =4;//护肩
+	PANTS =5;//裤子
+	BOOTS =6;//鞋子
+	SLOT_MAX =7;
+
 }
 
 message NUserInfo {
@@ -74,7 +89,8 @@ message NCharacterInfo {
 	int64 gold = 9;
 
 	repeated NItemInfo Items = 10; //服务器把玩家物品告诉客户端
-	NBagInfo Bag =11;
+	NBagInfo Bag =11; //字节和整数
+	bytes Equips =12;//储存玩家装备数组的字节
 }
 
 message NItemInfo{
@@ -96,38 +112,41 @@ message NBagInfo{
 	bytes Items = 2;//背包中有多少道具
 }
 
-
-/*enum STATUS_ACTION{
+//
+//
+//状态系统
+enum STATUS_ACTION{//改变的类型
 	UPDATE = 0;
 	ADD=1;
 	DELETE =2;
 }
 
-enum STATUS_TYPE{
+enum STATUS_TYPE{//改变的东西
 	MONEY =0;
 	EXP = 1;
 	SKILL_POINT=2;
 	ITEM = 3;
 }
 
-enum STATUS_SOURCE{
+enum STATUS_SOURCE{//改变来源
 
 	UPDATE = 0;
 	ADD = 1;
 	DDELETE =2;
 }
 
-message NStatus{
+message NStatus{//状态的结构
 
-	STATUS_TYPE type=1;
-	STATUS_ACTION action=2;
-	int32 id =3;
-	int32 value = 4;
+	STATUS_TYPE type=1;//Money//Item
+	STATUS_ACTION action=2;//Add//Add
+	int32 id =3;          //id
+	int32 value = 4;//100//10
 }
 
-message StatusNotify{
+message StatusNotify{//状态的通知
 	repeated NStatus status=1;
-}*/
+	//repeated 数组
+}
 
 ////////////////////////////////////////////////////////////////
 //
@@ -176,9 +195,11 @@ message NetMessageRequest{
 	MapTeleportRequest mapTeleport = 9;
 
 	ItemBuyRequest itemBuy =10;
+
+	ItemEquipRequest itemEquip =11;
 }
 
-message NetMessageResponse{
+message NetMessageResponse{//相应 包
 	UserRegisterResponse userRegister = 1;
 	UserLoginResponse userLogin = 2;
 	UserCreateCharacterResponse createChar = 3;
@@ -192,7 +213,9 @@ message NetMessageResponse{
 
 	ItemBuyResponse itemBuy =10;
 
-	//StatusNotify statusNotify=100;
+	StatusNotify statusNotify=100;
+
+	ItemEquipResponse itemEquip =11;
 	
 }
 
@@ -289,7 +312,7 @@ message MapTeleportRequest
 }
 
 message ItemBuyRequest{//道具购买祈求
-	int32 shopIdd = 1;
+	int32 shopId = 1;
 	int32 shopItemId = 2;
 }
 
@@ -310,4 +333,18 @@ message BagSaveRequest{
 message BagSaveResponse{
 	RESULT result=1;
 	string errormsg = 2;
+}
+
+message ItemEquipRequest{
+
+	int32 slot =1;
+	int32 itemId =2;
+	bool equip =3;
+
+}
+
+message ItemEquipResponse{
+
+	RESULT result =1;
+	string errormsg =2;
 }

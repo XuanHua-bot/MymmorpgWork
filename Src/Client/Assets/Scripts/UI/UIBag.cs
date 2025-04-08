@@ -41,8 +41,9 @@ namespace Assets.Scripts.UI
             for(int i = 0; i < BagManager.Instance.Items.Length; i++)
             {
                 var item = BagManager.Instance.Items[i];
-                if (item.ItemId>0)
+                if (item.ItemId>0&&item.Count>0)
                 {
+                   
                     //                                  设置 父节点
                     GameObject go = Instantiate(bagItem, slots[i].transform);
                     var ui = go.GetComponent<UIIconItem>();
@@ -65,9 +66,22 @@ namespace Assets.Scripts.UI
             this.money.text = User.Instance.CurrentCharacter.Id.ToString();
         }
 
+        public void Clear()
+        {
+            for (int i = 0; i < slots.Count; i++)
+            {
+                if (slots[i].transform.childCount>0)
+                {
+                    Destroy(slots[i].transform.GetChild(0).gameObject);
+                }
+            }
+        }
+        
         public void OnRest()
         {
             BagManager.Instance.Reset();
+            this.Clear();
+            StartCoroutine(InitBags());
         }
     }
 
