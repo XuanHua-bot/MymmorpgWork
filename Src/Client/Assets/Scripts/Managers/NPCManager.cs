@@ -39,10 +39,10 @@ namespace Managers
         }
         public bool Interactive(NpcDefine npc)// 传入npc类型 并进行 任务类型分支
         {
-            //判断npc类型
-            if (npc.Type == NpcType.Task)
+            //检查有无对话
+            if (DoTaskInteractive(npc))
             {
-                return DoTaskInteractive(npc);//调用事件
+                return true;
             }
             else if (npc.Type == NpcType.Functional)
             {
@@ -55,8 +55,13 @@ namespace Managers
 
         private bool DoTaskInteractive(NpcDefine npc)
         {
-            MessageBox.Show("点击了任务交互NPC：" + npc.Name, "Npc对话");
-            return true;
+            var status = QuestManager.Instance.GetQuestStatusByNpc(npc.ID);//获取状态
+            if (status == NpcQuestStatus.None)
+            {
+                return false;
+            }
+
+            return QuestManager.Instance.OpenNpcQuest(npc.ID);//有状态 则打开任务
         }
 
         private bool DoFunctionInteractive(NpcDefine npc)

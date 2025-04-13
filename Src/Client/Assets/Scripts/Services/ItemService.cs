@@ -47,7 +47,14 @@ namespace Services
                 "购买结果：" + message.Result + "\n" + message.Errormsg, // 消息内容
                 "购买完成" // 标题
             );
-           
+            msg.OnYes = () =>
+            {
+                UIShop uiShop = GameObject.Find("UIShop(Clone)").GetComponent<UIShop>();
+                if (uiShop != null)
+                {
+                    uiShop.InitItems();
+                }
+            };
 
         }
 

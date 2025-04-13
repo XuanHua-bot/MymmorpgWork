@@ -21,5 +21,10 @@ public class UIWorldElement : MonoBehaviour {
 
 
         }
+
+        if (Camera.main!=null)//使其 永远面向摄像机
+        {
+	        this.transform.forward = Camera.main.transform.forward;
+        }
 	}
 }

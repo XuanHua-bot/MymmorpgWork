@@ -5,6 +5,7 @@ TextureImporter:
     21300000: UINewPublicAtlas_2_0
     21300002: UINewPublicAtlas_2_1
     21300004: UINewPublicAtlas_2_2
+    21300006: UINewPublicAtlas_2_3
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -135,13 +136,33 @@ TextureImporter:
         width: 144
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 1, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: a706c5becbbb2084691cbc8e6cd84c2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UINewPublicAtlas_2_3
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 862
+        width: 95
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1526603ada9a417429002a94d004acd6
       vertices: []
       indices: 
       edges: []

@@ -1,130 +1,77 @@
-2025-04-08 14:52:19,791 [ 1] INFO  Unity: LoadingManager start
-2025-04-08 14:52:22,798 [ 1] INFO  Unity: DataManager > DataManager()
-2025-04-08 14:52:30,118 [ 1] INFO  Unity: UserLoginRequest::user :nayina psw:123123
-2025-04-08 14:52:30,120 [ 1] INFO  Unity: ConnectToServer() Start 
-2025-04-08 14:52:30,126 [ 1] INFO  Unity: DoConnect
-2025-04-08 14:52:30,129 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2025-04-08 14:52:30,133 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2025-04-13 21:13:32,916 [ 1] INFO  Unity: LoadingManager start
+2025-04-13 21:13:36,499 [ 1] INFO  Unity: DataManager > DataManager()
+2025-04-13 21:15:38,095 [ 1] INFO  Unity: UserLoginRequest::user :nayina psw:123123
+2025-04-13 21:15:38,100 [ 1] INFO  Unity: ConnectToServer() Start 
+2025-04-13 21:15:38,102 [ 1] INFO  Unity: DoConnect
+2025-04-13 21:15:38,103 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2025-04-13 21:15:38,104 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2025-04-08 14:52:30,137 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2025-04-08 14:52:30,224 [ 1] INFO  Unity: OnLogin:Success [None]
-2025-04-08 14:52:30,225 [ 1] INFO  Unity: LoadLevel: CharSelect
-2025-04-08 14:52:30,391 [ 1] INFO  Unity: LevelLoadCompleted:1
-2025-04-08 14:52:31,157 [ 1] INFO  Unity: Select Char:[1]awdawd[Wizard]
-2025-04-08 14:52:31,645 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
-2025-04-08 14:52:31,664 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2025-04-08 14:52:31,666 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:21]
-2025-04-08 14:52:31,666 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:20]
-2025-04-08 14:52:31,667 [ 1] INFO  Unity: ItemManager:Init[Id:1001,Count:2]
-2025-04-08 14:52:31,667 [ 1] INFO  Unity: ItemManager:Init[Id:3,Count:10]
-2025-04-08 14:52:31,667 [ 1] INFO  Unity: ItemManager:Init[Id:1005,Count:1]
-2025-04-08 14:52:31,668 [ 1] INFO  Unity: ItemManager:Init[Id:2002,Count:2]
-2025-04-08 14:52:31,668 [ 1] INFO  Unity: ItemManager:Init[Id:1003,Count:1]
-2025-04-08 14:52:31,669 [ 1] INFO  Unity: ItemManager:Init[Id:3002,Count:1]
-2025-04-08 14:52:31,669 [ 1] INFO  Unity: ItemManager:Init[Id:3001,Count:2]
-2025-04-08 14:52:31,670 [ 1] INFO  Unity: ItemManager:Init[Id:1006,Count:1]
-2025-04-08 14:52:31,670 [ 1] INFO  Unity: ItemManager:Init[Id:3006,Count:3]
-2025-04-08 14:52:31,671 [ 1] INFO  Unity: ItemManager:Init[Id:3004,Count:1]
-2025-04-08 14:52:31,671 [ 1] INFO  Unity: ItemManager:Init[Id:3003,Count:1]
-2025-04-08 14:52:31,672 [ 1] INFO  Unity: ItemManager:Init[Id:2007,Count:1]
-2025-04-08 14:52:31,673 [ 1] INFO  Unity: ItemManager:Init[Id:2006,Count:1]
-2025-04-08 14:52:31,673 [ 1] INFO  Unity: ItemManager:Init[Id:2005,Count:1]
-2025-04-08 14:52:31,674 [ 1] INFO  Unity: ItemManager:Init[Id:2004,Count:1]
-2025-04-08 14:52:31,674 [ 1] INFO  Unity: ItemManager:Init[Id:1002,Count:1]
-2025-04-08 14:52:31,678 [ 1] ERROR Unity: Message handler exception:, Array index is out of range., Assembly-CSharp,   at Managers.BagManager.Reset () [0x0005c] in E:\MymmorpgWork\Src\Client\Assets\Scripts\Managers\BagManager.cs:52 
-  at Managers.BagManager.Init (SkillBridge.Message.NBagInfo info) [0x00075] in E:\MymmorpgWork\Src\Client\Assets\Scripts\Managers\BagManager.cs:35 
-  at Services.UserService.OnGameEnter (System.Object sender, SkillBridge.Message.UserGameEnterResponse response) [0x00065] in E:\MymmorpgWork\Src\Client\Assets\Scripts\Services\UserService.cs:246 
-  at Network.MessageDistributer`1[System.Object].RaiseEvent[UserGameEnterResponse] (System.Object sender, SkillBridge.Message.UserGameEnterResponse msg) [0x00000] in <filename unknown>:0 
-2025-04-08 14:52:31,678 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{IndexOutOfRangeException: Array index is out of range., Managers.BagManager.Reset () (at Assets/Scripts/Managers/BagManager.cs:52)
-Managers.BagManager.Init (SkillBridge.Message.NBagInfo info) (at Assets/Scripts/Managers/BagManager.cs:35)
-Services.UserService.OnGameEnter (System.Object sender, SkillBridge.Message.UserGameEnterResponse response) (at Assets/Scripts/Services/UserService.cs:246)
-Network.MessageDistributer`1[System.Object].RaiseEvent[UserGameEnterResponse] (System.Object sender, SkillBridge.Message.UserGameEnterResponse msg)
-}</args></log4net.Error>
-2025-04-08 14:52:31,685 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2025-04-08 14:52:31,686 [ 1] INFO  Unity: AddCharacter:14:awdawd Map:1 Entity:(14:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2025-04-08 14:52:31,688 [ 1] INFO  Unity: LoadLevel: MainCity
-2025-04-08 14:52:32,156 [ 1] WARN  Unity: Asset 'DeliveryNpc': Transition 'DeliveryNPC_Talk -> DeliveryNPC_Idle' in state 'DeliveryNPC_Talk' doesn't have an Exit Time or any condition, transition will be ignored
+2025-04-13 21:15:38,110 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2025-04-13 21:15:40,680 [ 1] INFO  Unity: OnLogin:Success [None]
+2025-04-13 21:15:40,686 [ 1] INFO  Unity: LoadLevel: CharSelect
+2025-04-13 21:15:40,929 [ 1] INFO  Unity: LevelLoadCompleted:1
+2025-04-13 21:15:41,840 [ 1] INFO  Unity: Select Char:[1]Momoka[Warrior]
+2025-04-13 21:15:42,414 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2025-04-13 21:15:42,642 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2025-04-13 21:15:42,652 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:20]
+2025-04-13 21:15:42,653 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:20]
+2025-04-13 21:15:42,654 [ 1] INFO  Unity: ItemManager:Init[Id:3002,Count:1]
+2025-04-13 21:15:42,723 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-04-13 21:15:42,731 [ 1] INFO  Unity: AddCharacter:1:Momoka Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-04-13 21:15:42,750 [ 1] INFO  Unity: LoadLevel: MainCity
+2025-04-13 21:15:43,217 [ 1] WARN  Unity: Asset 'DeliveryNpc': Transition 'DeliveryNPC_Talk -> DeliveryNPC_Idle' in state 'DeliveryNPC_Talk' doesn't have an Exit Time or any condition, transition will be ignored
 
-2025-04-08 14:52:32,157 [ 1] WARN  Unity: Asset 'Treasure_Poter': Transition 'Treasure_poter_Talk -> Treasure_poter_IdleA' in state 'Treasure_poter_Talk' doesn't have an Exit Time or any condition, transition will be ignored
+2025-04-13 21:15:43,218 [ 1] WARN  Unity: Asset 'Treasure_Poter': Transition 'Treasure_poter_Talk -> Treasure_poter_IdleA' in state 'Treasure_poter_Talk' doesn't have an Exit Time or any condition, transition will be ignored
 
-2025-04-08 14:52:32,180 [ 1] INFO  Unity: LevelLoadCompleted:1
-2025-04-08 14:52:33,158 [ 1] INFO  Unity: SetDirection:(98, -20, 0)
-2025-04-08 14:52:33,159 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:14  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:0 
-2025-04-08 14:52:33,255 [ 1] INFO  Unity: SetDirection:(93, -38, 0)
-2025-04-08 14:52:33,256 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:14  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:0 
-2025-04-08 14:52:33,358 [ 1] INFO  Unity: SetDirection:(83, -56, 0)
-2025-04-08 14:52:33,358 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:14  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:0 
-2025-04-08 14:52:33,442 [ 1] INFO  Unity: SetDirection:(72, -70, 0)
-2025-04-08 14:52:33,443 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:14  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:0 
-2025-04-08 14:52:33,509 [ 1] INFO  Unity: MoveForward
-2025-04-08 14:52:33,510 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:14  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
-2025-04-08 14:52:33,539 [ 1] INFO  Unity: SetDirection:(56, -83, 0)
-2025-04-08 14:52:33,540 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:14  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
-2025-04-08 14:52:33,623 [ 1] INFO  Unity: SetDirection:(41, -91, 0)
-2025-04-08 14:52:33,624 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:14  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
-2025-04-08 14:52:33,707 [ 1] INFO  Unity: SetDirection:(24, -97, 0)
-2025-04-08 14:52:33,707 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:14  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
-2025-04-08 14:52:33,810 [ 1] INFO  Unity: SetDirection:(4, -100, 0)
-2025-04-08 14:52:33,810 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:14  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
-2025-04-08 14:52:33,961 [ 1] INFO  Unity: SetDirection:(-14, -99, 0)
-2025-04-08 14:52:33,962 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:14  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
-2025-04-08 14:52:34,359 [ 1] INFO  Unity: Stop
-2025-04-08 14:52:34,360 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:14  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:0 
-2025-04-08 14:52:36,051 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{IndexOutOfRangeException: Array index is out of range., Managers.BagManager.Reset () (at Assets/Scripts/Managers/BagManager.cs:52)
-Assets.Scripts.UI.UIBag.OnRest () (at Assets/Scripts/UI/UIBag.cs:82)
-UnityEngine.Events.InvokableCall.Invoke () (at D:/unity/Runtime/Export/UnityEvent.cs:166)
-UnityEngine.Events.UnityEvent.Invoke () (at D:/unity/Runtime/Export/UnityEvent_0.cs:58)
-UnityEngine.UI.Button.Press () (at D:/unity/Extensions/guisystem/UnityEngine.UI/UI/Core/Button.cs:36)
-UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at D:/unity/Extensions/guisystem/UnityEngine.UI/UI/Core/Button.cs:45)
-UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at D:/unity/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) (at D:/unity/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:261)
-UnityEngine.EventSystems.EventSystem:Update()
+2025-04-13 21:15:43,281 [ 1] INFO  Unity: LevelLoadCompleted:1
+2025-04-13 21:15:49,032 [ 1] INFO  Unity: SetDirection:(98, 18, 0)
+2025-04-13 21:15:49,033 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:1  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:0 
+2025-04-13 21:15:49,129 [ 1] INFO  Unity: SetDirection:(93, 36, 0)
+2025-04-13 21:15:49,130 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:1  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:0 
+2025-04-13 21:15:49,226 [ 1] INFO  Unity: SetDirection:(84, 54, 0)
+2025-04-13 21:15:49,227 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:1  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:0 
+2025-04-13 21:15:49,315 [ 1] INFO  Unity: SetDirection:(73, 68, 0)
+2025-04-13 21:15:49,316 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:1  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:0 
+2025-04-13 21:15:49,414 [ 1] INFO  Unity: SetDirection:(57, 82, 0)
+2025-04-13 21:15:49,414 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:1  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:0 
+2025-04-13 21:15:49,514 [ 1] INFO  Unity: SetDirection:(39, 92, 0)
+2025-04-13 21:15:49,515 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:1  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:0 
+2025-04-13 21:15:49,579 [ 1] INFO  Unity: MoveForward
+2025-04-13 21:15:49,580 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:1  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
+2025-04-13 21:15:49,609 [ 1] INFO  Unity: SetDirection:(19, 98, 0)
+2025-04-13 21:15:49,609 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:1  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
+2025-04-13 21:15:49,710 [ 1] INFO  Unity: SetDirection:(-2, 100, 0)
+2025-04-13 21:15:49,710 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:1  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
+2025-04-13 21:15:49,811 [ 1] INFO  Unity: SetDirection:(-22, 98, 0)
+2025-04-13 21:15:49,812 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:1  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
+2025-04-13 21:15:49,910 [ 1] INFO  Unity: SetDirection:(-40, 92, 0)
+2025-04-13 21:15:49,910 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:1  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
+2025-04-13 21:15:49,994 [ 1] INFO  Unity: SetDirection:(-55, 83, 0)
+2025-04-13 21:15:49,994 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:1  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
+2025-04-13 21:15:50,097 [ 1] INFO  Unity: SetDirection:(-71, 70, 0)
+2025-04-13 21:15:50,098 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:1  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
+2025-04-13 21:15:50,198 [ 1] INFO  Unity: SetDirection:(-83, 56, 0)
+2025-04-13 21:15:50,199 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:1  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
+2025-04-13 21:15:51,348 [ 1] INFO  Unity: SetPosition:(4706, 4340, 806)
+2025-04-13 21:15:51,348 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:1  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
+2025-04-13 21:15:51,532 [ 1] INFO  Unity: SetPosition:(4706, 4340, 806)
+2025-04-13 21:15:51,533 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:1  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
+2025-04-13 21:15:51,719 [ 1] INFO  Unity: SetPosition:(4706, 4340, 806)
+2025-04-13 21:15:51,719 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:1  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
+2025-04-13 21:15:51,881 [ 1] INFO  Unity: Stop
+2025-04-13 21:15:51,882 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:1  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:0 
+2025-04-13 21:16:59,655 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, Managers.QuestManager.ShowQuestDialog (Models.Quest quest) (at Assets/Scripts/Managers/QuestManager.cs:195)
+Managers.QuestManager.OpenNpcQuest (Int32 npcId) (at Assets/Scripts/Managers/QuestManager.cs:181)
+Managers.NPCManager.DoTaskInteractive (Common.Data.NpcDefine npc) (at Assets/Scripts/Managers/NPCManager.cs:64)
+Managers.NPCManager.Interactive (Common.Data.NpcDefine npc) (at Assets/Scripts/Managers/NPCManager.cs:43)
+NpcController+<DoInteractive>c__Iterator1.MoveNext () (at Assets/Scripts/GameObject/NpcController.cs:96)
+UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) (at D:/unity/Runtime/Export/Coroutines.cs:17)
 }</args></log4net.Error>
-2025-04-08 14:52:39,089 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{IndexOutOfRangeException: Array index is out of range., Managers.BagManager.Reset () (at Assets/Scripts/Managers/BagManager.cs:52)
-Assets.Scripts.UI.UIBag.OnRest () (at Assets/Scripts/UI/UIBag.cs:82)
-UnityEngine.Events.InvokableCall.Invoke () (at D:/unity/Runtime/Export/UnityEvent.cs:166)
-UnityEngine.Events.UnityEvent.Invoke () (at D:/unity/Runtime/Export/UnityEvent_0.cs:58)
-UnityEngine.UI.Button.Press () (at D:/unity/Extensions/guisystem/UnityEngine.UI/UI/Core/Button.cs:36)
-UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at D:/unity/Extensions/guisystem/UnityEngine.UI/UI/Core/Button.cs:45)
-UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at D:/unity/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) (at D:/unity/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:261)
-UnityEngine.EventSystems.EventSystem:Update()
-}</args></log4net.Error>
-2025-04-08 14:52:39,485 [ 1] INFO  Unity: TestManager,OnNpcInvokeShop NPC:[3°ßµã] Type :Functional Func :InvokeInsrance
-2025-04-08 14:52:42,734 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{IndexOutOfRangeException: Array index is out of range., Managers.BagManager.Reset () (at Assets/Scripts/Managers/BagManager.cs:52)
-Assets.Scripts.UI.UIBag.OnRest () (at Assets/Scripts/UI/UIBag.cs:82)
-UnityEngine.Events.InvokableCall.Invoke () (at D:/unity/Runtime/Export/UnityEvent.cs:166)
-UnityEngine.Events.UnityEvent.Invoke () (at D:/unity/Runtime/Export/UnityEvent_0.cs:58)
-UnityEngine.UI.Button.Press () (at D:/unity/Extensions/guisystem/UnityEngine.UI/UI/Core/Button.cs:36)
-UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at D:/unity/Extensions/guisystem/UnityEngine.UI/UI/Core/Button.cs:45)
-UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at D:/unity/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) (at D:/unity/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:261)
-UnityEngine.EventSystems.EventSystem:Update()
-}</args></log4net.Error>
-2025-04-08 14:52:43,548 [ 1] INFO  Unity: MoveForward
-2025-04-08 14:52:43,549 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:14  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
-2025-04-08 14:52:43,927 [ 1] INFO  Unity: SetDirection:(-32, -95, 0)
-2025-04-08 14:52:43,928 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:14  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
-2025-04-08 14:52:44,261 [ 1] INFO  Unity: SetDirection:(-12, -99, 0)
-2025-04-08 14:52:44,261 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:14  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
-2025-04-08 14:52:44,361 [ 1] INFO  Unity: SetDirection:(8, -100, 0)
-2025-04-08 14:52:44,362 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:14  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
-2025-04-08 14:52:44,461 [ 1] INFO  Unity: SetDirection:(28, -96, 0)
-2025-04-08 14:52:44,461 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:14  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
-2025-04-08 14:52:44,565 [ 1] INFO  Unity: SetDirection:(47, -88, 0)
-2025-04-08 14:52:44,567 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:14  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
-2025-04-08 14:52:44,711 [ 1] INFO  Unity: SetDirection:(63, -78, 0)
-2025-04-08 14:52:44,712 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:14  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:300 
-2025-04-08 14:52:44,930 [ 1] INFO  Unity: Stop
-2025-04-08 14:52:44,931 [ 1] INFO  Unity: SendMapEntityUpdateRequest: ID:14  POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPRD:0 
-2025-04-08 14:52:47,278 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2025-04-08 14:52:47,278 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2025-04-13 21:17:27,601 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2025-04-13 21:17:27,602 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:181)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:176)
 
-2025-04-08 14:52:47,281 [ 1] INFO  Unity: Character_14_awdawd OnDestroy :ID:14 POS:(5009, 3359, 820) DIR:(63, -78, 0) SPD:0 
+2025-04-13 21:17:27,609 [ 1] INFO  Unity: Character_1_Momoka OnDestroy :ID:1 POS:(4666, 4370, 806) DIR:(-83, 56, 0) SPD:0 

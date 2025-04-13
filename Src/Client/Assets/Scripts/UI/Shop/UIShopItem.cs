@@ -68,6 +68,12 @@ public class UIShopItem : MonoBehaviour, ISelectHandler
    
     public void OnSelect(BaseEventData eventData)
     {
+        if (this.selected==true)
+        {
+            this.Selected = false;
+            this.background.overrideSprite = normalBg;
+            return;
+        }
         this.Selected = true;
         this.shop.SelectShopItem(this);
     }

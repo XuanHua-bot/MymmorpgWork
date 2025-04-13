@@ -1,9 +1,6 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.Events;
-using System.Text;
-using System;
 using System.IO;
 
 using Common.Data;
@@ -22,6 +19,7 @@ public class DataManager : Singleton<DataManager>
     public Dictionary<int, ShopDefine> Shops = null;
     public Dictionary<int, Dictionary<int, ShopItemDefine>> ShopItems = null;
     public Dictionary<int, EquipDefine> Equips = null;
+    public Dictionary<int, QuestDefine> Quests = null;
 
 
 
@@ -108,6 +106,13 @@ public class DataManager : Singleton<DataManager>
         json = File.ReadAllText(this.DataPath + "EquipDefine.txt");
         this.Equips = JsonConvert.DeserializeObject<Dictionary<int, EquipDefine>>(json);
         yield return null;
+          
+        json = File.ReadAllText(this.DataPath + "QuestDefine.txt");
+        this.Quests = JsonConvert.DeserializeObject<Dictionary<int, QuestDefine>>(json);
+        yield return null;
+        
+        
+        
     }
 
 #if UNITY_EDITOR

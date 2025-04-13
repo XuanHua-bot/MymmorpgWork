@@ -1,14 +1,17 @@
 ﻿using Entities;
 using System.Collections;
 using System.Collections.Generic;
+using Managers;
+using UI.QuestSystem;
 using UnityEngine;
 
 public class UIWorldElementManager : MonoSingleton<UIWorldElementManager> {
 
     public GameObject nameBarPrefab;
-
-    private Dictionary<Transform, GameObject> elements = new Dictionary<Transform, GameObject>();
-
+    public GameObject npcStatusPrefab;
+    
+    private Dictionary<Transform, GameObject> elementNames = new Dictionary<Transform, GameObject>();
+    private Dictionary<Transform, GameObject> elementStatus = new Dictionary<Transform, GameObject>();
     // Use this for initialization
     protected override void OnStart()
     {
@@ -33,21 +36,42 @@ public class UIWorldElementManager : MonoSingleton<UIWorldElementManager> {
             goNameBar.GetComponent<UINameBar>().character = character;
             goNameBar.SetActive(true);
             //将其添加到 elements 字典中，以便后续管理。
-            this.elements[owner] = goNameBar;
+            this.elementNames[owner] = goNameBar;
         }
         else
-        {
             Debug.LogError("Owner is null, cannot add character name bar.");
-        }
-        
     }
     public void RemoveCharacterNameBar(Transform owner)
     {
-        if (this.elements.ContainsKey(owner) )
+        if (this.elementNames.ContainsKey(owner) )
         {
-            Destroy(this.elements[owner]);
-            this.elements.Remove(owner);
+            Destroy(this.elementNames[owner]);
+            this.elementNames.Remove(owner);
         }
-       
+    }
+    public void AddNpcQuestStatus(Transform owner,NpcQuestStatus status)
+    {
+        if (this.elementStatus.ContainsKey(owner))
+        {
+            elementStatus[owner].GetComponent<UIQuestStatus>().SetQuestStatus(status);
+        }
+        else
+        {
+            GameObject go = Instantiate(npcStatusPrefab, this.transform);
+            go.name = "NpcQuestStatus" + owner.name;
+            go.GetComponent<UIWorldElement>().owner = owner;
+            go.GetComponent<UIQuestStatus>().SetQuestStatus(status);
+            go.SetActive(true);
+            this.elementStatus[owner] = go;
+
+        }
+    }
+    public void RemoveNpcQuestStatus(Transform owner)
+    {
+        if (this.elementStatus.ContainsKey(owner) )
+        {
+            Destroy(this.elementNames[owner]);
+            this.elementNames.Remove(owner);
+        }
     }
 }

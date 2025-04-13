@@ -5,6 +5,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UI;
+using UI.QuestSystem;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -28,7 +29,7 @@ public class UIMain : MonoSingleton<UIMain> {
     public void backToCharSelect()
     {
         SceneManager.Instance.LoadScene("CharSelect");
-        UserService.Instance.SendGameLeave();
+        Services.UserService.Instance.SendGameLeave();
     }
 
     //测试用方法
@@ -53,5 +54,10 @@ public class UIMain : MonoSingleton<UIMain> {
     {
         
         UIManager.Instance.Show<UICharEquip>();
+    }
+    
+    public void OnClickQuest()//显示任务
+    {
+        UIManager.Instance.Show<UIQuestSystem>();
     }
 }

@@ -4,6 +4,7 @@ TextureImporter:
   fileIDToRecycleName:
     21300000: UINewPublicAtlas_4_0
     21300002: UINewPublicAtlas_4_1
+    21300004: UINewPublicAtlas_4_2
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -114,13 +115,33 @@ TextureImporter:
         width: 35
         height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 47bb7ddbe26ee7d4ca71e0031aa8a81c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UINewPublicAtlas_4_2
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 145
+        width: 55
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7fd43c8c8428247a61d0c3daece903
       vertices: []
       indices: 
       edges: []

@@ -21,6 +21,8 @@ namespace GameServer.Entities
 
         public ItemManager ItemManager;
 
+        public QuestManager QuestManager;
+
         public StatusManager StatusManager;
 
         //角色类的构造函数，进行一系列的初始化
@@ -32,7 +34,7 @@ namespace GameServer.Entities
             this.Info.Type = type;
             this.Info.Id = cha.ID;
             this.Info.Name = cha.Name;
-            this.Info.Level = 1;//cha.Level;
+            this.Info.Level = 10;//cha.Level;
             this.Info.Tid = cha.TID;
             this.Info.Class = (CharacterClass)cha.Class;
             this.Info.Gold = cha.Gold;
@@ -54,6 +56,10 @@ namespace GameServer.Entities
 
             this.Info.Equips = this.Data.Equips;//装备
 
+            this.QuestManager = new QuestManager(this);
+            this.QuestManager.GetQuestInfos(this.Info.Quests);
+            
+            
             //角色 增删改状态 初始化
             this.StatusManager = new StatusManager(this);
 

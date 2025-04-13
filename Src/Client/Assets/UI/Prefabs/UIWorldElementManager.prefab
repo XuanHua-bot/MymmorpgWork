@@ -108,11 +108,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1034990032926516}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e78fee6e4516c44eb49789668db4411, type: 3}
+  m_Script: {fileID: 11500000, guid: a240871e55629934d9a2d7e2e79c449f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  global: 0
-  nameBarPrefab: {fileID: 1836021834122326}
+  global: 1
+  nameBarPrefab: {fileID: 0}
+  npcStatusPrefab: {fileID: 0}
 --- !u!114 &114170858077496070
 MonoBehaviour:
   m_ObjectHideFlags: 1

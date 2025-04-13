@@ -1,10 +1,7 @@
 ﻿using Models;
 using Common.Data;
 using SkillBridge.Message;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using UnityEngine;
 using Services;
 
@@ -16,6 +13,7 @@ namespace Managers
         public Dictionary<int, Item> Items = new Dictionary<int, Item>();
         internal void Init(List<NItemInfo> items)
         {
+            
             this.Items.Clear();
             foreach (var info in items)
             {

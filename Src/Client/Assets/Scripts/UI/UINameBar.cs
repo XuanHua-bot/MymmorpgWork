@@ -2,31 +2,46 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
-public class UINameBar : MonoBehaviour {
+[ExecuteInEditMode]
+public class UINameBar : MonoBehaviour
+{
 
-    public Text avaverName;
+    //public Image avatar;
+    public Text characterName;
     public Character character;
 	// Use this for initialization
 	void Start () {
-		
+
+       /*if (character!=null)
+        {
+            if (character.Info.Type == SkillBridge.Message.CharacterType.Monster)
+            {
+                this.avatar.gameObject.SetActive(false );
+            }
+            else
+            {
+                this.avatar.gameObject.SetActive(true);
+            }
+        }*/
 	}
 	
 	// Update is called once per frame
 	void Update () {
         this.UpdateInfo();
 
-        this.transform.forward= Camera.main.transform.forward;//设置 nameBar朝向
+        //this.transform.forward= Camera.main.transform.forward;//设置 nameBar朝向
     }
     void UpdateInfo()
     {
         if (this.character!=null)
         {
             string name = this.character.Name + " Lv." + this.character.Info.Level;
-            if (name!=this.avaverName.text)//更新人物名称
+            if (name!=this.characterName.text)//更新人物名称
             {
-                this.avaverName.text = name;
+                this.characterName.text = name;
             }
         }
     }

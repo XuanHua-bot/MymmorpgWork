@@ -3,6 +3,7 @@ guid: f32899b34807a55479be2ffe88006e03
 TextureImporter:
   fileIDToRecycleName:
     21300000: UINewPublicAtlas_3_0
+    21300002: UINewPublicAtlas_3_1
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -93,13 +94,33 @@ TextureImporter:
         width: 79
         height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 1, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 09254f0bb623c8f4b8b460f1864c8c0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UINewPublicAtlas_3_1
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 314
+        width: 86
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 5, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40143637d3b20347b9771f257e47766
       vertices: []
       indices: 
       edges: []

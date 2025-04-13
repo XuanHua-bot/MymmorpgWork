@@ -1,0 +1,17 @@
+
+2025-04-11 22:15:01,047 [1] [INFO ] [GameServer] ：Game Server Init
+2025-04-11 22:15:01,195 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-04-11 22:15:01,401 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-04-11 22:15:01,403 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-04-11 22:15:01,403 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-04-11 22:15:01,403 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-04-11 22:15:01,404 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-04-11 22:15:01,410 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-11 22:15:01,410 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-11 22:15:01,410 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-11 22:15:01,410 [17] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-11 22:15:01,410 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-11 22:15:01,410 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-11 22:15:01,410 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-11 22:15:01,412 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-11 22:15:01,518 [1] [WARN ] [GameServer] ：NetService Started

@@ -21,17 +21,16 @@ public class UIShop : UIWindow {
    
     private void Start()
     {
-        
-       
         StartCoroutine(InitItems());
     }
 
-    IEnumerator InitItems()
+    public IEnumerator InitItems()
     {
 
         
         int count = 0;
         int page = 0;
+        money.text = User.Instance.CurrentCharacter.Gold.ToString();
         foreach (var kv in DataManager.Instance.ShopItems[shop.ID])
         {
             if (kv.Value.Status > 0)//道具得到状态 0为不可销售
@@ -54,6 +53,10 @@ public class UIShop : UIWindow {
 
         
     }
+    
+    
+
+
 
     public void SetShop(ShopDefine shop)
     {
@@ -65,11 +68,24 @@ public class UIShop : UIWindow {
     private UIShopItem selectedItem;//被选中项
     public void SelectShopItem(UIShopItem item)
     {
-        if (selectedItem !=null)
+        // 点击已选中项时取消选择
+        if (selectedItem == item)
+        {
+            selectedItem.Selected = false;
+            selectedItem = null;
+            return;
+        }
+
+        // 切换选中状态
+        if (selectedItem != null)
+        {
+            selectedItem.Selected = false;
+        }
+        selectedItem = item;
+        if (selectedItem != null)
         {
             selectedItem.Selected = true;
         }
-        selectedItem = item;
     }
 
     public void OnclickBuy()
