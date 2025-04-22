@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace GameServer.Services
 {
-    public class QuestService: Singleton<QuestService>
+    class QuestService: Singleton<QuestService>
     {
         public QuestService()
         {

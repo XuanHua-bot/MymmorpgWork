@@ -16,9 +16,11 @@ namespace Network
         public TUser User { get; set; }
         public Character Character { get; set; }
         public NEntity Entity { get; set; }
+        public IPostResponser PostResponser { get; set; }// 相应后处理器
 
         public void Disconnected()
         {
+            this.PostResponser = null;//断开时清空
             if (this.Character != null)
                 UserService.Instance.CharacterLeave(this.Character);
         }
@@ -50,11 +52,15 @@ namespace Network
         {
             if (response !=null)
             {
-                if (this.Character!=null && this.Character.StatusManager.HasStatus)//如果角色管理器上 有状态
+                if (PostResponser!=null)
+                {
+                    this.PostResponser.PostProcess(Response);
+                }
+               /* if (this.Character!=null && this.Character.StatusManager.HasStatus)//如果角色管理器上 有状态
                 {
                     this.Character.StatusManager.ApplyResponse(Response);
                 }
-
+*/
                 byte[] data = PackageHandler.PackMessage(response);// response 发送给客户端后 立刻清空
                 response = null;
                 return data;

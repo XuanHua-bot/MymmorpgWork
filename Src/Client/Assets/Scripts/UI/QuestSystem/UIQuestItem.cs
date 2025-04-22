@@ -25,7 +25,8 @@ public class UIQuestItem : ListView.ListViewItem
 
 	public override void onSelected(bool selected)
 	{
-		this.background.overrideSprite = selected ? selectedBg : normalBg;
+        Debug.Log("点击到了" + this.name);
+        this.background.overrideSprite = selected ? selectedBg : normalBg;
 	}
 
 	public Quest quest;

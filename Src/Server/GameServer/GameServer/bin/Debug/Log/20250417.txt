@@ -1,0 +1,487 @@
+
+2025-04-17 18:16:19,243 [1] [INFO ] [GameServer] ：Game Server Init
+2025-04-17 18:16:19,591 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-04-17 18:16:19,941 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-04-17 18:16:19,943 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-04-17 18:16:19,943 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-04-17 18:16:19,943 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-04-17 18:16:19,945 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-04-17 18:16:19,974 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:16:19,975 [17] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:16:19,975 [21] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:16:19,976 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:16:19,977 [20] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:16:19,977 [18] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:16:19,978 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:16:19,986 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:16:20,063 [1] [WARN ] [GameServer] ：NetService Started
+2025-04-17 18:18:43,958 [1] [INFO ] [GameServer] ：Game Server Init
+2025-04-17 18:18:44,025 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-04-17 18:18:44,203 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-04-17 18:18:44,205 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-04-17 18:18:44,205 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-04-17 18:18:44,205 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-04-17 18:18:44,208 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-04-17 18:18:44,211 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:18:44,211 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:18:44,211 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:18:44,211 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:18:44,211 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:18:44,211 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:18:44,211 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:18:44,211 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:18:44,322 [1] [WARN ] [GameServer] ：NetService Started
+2025-04-17 18:19:44,458 [4] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。 <format>Map[{0}]Spawn[{1} : Mon :{2},Lv:{3}] At Point:{4}</format><args>{2, 1, 1001, 1}</args></log4net.Error>
+2025-04-17 18:22:17,467 [1] [INFO ] [GameServer] ：Game Server Init
+2025-04-17 18:22:17,512 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-04-17 18:22:17,665 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-04-17 18:22:17,667 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-04-17 18:22:17,667 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-04-17 18:22:17,667 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-04-17 18:22:17,668 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-04-17 18:22:17,673 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:22:17,673 [18] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:22:17,673 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:22:17,673 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:22:17,674 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:22:17,674 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:22:17,674 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:22:17,674 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:22:17,775 [1] [WARN ] [GameServer] ：NetService Started
+2025-04-17 18:23:17,965 [4] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。 <format>Map[{0}]Spawn[{1} : Mon :{2},Lv:{3}] At Point:{4}</format><args>{2, 1, 1001, 1}</args></log4net.Error>
+2025-04-17 18:24:32,967 [1] [INFO ] [GameServer] ：Game Server Init
+2025-04-17 18:24:33,049 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-04-17 18:24:43,453 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-04-17 18:25:03,874 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-04-17 18:25:16,211 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-04-17 18:25:34,626 [1] [INFO ] [GameServer] ：Game Server Init
+2025-04-17 18:25:34,707 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-04-17 18:25:38,070 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-04-17 18:27:22,214 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-04-17 18:28:03,493 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-04-17 18:28:15,352 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-04-17 18:28:15,354 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-04-17 18:28:15,407 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:28:15,412 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:28:15,412 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:28:15,412 [19] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:28:15,438 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:28:15,438 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:28:15,438 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:28:15,438 [16] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:28:15,465 [1] [WARN ] [GameServer] ：NetService Started
+2025-04-17 18:30:41,183 [4] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。 <format>Map[{0}]Spawn[{1} : Mon :{2},Lv:{3}] At Point:{4}</format><args>{2, 1, 1001, 1}</args></log4net.Error>
+2025-04-17 18:37:06,748 [1] [INFO ] [GameServer] ：Game Server Init
+2025-04-17 18:37:06,816 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-04-17 18:37:10,651 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-04-17 18:37:10,917 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-04-17 18:37:11,124 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-04-17 18:37:11,340 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-04-17 18:37:11,342 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-04-17 18:37:11,433 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:37:11,433 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:37:11,433 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:37:11,433 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:37:11,434 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:37:11,437 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:37:11,440 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:37:11,443 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:37:11,503 [1] [WARN ] [GameServer] ：NetService Started
+2025-04-17 18:39:13,342 [1] [INFO ] [GameServer] ：Game Server Init
+2025-04-17 18:39:13,427 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-04-17 18:39:13,600 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-04-17 18:39:13,602 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-04-17 18:39:13,602 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-04-17 18:39:13,602 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-04-17 18:39:13,603 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-04-17 18:39:13,608 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:39:13,608 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:39:13,608 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:39:13,611 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:39:13,612 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:39:13,613 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:39:13,613 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:39:13,614 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:39:13,718 [1] [WARN ] [GameServer] ：NetService Started
+2025-04-17 18:40:13,847 [4] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。 <format>Map[{0}]Spawn[{1} : Mon :{2},Lv:{3}] At Point:{4}</format><args>{2, 1, 1001, 1}</args></log4net.Error>
+2025-04-17 18:41:23,195 [1] [INFO ] [GameServer] ：Game Server Init
+2025-04-17 18:41:23,244 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-04-17 18:41:23,421 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-04-17 18:41:23,423 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-04-17 18:41:23,423 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-04-17 18:41:23,424 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-04-17 18:41:23,425 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-04-17 18:41:23,427 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:41:23,427 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:41:23,427 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:41:23,427 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:41:23,427 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:41:23,427 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:41:23,428 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:41:23,428 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 18:41:23,542 [1] [WARN ] [GameServer] ：NetService Started
+2025-04-17 18:42:23,685 [4] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。 <format>Map[{0}]Spawn[{1} : Mon :{2},Lv:{3}] At Point:{4}</format><args>{2, 1, 1001, 1}</args></log4net.Error>
+2025-04-17 19:00:48,770 [1] [INFO ] [GameServer] ：Game Server Init
+2025-04-17 19:00:48,878 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-04-17 19:00:49,242 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-04-17 19:00:49,244 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-04-17 19:00:49,244 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-04-17 19:00:49,244 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-04-17 19:00:49,246 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-04-17 19:00:49,272 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:00:49,272 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:00:49,274 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:00:49,274 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:00:49,309 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:00:49,309 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:00:49,309 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:00:49,338 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:00:49,366 [1] [WARN ] [GameServer] ：NetService Started
+2025-04-17 19:01:49,558 [4] [INFO ] [GameServer] ：Map[2]Spawn[1 : Mon :1001,Lv:1] At Point:1
+2025-04-17 19:04:26,697 [1] [INFO ] [GameServer] ：Game Server Init
+2025-04-17 19:04:26,817 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-04-17 19:04:27,098 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-04-17 19:04:27,101 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-04-17 19:04:27,101 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-04-17 19:04:27,102 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-04-17 19:04:27,104 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-04-17 19:04:27,118 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:04:27,120 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:04:27,120 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:04:27,120 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:04:27,153 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:04:27,153 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:04:27,153 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:04:27,153 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:04:27,210 [1] [WARN ] [GameServer] ：NetService Started
+2025-04-17 19:05:27,361 [4] [INFO ] [GameServer] ：Map[2]Spawn[1 : Mon :1001,Lv:1] At Point:1
+2025-04-17 19:08:45,193 [1] [INFO ] [GameServer] ：Game Server Init
+2025-04-17 19:08:45,294 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-04-17 19:08:45,579 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-04-17 19:08:45,582 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-04-17 19:08:45,583 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-04-17 19:08:45,583 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-04-17 19:08:45,587 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-04-17 19:08:45,622 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:08:45,623 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:08:45,623 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:08:45,623 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:08:45,625 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:08:45,626 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:08:45,626 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:08:45,631 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:08:45,692 [1] [WARN ] [GameServer] ：NetService Started
+2025-04-17 19:09:45,809 [4] [INFO ] [GameServer] ：Map[2]Spawn[1 : Mon :1001,Lv:1] At Point:1
+2025-04-17 19:09:45,822 [4] [INFO ] [GameServer] ：MonsterEnter :Map :2 monsterId:1
+2025-04-17 19:09:45,822 [4] [INFO ] [GameServer] ：Map[2]Spawn[2 : Mon :1002,Lv:1] At Point:2
+2025-04-17 19:09:45,823 [4] [INFO ] [GameServer] ：MonsterEnter :Map :2 monsterId:2
+2025-04-17 19:09:45,823 [4] [INFO ] [GameServer] ：Map[2]Spawn[3 : Mon :1003,Lv:1] At Point:3
+2025-04-17 19:09:45,824 [4] [INFO ] [GameServer] ：MonsterEnter :Map :2 monsterId:3
+2025-04-17 19:09:45,824 [4] [INFO ] [GameServer] ：Map[2]Spawn[4 : Mon :1005,Lv:1] At Point:4
+2025-04-17 19:17:50,838 [1] [INFO ] [GameServer] ：Game Server Init
+2025-04-17 19:17:50,919 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-04-17 19:17:51,181 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-04-17 19:17:51,182 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-04-17 19:17:51,182 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-04-17 19:17:51,183 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-04-17 19:17:51,185 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-04-17 19:17:51,232 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:17:51,237 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:17:51,237 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:17:51,237 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:17:51,237 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:17:51,269 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:17:51,269 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:17:51,269 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:17:51,297 [1] [WARN ] [GameServer] ：NetService Started
+2025-04-17 19:18:51,512 [4] [INFO ] [GameServer] ：Map[2]Spawn[1 : Mon :1001,Lv:1] At Point:1
+2025-04-17 19:18:51,519 [4] [INFO ] [GameServer] ：MonsterEnter :Map :2 monsterId:1
+2025-04-17 19:18:51,527 [4] [INFO ] [GameServer] ：Map[2]Spawn[2 : Mon :1002,Lv:1] At Point:2
+2025-04-17 19:18:51,527 [4] [INFO ] [GameServer] ：MonsterEnter :Map :2 monsterId:2
+2025-04-17 19:18:51,529 [4] [INFO ] [GameServer] ：Map[2]Spawn[3 : Mon :1003,Lv:1] At Point:3
+2025-04-17 19:18:51,529 [4] [INFO ] [GameServer] ：MonsterEnter :Map :2 monsterId:3
+2025-04-17 19:18:51,529 [4] [INFO ] [GameServer] ：Map[2]Spawn[4 : Mon :1005,Lv:1] At Point:4
+2025-04-17 19:25:44,366 [1] [INFO ] [GameServer] ：Game Server Init
+2025-04-17 19:25:44,470 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-04-17 19:25:44,805 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-04-17 19:25:44,809 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-04-17 19:25:44,809 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-04-17 19:25:44,809 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-04-17 19:25:44,812 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-04-17 19:25:44,888 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:25:44,888 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:25:44,888 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:25:44,888 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:25:44,888 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:25:44,888 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:25:44,889 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:25:44,889 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 19:25:44,928 [1] [WARN ] [GameServer] ：NetService Started
+2025-04-17 19:25:53,695 [3] [WARN ] [GameServer] ：Client[127.0.0.1:16211]] Connected
+2025-04-17 19:25:53,731 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-04-17 19:25:53,909 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-04-17 19:25:59,838 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-04-17 19:25:59,842 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:10:黑手党 Map:1
+2025-04-17 19:26:00,080 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2025-04-17 19:26:01,531 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-17 19:26:01,538 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2025-04-17 19:26:01,987 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-17 19:26:01,987 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5140,4000,820),dir:(98,-18,0),spd:300
+2025-04-17 19:26:02,093 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-17 19:26:02,093 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5170,3994,820),dir:(93,-36,0),spd:300
+2025-04-17 19:26:02,176 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-17 19:26:02,176 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5195,3984,820),dir:(86,-52,0),spd:300
+2025-04-17 19:26:02,240 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-17 19:26:02,242 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(5211,3972,820),dir:(86,-52,0),spd:0
+2025-04-17 19:26:02,261 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-17 19:26:02,261 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5211,3972,820),dir:(75,-66,0),spd:0
+2025-04-17 19:26:02,356 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-17 19:26:02,357 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5211,3972,820),dir:(60,-80,0),spd:0
+2025-04-17 19:26:02,440 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-17 19:26:02,441 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5211,3972,820),dir:(45,-89,0),spd:0
+2025-04-17 19:26:02,541 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-17 19:26:02,541 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5211,3972,820),dir:(26,-97,0),spd:0
+2025-04-17 19:26:02,625 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-17 19:26:02,625 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5211,3972,820),dir:(8,-100,0),spd:0
+2025-04-17 19:26:02,721 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-17 19:26:02,722 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5211,3972,820),dir:(-12,-99,0),spd:0
+2025-04-17 19:26:02,806 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-17 19:26:02,806 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5211,3972,820),dir:(-30,-96,0),spd:0
+2025-04-17 19:26:02,905 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-17 19:26:02,906 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5211,3972,820),dir:(-49,-87,0),spd:0
+2025-04-17 19:26:03,005 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-17 19:26:03,007 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5211,3972,820),dir:(-66,-75,0),spd:0
+2025-04-17 19:26:03,108 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-17 19:26:03,109 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5211,3972,820),dir:(-80,-60,0),spd:0
+2025-04-17 19:26:03,192 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-17 19:26:03,192 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5211,3972,820),dir:(-89,-45,0),spd:0
+2025-04-17 19:26:03,294 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-17 19:26:03,294 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5211,3972,820),dir:(-97,-26,0),spd:0
+2025-04-17 19:26:03,379 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-17 19:26:03,379 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5211,3972,820),dir:(-100,-8,0),spd:0
+2025-04-17 19:26:03,474 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-17 19:26:03,475 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5211,3972,820),dir:(-99,12,0),spd:0
+2025-04-17 19:26:03,780 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-04-17 19:26:03,781 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5211,3972,820),dir:(-99,12,0),spd:300
+2025-04-17 19:26:03,845 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:03,846 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5191,3976,820),dir:(-100,-7,0),spd:300
+2025-04-17 19:26:03,948 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-17 19:26:03,949 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(5161,3976,820),dir:(-97,-25,0),spd:0
+2025-04-17 19:26:03,959 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-17 19:26:03,960 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5161,3976,820),dir:(-97,-25,0),spd:0
+2025-04-17 19:26:04,093 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-17 19:26:04,093 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5161,3976,820),dir:(-91,-42,0),spd:0
+2025-04-17 19:26:17,073 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2025-04-17 19:26:17,073 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5161,3976,820),dir:(-91,-42,0),spd:300
+2025-04-17 19:26:17,521 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:17,522 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5026,3922,820),dir:(-97,-25,0),spd:300
+2025-04-17 19:26:17,623 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-17 19:26:17,623 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(4996,3916,820),dir:(-100,-6,0),spd:0
+2025-04-17 19:26:17,637 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-17 19:26:17,638 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4996,3916,820),dir:(-100,-6,0),spd:0
+2025-04-17 19:26:17,705 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-17 19:26:17,705 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4996,3916,820),dir:(-99,11,0),spd:0
+2025-04-17 19:26:17,737 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-04-17 19:26:17,737 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(4996,3916,820),dir:(-99,11,0),spd:300
+2025-04-17 19:26:17,791 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-17 19:26:17,791 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4981,3919,820),dir:(-96,29,0),spd:300
+2025-04-17 19:26:17,888 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-17 19:26:17,888 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4951,3925,820),dir:(-88,48,0),spd:300
+2025-04-17 19:26:17,993 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-17 19:26:17,994 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4927,3937,820),dir:(-76,65,0),spd:300
+2025-04-17 19:26:18,073 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-17 19:26:18,073 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4907,3952,820),dir:(-63,77,0),spd:300
+2025-04-17 19:26:18,173 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-17 19:26:18,173 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4889,3976,820),dir:(-46,89,0),spd:300
+2025-04-17 19:26:18,271 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-17 19:26:18,271 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4877,4000,820),dir:(-27,96,0),spd:300
+2025-04-17 19:26:18,354 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-17 19:26:18,355 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4872,4025,820),dir:(-9,100,0),spd:300
+2025-04-17 19:26:18,456 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-17 19:26:18,456 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4872,4055,820),dir:(11,99,0),spd:300
+2025-04-17 19:26:18,539 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-17 19:26:18,539 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4877,4080,820),dir:(28,96,0),spd:300
+2025-04-17 19:26:18,657 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-17 19:26:18,657 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4884,4115,820),dir:(46,89,0),spd:300
+2025-04-17 19:26:18,987 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-17 19:26:18,989 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4924,4195,820),dir:(29,96,0),spd:300
+2025-04-17 19:26:19,089 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-17 19:26:19,089 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4930,4225,820),dir:(9,100,0),spd:300
+2025-04-17 19:26:19,189 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-17 19:26:19,191 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4930,4255,820),dir:(-12,99,0),spd:300
+2025-04-17 19:26:19,305 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-17 19:26:19,306 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4923,4290,820),dir:(-30,95,0),spd:300
+2025-04-17 19:26:19,775 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-17 19:26:19,775 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4867,4430,820),dir:(-47,88,0),spd:300
+2025-04-17 19:26:19,925 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-17 19:26:19,926 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4849,4466,820),dir:(-64,77,0),spd:300
+2025-04-17 19:26:20,025 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-17 19:26:20,025 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4831,4490,820),dir:(-77,64,0),spd:300
+2025-04-17 19:26:20,195 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-17 19:26:20,195 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4791,4520,820),dir:(-87,49,0),spd:300
+2025-04-17 19:26:20,394 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-17 19:26:20,394 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4743,4544,820),dir:(-95,33,0),spd:300
+2025-04-17 19:26:20,492 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-17 19:26:20,492 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4713,4556,820),dir:(-99,15,0),spd:300
+2025-04-17 19:26:20,595 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:20,596 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4683,4562,820),dir:(-100,-3,0),spd:300
+2025-04-17 19:26:23,465 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:23,466 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3823,4562,820),dir:(-98,-21,0),spd:300
+2025-04-17 19:26:23,522 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:23,523 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3857,4549,805),dir:(-98,-21,0),spd:300
+2025-04-17 19:26:23,647 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:23,648 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3817,4541,805),dir:(-93,-38,0),spd:300
+2025-04-17 19:26:23,723 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:23,724 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3845,4549,805),dir:(-93,-38,0),spd:300
+2025-04-17 19:26:23,886 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:23,887 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3842,4549,805),dir:(-93,-38,0),spd:300
+2025-04-17 19:26:24,056 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:24,056 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3838,4549,805),dir:(-93,-38,0),spd:300
+2025-04-17 19:26:24,224 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:24,224 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3835,4549,805),dir:(-93,-38,0),spd:300
+2025-04-17 19:26:24,394 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:24,394 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3832,4549,805),dir:(-93,-38,0),spd:300
+2025-04-17 19:26:24,503 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:24,503 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3797,4535,805),dir:(-98,-20,0),spd:300
+2025-04-17 19:26:24,585 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:24,587 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3825,4549,805),dir:(-98,-20,0),spd:300
+2025-04-17 19:26:24,606 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-04-17 19:26:24,606 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3815,4547,805),dir:(-100,0,0),spd:300
+2025-04-17 19:26:24,733 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-17 19:26:24,734 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3775,4547,805),dir:(-98,19,0),spd:300
+2025-04-17 19:26:25,170 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-17 19:26:25,171 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3645,4573,805),dir:(-100,1,0),spd:300
+2025-04-17 19:26:25,269 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:25,270 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3615,4573,805),dir:(-98,-20,0),spd:300
+2025-04-17 19:26:25,371 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:25,372 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3585,4567,805),dir:(-92,-40,0),spd:300
+2025-04-17 19:26:25,472 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:25,472 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3555,4555,805),dir:(-83,-56,0),spd:300
+2025-04-17 19:26:26,173 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:26,173 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3387,4429,805),dir:(-72,-70,0),spd:300
+2025-04-17 19:26:26,370 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:26,370 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3339,4381,805),dir:(-57,-82,0),spd:300
+2025-04-17 19:26:28,725 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:28,725 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2916,3817,805),dir:(-41,-91,0),spd:300
+2025-04-17 19:26:28,927 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:28,927 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2892,3757,805),dir:(-24,-97,0),spd:300
+2025-04-17 19:26:29,561 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:29,563 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2854,3567,805),dir:(-41,-91,0),spd:300
+2025-04-17 19:26:30,925 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:30,926 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2710,3209,805),dir:(-41,-91,0),spd:300
+2025-04-17 19:26:31,281 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:31,283 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2666,3099,805),dir:(-57,-82,0),spd:300
+2025-04-17 19:26:32,334 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:32,335 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2477,2847,805),dir:(-71,-70,0),spd:300
+2025-04-17 19:26:32,435 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:32,436 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2453,2823,805),dir:(-84,-54,0),spd:300
+2025-04-17 19:26:32,536 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:32,536 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2429,2805,805),dir:(-93,-36,0),spd:300
+2025-04-17 19:26:32,652 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:32,652 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2394,2791,805),dir:(-98,-19,0),spd:300
+2025-04-17 19:26:37,411 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-17 19:26:37,411 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(969,2506,805),dir:(-100,-1,0),spd:300
+2025-04-17 19:26:37,544 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-04-17 19:26:37,546 [6] [INFO ] [GameServer] ：OnMapTeleport:characterID:1:System.Data.Entity.DynamicProxies.TCharacter_7DE50129AF5CAB8FB840F45521035FD5A7FA7B28505722B7A5137AC850EC6B6D TeleporterID:1
+2025-04-17 19:26:37,546 [6] [WARN ] [GameServer] ：Source TeleporterID [1] LinkTo[6] not existed
+2025-04-17 19:26:37,547 [6] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2025-04-17 19:26:37,548 [6] [INFO ] [GameServer] ：CharacterEnter: Map:2 characterId:1
+2025-04-17 19:26:37,779 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-17 19:26:37,781 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(2971,4011,198),dir:(0,100,0),spd:300
+2025-04-17 19:26:37,942 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-17 19:26:37,942 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(2971,4026,198),dir:(0,100,0),spd:0
+2025-04-17 19:26:38,214 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2025-04-17 19:26:38,214 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2971,4022,146),dir:(0,100,0),spd:0
+2025-04-17 19:26:38,366 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:30
+2025-04-17 19:26:38,366 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2971,4022,92),dir:(0,100,0),spd:0
+2025-04-17 19:26:38,486 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:30
+2025-04-17 19:26:38,487 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2971,4022,35),dir:(0,100,0),spd:0
+2025-04-17 19:26:38,657 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:32
+2025-04-17 19:26:38,658 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2971,4022,35),dir:(18,98,0),spd:0
+2025-04-17 19:26:38,795 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:32
+2025-04-17 19:26:38,796 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2971,4022,35),dir:(36,93,0),spd:0
+2025-04-17 19:26:38,896 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:32
+2025-04-17 19:26:38,896 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2971,4022,35),dir:(55,84,0),spd:0
+2025-04-17 19:26:38,994 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:32
+2025-04-17 19:26:38,994 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2971,4022,35),dir:(71,71,0),spd:0
+2025-04-17 19:26:39,079 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:32
+2025-04-17 19:26:39,080 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2971,4022,35),dir:(82,57,0),spd:0
+2025-04-17 19:26:39,177 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:32
+2025-04-17 19:26:39,177 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2971,4022,35),dir:(92,39,0),spd:0
+2025-04-17 19:26:39,259 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:32
+2025-04-17 19:26:39,259 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2971,4022,35),dir:(97,22,0),spd:0
+2025-04-17 19:26:39,366 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:32
+2025-04-17 19:26:39,366 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2971,4022,35),dir:(100,2,0),spd:0
+2025-04-17 19:26:39,443 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-04-17 19:26:39,445 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2971,4022,35),dir:(99,-16,0),spd:0
+2025-04-17 19:26:39,514 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:46
+2025-04-17 19:26:39,514 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(2971,4022,35),dir:(99,-16,0),spd:300
+2025-04-17 19:26:39,542 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-17 19:26:39,543 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2981,4020,35),dir:(93,-36,0),spd:300
+2025-04-17 19:26:39,648 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-17 19:26:39,649 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3011,4008,35),dir:(84,-54,0),spd:300
+2025-04-17 19:26:39,761 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-17 19:26:39,762 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3039,3987,35),dir:(72,-69,0),spd:300
+2025-04-17 19:26:40,313 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-17 19:26:40,313 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3171,3888,35),dir:(83,-55,0),spd:300
+2025-04-17 19:26:41,299 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-17 19:26:41,299 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3407,3711,35),dir:(92,-38,0),spd:300
+2025-04-17 19:26:42,972 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-17 19:26:42,973 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3868,3523,5),dir:(92,-38,0),spd:300
+2025-04-17 19:26:43,436 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-17 19:26:43,436 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4008,3467,5),dir:(98,-21,0),spd:300
+2025-04-17 19:26:43,637 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-17 19:26:43,638 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4068,3455,5),dir:(100,-3,0),spd:300
+2025-04-17 19:26:45,091 [4] [INFO ] [GameServer] ：Map[2]Spawn[1 : Mon :1001,Lv:1] At Point:1
+2025-04-17 19:26:45,094 [4] [INFO ] [GameServer] ：MonsterEnter :Map :2 monsterId:2
+2025-04-17 19:26:45,095 [4] [INFO ] [GameServer] ：Map[2]Spawn[2 : Mon :1002,Lv:1] At Point:2
+2025-04-17 19:26:45,096 [4] [INFO ] [GameServer] ：MonsterEnter :Map :2 monsterId:3
+2025-04-17 19:26:45,096 [4] [INFO ] [GameServer] ：Map[2]Spawn[3 : Mon :1003,Lv:1] At Point:3
+2025-04-17 19:26:45,096 [4] [INFO ] [GameServer] ：MonsterEnter :Map :2 monsterId:4
+2025-04-17 19:26:45,097 [4] [INFO ] [GameServer] ：Map[2]Spawn[4 : Mon :1005,Lv:1] At Point:4
+2025-04-17 23:29:59,454 [1] [INFO ] [GameServer] ：Game Server Init
+2025-04-17 23:29:59,505 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-04-17 23:29:59,654 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-04-17 23:29:59,656 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-04-17 23:29:59,656 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-04-17 23:29:59,656 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-04-17 23:29:59,658 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-04-17 23:29:59,660 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 23:29:59,660 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 23:29:59,660 [18] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 23:29:59,660 [17] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 23:29:59,660 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 23:29:59,660 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 23:29:59,661 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 23:29:59,661 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 23:29:59,771 [1] [WARN ] [GameServer] ：NetService Started
+2025-04-17 23:30:59,929 [4] [INFO ] [GameServer] ：Map[2]Spawn[1 : Mon :1001,Lv:1] At Point:1
+2025-04-17 23:30:59,933 [4] [INFO ] [GameServer] ：MonsterEnter :Map :2 monsterId:1
+2025-04-17 23:30:59,933 [4] [INFO ] [GameServer] ：Map[2]Spawn[2 : Mon :1002,Lv:1] At Point:2
+2025-04-17 23:30:59,934 [4] [INFO ] [GameServer] ：MonsterEnter :Map :2 monsterId:2
+2025-04-17 23:30:59,934 [4] [INFO ] [GameServer] ：Map[2]Spawn[3 : Mon :1003,Lv:1] At Point:3
+2025-04-17 23:30:59,934 [4] [INFO ] [GameServer] ：MonsterEnter :Map :2 monsterId:3
+2025-04-17 23:30:59,934 [4] [INFO ] [GameServer] ：Map[2]Spawn[4 : Mon :1005,Lv:1] At Point:4
+2025-04-17 23:34:15,332 [1] [INFO ] [GameServer] ：Game Server Init
+2025-04-17 23:34:15,378 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-04-17 23:34:15,541 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-04-17 23:34:15,545 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-04-17 23:34:15,545 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-04-17 23:34:15,545 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-04-17 23:34:15,549 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-04-17 23:34:15,553 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 23:34:15,553 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 23:34:15,553 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 23:34:15,554 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 23:34:15,554 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 23:34:15,554 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 23:34:15,554 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 23:34:15,554 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-17 23:34:15,660 [1] [WARN ] [GameServer] ：NetService Started
+2025-04-17 23:35:15,833 [4] [INFO ] [GameServer] ：Map[2]Spawn[1 : Mon :1001,Lv:1] At Point:1
+2025-04-17 23:35:15,841 [4] [INFO ] [GameServer] ：MonsterEnter :Map :2 monsterId:1
+2025-04-17 23:35:15,842 [4] [INFO ] [GameServer] ：Map[2]Spawn[2 : Mon :1002,Lv:1] At Point:2
+2025-04-17 23:35:15,843 [4] [INFO ] [GameServer] ：MonsterEnter :Map :2 monsterId:2
+2025-04-17 23:35:15,844 [4] [INFO ] [GameServer] ：Map[2]Spawn[3 : Mon :1003,Lv:1] At Point:3
+2025-04-17 23:35:15,845 [4] [INFO ] [GameServer] ：MonsterEnter :Map :2 monsterId:3
+2025-04-17 23:35:15,846 [4] [INFO ] [GameServer] ：Map[2]Spawn[4 : Mon :1005,Lv:1] At Point:4

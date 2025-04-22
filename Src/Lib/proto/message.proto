@@ -78,21 +78,25 @@ message NPlayerInfo {
 }
 
 message NCharacterInfo {
-	int32 id = 1;
-	int32 tid = 2;
-	string name = 3;
-	CHARACTER_TYPE type = 4;
-	CHARACTER_CLASS class = 5;
-	int32 level = 6;
-	int32 mapId = 7;
-	NEntity entity = 8;
-	int64 gold = 9;
+	int32 id = 1;//db id 数据库唯一角色id
+	int32 config_id = 2;// config id 配置表id  玩家、怪物
+	int32 entity_id = 3;
 
-	repeated NItemInfo Items = 10; //服务器把玩家物品告诉客户端
-	NBagInfo Bag =11; //字节和整数
-	bytes Equips =12;//储存玩家装备数组的字节
+	string name = 4;
+	CHARACTER_TYPE type = 5;
+	CHARACTER_CLASS class = 6;
+	int32 level = 7;
 
-	repeated NQuestInfo quests = 13;//任务列表
+	int32 mapId = 8;
+	NEntity entity = 9;
+	int64 gold = 10;
+
+	repeated NItemInfo Items = 11; //服务器把玩家物品告诉客户端
+	NBagInfo Bag =12; //字节和整数
+	bytes Equips =13;//储存玩家装备数组的字节
+
+	repeated NQuestInfo quests = 14;//任务列表
+	repeated NFriendInfo friends = 15;//好友列表
 }
 
 message NItemInfo{
@@ -204,6 +208,11 @@ message NetMessageRequest{
 	QuestAcceptRequest questAccept = 13;//接取任务
 	QuestSubmitRequest questSubmit = 14;//提交任务
 
+	FriendAddRequest friendAddReq = 15;
+	FriendAddResponse friendAddRes = 16;//与玩家进行双向交互 
+	FriendListRequest firendList = 17;
+	FriendRemoveRequest friendRemove = 18;
+
 }
 
 message NetMessageResponse{//相应 包
@@ -227,6 +236,11 @@ message NetMessageResponse{//相应 包
 	QuestListResponse questList = 12;
 	QuestAcceptResponse questAccept = 13;
 	QuestSubmitResponse questSubmit = 14;
+
+	FriendAddRequest friendAddReq = 15;
+	FriendAddResponse friendAddRes = 16;
+	FriendListResponse firendList = 17;
+	FriendRemoveResponse friendRemove = 18;
 
 
 	StatusNotify statusNotify=100;
@@ -305,7 +319,7 @@ message MapCharacterEnterResponse
 
 message MapCharacterLeaveResponse
 {
-	int32 characterId = 1;
+	int32 entityId = 1;
 }
 
 
@@ -435,4 +449,56 @@ message ItemEquipResponse{
  message QuestAbandonResponse{
 	RESULT result=1;
 	string errormsg =2;
+ }
+
+
+ //Friend System 
+ message NFriendInfo// 好友信息
+ {
+	int32 id = 1;
+	NCharacterInfo friendInfo =2;//使用的角色信息
+	int32 status = 3;//是否在线
+ }
+
+ message FriendAddRequest//好友请求
+ {
+
+	int32 from_id = 1;
+	string from_name = 2;
+	int32 to_id = 3;
+	string to_name =4;
+ }
+
+ message FriendAddResponse//相应
+ {
+	
+	RESULT result = 1;
+	string errormsg =2;
+	FriendAddRequest request = 3;//判断该相应 该属于 哪个请求
+ }
+
+ message FriendListRequest
+ {
+
+ }
+
+ message FriendListResponse{
+
+	RESULT result =1;
+	string errormsg = 2;
+	repeated NFriendInfo friends = 3;
+ }
+
+ message FriendRemoveRequest//删除好友
+ {
+	int32 id=1;
+	int32 friendId = 2;
+ }
+
+ message FriendRemoveResponse
+ {
+
+	RESULT result = 1;
+	string errormsg = 2;
+	int32 id = 3;
  }

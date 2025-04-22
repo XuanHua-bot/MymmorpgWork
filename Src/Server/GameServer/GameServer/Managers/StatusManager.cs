@@ -65,5 +65,16 @@ namespace GameServer.Managers
             }
             this.Status.Clear();
         }
+
+        public void PostProcess(NetMessageResponse message)
+        {
+            if (message.statusNotify==null)
+                message.statusNotify = new StatusNotify();
+            foreach (var status in this.Status)
+            {
+                message.statusNotify.Status.Add(status);
+            }
+            this.Status.Clear();
+        }
     }
 }

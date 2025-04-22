@@ -49,7 +49,7 @@ namespace GameServer.Managers
             Character character = sender.Session.Character; //获取当前角色
 
             QuestDefine quest;
-            if (DataManager.Instance.Quest.TryGetValue(questId, out quest))
+            if (DataManager.Instance.Quests.TryGetValue(questId, out quest))
             {
                 var dbquest = DBService.Instance.Entities.CharacterQuests.Create();
                 dbquest.QuestID = quest.ID;
@@ -81,7 +81,7 @@ namespace GameServer.Managers
             Character character = sender.Session.Character; //获取当前角色
 
             QuestDefine quest;
-            if (DataManager.Instance.Quest.TryGetValue(questId, out quest))
+            if (DataManager.Instance.Quests.TryGetValue(questId, out quest))
             {
                 //                                                                         表中 有没有一个任务id 等于请求id  没有则返回默认 默认为空
                 var dbquest = character.Data.Quests.Where(q => q.QuestID == questId).FirstOrDefault();
@@ -90,6 +90,11 @@ namespace GameServer.Managers
                     //判断是否处于完成
                     if (dbquest.Status != (int)QuestStatus.Complated)
                     {
+                        if (dbquest.Status==null)
+                        {
+                            System.Console.WriteLine("dbquest.Status==null");
+                            
+                        }
                         sender.Session.Response.questSubmit.Errormsg = "当前任务未完成喵";
                         return Result.Failed;
                     }
@@ -106,7 +111,7 @@ namespace GameServer.Managers
                     if (quest.RewardExp > 0)
                     {
                         //character.Exp += quest.RewardExp;
-                        Debug.Log("经验增加啦~  PS:功能未实现 ");
+                        System.Console.WriteLine("经验增加啦~  PS:功能未实现 ");
                     }
 
                     if (quest.RewardItem1 > 0)

@@ -69,12 +69,12 @@ namespace GameServer.Services
 
             MapManager.Instance[source.MapID].CharacterLeave(character);//角色离开当前地图
 
-            MapManager.Instance[target.MapID].CharacterEnter(sender, character);//角色进入传送点地图
+           
 
             //根据表格设置玩家 位置 方向
             character.Position = target.Position;
             character.Direction = target.Direction;
-            
+            MapManager.Instance[target.MapID].CharacterEnter(sender, character);//角色进入传送点地图
         }
     }
 }

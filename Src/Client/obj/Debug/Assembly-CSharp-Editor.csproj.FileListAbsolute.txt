@@ -215,3 +215,5 @@ E:\MymmorpgWork\Src\Client\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileIn
 E:\MymmorpgWork\Src\Client\obj\Debug\Assembly-CSharp-Editor.csproj.CopyComplete
 E:\MymmorpgWork\Src\Client\obj\Debug\Assembly-CSharp-Editor.dll
 E:\MymmorpgWork\Src\Client\obj\Debug\Assembly-CSharp-Editor.pdb
+E:\MymmorpgWork\Src\Client\Temp\bin\Debug\Unity.Postprocessing.Editor.dll
+E:\MymmorpgWork\Src\Client\Temp\bin\Debug\Unity.Postprocessing.Runtime.dll

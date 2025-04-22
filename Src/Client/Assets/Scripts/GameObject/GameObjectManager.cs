@@ -69,7 +69,7 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
                 return;
             }
             GameObject go = (GameObject)Instantiate(obj, this.transform);
-            go.name = "Character_" + character.entityId + "_" + character.Info.Name;
+            go.name = "Character_" + character.Id + "_" + character.Info.Name;
 
             Characters[character.entityId] = go;//将游戏对象存储到 Characters 字典中
 
@@ -86,13 +86,13 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
         if (ec != null)
         {
             ec.entity = character;
-            ec.isPlayer = character.IsPlayer;
+            ec.isPlayer = character.IsCurrentPlayer;
         }
 
         PlayerInputController pc = go.GetComponent<PlayerInputController>();
         if (pc != null)
         {
-            if (character.Info.Id == Models.User.Instance.CurrentCharacter.Id)
+            if (character.IsCurrentPlayer)
             {
                 User.Instance.CurrentCharacterObject = go;
                 MainPlayerCamera.Instance.player = go;
@@ -105,6 +105,7 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
                 pc.enabled = false;
             }
         }
-        UIWorldElementManager.Instance.AddCharacterNameBar(go.transform,character);
+        //todo 修改了uiworldElement 可能会报错
+        //UIWorldElementManager.Instance.AddCharacterNameBar(go.transform,character);
     }
 }

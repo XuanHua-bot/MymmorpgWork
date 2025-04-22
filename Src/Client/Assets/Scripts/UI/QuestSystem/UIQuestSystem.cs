@@ -82,8 +82,8 @@ namespace UI.QuestSystem
                 
                 //设置任务元素 UIQuestItem 的任务类型 SetQuestInfo(Quest item)
                 ui.SetQuestInfo(kv.Value);
-                
-                
+
+
                 /*if (kv.Value.Define.Type == QuestType.Main)
                 {
                     //元素为主线的  放到 主线list
@@ -94,6 +94,7 @@ namespace UI.QuestSystem
                     //为支线的 放到 支线list
                     this.listBranch.AddItem(ui);
                 }*/
+                this.ListMain.AddItem(ui);
             }
         }
         
@@ -105,6 +106,18 @@ namespace UI.QuestSystem
         
         public void OnQuestSelected(ListView.ListViewItem item)
         {
+            //  分支列表 选择的物体不为空  且  请求选择物体的owner不为 分支列表
+            if (listBranch.SelectedItem!=null && item.owner!=listBranch)
+            {
+                listBranch.SelectedItem.onSelected(false);
+            }
+            else if (ListMain.SelectedItem!=null && item.owner!= ListMain)
+            {
+                ListMain.SelectedItem.onSelected(false);
+            }
+           
+
+           
             UIQuestItem questItem = item as UIQuestItem;
             
             this.questInfo.SetQuestInfo(questItem.quest);

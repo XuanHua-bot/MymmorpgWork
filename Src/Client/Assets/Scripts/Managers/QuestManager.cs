@@ -4,6 +4,7 @@ using SkillBridge.Message;
 using System.Collections.Generic;
 using System.Linq;
 using UI.QuestSystem;
+using UnityEngine;
 using UnityEngine.Events;
 
 namespace Managers
@@ -211,18 +212,43 @@ namespace Managers
         //任务对话框关闭后
         void OnQuestDialogClose(UIWindow sender, UIWindow.WindowResule result)
         {
+            // 检查 sender 是否为空
+            if (sender == null)
+            {
+                Debug.LogError("sender is null in OnQuestDialogClose");
+                return;
+            }
+
             UIQuestDialog dlg = (UIQuestDialog)sender;
+
+            // 检查 dlg.quest 是否为空
+            if (dlg.quest == null)
+            {
+                Debug.LogError("dlg.quest is null in OnQuestDialogClose");
+                return;
+            }
+
             //任务对话框点了 Yes
             if (result == UIWindow.WindowResule.Yes)
             {
                 if (dlg.quest.Info == null)
+                {
                     QuestService.Instance.SendQuestAccept(dlg.quest);//发送 接受任务 的协议
-                if (dlg.quest.Info.Status == QuestStatus.Complated)// 如果 该任务已经完成了
+                }
+                else if (dlg.quest.Info.Status == QuestStatus.Complated) // 如果 该任务已经完成了
+                {
                     QuestService.Instance.SendQuestSubmit(dlg.quest);//发送 提交任务 的协议
+                }
             }
             //任务对话框点了 No
-            else if(result == UIWindow.WindowResule.No)
+            else if (result == UIWindow.WindowResule.No)
             {
+                // 检查 dlg.quest.Define 是否为空
+                if (dlg.quest.Define == null)
+                {
+                    Debug.LogError("dlg.quest.Define is null in OnQuestDialogClose");
+                    return;
+                }
                 MessageBox.Show(dlg.quest.Define.DialogDeny);
             }
         }

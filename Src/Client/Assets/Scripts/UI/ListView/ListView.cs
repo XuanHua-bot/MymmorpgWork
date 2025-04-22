@@ -5,8 +5,7 @@ using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
 [System.Serializable]
-public class ItemSelectEvent : UnityEvent<ListView.ListViewItem>//触发时会传递一个 ListView.ListViewItem 类型的参数
-                                         //列表项的内部类
+public class ItemSelectEvent : UnityEvent<ListView.ListViewItem>//触发时会传递一个 ListView.ListViewItem 类型的参数                                    
 {
 
 }

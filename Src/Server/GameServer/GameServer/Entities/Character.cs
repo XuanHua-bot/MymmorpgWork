@@ -1,6 +1,9 @@
-﻿using Common.Data;
+﻿using Common;
+using Common.Data;
 using GameServer.Core;
 using GameServer.Managers;
+using GameServer.Models;
+using Network;
 using SkillBridge.Message;
 using System;
 using System.Collections.Generic;
@@ -10,11 +13,13 @@ using System.Threading.Tasks;
 
 namespace GameServer.Entities
 {
+    //todo  FriendManager 待补全
+
     /// <summary>
     /// Character
     /// 玩家角色类
     /// </summary>
-    class Character : CharacterBase
+    class Character : CharacterBase,IPostResponser
     {
        
         public TCharacter Data;
@@ -25,22 +30,27 @@ namespace GameServer.Entities
 
         public StatusManager StatusManager;
 
+        public FriendManager FriendManager;
+
         //角色类的构造函数，进行一系列的初始化
         public Character(CharacterType type,TCharacter cha):
             base(new Core.Vector3Int(cha.MapPosX, cha.MapPosY, cha.MapPosZ),new Core.Vector3Int(100,0,0))
         {
             this.Data = cha;
+            this.Id = cha.ID;
             this.Info = new NCharacterInfo();
             this.Info.Type = type;
             this.Info.Id = cha.ID;
+            this.Info.EntityId = this.entityId;
             this.Info.Name = cha.Name;
             this.Info.Level = 10;//cha.Level;
-            this.Info.Tid = cha.TID;
+            this.Info.ConfigId = cha.TID;
+            //his.Info.Tid = cha.TID;
             this.Info.Class = (CharacterClass)cha.Class;
             this.Info.Gold = cha.Gold;
             this.Info.mapId = cha.MapID;
             this.Info.Entity = this.EntityData;
-           
+            this.Define = DataManager.Instance.Characters[this.Info.ConfigId];
 
 
 
@@ -63,6 +73,8 @@ namespace GameServer.Entities
             //角色 增删改状态 初始化
             this.StatusManager = new StatusManager(this);
 
+            this.FriendManager = new FriendManager(this);
+            this.FriendManager.GetFriendInfos(this.Info.Friends);
         }
 
         public long Gold 
@@ -77,6 +89,36 @@ namespace GameServer.Entities
                 this.StatusManager.AddGoldChange((int)(value-this.Data.Gold));
                 this.Data.Gold = value;
             }
+        }
+
+
+        public void PostProcess(NetMessageResponse message)//实现的后处理的接口  
+        {
+            this.FriendManager.PostProcess(message);//好友管理器后处理
+            if (this.StatusManager.HasStatus)//状态管理器后处理
+            {
+                this.StatusManager.PostProcess(message);
+            }
+        }
+
+
+        /// <summary>
+        /// 角色离开时调用
+        /// </summary>
+        public void Clear()
+        {
+            this.FriendManager.UpdateFriendInfo(this.Info, 0);
+        }
+
+        public NCharacterInfo GetBasicInfo()
+        {
+            return new NCharacterInfo()
+            {
+                Id = this.Id,
+                Name = this.Info.Name,
+                Class = this.Info.Class,
+                Level = this.Info.Level,
+            };
         }
     }
 }

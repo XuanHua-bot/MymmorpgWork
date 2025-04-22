@@ -1,0 +1,1250 @@
+
+2025-04-16 22:27:32,534 [1] [INFO ] [GameServer] ：Game Server Init
+2025-04-16 22:27:32,758 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-04-16 22:27:33,044 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-04-16 22:27:33,045 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-04-16 22:27:33,045 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-04-16 22:27:33,046 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-04-16 22:27:33,046 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-04-16 22:27:33,083 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-16 22:27:33,083 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-16 22:27:33,083 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-16 22:27:33,083 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-16 22:27:33,084 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-16 22:27:33,122 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-16 22:27:33,122 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-16 22:27:33,122 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-16 22:27:33,151 [1] [WARN ] [GameServer] ：NetService Started
+2025-04-16 22:28:09,588 [21] [WARN ] [GameServer] ：Client[127.0.0.1:34173]] Connected
+2025-04-16 22:28:09,621 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-04-16 22:28:09,789 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-04-16 22:28:14,657 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-04-16 22:28:14,660 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:10:黑手党 Map:1
+2025-04-16 22:28:14,933 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2025-04-16 22:28:16,323 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:16,339 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5000,4000,820),dir:(98,-19,0),spd:0
+2025-04-16 22:28:16,411 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-04-16 22:28:16,412 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5000,4000,820),dir:(93,-37,0),spd:300
+2025-04-16 22:28:16,426 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:16,430 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5000,4000,820),dir:(93,-37,0),spd:300
+2025-04-16 22:28:16,516 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:16,518 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5030,3988,820),dir:(83,-55,0),spd:300
+2025-04-16 22:28:16,595 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:16,596 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5050,3973,820),dir:(72,-69,0),spd:300
+2025-04-16 22:28:16,700 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:16,701 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5074,3955,820),dir:(57,-83,0),spd:300
+2025-04-16 22:28:16,782 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:16,782 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5089,3935,820),dir:(41,-91,0),spd:300
+2025-04-16 22:28:16,878 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:16,879 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5101,3905,820),dir:(21,-98,0),spd:300
+2025-04-16 22:28:16,982 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:16,983 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5107,3875,820),dir:(1,-100,0),spd:300
+2025-04-16 22:28:17,062 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:17,062 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5107,3850,820),dir:(-17,-99,0),spd:300
+2025-04-16 22:28:17,134 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:28:17,135 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(5103,3830,820),dir:(-17,-99,0),spd:0
+2025-04-16 22:28:17,165 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-16 22:28:17,165 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5103,3830,820),dir:(-37,-93,0),spd:0
+2025-04-16 22:28:17,267 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-16 22:28:17,267 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5103,3830,820),dir:(-55,-83,0),spd:0
+2025-04-16 22:28:17,346 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-16 22:28:17,346 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5103,3830,820),dir:(-69,-72,0),spd:0
+2025-04-16 22:28:17,448 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-16 22:28:17,449 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5103,3830,820),dir:(-83,-57,0),spd:0
+2025-04-16 22:28:17,531 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-16 22:28:17,531 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5103,3830,820),dir:(-91,-41,0),spd:0
+2025-04-16 22:28:17,631 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-16 22:28:17,632 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5103,3830,820),dir:(-98,-21,0),spd:0
+2025-04-16 22:28:17,733 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-16 22:28:17,733 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5103,3830,820),dir:(-100,-1,0),spd:0
+2025-04-16 22:28:17,816 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:17,816 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5103,3830,820),dir:(-99,17,0),spd:0
+2025-04-16 22:28:17,834 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-04-16 22:28:17,834 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5103,3830,820),dir:(-99,17,0),spd:300
+2025-04-16 22:28:17,920 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:17,920 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5078,3835,820),dir:(-93,37,0),spd:300
+2025-04-16 22:28:18,018 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:18,018 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5048,3847,820),dir:(-83,55,0),spd:300
+2025-04-16 22:28:18,097 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:18,098 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5028,3862,820),dir:(-72,69,0),spd:300
+2025-04-16 22:28:18,203 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:18,204 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5004,3880,820),dir:(-57,83,0),spd:300
+2025-04-16 22:28:18,283 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:18,284 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4989,3900,820),dir:(-41,91,0),spd:300
+2025-04-16 22:28:18,386 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:18,387 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4977,3930,820),dir:(-24,97,0),spd:300
+2025-04-16 22:28:18,655 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:18,655 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4961,4010,820),dir:(-41,91,0),spd:300
+2025-04-16 22:28:19,806 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:19,806 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4823,4355,820),dir:(-23,97,0),spd:300
+2025-04-16 22:28:20,103 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:28:20,103 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(4805,4445,820),dir:(-23,97,0),spd:0
+2025-04-16 22:28:20,570 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:20,570 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4805,4445,820),dir:(-5,100,0),spd:0
+2025-04-16 22:28:20,722 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:28:20,724 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4805,4445,820),dir:(15,99,0),spd:0
+2025-04-16 22:28:20,830 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:28:20,832 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4805,4445,820),dir:(35,94,0),spd:0
+2025-04-16 22:28:20,922 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:28:20,922 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4805,4445,820),dir:(53,85,0),spd:0
+2025-04-16 22:28:21,007 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:28:21,008 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4805,4445,820),dir:(67,74,0),spd:0
+2025-04-16 22:28:21,091 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:28:21,092 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4805,4445,820),dir:(79,61,0),spd:0
+2025-04-16 22:28:21,192 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:28:21,192 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4805,4445,820),dir:(90,43,0),spd:0
+2025-04-16 22:28:21,288 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:28:21,289 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4805,4445,820),dir:(97,24,0),spd:0
+2025-04-16 22:28:21,390 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:28:21,391 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4805,4445,820),dir:(100,7,0),spd:0
+2025-04-16 22:28:21,456 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:21,458 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4805,4445,820),dir:(99,-11,0),spd:0
+2025-04-16 22:28:21,559 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:21,559 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4805,4445,820),dir:(95,-31,0),spd:0
+2025-04-16 22:28:21,656 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:21,657 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4805,4445,820),dir:(87,-49,0),spd:0
+2025-04-16 22:28:21,826 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:21,827 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4805,4445,820),dir:(77,-64,0),spd:0
+2025-04-16 22:28:22,226 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-04-16 22:28:22,226 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(4805,4445,820),dir:(77,-64,0),spd:300
+2025-04-16 22:28:22,695 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:22,695 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4917,4361,820),dir:(64,-77,0),spd:300
+2025-04-16 22:28:22,792 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:22,793 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4935,4337,820),dir:(49,-87,0),spd:300
+2025-04-16 22:28:22,893 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:22,895 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4947,4313,820),dir:(30,-95,0),spd:300
+2025-04-16 22:28:22,998 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:22,999 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4959,4283,820),dir:(10,-99,0),spd:300
+2025-04-16 22:28:23,129 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:23,129 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4967,4243,820),dir:(-9,-100,0),spd:300
+2025-04-16 22:28:23,468 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:23,470 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4948,4099,805),dir:(-9,-100,0),spd:300
+2025-04-16 22:28:23,695 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:23,696 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4948,4029,805),dir:(-27,-96,0),spd:300
+2025-04-16 22:28:23,809 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:23,809 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4941,3994,805),dir:(-44,-90,0),spd:300
+2025-04-16 22:28:23,917 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:23,917 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4929,3964,805),dir:(-61,-79,0),spd:300
+2025-04-16 22:28:24,012 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:24,012 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4911,3940,805),dir:(-76,-65,0),spd:300
+2025-04-16 22:28:24,263 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:24,264 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4851,3895,805),dir:(-63,-78,0),spd:300
+2025-04-16 22:28:24,864 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:24,864 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4743,3751,805),dir:(-75,-66,0),spd:300
+2025-04-16 22:28:25,171 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:25,171 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4706,3734,805),dir:(-75,-66,0),spd:300
+2025-04-16 22:28:25,338 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:25,339 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4666,3704,805),dir:(-62,-79,0),spd:300
+2025-04-16 22:28:25,361 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:25,361 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4706,3734,805),dir:(-62,-79,0),spd:300
+2025-04-16 22:28:25,538 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:25,539 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4706,3734,805),dir:(-62,-79,0),spd:300
+2025-04-16 22:28:25,730 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:25,731 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4706,3734,805),dir:(-62,-79,0),spd:300
+2025-04-16 22:28:25,744 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:25,745 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4703,3730,805),dir:(-47,-88,0),spd:300
+2025-04-16 22:28:25,836 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:25,837 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4691,3706,805),dir:(-30,-95,0),spd:300
+2025-04-16 22:28:25,915 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:25,917 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4681,3681,805),dir:(-13,-99,0),spd:300
+2025-04-16 22:28:25,994 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:25,994 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4706,3704,805),dir:(-13,-99,0),spd:300
+2025-04-16 22:28:26,018 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:26,018 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4704,3694,805),dir:(8,-100,0),spd:300
+2025-04-16 22:28:26,114 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:26,114 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4704,3664,805),dir:(28,-96,0),spd:300
+2025-04-16 22:28:26,217 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:26,218 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4710,3634,805),dir:(46,-89,0),spd:300
+2025-04-16 22:28:26,622 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:26,623 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4758,3538,805),dir:(27,-96,0),spd:300
+2025-04-16 22:28:26,722 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:26,723 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4764,3508,805),dir:(7,-100,0),spd:300
+2025-04-16 22:28:26,800 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:26,800 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4764,3483,805),dir:(-11,-99,0),spd:300
+2025-04-16 22:28:26,902 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:26,903 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4758,3453,805),dir:(-31,-95,0),spd:300
+2025-04-16 22:28:26,998 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:26,999 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4746,3423,805),dir:(-49,-87,0),spd:300
+2025-04-16 22:28:27,167 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:27,167 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4726,3383,805),dir:(-64,-77,0),spd:300
+2025-04-16 22:28:27,569 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:27,569 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4654,3287,805),dir:(-77,-64,0),spd:300
+2025-04-16 22:28:28,786 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:28,788 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4362,3068,805),dir:(-87,-49,0),spd:300
+2025-04-16 22:28:29,556 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:29,556 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4178,2976,805),dir:(-95,-33,0),spd:300
+2025-04-16 22:28:30,291 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:30,291 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3958,2888,805),dir:(-99,-15,0),spd:300
+2025-04-16 22:28:30,726 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:30,726 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3828,2862,805),dir:(-95,-32,0),spd:300
+2025-04-16 22:28:31,081 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:31,081 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3723,2820,805),dir:(-99,-13,0),spd:300
+2025-04-16 22:28:33,509 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:33,510 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3028,2716,805),dir:(-99,-13,0),spd:300
+2025-04-16 22:28:35,894 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:28:35,895 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2319,2623,805),dir:(-99,-13,0),spd:300
+2025-04-16 22:28:36,019 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:36,020 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2279,2615,805),dir:(-100,5,0),spd:300
+2025-04-16 22:28:39,180 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:39,181 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1333,2665,805),dir:(-100,5,0),spd:300
+2025-04-16 22:28:39,841 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:39,842 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1133,2665,805),dir:(-97,23,0),spd:300
+2025-04-16 22:28:40,093 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:28:40,093 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1058,2680,805),dir:(-100,4,0),spd:300
+2025-04-16 22:28:40,412 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-04-16 22:28:40,414 [7] [INFO ] [GameServer] ：OnMapTeleport:characterID:1:System.Data.Entity.DynamicProxies.TCharacter_7DE50129AF5CAB8FB840F45521035FD5A7FA7B28505722B7A5137AC850EC6B6D TeleporterID:1
+2025-04-16 22:28:40,415 [7] [WARN ] [GameServer] ：Source TeleporterID [1] LinkTo[6] not existed
+2025-04-16 22:28:40,415 [7] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2025-04-16 22:28:40,417 [7] [INFO ] [GameServer] ：CharacterEnter: Map:2 characterId:1
+2025-04-16 22:28:40,512 [7] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Core.Vector3Int.op_Implicit(NVector3 v) 位置 E:\MymmorpgWork\Src\Server\GameServer\GameServer\Core\Vector3Int.cs:行号 249
+   在 GameServer.Services.MapService.OnMapTeleTeleport(NetConnection`1 sender, MapTeleportRequest request) 位置 E:\MymmorpgWork\Src\Server\GameServer\GameServer\Services\MapService.cs:行号 75
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\MymmorpgWork\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-04-16 22:28:40,656 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-04-16 22:28:40,656 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(1028,2680,805),dir:(-100,4,0),spd:300
+2025-04-16 22:28:40,868 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:28:40,870 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(1013,2680,805),dir:(-100,4,0),spd:0
+2025-04-16 22:28:41,119 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:41,120 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1061,2694,809),dir:(-100,4,0),spd:0
+2025-04-16 22:28:41,335 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:41,335 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1081,2700,761),dir:(-100,4,0),spd:0
+2025-04-16 22:28:41,488 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:41,489 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1101,2707,714),dir:(-100,4,0),spd:0
+2025-04-16 22:28:41,602 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:41,602 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1121,2713,668),dir:(-100,4,0),spd:0
+2025-04-16 22:28:41,713 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:41,714 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1142,2719,623),dir:(-100,4,0),spd:0
+2025-04-16 22:28:41,808 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:41,809 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1167,2726,575),dir:(-100,4,0),spd:0
+2025-04-16 22:28:41,905 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:41,905 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1195,2734,524),dir:(-100,4,0),spd:0
+2025-04-16 22:28:42,010 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:42,010 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1229,2742,475),dir:(-100,4,0),spd:0
+2025-04-16 22:28:42,090 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:42,090 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1258,2750,429),dir:(-100,4,0),spd:0
+2025-04-16 22:28:42,170 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:42,171 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1290,2757,386),dir:(-100,4,0),spd:0
+2025-04-16 22:28:42,255 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:42,257 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1325,2764,345),dir:(-100,4,0),spd:0
+2025-04-16 22:28:42,337 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:42,337 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1360,2771,297),dir:(-100,4,0),spd:0
+2025-04-16 22:28:42,424 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:42,424 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1397,2778,255),dir:(-100,4,0),spd:0
+2025-04-16 22:28:42,501 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:42,501 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1397,2778,255),dir:(-97,23,0),spd:0
+2025-04-16 22:28:42,527 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:42,527 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1443,2787,222),dir:(-97,23,0),spd:0
+2025-04-16 22:28:42,589 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:42,590 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1443,2787,222),dir:(-92,40,0),spd:0
+2025-04-16 22:28:42,642 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:42,642 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1492,2792,202),dir:(-92,40,0),spd:0
+2025-04-16 22:28:42,666 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:42,667 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1492,2792,202),dir:(-83,55,0),spd:0
+2025-04-16 22:28:42,768 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:42,770 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1492,2792,202),dir:(-70,71,0),spd:0
+2025-04-16 22:28:42,799 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:42,800 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1544,2791,191),dir:(-70,71,0),spd:0
+2025-04-16 22:28:42,855 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:42,856 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1544,2791,191),dir:(-57,82,0),spd:0
+2025-04-16 22:28:42,936 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:42,936 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1544,2791,191),dir:(-41,91,0),spd:0
+2025-04-16 22:28:43,036 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:43,036 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1544,2791,191),dir:(-22,98,0),spd:0
+2025-04-16 22:28:43,049 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:43,049 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1594,2785,189),dir:(-22,98,0),spd:0
+2025-04-16 22:28:43,121 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:28:43,122 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1594,2785,189),dir:(-4,100,0),spd:0
+2025-04-16 22:28:43,220 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:28:43,220 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1594,2785,189),dir:(17,99,0),spd:0
+2025-04-16 22:28:43,317 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:28:43,317 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1594,2785,189),dir:(37,93,0),spd:0
+2025-04-16 22:28:43,416 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:28:43,416 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1594,2785,189),dir:(55,83,0),spd:0
+2025-04-16 22:28:43,452 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2025-04-16 22:28:43,452 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(1594,2785,189),dir:(55,83,0),spd:300
+2025-04-16 22:28:43,518 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:28:43,518 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1606,2801,189),dir:(71,70,0),spd:300
+2025-04-16 22:28:43,621 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:28:43,621 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1630,2825,189),dir:(84,54,0),spd:300
+2025-04-16 22:28:43,767 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:28:43,768 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1666,2852,189),dir:(93,38,0),spd:300
+2025-04-16 22:28:44,136 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:28:44,136 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1776,2896,189),dir:(98,20,0),spd:300
+2025-04-16 22:28:44,208 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:28:44,210 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1797,2889,238),dir:(98,20,0),spd:300
+2025-04-16 22:28:45,663 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:28:45,664 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2227,2981,188),dir:(98,20,0),spd:300
+2025-04-16 22:28:45,943 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:28:45,943 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2312,2998,188),dir:(93,38,0),spd:300
+2025-04-16 22:28:45,979 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:28:45,981 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2322,3004,137),dir:(93,38,0),spd:300
+2025-04-16 22:28:46,197 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:28:46,197 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2384,3030,84),dir:(93,38,0),spd:300
+2025-04-16 22:28:46,378 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:28:46,379 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2437,3053,32),dir:(93,38,0),spd:300
+2025-04-16 22:28:47,429 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:28:47,429 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2752,3179,32),dir:(84,54,0),spd:300
+2025-04-16 22:28:47,535 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:28:47,535 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2776,3197,32),dir:(71,70,0),spd:300
+2025-04-16 22:28:47,610 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:28:47,611 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2796,3217,32),dir:(58,82,0),spd:300
+2025-04-16 22:28:47,712 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:28:47,713 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2814,3241,32),dir:(40,92,0),spd:300
+2025-04-16 22:28:47,825 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:28:47,826 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2828,3276,32),dir:(23,97,0),spd:300
+2025-04-16 22:28:48,697 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:28:48,697 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2880,3536,32),dir:(6,100,0),spd:300
+2025-04-16 22:28:48,832 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:28:48,833 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2880,3576,32),dir:(-13,99,0),spd:300
+2025-04-16 22:28:48,934 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:28:48,934 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2874,3606,32),dir:(-33,94,0),spd:300
+2025-04-16 22:28:49,032 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:28:49,032 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2862,3636,32),dir:(-52,86,0),spd:300
+2025-04-16 22:28:49,131 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:28:49,132 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2844,3660,32),dir:(-67,74,0),spd:300
+2025-04-16 22:28:49,280 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:28:49,281 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2817,3696,32),dir:(-79,61,0),spd:300
+2025-04-16 22:28:50,015 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:28:50,015 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2641,3828,32),dir:(-89,45,0),spd:300
+2025-04-16 22:28:51,269 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-04-16 22:28:51,269 [11] [INFO ] [GameServer] ：OnMapTeleport:characterID:1:System.Data.Entity.DynamicProxies.TCharacter_7DE50129AF5CAB8FB840F45521035FD5A7FA7B28505722B7A5137AC850EC6B6D TeleporterID:5
+2025-04-16 22:28:51,269 [11] [WARN ] [GameServer] ：Source TeleporterID [5] LinkTo[3] not existed
+2025-04-16 22:28:51,270 [11] [INFO ] [GameServer] ：CharacterLeave: Map:2 characterId:1
+2025-04-16 22:28:51,270 [11] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2025-04-16 22:28:51,291 [11] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Core.Vector3Int.op_Implicit(NVector3 v) 位置 E:\MymmorpgWork\Src\Server\GameServer\GameServer\Core\Vector3Int.cs:行号 249
+   在 GameServer.Services.MapService.OnMapTeleTeleport(NetConnection`1 sender, MapTeleportRequest request) 位置 E:\MymmorpgWork\Src\Server\GameServer\GameServer\Services\MapService.cs:行号 75
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\MymmorpgWork\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-04-16 22:28:51,674 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:28:51,677 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2298,3978,5),dir:(-89,45,0),spd:300
+2025-04-16 22:28:51,713 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:46
+2025-04-16 22:28:51,714 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(2609,3844,32),dir:(-89,45,0),spd:300
+2025-04-16 22:28:51,838 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-04-16 22:28:51,838 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(2597,3850,32),dir:(-89,45,0),spd:0
+2025-04-16 22:28:59,378 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2025-04-16 22:28:59,379 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-04-16 22:35:22,490 [1] [INFO ] [GameServer] ：Game Server Init
+2025-04-16 22:35:22,579 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-04-16 22:35:22,838 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-04-16 22:35:22,840 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-04-16 22:35:22,840 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-04-16 22:35:22,840 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-04-16 22:35:22,841 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-04-16 22:35:22,903 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-16 22:35:22,905 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-16 22:35:22,905 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-16 22:35:22,905 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-16 22:35:22,905 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-16 22:35:22,905 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-16 22:35:22,905 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-16 22:35:22,905 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-16 22:35:22,948 [1] [WARN ] [GameServer] ：NetService Started
+2025-04-16 22:36:56,313 [3] [WARN ] [GameServer] ：Client[127.0.0.1:57413]] Connected
+2025-04-16 22:36:56,345 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-04-16 22:36:56,606 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-04-16 22:37:01,103 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-04-16 22:37:01,107 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:10:黑手党 Map:1
+2025-04-16 22:37:01,317 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2025-04-16 22:37:04,615 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:37:04,625 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5000,4000,820),dir:(98,-20,0),spd:0
+2025-04-16 22:37:04,641 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-04-16 22:37:04,642 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5000,4000,820),dir:(98,-20,0),spd:300
+2025-04-16 22:37:04,709 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:37:04,709 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5020,3996,820),dir:(93,-38,0),spd:300
+2025-04-16 22:37:04,804 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:37:04,804 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5050,3984,820),dir:(83,-56,0),spd:300
+2025-04-16 22:37:04,888 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:37:04,889 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5070,3969,820),dir:(72,-70,0),spd:300
+2025-04-16 22:37:04,996 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:37:04,997 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5094,3945,820),dir:(56,-83,0),spd:300
+2025-04-16 22:37:05,075 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:37:05,075 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5109,3925,820),dir:(40,-91,0),spd:300
+2025-04-16 22:37:05,173 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:37:05,173 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5121,3895,820),dir:(20,-98,0),spd:300
+2025-04-16 22:37:05,273 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-04-16 22:37:05,274 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5127,3865,820),dir:(0,-100,0),spd:300
+2025-04-16 22:37:05,390 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:37:05,392 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5127,3830,820),dir:(-20,-98,0),spd:300
+2025-04-16 22:37:05,772 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:37:05,774 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5104,3715,820),dir:(-2,-100,0),spd:300
+2025-04-16 22:37:06,209 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:37:06,210 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5104,3585,820),dir:(16,-99,0),spd:300
+2025-04-16 22:37:06,325 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:37:06,326 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5111,3550,820),dir:(36,-93,0),spd:300
+2025-04-16 22:37:06,444 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:37:06,444 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5125,3515,820),dir:(52,-86,0),spd:300
+2025-04-16 22:37:07,114 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:37:07,115 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5245,3355,820),dir:(33,-94,0),spd:300
+2025-04-16 22:37:07,210 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:37:07,210 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5257,3325,820),dir:(13,-99,0),spd:300
+2025-04-16 22:37:07,311 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:37:07,311 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5263,3295,820),dir:(-8,-100,0),spd:300
+2025-04-16 22:37:07,415 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:37:07,415 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5263,3265,820),dir:(-28,-96,0),spd:300
+2025-04-16 22:37:07,493 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:37:07,493 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5258,3240,820),dir:(-45,-90,0),spd:300
+2025-04-16 22:37:07,595 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:37:07,595 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5246,3210,820),dir:(-62,-78,0),spd:300
+2025-04-16 22:37:07,697 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:37:07,697 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5228,3186,820),dir:(-75,-66,0),spd:300
+2025-04-16 22:37:08,213 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:37:08,213 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5104,3093,820),dir:(-86,-52,0),spd:300
+2025-04-16 22:37:08,914 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:37:08,914 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4936,2967,820),dir:(-94,-35,0),spd:300
+2025-04-16 22:37:09,715 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:37:09,715 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4696,2871,820),dir:(-99,-17,0),spd:300
+2025-04-16 22:37:12,126 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:37:12,127 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3958,2772,805),dir:(-99,-17,0),spd:300
+2025-04-16 22:37:14,282 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:37:14,283 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(3313,2643,805),dir:(-99,-17,0),spd:0
+2025-04-16 22:37:31,130 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2025-04-16 22:37:31,131 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(3313,2643,805),dir:(-99,-17,0),spd:300
+2025-04-16 22:37:31,632 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:37:31,633 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3163,2613,805),dir:(-100,1,0),spd:300
+2025-04-16 22:37:38,976 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-04-16 22:37:38,978 [5] [INFO ] [GameServer] ：OnMapTeleport:characterID:1:System.Data.Entity.DynamicProxies.TCharacter_7DE50129AF5CAB8FB840F45521035FD5A7FA7B28505722B7A5137AC850EC6B6D TeleporterID:1
+2025-04-16 22:37:38,978 [5] [WARN ] [GameServer] ：Source TeleporterID [1] LinkTo[6] not existed
+2025-04-16 22:37:38,978 [5] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2025-04-16 22:37:38,980 [5] [INFO ] [GameServer] ：CharacterEnter: Map:2 characterId:1
+2025-04-16 22:37:39,021 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-04-16 22:37:39,021 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(3153,2613,805),dir:(-100,1,0),spd:300
+2025-04-16 22:37:39,431 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:37:39,432 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(3098,2613,805),dir:(-100,1,0),spd:0
+2025-04-16 22:37:39,717 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:37:39,717 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3103,2614,753),dir:(-100,1,0),spd:0
+2025-04-16 22:37:39,852 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:37:39,852 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3103,2614,702),dir:(-100,1,0),spd:0
+2025-04-16 22:37:39,980 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:37:39,980 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3103,2614,642),dir:(-100,1,0),spd:0
+2025-04-16 22:37:40,070 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:37:40,070 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3103,2614,581),dir:(-100,1,0),spd:0
+2025-04-16 22:37:40,156 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:37:40,157 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3103,2614,522),dir:(-100,1,0),spd:0
+2025-04-16 22:37:40,216 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:37:40,217 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3103,2614,470),dir:(-100,1,0),spd:0
+2025-04-16 22:37:40,247 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2025-04-16 22:37:40,247 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveBack Entity:(1:pos:(3103,2614,470),dir:(-100,1,0),spd:-300
+2025-04-16 22:37:40,288 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:37:40,288 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3118,2613,414),dir:(-100,1,0),spd:-300
+2025-04-16 22:37:40,356 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:37:40,356 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3137,2613,353),dir:(-100,1,0),spd:-300
+2025-04-16 22:37:40,423 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:37:40,424 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3156,2613,288),dir:(-100,1,0),spd:-300
+2025-04-16 22:37:40,471 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:37:40,471 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3171,2613,236),dir:(-100,1,0),spd:-300
+2025-04-16 22:37:40,825 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:37:40,825 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3265,2612,187),dir:(-100,1,0),spd:-300
+2025-04-16 22:37:41,633 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:37:41,633 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3510,2612,187),dir:(-98,19,0),spd:-300
+2025-04-16 22:37:41,646 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:37:41,648 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3498,2610,138),dir:(-98,19,0),spd:-300
+2025-04-16 22:37:41,735 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:37:41,737 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3528,2604,138),dir:(-93,37,0),spd:-300
+2025-04-16 22:37:41,814 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:37:41,814 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3553,2594,138),dir:(-85,53,0),spd:-300
+2025-04-16 22:37:41,853 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:37:41,853 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(3561,2588,138),dir:(-85,53,0),spd:0
+2025-04-16 22:37:41,915 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:37:41,916 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3561,2588,138),dir:(-72,69,0),spd:0
+2025-04-16 22:37:41,998 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:37:42,000 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3561,2588,138),dir:(-59,81,0),spd:0
+2025-04-16 22:37:42,102 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:37:42,102 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3561,2588,138),dir:(-41,91,0),spd:0
+2025-04-16 22:37:42,184 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:37:42,184 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3561,2588,138),dir:(-25,97,0),spd:0
+2025-04-16 22:37:42,270 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:37:42,270 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3561,2588,138),dir:(-7,100,0),spd:0
+2025-04-16 22:37:42,369 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:37:42,370 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3561,2588,138),dir:(14,99,0),spd:0
+2025-04-16 22:37:42,469 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:37:42,469 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3561,2588,138),dir:(31,95,0),spd:0
+2025-04-16 22:37:42,671 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:37:42,671 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3561,2588,138),dir:(47,88,0),spd:0
+2025-04-16 22:37:43,188 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:37:43,188 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3561,2588,138),dir:(29,96,0),spd:0
+2025-04-16 22:37:43,284 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:37:43,286 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3561,2588,138),dir:(10,100,0),spd:0
+2025-04-16 22:37:43,387 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:37:43,387 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3561,2588,138),dir:(-11,99,0),spd:0
+2025-04-16 22:37:43,488 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:37:43,490 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3561,2588,138),dir:(-31,95,0),spd:0
+2025-04-16 22:37:43,572 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:37:43,573 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3561,2588,138),dir:(-47,88,0),spd:0
+2025-04-16 22:37:43,605 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-04-16 22:37:43,606 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(3561,2588,138),dir:(-47,88,0),spd:300
+2025-04-16 22:37:43,658 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:37:43,658 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3555,2600,138),dir:(-62,78,0),spd:300
+2025-04-16 22:37:43,755 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:37:43,755 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3537,2624,138),dir:(-77,64,0),spd:300
+2025-04-16 22:37:43,855 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:37:43,855 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3513,2642,138),dir:(-87,49,0),spd:300
+2025-04-16 22:37:44,539 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:37:44,540 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3349,2724,138),dir:(-77,64,0),spd:300
+2025-04-16 22:37:44,642 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:37:44,642 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3325,2742,138),dir:(-62,78,0),spd:300
+2025-04-16 22:37:44,757 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:37:44,759 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3304,2770,138),dir:(-46,89,0),spd:300
+2025-04-16 22:37:45,082 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:37:45,083 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3239,2888,142),dir:(-46,89,0),spd:300
+2025-04-16 22:37:45,614 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:37:45,615 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3165,3033,96),dir:(-46,89,0),spd:300
+2025-04-16 22:37:45,676 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:37:45,676 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3157,3049,96),dir:(-29,96,0),spd:300
+2025-04-16 22:37:45,825 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:37:45,825 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3148,3094,96),dir:(-10,100,0),spd:300
+2025-04-16 22:37:45,924 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:37:45,926 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3142,3124,96),dir:(10,99,0),spd:300
+2025-04-16 22:37:46,029 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:37:46,029 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3148,3154,96),dir:(30,95,0),spd:300
+2025-04-16 22:37:46,098 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:37:46,098 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3148,3176,46),dir:(30,95,0),spd:300
+2025-04-16 22:37:46,140 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:37:46,140 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3154,3191,46),dir:(46,89,0),spd:300
+2025-04-16 22:37:46,945 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:37:46,946 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3250,3383,46),dir:(62,79,0),spd:300
+2025-04-16 22:37:47,076 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:37:47,078 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3274,3415,46),dir:(76,65,0),spd:300
+2025-04-16 22:37:47,186 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:37:47,188 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3298,3433,46),dir:(88,48,0),spd:300
+2025-04-16 22:37:47,285 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:37:47,286 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3336,3471,5),dir:(88,48,0),spd:300
+2025-04-16 22:37:47,494 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:37:47,494 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3388,3497,5),dir:(78,62,0),spd:300
+2025-04-16 22:37:47,664 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:37:47,664 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3428,3527,5),dir:(66,75,0),spd:300
+2025-04-16 22:37:48,446 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:37:48,446 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3569,3715,5),dir:(80,61,0),spd:300
+2025-04-16 22:37:48,580 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:37:48,581 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3601,3739,5),dir:(89,46,0),spd:300
+2025-04-16 22:37:49,215 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:37:49,216 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3753,3815,5),dir:(96,28,0),spd:300
+2025-04-16 22:37:49,335 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:37:49,335 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3788,3822,5),dir:(100,9,0),spd:300
+2025-04-16 22:37:49,431 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:37:49,431 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3818,3822,5),dir:(99,-12,0),spd:300
+2025-04-16 22:37:49,534 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:37:49,534 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3848,3816,5),dir:(95,-32,0),spd:300
+2025-04-16 22:37:49,591 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-04-16 22:37:49,592 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(3863,3810,5),dir:(95,-32,0),spd:0
+2025-04-16 22:37:49,620 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-04-16 22:37:49,623 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3863,3810,5),dir:(88,-48,0),spd:0
+2025-04-16 22:37:49,699 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-04-16 22:37:49,699 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3863,3810,5),dir:(78,-63,0),spd:0
+2025-04-16 22:37:49,800 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-04-16 22:37:49,800 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3863,3810,5),dir:(63,-77,0),spd:0
+2025-04-16 22:37:49,883 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-04-16 22:37:49,883 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3863,3810,5),dir:(49,-87,0),spd:0
+2025-04-16 22:37:49,970 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-04-16 22:37:49,970 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3863,3810,5),dir:(33,-94,0),spd:0
+2025-04-16 22:37:50,055 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:46
+2025-04-16 22:37:50,055 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(3863,3810,5),dir:(16,-99,0),spd:300
+2025-04-16 22:37:50,067 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:37:50,067 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3864,3805,5),dir:(16,-99,0),spd:300
+2025-04-16 22:37:50,154 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:37:50,154 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3869,3780,5),dir:(-5,-100,0),spd:300
+2025-04-16 22:37:50,250 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:37:50,250 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3869,3750,5),dir:(-25,-97,0),spd:300
+2025-04-16 22:37:50,350 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:37:50,351 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3863,3720,5),dir:(-43,-90,0),spd:300
+2025-04-16 22:37:50,569 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:37:50,571 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3837,3655,5),dir:(-58,-81,0),spd:300
+2025-04-16 22:37:50,985 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:37:50,985 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3762,3555,5),dir:(-72,-69,0),spd:300
+2025-04-16 22:37:51,085 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:37:51,086 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3738,3537,5),dir:(-84,-54,0),spd:300
+2025-04-16 22:37:51,188 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:37:51,188 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3714,3519,5),dir:(-93,-36,0),spd:300
+2025-04-16 22:37:51,269 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:37:51,269 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3689,3509,5),dir:(-98,-19,0),spd:300
+2025-04-16 22:37:51,368 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:37:51,368 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3659,3503,5),dir:(-100,1,0),spd:300
+2025-04-16 22:37:51,503 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:37:51,504 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3619,3503,5),dir:(-98,19,0),spd:300
+2025-04-16 22:37:51,907 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:37:51,908 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3499,3527,5),dir:(-93,36,0),spd:300
+2025-04-16 22:37:52,661 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:37:52,661 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3323,3628,5),dir:(-93,36,0),spd:300
+2025-04-16 22:37:52,704 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:37:52,704 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3308,3634,5),dir:(-85,53,0),spd:300
+2025-04-16 22:37:53,363 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:37:53,363 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3152,3751,5),dir:(-93,37,0),spd:300
+2025-04-16 22:37:53,809 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:37:53,810 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3017,3805,5),dir:(-85,53,0),spd:300
+2025-04-16 22:37:54,296 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:37:54,297 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2901,3892,5),dir:(-93,37,0),spd:300
+2025-04-16 22:37:54,943 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:37:54,944 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2706,3970,5),dir:(-98,20,0),spd:300
+2025-04-16 22:37:56,030 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:37:56,031 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2381,4035,5),dir:(-100,1,0),spd:300
+2025-04-16 22:37:56,110 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-04-16 22:37:56,111 [13] [INFO ] [GameServer] ：OnMapTeleport:characterID:1:System.Data.Entity.DynamicProxies.TCharacter_7DE50129AF5CAB8FB840F45521035FD5A7FA7B28505722B7A5137AC850EC6B6D TeleporterID:5
+2025-04-16 22:37:56,111 [13] [WARN ] [GameServer] ：Source TeleporterID [5] LinkTo[3] not existed
+2025-04-16 22:37:56,111 [13] [INFO ] [GameServer] ：CharacterLeave: Map:2 characterId:1
+2025-04-16 22:37:56,112 [13] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2025-04-16 22:37:56,553 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:46
+2025-04-16 22:37:56,553 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(2351,4035,5),dir:(-100,1,0),spd:300
+2025-04-16 22:37:56,667 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-04-16 22:37:56,667 [6] [INFO ] [GameServer] ：OnMapTeleport:characterID:1:System.Data.Entity.DynamicProxies.TCharacter_7DE50129AF5CAB8FB840F45521035FD5A7FA7B28505722B7A5137AC850EC6B6D TeleporterID:5
+2025-04-16 22:37:56,669 [6] [WARN ] [GameServer] ：Source TeleporterID [5] LinkTo[3] not existed
+2025-04-16 22:37:56,669 [6] [INFO ] [GameServer] ：CharacterLeave: Map:2 characterId:1
+2025-04-16 22:37:56,669 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2025-04-16 22:37:56,729 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-04-16 22:37:56,729 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(2326,4035,5),dir:(-100,1,0),spd:0
+2025-04-16 22:37:56,753 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-04-16 22:37:56,754 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2331,4035,55),dir:(-100,1,0),spd:0
+2025-04-16 22:37:57,811 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-04-16 22:37:57,811 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2331,4035,55),dir:(-98,20,0),spd:0
+2025-04-16 22:37:57,911 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-04-16 22:37:57,912 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2331,4035,55),dir:(-93,38,0),spd:0
+2025-04-16 22:37:58,020 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-04-16 22:37:58,020 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2331,4035,55),dir:(-83,56,0),spd:0
+2025-04-16 22:37:58,110 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-04-16 22:37:58,112 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2331,4035,55),dir:(-72,70,0),spd:0
+2025-04-16 22:37:58,182 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:46
+2025-04-16 22:37:58,183 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(2331,4035,55),dir:(-72,70,0),spd:300
+2025-04-16 22:37:58,194 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:37:58,194 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2327,4039,55),dir:(-56,83,0),spd:300
+2025-04-16 22:37:58,297 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:37:58,297 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2309,4063,55),dir:(-38,92,0),spd:300
+2025-04-16 22:37:58,449 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:37:58,451 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2291,4108,55),dir:(-21,98,0),spd:300
+2025-04-16 22:37:59,456 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:37:59,459 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2231,4408,55),dir:(-3,100,0),spd:300
+2025-04-16 22:37:59,567 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:37:59,567 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2231,4443,55),dir:(18,98,0),spd:300
+2025-04-16 22:37:59,670 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:37:59,671 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2237,4473,55),dir:(37,93,0),spd:300
+2025-04-16 22:37:59,786 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:37:59,787 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2251,4508,55),dir:(54,84,0),spd:300
+2025-04-16 22:38:00,984 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2025-04-16 22:38:00,986 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(2467,4796,55),dir:(54,84,0),spd:0
+2025-04-16 22:38:12,587 [16] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2025-04-16 22:38:12,588 [16] [WARN ] [GameServer] ：Client[] Disconnected
+2025-04-16 22:44:45,465 [1] [INFO ] [GameServer] ：Game Server Init
+2025-04-16 22:44:45,539 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-04-16 22:44:45,802 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:多伦郡 
+2025-04-16 22:44:45,803 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:华光林
+2025-04-16 22:44:45,803 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:华光林
+2025-04-16 22:44:45,803 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:失落的层岩官邸
+2025-04-16 22:44:45,804 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-04-16 22:44:45,884 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-16 22:44:45,885 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-16 22:44:45,886 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-16 22:44:45,886 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-16 22:44:45,887 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-16 22:44:45,891 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-16 22:44:45,895 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-16 22:44:45,897 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-04-16 22:44:45,924 [1] [WARN ] [GameServer] ：NetService Started
+2025-04-16 22:45:19,377 [3] [WARN ] [GameServer] ：Client[127.0.0.1:31973]] Connected
+2025-04-16 22:45:19,412 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-04-16 22:45:19,597 [5] [INFO ] [GameServer] ：UserLoginRequest: User:nayina  Pass:123123
+2025-04-16 22:45:24,248 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-04-16 22:45:24,253 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:10:黑手党 Map:1
+2025-04-16 22:45:24,537 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2025-04-16 22:45:26,079 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:45:26,085 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5000,4000,820),dir:(98,-19,0),spd:0
+2025-04-16 22:45:26,174 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:45:26,175 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5000,4000,820),dir:(93,-37,0),spd:0
+2025-04-16 22:45:26,291 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:45:26,293 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5000,4000,820),dir:(83,-55,0),spd:0
+2025-04-16 22:45:26,344 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-04-16 22:45:26,344 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5000,4000,820),dir:(83,-55,0),spd:300
+2025-04-16 22:45:26,362 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:45:26,363 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5004,3997,820),dir:(72,-69,0),spd:300
+2025-04-16 22:45:26,464 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:45:26,465 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5028,3979,820),dir:(57,-82,0),spd:300
+2025-04-16 22:45:26,549 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:45:26,550 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5043,3959,820),dir:(42,-91,0),spd:300
+2025-04-16 22:45:26,682 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:45:26,683 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5059,3919,820),dir:(24,-97,0),spd:300
+2025-04-16 22:45:27,095 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:45:27,096 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5084,3794,820),dir:(41,-91,0),spd:300
+2025-04-16 22:45:27,215 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:45:27,215 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5098,3759,820),dir:(58,-82,0),spd:300
+2025-04-16 22:45:27,752 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:45:27,753 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5194,3631,820),dir:(41,-91,0),spd:300
+2025-04-16 22:45:27,894 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:45:27,895 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5212,3586,820),dir:(25,-97,0),spd:300
+2025-04-16 22:45:28,283 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:45:28,283 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5235,3471,820),dir:(43,-90,0),spd:300
+2025-04-16 22:45:28,637 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:45:28,639 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5277,3366,820),dir:(24,-97,0),spd:300
+2025-04-16 22:45:28,733 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:45:28,734 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5283,3336,820),dir:(4,-100,0),spd:300
+2025-04-16 22:45:28,839 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:45:28,840 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5283,3306,820),dir:(-17,-99,0),spd:300
+2025-04-16 22:45:28,933 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:45:28,933 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5277,3276,820),dir:(-37,-93,0),spd:300
+2025-04-16 22:45:29,031 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:45:29,033 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5265,3246,820),dir:(-55,-83,0),spd:300
+2025-04-16 22:45:29,147 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:45:29,148 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5244,3218,820),dir:(-69,-72,0),spd:300
+2025-04-16 22:45:29,533 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:45:29,534 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5175,3126,820),dir:(-81,-59,0),spd:300
+2025-04-16 22:45:30,068 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:45:30,069 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5047,3030,820),dir:(-90,-44,0),spd:300
+2025-04-16 22:45:30,270 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:45:30,270 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4987,3006,820),dir:(-96,-27,0),spd:300
+2025-04-16 22:45:30,967 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:45:30,967 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4777,2964,820),dir:(-90,-44,0),spd:300
+2025-04-16 22:45:31,405 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:45:31,406 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4647,2912,820),dir:(-97,-26,0),spd:300
+2025-04-16 22:45:32,293 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:45:32,293 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4382,2859,820),dir:(-100,-8,0),spd:300
+2025-04-16 22:45:32,453 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:45:32,455 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4332,2859,820),dir:(-99,10,0),spd:300
+2025-04-16 22:45:32,830 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:45:32,831 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4264,2858,805),dir:(-99,10,0),spd:300
+2025-04-16 22:45:33,843 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:45:33,843 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3959,2919,805),dir:(-100,-9,0),spd:300
+2025-04-16 22:45:34,029 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:45:34,030 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3904,2919,805),dir:(-96,-26,0),spd:300
+2025-04-16 22:45:34,578 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:45:34,578 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3739,2886,805),dir:(-100,-8,0),spd:300
+2025-04-16 22:45:34,765 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:45:34,766 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3693,2836,805),dir:(-100,-8,0),spd:300
+2025-04-16 22:45:34,893 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:45:34,894 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3653,2836,805),dir:(-96,-27,0),spd:300
+2025-04-16 22:45:35,046 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:45:35,046 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3608,2827,805),dir:(-90,-44,0),spd:300
+2025-04-16 22:45:35,596 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:45:35,597 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3443,2761,805),dir:(-97,-26,0),spd:300
+2025-04-16 22:45:36,368 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:45:36,369 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3213,2715,805),dir:(-100,-8,0),spd:300
+2025-04-16 22:45:37,091 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:45:37,092 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3022,2671,805),dir:(-100,-8,0),spd:300
+2025-04-16 22:45:39,164 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:45:39,165 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2401,2621,805),dir:(-100,-8,0),spd:300
+2025-04-16 22:45:39,402 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:45:39,403 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2326,2621,805),dir:(-99,10,0),spd:300
+2025-04-16 22:45:40,672 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:45:40,673 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1946,2697,805),dir:(-100,-7,0),spd:300
+2025-04-16 22:45:40,980 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:45:40,980 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1858,2647,805),dir:(-100,-7,0),spd:300
+2025-04-16 22:45:42,583 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:45:42,583 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1378,2647,805),dir:(-99,12,0),spd:300
+2025-04-16 22:45:43,264 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:45:43,265 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1174,2638,805),dir:(-99,12,0),spd:300
+2025-04-16 22:45:43,966 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:45:43,968 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(964,2680,805),dir:(-100,-6,0),spd:300
+2025-04-16 22:45:43,993 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-04-16 22:45:44,005 [6] [INFO ] [GameServer] ：OnMapTeleport:characterID:1:System.Data.Entity.DynamicProxies.TCharacter_7DE50129AF5CAB8FB840F45521035FD5A7FA7B28505722B7A5137AC850EC6B6D TeleporterID:1
+2025-04-16 22:45:44,010 [6] [WARN ] [GameServer] ：Source TeleporterID [1] LinkTo[6] not existed
+2025-04-16 22:45:44,016 [6] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2025-04-16 22:45:44,024 [6] [INFO ] [GameServer] ：CharacterEnter: Map:2 characterId:1
+2025-04-16 22:45:44,474 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:45:44,480 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(2971,4011,198),dir:(0,100,0),spd:300
+2025-04-16 22:45:44,505 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:45:44,505 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2969,4031,198),dir:(-18,98,0),spd:300
+2025-04-16 22:45:44,691 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:45:44,693 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(2967,4041,198),dir:(-18,98,0),spd:0
+2025-04-16 22:45:44,939 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:45:44,940 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2968,4038,147),dir:(-18,98,0),spd:0
+2025-04-16 22:45:45,073 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-04-16 22:45:45,073 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2968,4038,91),dir:(-18,98,0),spd:0
+2025-04-16 22:45:45,194 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-04-16 22:45:45,195 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2968,4038,35),dir:(-18,98,0),spd:0
+2025-04-16 22:45:45,772 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:30
+2025-04-16 22:45:45,773 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2968,4038,35),dir:(0,100,0),spd:0
+2025-04-16 22:45:45,873 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:32
+2025-04-16 22:45:45,873 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2968,4038,35),dir:(21,98,0),spd:0
+2025-04-16 22:45:45,972 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:32
+2025-04-16 22:45:45,974 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2968,4038,35),dir:(40,91,0),spd:0
+2025-04-16 22:45:46,058 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:32
+2025-04-16 22:45:46,059 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2968,4038,35),dir:(56,83,0),spd:0
+2025-04-16 22:45:46,164 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:32
+2025-04-16 22:45:46,165 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2968,4038,35),dir:(72,70,0),spd:0
+2025-04-16 22:45:46,243 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:32
+2025-04-16 22:45:46,244 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2968,4038,35),dir:(83,56,0),spd:0
+2025-04-16 22:45:46,289 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:37
+2025-04-16 22:45:46,289 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(2968,4038,35),dir:(83,56,0),spd:300
+2025-04-16 22:45:46,336 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:45:46,337 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2980,4047,35),dir:(93,38,0),spd:300
+2025-04-16 22:45:46,442 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:45:46,443 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3010,4059,35),dir:(98,19,0),spd:300
+2025-04-16 22:45:46,589 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:45:46,590 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3055,4068,35),dir:(100,1,0),spd:300
+2025-04-16 22:45:46,922 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:45:46,923 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3155,4068,35),dir:(99,-17,0),spd:300
+2025-04-16 22:45:47,029 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-04-16 22:45:47,030 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(3185,4062,35),dir:(99,-17,0),spd:0
+2025-04-16 22:45:47,045 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-04-16 22:45:47,046 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3185,4062,35),dir:(93,-36,0),spd:0
+2025-04-16 22:45:47,123 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-04-16 22:45:47,123 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3185,4062,35),dir:(85,-52,0),spd:0
+2025-04-16 22:45:47,226 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-04-16 22:45:47,226 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3185,4062,35),dir:(73,-69,0),spd:0
+2025-04-16 22:45:47,326 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-04-16 22:45:47,327 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3185,4062,35),dir:(57,-82,0),spd:0
+2025-04-16 22:45:47,409 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-04-16 22:45:47,409 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3185,4062,35),dir:(42,-91,0),spd:0
+2025-04-16 22:45:47,496 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-04-16 22:45:47,496 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3185,4062,35),dir:(25,-97,0),spd:0
+2025-04-16 22:45:47,594 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2025-04-16 22:45:47,596 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3185,4062,35),dir:(5,-100,0),spd:0
+2025-04-16 22:45:47,676 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2025-04-16 22:45:47,677 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3185,4062,35),dir:(-13,-99,0),spd:0
+2025-04-16 22:45:47,739 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2025-04-16 22:45:47,739 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(3185,4062,35),dir:(-13,-99,0),spd:300
+2025-04-16 22:45:47,779 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:45:47,779 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3183,4052,35),dir:(-33,-94,0),spd:300
+2025-04-16 22:45:47,873 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:45:47,874 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3171,4022,35),dir:(-52,-85,0),spd:300
+2025-04-16 22:45:47,976 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:45:47,976 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3153,3998,35),dir:(-69,-73,0),spd:300
+2025-04-16 22:45:48,074 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:45:48,075 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3135,3974,35),dir:(-82,-57,0),spd:300
+2025-04-16 22:45:48,175 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:45:48,177 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3111,3956,35),dir:(-92,-40,0),spd:300
+2025-04-16 22:45:48,324 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:45:48,326 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3066,3938,35),dir:(-97,-22,0),spd:300
+2025-04-16 22:45:49,229 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:45:49,230 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2796,3884,35),dir:(-100,-5,0),spd:300
+2025-04-16 22:45:50,086 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:45:50,087 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2541,3884,35),dir:(-99,14,0),spd:300
+2025-04-16 22:45:50,696 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-04-16 22:45:50,697 [5] [INFO ] [GameServer] ：OnMapTeleport:characterID:1:System.Data.Entity.DynamicProxies.TCharacter_7DE50129AF5CAB8FB840F45521035FD5A7FA7B28505722B7A5137AC850EC6B6D TeleporterID:5
+2025-04-16 22:45:50,697 [5] [WARN ] [GameServer] ：Source TeleporterID [5] LinkTo[3] not existed
+2025-04-16 22:45:50,697 [5] [INFO ] [GameServer] ：CharacterLeave: Map:2 characterId:1
+2025-04-16 22:45:50,697 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2025-04-16 22:45:51,122 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:45:51,133 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(1570,2624,1010),dir:(0,100,0),spd:300
+2025-04-16 22:45:51,252 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:45:51,253 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(1570,2644,1010),dir:(0,100,0),spd:0
+2025-04-16 22:45:51,492 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2025-04-16 22:45:51,494 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1570,2641,960),dir:(0,100,0),spd:0
+2025-04-16 22:45:51,641 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2025-04-16 22:45:51,641 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1570,2641,909),dir:(0,100,0),spd:0
+2025-04-16 22:45:51,759 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2025-04-16 22:45:51,760 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1570,2641,853),dir:(0,100,0),spd:0
+2025-04-16 22:45:52,390 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:45:52,392 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveBack Entity:(1:pos:(1570,2641,853),dir:(0,100,0),spd:-300
+2025-04-16 22:45:53,156 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:45:53,156 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1570,2411,853),dir:(19,98,0),spd:-300
+2025-04-16 22:45:53,254 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:45:53,254 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1564,2381,853),dir:(37,93,0),spd:-300
+2025-04-16 22:45:53,313 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:45:53,314 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(1558,2366,853),dir:(37,93,0),spd:0
+2025-04-16 22:45:53,330 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:45:53,331 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1561,2384,805),dir:(37,93,0),spd:0
+2025-04-16 22:45:53,356 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:45:53,356 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1561,2384,805),dir:(55,83,0),spd:0
+2025-04-16 22:45:53,436 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:45:53,438 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1561,2384,805),dir:(69,72,0),spd:0
+2025-04-16 22:45:53,542 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:45:53,545 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1561,2384,805),dir:(83,56,0),spd:0
+2025-04-16 22:45:53,639 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:45:53,640 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1561,2384,805),dir:(92,40,0),spd:0
+2025-04-16 22:45:53,790 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:45:53,791 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1561,2384,805),dir:(97,23,0),spd:0
+2025-04-16 22:45:53,922 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2025-04-16 22:45:53,922 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(1561,2384,805),dir:(97,23,0),spd:300
+2025-04-16 22:45:54,892 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:45:54,895 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1851,2442,805),dir:(92,40,0),spd:300
+2025-04-16 22:45:54,992 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:45:54,993 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1881,2454,805),dir:(82,57,0),spd:300
+2025-04-16 22:45:55,441 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:45:55,441 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(1989,2535,805),dir:(91,41,0),spd:300
+2025-04-16 22:45:55,543 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:45:55,544 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2019,2547,805),dir:(98,21,0),spd:300
+2025-04-16 22:45:55,640 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:45:55,640 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2049,2553,805),dir:(100,3,0),spd:300
+2025-04-16 22:45:55,828 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:45:55,829 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2104,2553,805),dir:(99,-15,0),spd:300
+2025-04-16 22:45:55,858 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:45:55,859 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(2114,2551,805),dir:(99,-15,0),spd:0
+2025-04-16 22:48:11,963 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-04-16 22:48:11,964 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(2114,2551,805),dir:(99,-15,0),spd:300
+2025-04-16 22:48:12,872 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:48:12,873 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2384,2497,805),dir:(100,3,0),spd:300
+2025-04-16 22:48:13,357 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:48:13,357 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2529,2497,805),dir:(98,21,0),spd:300
+2025-04-16 22:48:13,524 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:48:13,524 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2579,2507,805),dir:(93,38,0),spd:300
+2025-04-16 22:48:14,571 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:48:14,571 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(2894,2633,805),dir:(84,54,0),spd:300
+2025-04-16 22:48:16,975 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:48:16,975 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(3470,3065,805),dir:(84,54,0),spd:0
+2025-04-16 22:49:20,567 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2025-04-16 22:49:20,568 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(3470,3065,805),dir:(84,54,0),spd:300
+2025-04-16 22:49:20,871 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:49:20,872 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3542,3119,805),dir:(73,68,0),spd:300
+2025-04-16 22:49:21,021 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:49:21,021 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3578,3146,805),dir:(60,80,0),spd:300
+2025-04-16 22:49:21,117 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:49:21,118 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3596,3170,805),dir:(43,90,0),spd:300
+2025-04-16 22:49:21,222 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:49:21,222 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3608,3200,805),dir:(24,97,0),spd:300
+2025-04-16 22:49:21,303 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:49:21,304 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3613,3225,805),dir:(6,100,0),spd:300
+2025-04-16 22:49:21,405 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:21,407 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3613,3255,805),dir:(-14,99,0),spd:300
+2025-04-16 22:49:21,491 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:21,492 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3608,3280,805),dir:(-31,95,0),spd:300
+2025-04-16 22:49:21,570 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:21,570 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3598,3305,805),dir:(-47,88,0),spd:300
+2025-04-16 22:49:21,656 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:21,656 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3588,3325,805),dir:(-62,79,0),spd:300
+2025-04-16 22:49:21,739 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:21,739 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3573,3345,805),dir:(-75,67,0),spd:300
+2025-04-16 22:49:21,825 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:21,825 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3553,3360,805),dir:(-85,53,0),spd:300
+2025-04-16 22:49:21,906 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:21,907 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3533,3375,805),dir:(-93,37,0),spd:300
+2025-04-16 22:49:22,008 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:22,008 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3503,3387,805),dir:(-99,17,0),spd:300
+2025-04-16 22:49:22,085 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-04-16 22:49:22,086 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3478,3392,805),dir:(-100,0,0),spd:300
+2025-04-16 22:49:22,169 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:49:22,170 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3453,3392,805),dir:(-98,-18,0),spd:300
+2025-04-16 22:49:22,273 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:49:22,273 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3423,3386,805),dir:(-93,-38,0),spd:300
+2025-04-16 22:49:22,359 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:49:22,359 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3398,3376,805),dir:(-85,-53,0),spd:300
+2025-04-16 22:49:22,439 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:49:22,441 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3378,3361,805),dir:(-74,-67,0),spd:300
+2025-04-16 22:49:22,522 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:49:22,523 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3358,3346,805),dir:(-61,-79,0),spd:300
+2025-04-16 22:49:22,621 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:49:22,621 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3340,3322,805),dir:(-43,-90,0),spd:300
+2025-04-16 22:49:22,720 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:49:22,722 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3328,3292,805),dir:(-24,-97,0),spd:300
+2025-04-16 22:49:22,790 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:49:22,790 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(3324,3272,805),dir:(-24,-97,0),spd:0
+2025-04-16 22:49:22,804 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-16 22:49:22,804 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3324,3272,805),dir:(-6,-100,0),spd:0
+2025-04-16 22:49:22,905 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:49:22,906 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3324,3272,805),dir:(14,-99,0),spd:0
+2025-04-16 22:49:22,990 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:49:22,990 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3324,3272,805),dir:(31,-95,0),spd:0
+2025-04-16 22:49:23,072 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:49:23,073 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3324,3272,805),dir:(47,-88,0),spd:0
+2025-04-16 22:49:23,157 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:49:23,158 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3324,3272,805),dir:(62,-79,0),spd:0
+2025-04-16 22:49:23,245 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:49:23,246 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3324,3272,805),dir:(75,-67,0),spd:0
+2025-04-16 22:49:23,341 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:49:23,341 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3324,3272,805),dir:(86,-52,0),spd:0
+2025-04-16 22:49:23,491 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-04-16 22:49:23,492 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(3324,3272,805),dir:(86,-52,0),spd:300
+2025-04-16 22:49:23,514 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:23,514 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3328,3269,805),dir:(93,-36,0),spd:300
+2025-04-16 22:49:24,644 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:24,644 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3668,3133,805),dir:(85,-52,0),spd:300
+2025-04-16 22:49:24,741 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:24,742 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3692,3115,805),dir:(74,-67,0),spd:300
+2025-04-16 22:49:24,875 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:24,875 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3724,3091,805),dir:(60,-80,0),spd:300
+2025-04-16 22:49:25,043 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:49:25,043 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(3754,3051,805),dir:(60,-80,0),spd:0
+2025-04-16 22:49:50,813 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-04-16 22:49:50,814 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(3754,3051,805),dir:(60,-80,0),spd:300
+2025-04-16 22:49:50,911 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:50,911 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3772,3027,805),dir:(74,-67,0),spd:300
+2025-04-16 22:49:51,017 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:51,017 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3796,3009,805),dir:(86,-51,0),spd:300
+2025-04-16 22:49:51,098 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:51,099 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3816,2994,805),dir:(94,-35,0),spd:300
+2025-04-16 22:49:51,196 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:51,197 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3846,2982,805),dir:(99,-15,0),spd:300
+2025-04-16 22:49:51,294 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:49:51,295 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3876,2976,805),dir:(100,5,0),spd:300
+2025-04-16 22:49:51,449 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:49:51,449 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3921,2976,805),dir:(97,23,0),spd:300
+2025-04-16 22:49:51,761 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:49:51,762 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4016,2995,805),dir:(92,40,0),spd:300
+2025-04-16 22:49:51,884 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:49:51,884 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4051,3009,805),dir:(82,57,0),spd:300
+2025-04-16 22:49:51,967 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:49:51,967 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4071,3024,805),dir:(71,71,0),spd:300
+2025-04-16 22:49:51,979 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:49:51,979 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(4075,3028,805),dir:(71,71,0),spd:0
+2025-04-16 22:49:52,045 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:49:52,046 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4075,3028,805),dir:(57,82,0),spd:0
+2025-04-16 22:49:52,150 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:49:52,151 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4075,3028,805),dir:(39,92,0),spd:0
+2025-04-16 22:49:52,232 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:49:52,233 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4075,3028,805),dir:(22,97,0),spd:0
+2025-04-16 22:49:52,329 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-04-16 22:49:52,329 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4075,3028,805),dir:(2,100,0),spd:0
+2025-04-16 22:49:52,419 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:49:52,419 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4075,3028,805),dir:(-16,99,0),spd:0
+2025-04-16 22:49:52,515 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-04-16 22:49:52,516 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(4075,3028,805),dir:(-36,93,0),spd:300
+2025-04-16 22:49:52,529 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:52,529 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4075,3028,805),dir:(-36,93,0),spd:300
+2025-04-16 22:49:52,614 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:52,614 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4063,3058,805),dir:(-55,84,0),spd:300
+2025-04-16 22:49:52,715 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:52,716 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4045,3082,805),dir:(-71,71,0),spd:300
+2025-04-16 22:49:52,799 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:52,800 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4025,3102,805),dir:(-82,57,0),spd:300
+2025-04-16 22:49:52,905 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:52,905 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4001,3120,805),dir:(-92,39,0),spd:300
+2025-04-16 22:49:52,985 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:52,985 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3976,3130,805),dir:(-97,22,0),spd:300
+2025-04-16 22:49:53,082 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:53,082 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3946,3136,805),dir:(-100,2,0),spd:300
+2025-04-16 22:49:53,201 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:49:53,202 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3911,3136,805),dir:(-99,-16,0),spd:300
+2025-04-16 22:49:53,873 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:49:53,873 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(3716,3097,805),dir:(-99,-16,0),spd:0
+2025-04-16 22:49:57,909 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:49:57,910 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3716,3097,805),dir:(-100,3,0),spd:0
+2025-04-16 22:49:58,009 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-04-16 22:49:58,009 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(3716,3097,805),dir:(-98,22,0),spd:300
+2025-04-16 22:49:58,023 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:58,024 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3716,3097,805),dir:(-98,22,0),spd:300
+2025-04-16 22:49:58,110 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:58,111 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3686,3103,805),dir:(-91,42,0),spd:300
+2025-04-16 22:49:58,207 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:58,208 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3656,3115,805),dir:(-80,60,0),spd:300
+2025-04-16 22:49:58,310 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:58,311 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3632,3133,805),dir:(-66,75,0),spd:300
+2025-04-16 22:49:58,414 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:58,415 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3614,3157,805),dir:(-49,87,0),spd:300
+2025-04-16 22:49:58,501 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:58,501 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3604,3177,805),dir:(-33,94,0),spd:300
+2025-04-16 22:49:58,594 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:49:58,594 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3592,3207,805),dir:(-13,99,0),spd:300
+2025-04-16 22:49:58,680 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:49:58,681 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3587,3232,805),dir:(5,100,0),spd:300
+2025-04-16 22:49:58,776 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:49:58,776 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3587,3262,805),dir:(25,97,0),spd:300
+2025-04-16 22:49:58,863 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:49:58,863 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3592,3287,805),dir:(42,91,0),spd:300
+2025-04-16 22:49:58,967 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:49:58,968 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3604,3317,805),dir:(60,80,0),spd:300
+2025-04-16 22:49:59,062 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:49:59,062 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3622,3341,805),dir:(75,66,0),spd:300
+2025-04-16 22:49:59,162 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:49:59,162 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3646,3359,805),dir:(87,49,0),spd:300
+2025-04-16 22:49:59,248 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:49:59,249 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3666,3369,805),dir:(94,33,0),spd:300
+2025-04-16 22:49:59,346 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:49:59,346 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(3696,3381,805),dir:(99,15,0),spd:300
+2025-04-16 22:50:01,744 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:50:01,744 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4383,3482,805),dir:(99,15,0),spd:300
+2025-04-16 22:50:02,011 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:50:02,012 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4414,3482,805),dir:(99,15,0),spd:300
+2025-04-16 22:50:02,256 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:50:02,257 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(4469,3493,805),dir:(99,15,0),spd:0
+2025-04-16 22:50:05,674 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:50:05,674 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4469,3493,805),dir:(100,-2,0),spd:0
+2025-04-16 22:50:05,874 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:50:05,874 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4469,3493,805),dir:(98,-22,0),spd:0
+2025-04-16 22:50:05,913 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-04-16 22:50:05,914 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(4469,3493,805),dir:(98,-22,0),spd:300
+2025-04-16 22:50:05,975 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:50:05,975 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4489,3489,805),dir:(92,-40,0),spd:300
+2025-04-16 22:50:06,058 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:50:06,059 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4514,3479,805),dir:(83,-55,0),spd:300
+2025-04-16 22:50:06,144 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:50:06,145 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4534,3464,805),dir:(72,-69,0),spd:300
+2025-04-16 22:50:06,245 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:50:06,247 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4558,3446,805),dir:(57,-82,0),spd:300
+2025-04-16 22:50:06,326 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:50:06,327 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4573,3426,805),dir:(41,-91,0),spd:300
+2025-04-16 22:50:06,430 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:50:06,430 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4585,3396,805),dir:(22,-98,0),spd:300
+2025-04-16 22:50:06,526 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:50:06,528 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4591,3366,805),dir:(3,-100,0),spd:300
+2025-04-16 22:50:06,710 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:50:06,711 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4591,3311,805),dir:(-15,-99,0),spd:300
+2025-04-16 22:50:07,502 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:50:07,504 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(4544,3076,805),dir:(-15,-99,0),spd:0
+2025-04-16 22:50:07,516 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-16 22:50:07,517 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4544,3076,805),dir:(-33,-95,0),spd:0
+2025-04-16 22:50:07,697 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-16 22:50:07,699 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4544,3076,805),dir:(-50,-87,0),spd:0
+2025-04-16 22:50:55,089 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-16 22:50:55,091 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4544,3076,805),dir:(-65,-76,0),spd:0
+2025-04-16 22:50:55,193 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-16 22:50:55,194 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4544,3076,805),dir:(-77,-63,0),spd:0
+2025-04-16 22:50:55,241 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2025-04-16 22:50:55,242 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(4544,3076,805),dir:(-77,-63,0),spd:300
+2025-04-16 22:50:55,293 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:50:55,293 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4532,3067,805),dir:(-89,-46,0),spd:300
+2025-04-16 22:50:55,393 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:50:55,394 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4508,3055,805),dir:(-96,-27,0),spd:300
+2025-04-16 22:50:55,478 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:50:55,478 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4483,3050,805),dir:(-100,-9,0),spd:300
+2025-04-16 22:50:55,573 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:50:55,573 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4453,3050,805),dir:(-99,12,0),spd:300
+2025-04-16 22:50:55,679 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:50:55,679 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4423,3056,805),dir:(-95,32,0),spd:300
+2025-04-16 22:50:55,774 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:50:55,774 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4393,3068,805),dir:(-86,51,0),spd:300
+2025-04-16 22:50:55,878 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:50:55,878 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4369,3086,805),dir:(-74,68,0),spd:300
+2025-04-16 22:50:55,962 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:50:55,962 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4349,3101,805),dir:(-61,79,0),spd:300
+2025-04-16 22:50:56,050 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:50:56,052 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4334,3121,805),dir:(-46,89,0),spd:300
+2025-04-16 22:50:56,144 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:50:56,145 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4322,3145,805),dir:(-27,96,0),spd:300
+2025-04-16 22:50:56,230 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:50:56,231 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4317,3170,805),dir:(-9,100,0),spd:300
+2025-04-16 22:50:56,327 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:50:56,327 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4317,3200,805),dir:(12,99,0),spd:300
+2025-04-16 22:50:56,431 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:50:56,432 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4323,3230,805),dir:(32,95,0),spd:300
+2025-04-16 22:50:56,527 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:50:56,528 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4335,3260,805),dir:(51,86,0),spd:300
+2025-04-16 22:50:56,630 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:50:56,630 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4353,3284,805),dir:(68,74,0),spd:300
+2025-04-16 22:50:56,714 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:50:56,715 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4368,3304,805),dir:(79,61,0),spd:300
+2025-04-16 22:50:56,796 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:50:56,796 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4388,3319,805),dir:(89,46,0),spd:300
+2025-04-16 22:50:56,894 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:50:56,895 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4412,3331,805),dir:(96,29,0),spd:300
+2025-04-16 22:50:57,329 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:50:57,329 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4542,3357,805),dir:(89,45,0),spd:300
+2025-04-16 22:50:57,427 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:50:57,451 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4566,3369,805),dir:(78,63,0),spd:300
+2025-04-16 22:50:57,530 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:50:57,531 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4590,3387,805),dir:(65,76,0),spd:300
+2025-04-16 22:50:57,916 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:50:57,916 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4659,3479,805),dir:(51,86,0),spd:300
+2025-04-16 22:50:58,038 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:50:58,039 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4632,3482,805),dir:(51,86,0),spd:300
+2025-04-16 22:50:58,099 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:50:58,100 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4644,3498,805),dir:(33,94,0),spd:300
+2025-04-16 22:50:58,202 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:50:58,202 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4632,3482,805),dir:(33,94,0),spd:300
+2025-04-16 22:50:58,247 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:50:58,247 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4638,3497,805),dir:(15,99,0),spd:300
+2025-04-16 22:50:58,421 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:50:58,421 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4632,3482,805),dir:(15,99,0),spd:300
+2025-04-16 22:50:58,433 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-04-16 22:50:58,434 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(4633,3487,805),dir:(15,99,0),spd:0
+2025-04-16 22:51:02,030 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2025-04-16 22:51:02,031 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(4633,3487,805),dir:(15,99,0),spd:300
+2025-04-16 22:51:02,073 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:51:02,073 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4636,3502,805),dir:(34,94,0),spd:300
+2025-04-16 22:51:02,172 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:51:02,174 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4648,3532,805),dir:(52,85,0),spd:300
+2025-04-16 22:51:02,186 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:51:02,188 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4632,3482,805),dir:(52,85,0),spd:300
+2025-04-16 22:51:02,255 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:51:02,257 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4647,3502,805),dir:(66,75,0),spd:300
+2025-04-16 22:51:02,336 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:51:02,336 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4662,3522,805),dir:(78,62,0),spd:300
+2025-04-16 22:51:02,360 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:51:02,360 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4632,3482,805),dir:(78,62,0),spd:300
+2025-04-16 22:51:02,463 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:51:02,464 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4652,3497,805),dir:(89,46,0),spd:300
+2025-04-16 22:51:02,579 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:51:02,580 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4641,3482,805),dir:(89,46,0),spd:300
+2025-04-16 22:51:02,603 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:51:02,604 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4649,3486,805),dir:(96,29,0),spd:300
+2025-04-16 22:51:02,939 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:51:02,939 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4749,3506,805),dir:(89,46,0),spd:300
+2025-04-16 22:51:03,039 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:51:03,040 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4773,3518,805),dir:(79,62,0),spd:300
+2025-04-16 22:51:03,142 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:51:03,143 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4797,3536,805),dir:(66,75,0),spd:300
+2025-04-16 22:51:03,822 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:51:03,823 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4920,3700,805),dir:(79,61,0),spd:300
+2025-04-16 22:51:03,908 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:51:03,909 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4940,3715,805),dir:(89,46,0),spd:300
+2025-04-16 22:51:04,010 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:51:04,011 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4964,3727,805),dir:(96,27,0),spd:300
+2025-04-16 22:51:04,123 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:51:04,125 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4994,3733,805),dir:(100,10,0),spd:300
+2025-04-16 22:51:04,179 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:51:04,180 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5014,3737,805),dir:(100,-8,0),spd:300
+2025-04-16 22:51:04,286 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:51:04,287 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5044,3737,805),dir:(96,-28,0),spd:300
+2025-04-16 22:51:04,376 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:51:04,377 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5074,3731,805),dir:(88,-47,0),spd:300
+2025-04-16 22:51:04,510 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:51:04,510 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5106,3715,805),dir:(78,-62,0),spd:300
+2025-04-16 22:51:04,929 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:51:04,929 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5206,3640,805),dir:(66,-75,0),spd:300
+2025-04-16 22:51:05,045 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:51:05,046 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5227,3612,805),dir:(52,-86,0),spd:300
+2025-04-16 22:51:05,819 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:51:05,820 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5332,3390,805),dir:(52,-86,0),spd:300
+2025-04-16 22:51:06,277 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:51:06,278 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5416,3278,805),dir:(35,-94,0),spd:300
+2025-04-16 22:51:06,381 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:51:06,382 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5428,3248,805),dir:(15,-99,0),spd:300
+2025-04-16 22:51:06,480 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:51:06,481 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5434,3218,805),dir:(-6,-100,0),spd:300
+2025-04-16 22:51:06,585 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:51:06,586 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5434,3188,805),dir:(-26,-96,0),spd:300
+2025-04-16 22:51:06,681 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:51:06,682 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5428,3158,805),dir:(-43,-90,0),spd:300
+2025-04-16 22:51:06,861 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-04-16 22:51:06,861 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5406,3103,805),dir:(-58,-81,0),spd:300
+2025-04-16 22:51:07,196 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-04-16 22:51:07,197 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(5358,3039,805),dir:(-58,-81,0),spd:0
+2025-04-16 22:51:58,392 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-16 22:51:58,393 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5358,3039,805),dir:(-72,-69,0),spd:0
+2025-04-16 22:51:58,489 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-16 22:51:58,489 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5358,3039,805),dir:(-83,-55,0),spd:0
+2025-04-16 22:51:58,590 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-16 22:51:58,592 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5358,3039,805),dir:(-93,-37,0),spd:0
+2025-04-16 22:51:58,678 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-04-16 22:51:58,678 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5358,3039,805),dir:(-98,-20,0),spd:0
+2025-04-16 22:51:58,778 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:51:58,779 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5358,3039,805),dir:(-100,1,0),spd:0
+2025-04-16 22:51:58,794 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-04-16 22:51:58,795 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5358,3039,805),dir:(-100,1,0),spd:300
+2025-04-16 22:51:58,877 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:51:58,877 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5333,3039,805),dir:(-98,22,0),spd:300
+2025-04-16 22:51:58,973 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:51:58,973 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5303,3045,805),dir:(-91,41,0),spd:300
+2025-04-16 22:51:59,060 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:51:59,060 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5278,3055,805),dir:(-82,57,0),spd:300
+2025-04-16 22:51:59,162 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:51:59,162 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5254,3073,805),dir:(-70,72,0),spd:300
+2025-04-16 22:51:59,313 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:51:59,313 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5218,3109,805),dir:(-55,83,0),spd:300
+2025-04-16 22:51:59,557 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:51:59,559 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5173,3169,805),dir:(-39,92,0),spd:300
+2025-04-16 22:51:59,677 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:51:59,679 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5159,3204,805),dir:(-22,98,0),spd:300
+2025-04-16 22:52:00,483 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:52:00,483 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5111,3444,805),dir:(-4,100,0),spd:300
+2025-04-16 22:52:00,647 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:52:00,647 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5111,3494,805),dir:(14,99,0),spd:300
+2025-04-16 22:52:00,745 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:52:00,747 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5117,3524,805),dir:(32,95,0),spd:300
+2025-04-16 22:52:00,830 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:52:00,831 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5127,3549,805),dir:(48,88,0),spd:300
+2025-04-16 22:52:00,945 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:52:00,945 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5141,3577,805),dir:(63,78,0),spd:300
+2025-04-16 22:52:01,296 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:52:01,296 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5204,3661,805),dir:(46,89,0),spd:300
+2025-04-16 22:52:01,397 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:52:01,397 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5216,3685,805),dir:(27,96,0),spd:300
+2025-04-16 22:52:01,502 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-04-16 22:52:01,504 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5222,3715,805),dir:(7,100,0),spd:300
+2025-04-16 22:52:01,583 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:52:01,583 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5222,3740,805),dir:(-11,99,0),spd:300
+2025-04-16 22:52:01,681 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:52:01,682 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5216,3770,805),dir:(-31,95,0),spd:300
+2025-04-16 22:52:01,764 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:52:01,765 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5206,3795,805),dir:(-47,88,0),spd:300
+2025-04-16 22:52:01,867 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:52:01,867 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5194,3819,805),dir:(-63,77,0),spd:300
+2025-04-16 22:52:02,015 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:52:02,015 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5167,3855,805),dir:(-76,64,0),spd:300
+2025-04-16 22:52:02,399 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:52:02,399 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(5075,3924,805),dir:(-76,64,0),spd:0
+2025-04-16 22:52:08,413 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:52:08,413 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5075,3924,805),dir:(-87,49,0),spd:0
+2025-04-16 22:52:08,571 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-04-16 22:52:08,571 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(5075,3924,805),dir:(-95,33,0),spd:0
+2025-04-16 22:52:12,584 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-04-16 22:52:12,585 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5075,3924,805),dir:(-95,33,0),spd:300
+2025-04-16 22:52:13,220 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:52:13,222 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4890,3998,805),dir:(-86,50,0),spd:300
+2025-04-16 22:52:13,371 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-04-16 22:52:13,371 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:None Entity:(1:pos:(4850,4028,805),dir:(-76,65,0),spd:300
+2025-04-16 22:52:13,657 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-04-16 22:52:13,658 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID: 1:黑手党 Entity.Id:1 Evt:Idle Entity:(1:pos:(4782,4079,805),dir:(-76,65,0),spd:0
+2025-04-16 22:52:21,254 [30] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2025-04-16 22:52:21,255 [30] [WARN ] [GameServer] ：Client[] Disconnected
