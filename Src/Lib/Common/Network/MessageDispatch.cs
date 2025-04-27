@@ -25,7 +25,12 @@ namespace Network
             if (message.friendAddRes != null) { MessageDistributer<T>.Instance.RaiseEvent(sender, message.friendAddRes); }
             if (message.firendList!= null) { MessageDistributer<T>.Instance.RaiseEvent(sender, message.firendList); }
             if (message.friendRemove != null) { MessageDistributer<T>.Instance.RaiseEvent(sender, message.friendRemove); }
-           
+
+            if (message.teamInviteReq != null) { MessageDistributer<T>.Instance.RaiseEvent(sender, message.teamInviteReq); }
+            if (message.teamInviteRes != null) { MessageDistributer<T>.Instance.RaiseEvent(sender, message.teamInviteRes); }
+            if (message.teamInviteRes != null) { MessageDistributer<T>.Instance.RaiseEvent(sender, message.teamInviteRes); }
+            if (message.teamLeave != null) { MessageDistributer<T>.Instance.RaiseEvent(sender, message.teamLeave); }
+
 
         }
 
@@ -43,10 +48,16 @@ namespace Network
             if (message.itemEquip!=null){MessageDistributer<T>.Instance.RaiseEvent(sender,message.itemEquip); }
             if (message.questAccept!=null){MessageDistributer<T>.Instance.RaiseEvent(sender,message.questAccept); }
             if (message.questSubmit!=null){MessageDistributer<T>.Instance.RaiseEvent(sender,message.questSubmit); }
+
             if (message.friendAddReq != null) { MessageDistributer<T>.Instance.RaiseEvent(sender, message.friendAddReq); }
             if (message.friendAddRes != null) { MessageDistributer<T>.Instance.RaiseEvent(sender, message.friendAddRes); }
             if (message.firendList != null) { MessageDistributer<T>.Instance.RaiseEvent(sender, message.firendList); }
             if (message.friendRemove != null) { MessageDistributer<T>.Instance.RaiseEvent(sender, message.friendRemove); }
+
+            if (message.teamInviteReq != null) { MessageDistributer<T>.Instance.RaiseEvent(sender, message.teamInviteReq); }
+            if (message.teamInviteRes != null) { MessageDistributer<T>.Instance.RaiseEvent(sender, message.teamInviteRes); }
+            if (message.teamInviteRes != null) { MessageDistributer<T>.Instance.RaiseEvent(sender, message.teamInviteRes); }
+            if (message.teamLeave != null) { MessageDistributer<T>.Instance.RaiseEvent(sender, message.teamLeave); }
         }
     }
 }

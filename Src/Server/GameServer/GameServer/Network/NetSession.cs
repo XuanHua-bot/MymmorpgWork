@@ -46,8 +46,6 @@ namespace Network
             }
         }
 
-        //todo
-        //代码需补全
         public byte[] GetResponse()
         {
             if (response !=null)

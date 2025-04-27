@@ -32,6 +32,9 @@ namespace GameServer.Entities
 
         public FriendManager FriendManager;
 
+        public Team Team;//储存队伍
+        public double TeamUpdateTS;//TS 为时间戳
+
         //角色类的构造函数，进行一系列的初始化
         public Character(CharacterType type,TCharacter cha):
             base(new Core.Vector3Int(cha.MapPosX, cha.MapPosY, cha.MapPosZ),new Core.Vector3Int(100,0,0))
@@ -94,11 +97,29 @@ namespace GameServer.Entities
 
         public void PostProcess(NetMessageResponse message)//实现的后处理的接口  
         {
-            this.FriendManager.PostProcess(message);//好友管理器后处理
-            if (this.StatusManager.HasStatus)//状态管理器后处理
+            Log.InfoFormat("PostProcess > Character ： characterID:{0}:{1}",this.Id,this.Info.Name);
+            this.FriendManager.PostProcess(message);
+            
+           
+            if (this.Team!= null)//判断当前有无队伍
+            {
+                
+                Log.InfoFormat("PostProcess > Team: characterID:{0}:{1} {2}",this.Id,this.Info.Name,TeamUpdateTS,this.Team.timestamp);
+                //  自己队伍信息的时间戳（默认为0） < 队伍信息
+                if (TeamUpdateTS<this.Team.timestamp)
+                { 
+                    //如果 比队伍的时间戳小 则 更新
+                    //每个玩家的 =   队伍的时间戳
+                    TeamUpdateTS = Team.timestamp;
+                    this.Team.PostProcess(message);
+                }
+            }
+
+            if (this.StatusManager.HasStatus)
             {
                 this.StatusManager.PostProcess(message);
             }
+           
         }
 
 
@@ -107,7 +128,7 @@ namespace GameServer.Entities
         /// </summary>
         public void Clear()
         {
-            this.FriendManager.UpdateFriendInfo(this.Info, 0);
+            this.FriendManager.offlineNotify();//离线通知
         }
 
         public NCharacterInfo GetBasicInfo()

@@ -16,12 +16,18 @@ public class UIFriends : UIWindow
 
 	private void Start()
 	{
-		FriendService.Instance.OnFriendUpdate = RefreshUI;//注册刷新方法
+        FriendService.Instance.OnFriendUpdate = RefreshUI;
 		this.ListMain.onItemSelected += this.OnFriendSelected;
 		RefreshUI();
 	}
 
-	public void OnFriendSelected(ListView.ListViewItem item)
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    public void OnFriendSelected(ListView.ListViewItem item)
 	{
 		this.selectedItem = item as UIFriendItem;
 
@@ -54,6 +60,28 @@ public class UIFriends : UIWindow
 	public void OnClickFriendChat()//聊天
 	{
 		MessageBox.Show("暂未开放");
+	}
+
+	public void onClickFriendTeamInvite()
+	{
+		if (selectedItem == null)
+		{
+			MessageBox.Show("请选择要邀请的闺蜜");
+			return;
+		}
+
+		if (selectedItem.Info.Status == 0)
+		{
+			MessageBox.Show("请选择在线的闺蜜");
+			return;
+		}
+
+      
+        MessageBox.Show(String.Format("确定要邀请好友 [{0}] 加入队伍吗？", selectedItem.Info.friendInfo.Name), "组队邀请",MessageBoxType.Confirm, "邀请", "取消").OnYes = () =>
+		{
+			TeamService.Instance.SendTeamInviteRequest(this.selectedItem.Info.friendInfo.Id ,
+				this.selectedItem.Info.friendInfo.Name);
+		};
 	}
 
 	public void OnClickFriendRemove()

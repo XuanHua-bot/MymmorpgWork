@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-E:/MymmorpgWork/Src/Client/bin/4.22/ExtremeWorld.exe
+E:/MymmorpgWork/Src/Client/bin/ExtremeWorld.exe
 SceneListBegin?
 Assets/Levels/Loading.unity
 Assets/Levels/CharSelect.unity
@@ -33,6 +33,7 @@ a1745a63aaebc245b5d095f3d84b9534 Unity.Postprocessing.Runtime.dll:UnityEngine.Re
 f6637497451c9a030c421de4a1ad5cdb Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventHandler
 0ad430181e1f8260e48628401f48adfe Unity.Postprocessing.Runtime.dll:UnityEngine.Rendering.PostProcessing.MotionBlur
 130ab2bbd13a32088a8b4359c689aa11 Assembly-CSharp.dll:UI.QuestSystem.UIQuestStatus
+91d61086c91ebe09a46fa95b0e8db273 Assembly-CSharp.dll:.UITeamItem
 53cefe5d98cadefbab750835e70b89c0 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 486cd95c82d8305219c352c06b776e1f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 da2091a04d360891450faf16cdf621f1 UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -105,6 +106,7 @@ fc61432802d627e9bad32dbeb93f774e Unity.Postprocessing.Runtime.dll:UnityEngine.Re
 0bc5abad98d8f5c36f59c74497377f82 Assembly-CSharp.dll:.LoadingManager
 22047f3c3fbb715550f61eddb26e9cd3 Unity.Postprocessing.Runtime.dll:UnityEngine.Rendering.PostProcessing.Vignette
 7a8fa6dbe308788af3726f4e9fa685a0 Assembly-CSharp.dll:.EntityController
+cbaad43010219a6c960c3354b09e88de Assembly-CSharp.dll:Managers.SpriteManager
 486cd95c82d8305219c352c06b776e1f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 9e61f3535f3c55760a1cedfbd114f4af UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 754551afe4f2531f58476bf14c510657 UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -144,17 +146,18 @@ d75dc834c5dec688db75a55a1724c90f UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 98d69a140ec0084cde3b6a5e09aea295 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
-f0191f92d94ad657a899495ca45708b9 Assembly-CSharp.dll:.UIMain
+43012e0b5bb7e2ef9cf1674e21d3e6f2 Assembly-CSharp.dll:.UIMain
 96f3ea9f23b6f08e60710ebb4af49174 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 f10ff4dc01022bff64412f0410cb95ec Assembly-CSharp.dll:Assets.Scripts.UI.UIBag
 0050bf9e78ce1ac1bf3f454de3981f96 Assembly-CSharp.dll:UI.QuestSystem.UIQuestSystem
 34e5ec58f6e109ecc8a27490aa62bbd8 Assembly-CSharp.dll:.UICharacterSelect
 7cdcbeb117e5aeccbee1042f4420f2e6 Unity.Postprocessing.Runtime.dll:UnityEngine.Rendering.PostProcessing.ChromaticAberration
+3aef986e282e0cb96a368c74ad87fab6 Assembly-CSharp.dll:.UITeam
 f16835701e71dd5d6fb1fed4b7aff1d8 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 093867499f63c98713facc319ac30e32 Assembly-CSharp.dll:.UICharInfo
 d7a040d6c3e594843c7c3ebc9b836dbb Assembly-CSharp.dll:.UIShop
 19960e2e249158832e42c0eff998fa99 Assembly-CSharp.dll:.MapController
-32f3c7b4bb6c797d50cbe99a07822835 Assembly-CSharp.dll:.UIFriendItem
+da8128a5c898be9721e83d9e6f94a46c Assembly-CSharp.dll:.UIFriendItem
 c67761199ae3d14f8d01f4f35054dcdf Assembly-CSharp.dll:Network.NetClient
 432b347b4fdacebc0f424111631e1331 Unity.Postprocessing.Runtime.dll:UnityEngine.Rendering.PostProcessing.PostProcessResources
 486cd95c82d8305219c352c06b776e1f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
@@ -196,6 +199,7 @@ cc2eb6db62e6ff8484965dcc4272e8cb Assembly-CSharp.dll:UI.QuestSystem.UIQuestInfo
 70f7dc248db3379548a88e8d4fa049f8 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 28a95668dd28649297d595834fe8417e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 28a95668dd28649297d595834fe8417e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.UITeamInfo
 486cd95c82d8305219c352c06b776e1f UnityEngine.PerformanceTesting.dll:UnityEngine.PerformanceTesting.FrameTimeMeasurement
 d75dc834c5dec688db75a55a1724c90f UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 486cd95c82d8305219c352c06b776e1f UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput

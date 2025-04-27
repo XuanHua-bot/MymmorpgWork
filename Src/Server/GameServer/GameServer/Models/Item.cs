@@ -42,7 +42,7 @@ namespace GameServer.Models
 
         public override string ToString()
         {
-            return string.Format("ID :{0}.count:{1}", this.ItemID, this.Count);
+            return string.Format("ID:{0},Count:{1}", this.ItemID, this.Count);
         }
     }
 }

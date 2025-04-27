@@ -106,6 +106,6 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
             }
         }
         //todo 修改了uiworldElement 可能会报错
-        //UIWorldElementManager.Instance.AddCharacterNameBar(go.transform,character);
+        UIWorldElementManager.Instance.AddCharacterNameBar(go.transform,character);
     }
 }

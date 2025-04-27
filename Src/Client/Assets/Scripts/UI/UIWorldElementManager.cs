@@ -70,8 +70,8 @@ public class UIWorldElementManager : MonoSingleton<UIWorldElementManager> {
     {
         if (this.elementStatus.ContainsKey(owner) )
         {
-            Destroy(this.elementNames[owner]);
-            this.elementNames.Remove(owner);
+            Destroy(this.elementStatus[owner]);
+            this.elementStatus.Remove(owner);
         }
     }
 }

@@ -48,22 +48,7 @@ namespace GameServer.Managers
 
         public void AddItemChange(int id, int count, StatusAction action)// item 方法  action 的值有 update,add,delete
         {
-            this.AddStatus(StatusType.Item,id,count,action);
-        }
-
-        public void ApplyResponse(NetMessageResponse message)//把 status列表 全部状态塞到 message
-        {
-            if (message.statusNotify ==null)
-            {
-                message.statusNotify = new StatusNotify();
-                
-            }
-
-            foreach (var status in this.Status)
-            {
-                message.statusNotify.Status.Add(status);
-            }
-            this.Status.Clear();
+            this.AddStatus(StatusType.Item, id, count, action);
         }
 
         public void PostProcess(NetMessageResponse message)

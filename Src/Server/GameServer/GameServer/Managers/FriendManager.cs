@@ -97,10 +97,12 @@ namespace GameServer.Managers
                 friendInfo.friendInfo.Class = character.Info.Class;
                 friendInfo.friendInfo.Level = character.Info.Level;
 
-                if (friend.Level != character.Info.Level)
+                if (friend.Level!=character.Info.Level)
                 {
                     friend.Level = character.Info.Level;
                 }
+
+               
 
                 character.FriendManager.UpdateFriendInfo(this.Owner.Info, 1);
                 friendInfo.Status = 1;
@@ -108,6 +110,7 @@ namespace GameServer.Managers
             Log.InfoFormat("  {0}:{1} GetFriendInfo: {2}:{3} Status:{4} ", this.Owner.Id, this,Owner.Info.Name, friendInfo.friendInfo.Id, friendInfo.friendInfo.Name, friendInfo.Status);
             return friendInfo;
         }
+        
 
         public NFriendInfo GetFriendInfo(int friendId)
         {
@@ -134,7 +137,7 @@ namespace GameServer.Managers
             this.friendChanged = true;
         }
 
-        public void offlineNotify()
+        public void offlineNotify()//下线通知
         {
             foreach (var friendInfo in this.friends)
             {

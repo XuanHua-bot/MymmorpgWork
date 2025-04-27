@@ -31,6 +31,8 @@
 
 using System;
 using System.Runtime.InteropServices;
+using UnityEngine;
+
 class Time
 {
     [DllImport("kernel32.dll")]
@@ -138,5 +140,24 @@ class Time
         _deltaTime = (_ticks - lastTick) / 10000000f;
         _time = (_ticks - startupTicks) / 10000000f;
         lastTick = _ticks;
+    }
+
+    public static int timestamp
+    {
+        get { return GetTimestamp(DateTime.Now); }
+    }
+
+    public static DateTime GetTime(long timestamp)
+    {
+        DateTime dataTimeStart = TimeZone.CurrentTimeZone.ToLocalTime(new DateTime(1970, 1, 1));
+        long lTime = timestamp * 1000000;
+        TimeSpan toNow = new TimeSpan(lTime);
+        return dataTimeStart.Add(toNow);
+    }
+
+    public static int GetTimestamp(System.DateTime time)
+    {
+        System.DateTime startTime = TimeZone.CurrentTimeZone.ToLocalTime(new System.DateTime(1970, 1, 1));
+        return (int)(time - startTime).TotalSeconds;
     }
 }

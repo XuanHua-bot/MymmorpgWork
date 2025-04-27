@@ -112,8 +112,8 @@ namespace GameServer.Services
                     requester.Session.Character.FriendManager.AddFriend(character);//b+a
                     DBService.Instance.Save();//保存数据库
                     requester.Session.Response.friendAddRes = response;
-                    sender.Session.Response.friendAddRes.Result = Result.Success;
-                    requester.Session.Response.friendAddRes.Errormsg = "添加龟蜜成功";
+                    requester.Session.Response.friendAddRes.Result = Result.Success;
+                    requester.Session.Response.friendAddRes.Errormsg = "添加好友成功！";
                     requester.SendResponse();
                 }
             }

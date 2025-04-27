@@ -213,6 +213,10 @@ message NetMessageRequest{
 	FriendListRequest firendList = 17;
 	FriendRemoveRequest friendRemove = 18;
 
+	TeamInviteRequest teamInviteReq = 19;
+	TeamInviteResponse teamInviteRes = 20;
+	TeamInfoRequest teamInfo = 21;
+	TeamLeaveRequest teamLeave = 22;
 }
 
 message NetMessageResponse{//相应 包
@@ -242,6 +246,10 @@ message NetMessageResponse{//相应 包
 	FriendListResponse firendList = 17;
 	FriendRemoveResponse friendRemove = 18;
 
+	TeamInviteRequest teamInviteReq = 19;
+	TeamInviteResponse teamInviteRes = 20;
+	TeamInfoResponse teamInfo = 21;
+	TeamLeaveResponse teamLeave = 22;
 
 	StatusNotify statusNotify=100;
 	
@@ -502,3 +510,52 @@ message ItemEquipResponse{
 	string errormsg = 2;
 	int32 id = 3;
  }
+
+
+
+ //Team System
+
+ message NTeamInfo{
+
+	int32 id=1;
+	int32 leader = 2;
+	repeated NCharacterInfo members=3;
+
+ }
+
+ message teamInviteRequest{
+	int32 team_id =1;
+	int32 from_id = 2;
+	string from_name=3;
+	int32 to_id = 4;
+	string to_name = 5;
+ }
+
+ message TeamInviteResponse{
+	RESULT result =1;
+	string errormsg = 2;
+	TeamInviteRequest request = 3;
+}
+
+ message teamInfoRequest{
+
+ }
+
+ message TeamInfoResponse{
+
+	RESULT result=1;
+	string errormsg = 2;
+	NTeamInfo team=3;
+ }
+ 
+ message TeamLeaveRequest{
+	int32 team_id = 1;
+	int32 characterId = 2;
+ }
+
+message TeamLeaveResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+	int32 characterId = 3;
+}
