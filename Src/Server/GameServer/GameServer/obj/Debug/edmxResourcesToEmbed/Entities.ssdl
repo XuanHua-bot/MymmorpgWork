@@ -8,6 +8,9 @@
     <EntitySet Name="CharacterBags" EntityType="ExtremeWorldModel.Store.CharacterBags" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="CharacterQuests" EntityType="ExtremeWorldModel.Store.CharacterQuests" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="TCharacterFriends" EntityType="ExtremeWorldModel.Store.TCharacterFriends" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TGuilds" EntityType="ExtremeWorldModel.Store.TGuilds" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TGuildMembers" EntityType="ExtremeWorldModel.Store.TGuildMembers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TGuildApplies" EntityType="ExtremeWorldModel.Store.TGuildApplies" store:Type="Tables" Schema="dbo" />
     <AssociationSet Name="UserPlayer" Association="ExtremeWorldModel.Store.UserPlayer">
       <End Role="User" EntitySet="Users" />
       <End Role="Player" EntitySet="Players" />
@@ -31,6 +34,14 @@
     <AssociationSet Name="TCharacterTCharacterFriend" Association="ExtremeWorldModel.Store.TCharacterTCharacterFriend">
       <End Role="TCharacter" EntitySet="Characters" />
       <End Role="TCharacterFriend" EntitySet="TCharacterFriends" />
+    </AssociationSet>
+    <AssociationSet Name="TGuildMemberTGuild" Association="ExtremeWorldModel.Store.TGuildMemberTGuild">
+      <End Role="TGuildMember" EntitySet="TGuildMembers" />
+      <End Role="TGuild" EntitySet="TGuilds" />
+    </AssociationSet>
+    <AssociationSet Name="TGuildApplyTGuild" Association="ExtremeWorldModel.Store.TGuildApplyTGuild">
+      <End Role="TGuildApply" EntitySet="TGuildApplies" />
+      <End Role="TGuild" EntitySet="TGuilds" />
     </AssociationSet>
   </EntityContainer>
   <EntityType Name="Users">
@@ -65,6 +76,7 @@
     <Property Name="Equips" Type="binary" Nullable="false" MaxLength="28" />
     <Property Name="Level" Type="int" Nullable="false" />
     <Property Name="Exp" Type="bigint" Nullable="false" />
+    <Property Name="GuildId" Type="int" Nullable="false" />
     <Property Name="Player_ID" Type="int" Nullable="false" />
     <Property Name="Bag_Id" Type="int" Nullable="false" />
   </EntityType>
@@ -107,6 +119,46 @@
     <Property Name="Class" Type="int" Nullable="false" />
     <Property Name="Level" Type="int" Nullable="false" />
     <Property Name="FriendName" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TGuilds">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="LeaderID" Type="int" Nullable="false" />
+    <Property Name="LeaderName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Notice" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TGuildMembers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CharacterId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Class" Type="int" Nullable="false" />
+    <Property Name="Level" Type="int" Nullable="false" />
+    <Property Name="Title" Type="int" Nullable="false" />
+    <Property Name="JoinTime" Type="datetime" Nullable="false" />
+    <Property Name="LastTime" Type="datetime" Nullable="false" />
+    <Property Name="GuildId" Type="int" Nullable="false" />
+    <Property Name="Guild_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TGuildApplies">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CharacterId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Class" Type="int" Nullable="false" />
+    <Property Name="Level" Type="int" Nullable="false" />
+    <Property Name="Result" Type="int" Nullable="false" />
+    <Property Name="ApplyTime" Type="datetime" Nullable="false" />
+    <Property Name="GuildId" Type="int" Nullable="false" />
+    <Property Name="Guild_Id" Type="int" Nullable="false" />
   </EntityType>
   <Association Name="UserPlayer">
     <End Role="User" Type="ExtremeWorldModel.Store.Users" Multiplicity="*" />
@@ -177,6 +229,30 @@
       </Principal>
       <Dependent Role="TCharacterFriend">
         <PropertyRef Name="CharacterID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TGuildMemberTGuild">
+    <End Role="TGuildMember" Type="ExtremeWorldModel.Store.TGuildMembers" Multiplicity="*" />
+    <End Role="TGuild" Type="ExtremeWorldModel.Store.TGuilds" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="TGuild">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TGuildMember">
+        <PropertyRef Name="Guild_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TGuildApplyTGuild">
+    <End Role="TGuildApply" Type="ExtremeWorldModel.Store.TGuildApplies" Multiplicity="*" />
+    <End Role="TGuild" Type="ExtremeWorldModel.Store.TGuilds" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="TGuild">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TGuildApply">
+        <PropertyRef Name="Guild_Id" />
       </Dependent>
     </ReferentialConstraint>
   </Association>

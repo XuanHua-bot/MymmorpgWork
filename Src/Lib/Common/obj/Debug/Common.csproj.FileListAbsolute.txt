@@ -10,5 +10,5 @@ E:\MymmorpgWork\Src\Lib\Common\bin\Debug\protobuf-net.xml
 E:\MymmorpgWork\Src\Lib\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 E:\MymmorpgWork\Src\Lib\Common\obj\Debug\Common.dll
 E:\MymmorpgWork\Src\Lib\Common\obj\Debug\Common.pdb
-E:\MymmorpgWork\Src\Lib\Common\obj\Debug\Common.csproj.AssemblyReference.cache
-E:\MymmorpgWork\Src\Lib\Common\obj\Debug\Common.csproj.Up2Date
+E:\MymmorpgWork\Src\Lib\Common\obj\Debug\Common.csprojAssemblyReference.cache
+E:\MymmorpgWork\Src\Lib\Common\obj\Debug\Common.csproj.CopyComplete

@@ -10,8 +10,7 @@ using Image = UnityEngine.UI.Image;
 public class UIQuestItem : ListView.ListViewItem
 {
 
-	//todo
-	//ListView.ListViewItem 待补全
+
 	public Text title;
 
 	public Image background;

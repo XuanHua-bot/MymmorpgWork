@@ -2,6 +2,7 @@
 using Common;
 using GameServer.Entities;
 using GameServer.Managers;
+using GameServer.Models;
 using Network;
 using SkillBridge.Message;
 using UnityEngine;
@@ -10,15 +11,14 @@ namespace GameServer.Services
 {
     class TeamService : Singleton<TeamService>
     {
-
         public TeamService()
         {
-            MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<teamInviteRequest>(this.OnTeamInviteRequest);
-            MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<TeamInviteResponse>(this.OnTeamInviteResponse);
+            MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<teamInviteRequest>(
+                this.OnTeamInviteRequest);
+            MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<TeamInviteResponse>(
+                this.OnTeamInviteResponse);
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<TeamLeaveRequest>(this.OnTeamLeave);
         }
-
-
 
 
         public void Init()
@@ -35,10 +35,12 @@ namespace GameServer.Services
         private void OnTeamInviteRequest(NetConnection<NetSession> sender, teamInviteRequest request)
         {
             Character character = sender.Session.Character;
-            Log.InfoFormat("OnTeamInviteReuqest：：FromID:{0} FromeName:{1} ToID :{2}  ToName:{3} ", request.FromId, request.FromName, request.TeamId, request.ToName);
+            Log.InfoFormat("OnTeamInviteReuqest：：FromID:{0} FromeName:{1} ToID :{2}  ToName:{3} ", request.FromId,
+                request.FromName, request.TeamId, request.ToName);
 
             NetConnection<NetSession> target = SessionManager.Instance.GetSession(request.ToId);
-            Log.InfoFormat("--------------------从 netsession中获取的角色 id：{0} name:{1}", target.Session.Character.Id, target.Session.Character.Info.Name);
+            Log.InfoFormat("--------------------从 netsession中获取的角色 id：{0} name:{1}", target.Session.Character.Id,
+                target.Session.Character.Info.Name);
             if (target == null)
             {
                 sender.Session.Response.teamInviteRes = new TeamInviteResponse();
@@ -56,9 +58,12 @@ namespace GameServer.Services
                 sender.SendResponse();
                 return;
             }
+
             //转发请求
-            Log.InfoFormat("-----ForwardTeamInviteRequest: : FromId:{0} FromName:{1} ToID:{2} ToName:{3}", request.FromId, request.FromName, request.ToId, request.ToName);//此处toi from i 相同
-            Log.InfoFormat("-----ForwardTeamInviteRequest: : FromId:{0} FromName:{1} ToID:{2} ToName:{3}", request.FromId, request.FromName, target.Session.Character.Id, target.Session.Character.Info.Name);
+            Log.InfoFormat("-----ForwardTeamInviteRequest: : FromId:{0} FromName:{1} ToID:{2} ToName:{3}",
+                request.FromId, request.FromName, request.ToId, request.ToName); //此处toi from i 相同
+            Log.InfoFormat("-----ForwardTeamInviteRequest: : FromId:{0} FromName:{1} ToID:{2} ToName:{3}",
+                request.FromId, request.FromName, target.Session.Character.Id, target.Session.Character.Info.Name);
             target.Session.Response.teamInviteReq = request;
             target.SendResponse();
         }
@@ -71,24 +76,47 @@ namespace GameServer.Services
         private void OnTeamInviteResponse(NetConnection<NetSession> sender, TeamInviteResponse response)
         {
             Character character = sender.Session.Character;
-            Log.InfoFormat("OnTeamInviteResponse :: character:{0} Result:{1} FromeId:{2} ToId{3}", character.Id, response.Result, response.Request.FromId, response.Request.ToId);
+            Log.InfoFormat("OnTeamInviteResponse :: character:{0} Result:{1} FromeId:{2} ToId{3}", character.Id,
+                response.Result, response.Request.FromId, response.Request.ToId);
             sender.Session.Response.teamInviteRes = response;
+
             if (response.Result == Result.Success)
-            {//接受了组队请求
+            {
                 var requester = SessionManager.Instance.GetSession(response.Request.FromId);
-                if (requester == null)//如果对方掉线了
+                if (requester == null)
                 {
                     sender.Session.Response.teamInviteRes.Result = Result.Failed;
                     sender.Session.Response.teamInviteRes.Errormsg = "请求者已下线";
                 }
-                else//如果在线
+                else
                 {
-
-                    TeamManager.Instance.AddTeamMember(requester.Session.Character, character);//请求者  和 被发起人
+                    TeamManager.Instance.AddTeamMember(requester.Session.Character, character);
                     requester.Session.Response.teamInviteRes = response;
-                    requester.SendResponse();//发送给 发起组队人
+                    requester.SendResponse();
+
+                    // 向所有团队成员发送 TeamInfoResponse
+                    Models.Team team = character.Team;
+                    foreach (var member in team.Members)
+                    {
+                        NetConnection<NetSession> memberSession = SessionManager.Instance.GetSession(member.Id);
+                        if (memberSession != null)
+                        {
+                            memberSession.Session.Response.teamInfo = new TeamInfoResponse();
+                            memberSession.Session.Response.teamInfo.Result = Result.Success;
+                            memberSession.Session.Response.teamInfo.Team = new NTeamInfo();
+                            memberSession.Session.Response.teamInfo.Team.Id = team.Id;
+                            memberSession.Session.Response.teamInfo.Team.Leader = team.Leader.Id;
+                            foreach (var memberChar in team.Members)
+                            {
+                                memberSession.Session.Response.teamInfo.Team.Members.Add(memberChar.GetBasicInfo());
+                            }
+
+                            memberSession.SendResponse();
+                        }
+                    }
                 }
             }
+
             sender.SendResponse();
         }
 
@@ -96,7 +124,8 @@ namespace GameServer.Services
         {
             Character character = sender.Session.Character;
 
-            Log.InfoFormat("OnTeamLeave : :character:{0} TeamID:{1} : {2}", character.Id, request.TeamId, request.characterId);
+            Log.InfoFormat("OnTeamLeave : :character:{0} TeamID:{1} : {2}", character.Id, request.TeamId,
+                request.characterId);
             Models.Team team = character.Team;
 
             if (team != null) team.Leave(character);
@@ -114,6 +143,7 @@ namespace GameServer.Services
                 {
                     memberSession.Session.Response.teamInfo.Team.Members.Add(member.GetBasicInfo());
                 }
+
                 memberSession.SendResponse();
             }
 
@@ -124,12 +154,5 @@ namespace GameServer.Services
 
             sender.SendResponse();
         }
-
-
-
-
-
-
-
     }
 }

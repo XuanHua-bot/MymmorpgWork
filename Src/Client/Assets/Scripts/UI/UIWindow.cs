@@ -36,6 +36,10 @@ public abstract class UIWindow : MonoBehaviour
     {
         this.Close(WindowResule.Yes);
     }
+    public virtual void OnNoClick()
+    {
+        this.Close(WindowResule.No);
+    }
 
     private void OnMouseDown() //点击测试
     {

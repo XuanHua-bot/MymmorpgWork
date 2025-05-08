@@ -1,0 +1,1842 @@
+fileFormatVersion: 2
+guid: e1cb14b9837328642905f1e3084b0bb3
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_0
+    21300002: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_1
+    21300004: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_2
+    21300006: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_3
+    21300008: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_4
+    21300010: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_5
+    21300012: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_6
+    21300014: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_7
+    21300016: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_8
+    21300018: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_9
+    21300020: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_10
+    21300022: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_11
+    21300024: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_12
+    21300026: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_13
+    21300028: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_14
+    21300030: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_15
+    21300032: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_16
+    21300034: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_17
+    21300036: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_18
+    21300038: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_19
+    21300040: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_20
+    21300042: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_21
+    21300044: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_22
+    21300046: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_23
+    21300048: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_24
+    21300050: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_25
+    21300052: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_26
+    21300054: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_27
+    21300056: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_28
+    21300058: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_29
+    21300060: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_30
+    21300062: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_31
+    21300064: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_32
+    21300066: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_33
+    21300068: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_34
+    21300070: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_35
+    21300072: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_36
+    21300074: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_37
+    21300076: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_38
+    21300078: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_39
+    21300080: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_40
+    21300082: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_41
+    21300084: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_42
+    21300086: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_43
+    21300088: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_44
+    21300090: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_45
+    21300092: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_46
+    21300094: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_47
+    21300096: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_48
+    21300098: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_49
+    21300100: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_50
+    21300102: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_51
+    21300104: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_52
+    21300106: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_53
+    21300108: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_54
+    21300110: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_55
+    21300112: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_56
+    21300114: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_57
+    21300116: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_58
+    21300118: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_59
+    21300120: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_60
+    21300122: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_61
+    21300124: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_62
+    21300126: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_63
+    21300128: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_64
+    21300130: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_65
+    21300132: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_66
+    21300134: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_67
+    21300136: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_68
+    21300138: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_69
+    21300140: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_70
+    21300142: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_71
+    21300144: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_72
+    21300146: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_73
+    21300148: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_74
+    21300150: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_75
+    21300152: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_76
+    21300154: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_77
+    21300156: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_78
+    21300158: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_79
+    21300160: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_80
+    21300162: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_81
+    21300164: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_82
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 663.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4708f4658c70614797da6367bfd6212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 663.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3715c43cc4fe8468f7ce6eda20005e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 663.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15f122ae5e2de04582a3a47dc99f583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 663.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170029cf85d4ab94397284606a7c0688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 663.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e7778d3cc1ced468fb85048b337021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 663.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c114431a1bfd17478bc1037e74ccd0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 663.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370bc9e6bbad05740a271c064d7e58c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 663.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2d853375342dc4eb730a4d8d0967f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 663.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56746a1b153f2043a138312bd8d281c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 663.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee538472516b3b4488ad92debf669cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 663.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbe9377ba229dc4eaf904bbcfa96326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_11
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 663.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0109308cb5c70d04f8f1cb78e8b4ba98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_12
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 663.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1e0e814bd16ce4cb2b7d4d6c955a16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_13
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 663.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8a0ef382060e941b386647896d48cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 531.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7bf5514fb177f459bf25dfb9370223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_15
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 531.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cad0c1cef63b6f4e91255283f681738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_16
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 531.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd63feb214af87342b8ab02af53946bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_17
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 531.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10d5960aab27974cbd0b26186f7b251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_18
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 531.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d176d5bdba240394ab2d278161e3935a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_19
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 531.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76b588d05710a94c844fbc871fd238d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_20
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 531.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c63d9d4df0e05f46877e634815b1164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_21
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 531.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d7d251599cbab448eeb49e0a121258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_22
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 531.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d03110d8985b8647890f15d0a29fa84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_23
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 531.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43243469f72719547b062f5192fcdbe5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_24
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 531.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea6c9255eaa48c44922eed0d1955873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_25
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 531.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8b6577ea0199e41a795e47ceca11c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_26
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 531.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7181e84f368a740429b3db7232d3614e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_27
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 531.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dde4d5132eda6041bbcc2ddb5d247ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 399.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26273360c47654439350b2875184776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_29
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 399.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29a5207184f9c948a81de4d0d784702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_30
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 399.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fdb08f35c68f544b95a3809cea4ced
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_31
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 399.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fbef51ae2fd1a439eaee22a52bc97b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_32
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 399.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21eb8eb27a55d5e4e847a79668e9a6bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_33
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 399.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964c1edd2e7aa9a4089a2251bf0cddf1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_34
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 399.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c7d1ebdfe82994c868afd5513c6e09
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_35
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 399.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6d80e06ebd00a43bee1b2da944e02d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_36
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 399.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb476dfb8767de4da1cd114a3d2081b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_37
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 399.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1267c805cafae4ea1024460cfab17e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_38
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 399.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd25a030252ff5408335c533a2a3943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_39
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 399.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f881791fcfadce8419f2bd5e18051986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_40
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 399.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e355971affb724ea6105ff2b7511ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_41
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 399.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebd226e3abb1ab49b206b6a6b9172c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 267.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b54a646d99c5548affbca13e119c70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_43
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 267.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855cf193327b6974fa776e6999d4660f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_44
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 267.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c95b80421c24fb4ba2732a6963a1b7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_45
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 267.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977b892d5ccdb72439f8b02bd535391c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_46
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 267.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d139ed49c02db134a98ff1ccbaf0ae87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_47
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 267.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20de88ae17b29b42ae463df27f4db9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_48
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 267.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6d06f305f56c440868b210b9ddbf56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_49
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 267.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0dfd1863dfd5441939ddbb332b313a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_50
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 267.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97173e3737953c4d838ba2d3524fbf9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_51
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 267.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18527f5647a72a45840ee527f592c7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_52
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 267.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf17effbfe21cc94bbddb9ea897408e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_53
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 267.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436e84957865df449a5b3573eb675273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_54
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 267.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cc2884a8a267644a0006a9b672849f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_55
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 267.3333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efb4479ebc6b4b4fadb25cc8590fe8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135.33333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3e2373e30801a48bc35e38e7ba93a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_57
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 135.33333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596b98d46a270f24c940641fc8d62e0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_58
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 135.33333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade95cbeaa5b27c4787c7fdc2bc637fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_59
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 135.33333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2349f1f355cc249a9c0951bb87254a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_60
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 135.33333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49fdb16f7da03b4fa3f24e223537941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_61
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 135.33333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1aac404b843fe540acba91ba1537026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_62
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 135.33333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef25d23d5893beb42b2e71f34689ac0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_63
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 135.33333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e517142c89c60534ba25d4dbea221881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_64
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 135.33333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef68e5c984b050479abd76b9806255a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_65
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 135.33333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a520942404224ae4289bf4d0ccc69dfc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_66
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 135.33333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a089035b745fbe4599979d7f3f816de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_67
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 135.33333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce94fa271c844742ad25354029d8a44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_68
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 135.33333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae00ea82320af7047b9896857ce6c0b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_69
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 135.33333
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e1a208161415644bfff96ae18eb3f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.3333282
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ecef68260553a4a8ac885a06bca0c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_71
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 3.3333282
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8967e3d4aacd636438008e12e386dcee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_72
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 3.3333282
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31ea273956b684468756d825eb5b848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_73
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 3.3333282
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0f7eb441ead054bad30e5cf7c42299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_74
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 3.3333282
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba6a9194168d3f4a8abc1b4ee0fc242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_75
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 3.3333282
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66547f4e28b64d4db12fef38b7307d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_76
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 3.3333282
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc3f1393ee6e314da189677d2202c68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_77
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 3.3333282
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18409a3464a9eb43a7127a785b41924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_78
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 3.3333282
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63417c903406fd43aac360c4cfeb15e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_79
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 3.3333282
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b8a434cbe898a488d0915c07642891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_80
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 3.3333282
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8baa11b66fb58d4aa2c188c3b8f3c41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_81
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 3.3333282
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aef166f1e74b9a42a602cebae0931c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_TPI_Common_SkillIcon_SkillIconNor1_UIAtlas_82
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 3.3333282
+        width: 132
+        height: 132.66667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1c6d7108c5af24291b3de923b6d2e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2dcc8db32b60f284e95f0f6eedf655c1
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

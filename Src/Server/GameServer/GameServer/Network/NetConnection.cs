@@ -129,8 +129,6 @@ namespace Network
             }
         }
 
-        //todo
-        //代码报错
         public void SendResponse()
         {
             byte[] data = session.GetResponse();

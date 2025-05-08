@@ -66,6 +66,9 @@ namespace GameServer.Models
                     message.teamInfo.Team.Members.Add(member.GetBasicInfo());
                 }
             }
+           
+            
+
         }
     }
 }

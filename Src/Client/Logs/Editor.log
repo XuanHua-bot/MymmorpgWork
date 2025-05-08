@@ -1,0 +1,50 @@
+
+LICENSE SYSTEM [2025428 16:51:41] Next license update check is after 2025-04-28T08:55:34
+
+Built from '2018.2/release' branch; Version is '2018.2.3f1 (1431a7d2ced7) revision 1323431'; Using compiler version '191225831'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'zh' Physical Memory: 32452 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+[Package Manager] Server::Start -- Port 60893 was selected
+
+ COMMAND LINE ARGUMENTS:
+E:\unity\2018.2.3f1\Editor\Unity.exe
+-runTests
+-batchmode
+-projectPath
+E:\MymmorpgWork\Src\Client
+-testResults
+Logs/results.xml
+-logFile
+Logs/Editor.log
+-testPlatform
+EditMode
+-debugCodeOptimization
+Successfully changed project path to: E:\MymmorpgWork\Src\Client
+E:/MymmorpgWork/Src/Client
+It looks like another Unity instance is running with this project open.
+
+Multiple Unity instances cannot open the same project.
+
+Project: E:/MymmorpgWork/Src/Client
+ 
+(Filename: D:\unity\Editor/Src/Application/Application.cpp Line: 391)
+
+Fatal Error! It looks like another Unity instance is running with this project open.
+
+Multiple Unity instances cannot open the same project.
+
+Project: E:/MymmorpgWork/Src/Client
+
+ 
+(Filename: D:\unity\Runtime/Utilities/Argv.cpp Line: 295)
+
+
+Aborting batchmode due to failure:
+Fatal Error! It looks like another Unity instance is running with this project open.
+
+Multiple Unity instances cannot open the same project.
+
+Project: E:/MymmorpgWork/Src/Client
+
+
+Exiting without the bug reporter. Application will terminate with return code 1

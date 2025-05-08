@@ -185,13 +185,13 @@ namespace GameServer.Services
             sender.Session.Response.gameEnter.Result = Result.Success;
             sender.Session.Response.gameEnter.Errormsg = "None";
 
-            sender.Session.Response.gameEnter.Character = character.Info;
-            //如果验证成功，将用户信息存储在会话中，并返回登录成功和用户的角色信息。  只是存储 并未加入到客户端中哈
-            sender.SendResponse();;
-
-            
             sender.Session.Character = character;
             sender.Session.PostResponser = character;
+            //如果验证成功，将用户信息存储在会话中，并返回登录成功和用户的角色信息。  只是存储 并未加入到客户端中哈
+
+            sender.Session.Response.gameEnter.Character = character.Info;
+            sender.SendResponse();
+
             MapManager.Instance[dbchar.MapID].CharacterEnter(sender, character);
         }
 
@@ -200,7 +200,7 @@ namespace GameServer.Services
             Character character = sender.Session.Character;
             Log.InfoFormat("UserGameLeaveRequest: characterID:{0}:{1} Map:{2}", character.Id, character.Info.Name, character.Info.mapId);
             SessionManager.Instance.RemoveSession(character.Id);
-            CharacterLeave(character);
+            this.CharacterLeave(character);
 
             sender.Session.Response.gameLeave = new UserGameLeaveResponse();
             sender.Session.Response.gameLeave.Result = Result.Success;

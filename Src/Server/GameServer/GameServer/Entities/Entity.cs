@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SkillBridge.Message;
+using Common;
 
 namespace GameServer.Entities
 {

@@ -69,6 +69,30 @@ public class UIMain : MonoSingleton<UIMain> {
         UIManager.Instance.Show<UIFriends>();
     }
 
+    public void OnClickGuild()
+    {
+        //工会管理器间接打开ui
+        GuildManager.Instance.ShowGuild();
+       
+        
+    }
+
+    public void OnClickRide()
+    {
+
+    }
+
+    public void OnClickSetting()
+    {
+
+    }
+
+    public void OnClickSkill()
+    {
+
+    }
+
+
     public void ShowTeamUI(bool show)
     {
         TeamWindow.ShowTeam(show);
