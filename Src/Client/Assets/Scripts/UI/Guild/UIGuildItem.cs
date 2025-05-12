@@ -9,38 +9,28 @@ using UnityEngine.UI;
 
 public class UIGuildItem : ListView.ListViewItem
 {
+    public TMP_Text guildId;
+    public TMP_Text guildName;
+    public TMP_Text memberCount;
+    public TMP_Text leader;
 
-	public TMP_Text nickname;
-	public Image classIcon;
-	public Image leaderIcon;
+    public Image background;
+    public Sprite normalBg;
+    public Sprite selectedBg;
 
-	public Image background;
+    public override void onSelected(bool selected)
+    {
+        this.background.overrideSprite = selected ? selectedBg : normalBg;
+    }
 
-	public override void onSelected(bool selected)
-	{
-		this.background.enabled = selected ? true : false;
-	}
+    public NGuildInfo Info;
 
-	public int idx;
-
-	public NCharacterInfo Info;
-
-
-	private void Start()
-	{
-		this.background.enabled = false;
-	}
-
-	public void SetMenberInfo(int idx, NCharacterInfo item, bool isLeader)
-	{
-		this.idx = idx;
-		this.Info = item;
-		if (this.nickname != null) this.nickname.text = this.Info.Level.ToString().PadRight(4) + this.Info.Name;
-		if (this.classIcon != null)this.classIcon.overrideSprite = SpriteManager.Instance.classIcons[(int)this.Info.Class - 1];
-		if (this.leaderIcon!=null)this.leaderIcon.gameObject.SetActive(isLeader);	
-
-			
-		
-	
-	}
+    public void SetGuildInfo(NGuildInfo info)
+    {
+        this.Info = info;
+        if (this.guildId != null) this.guildId.text = this.Info.Id.ToString();
+        if (this.guildName != null) this.guildName.text = this.Info.GuildName;
+        if (this.memberCount != null) this.memberCount.text = this.Info.memberCount.ToString();
+        if (this.leader != null) this.leader.text = this.Info.leaderName;
+    }
 }

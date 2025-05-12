@@ -2,8 +2,8 @@ E:\MymmorpgWork\Src\Lib\Protocol\bin\Debug\Protocol.dll
 E:\MymmorpgWork\Src\Lib\Protocol\bin\Debug\Protocol.pdb
 E:\MymmorpgWork\Src\Lib\Protocol\bin\Debug\protobuf-net.dll
 E:\MymmorpgWork\Src\Lib\Protocol\bin\Debug\protobuf-net.xml
+E:\MymmorpgWork\Src\Lib\Protocol\obj\Debug\Protocol.csprojAssemblyReference.cache
 E:\MymmorpgWork\Src\Lib\Protocol\obj\Debug\Protocol.csproj.CoreCompileInputs.cache
+E:\MymmorpgWork\Src\Lib\Protocol\obj\Debug\Protocol.csproj.CopyComplete
 E:\MymmorpgWork\Src\Lib\Protocol\obj\Debug\Protocol.dll
 E:\MymmorpgWork\Src\Lib\Protocol\obj\Debug\Protocol.pdb
-E:\MymmorpgWork\Src\Lib\Protocol\obj\Debug\Protocol.csprojAssemblyReference.cache
-E:\MymmorpgWork\Src\Lib\Protocol\obj\Debug\Protocol.csproj.CopyComplete

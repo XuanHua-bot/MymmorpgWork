@@ -317,6 +317,9 @@ namespace SkillBridge.Message
         [global::ProtoBuf.ProtoMember(28)]
         public GuildListRequest guildList { get; set; }
 
+        [global::ProtoBuf.ProtoMember(29)]
+        public GuildAdminRequest guildAdmin { get; set; }
+
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -406,6 +409,9 @@ namespace SkillBridge.Message
 
         [global::ProtoBuf.ProtoMember(28)]
         public GuildListResponse guildList { get; set; }
+
+        [global::ProtoBuf.ProtoMember(29)]
+        public GuildAdminResponse guildAdmin { get; set; }
 
         [global::ProtoBuf.ProtoMember(100)]
         public StatusNotify statusNotify { get; set; }

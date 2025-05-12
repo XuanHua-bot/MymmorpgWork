@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Services;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,13 +12,12 @@ public class UIGuildPopCreate : UIWindow {
 
     private void Start()
     {
-        //todo  需完成GuildService
-        //GuildService.Instance.OnGuildCreateResult = OnGuildCreated; //监听 工会创建结果  的事件
+        GuildService.Instance.OnGuildCreateResult = OnGuildCreated; //监听 工会创建结果  的事件
     }
 
     public void OnDestroy()
     {
-        //GuildService.Instance.OnGuildCreateResult = null;
+        GuildService.Instance.OnGuildCreateResult = null;
 
     }
 
@@ -44,8 +44,7 @@ public class UIGuildPopCreate : UIWindow {
             return;
         }
 
-        //todo 需完成GuildService
-        //GuildService.Instance.SendGuildCreate(inputName.text, inputNotice.text);//发送协议
+        GuildService.Instance.SendGuildCreate(inputName.text, inputNotice.text);//发送协议
     }
 
 

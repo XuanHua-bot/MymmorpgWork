@@ -1,4 +1,5 @@
 ﻿using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -7,16 +8,16 @@ public class UIInputBox : MonoBehaviour
 {
 
 
-    public Text title;
-    public Text message;
-    public Text tips;
+    public TMP_Text title;
+    public TMP_Text message;
+    public TMP_Text tips;
     public Button buttonYes;
     public Button buttonNo;
     public InputField input;
     
 
-    public Text buttonYesTitle;
-    public Text buttonNoTitle;
+    public TMP_Text buttonYesTitle;
+    public TMP_Text buttonNoTitle;
 
     public delegate bool SubmitHandler(string inputText, out string tips);
     public event SubmitHandler OnSubmit;

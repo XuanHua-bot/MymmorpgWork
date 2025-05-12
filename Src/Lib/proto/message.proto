@@ -228,6 +228,7 @@ message NetMessageRequest{
 	GuildLeaveRequest guildLeave = 27;
 	GuildListRequest guildList = 28;
 
+	GuildAdminRequest guildAdmin = 29;
 
 }
 
@@ -270,6 +271,7 @@ message NetMessageResponse{//相应 包
 	GuildLeaveResponse guildLeave = 27;
 	GuildListResponse guildList = 28;
 
+	GuildAdminResponse guildAdmin = 29;
 
 
 	StatusNotify statusNotify=100;
@@ -689,7 +691,7 @@ message NGuildInfo{
  }
 
 //公会管理
-enum GUILD_ADMIN_COMMAND
+enum GUILD_ADMIN_COMMAND//看作指令
 {
 	KIKCOUT = 1;	//踢人
 	PROMOTE = 2;	//晋升

@@ -30,11 +30,11 @@ public class UIGuildMemberItem : ListView.ListViewItem {
     public void SetGuildMemberInfo(NGuildMemberInfo item)
     {
         this.Info = item;
-        if (this.nickname != null) this.nickname.text = this.Info.friendInfo.Name;
-        if (this.@class != null) this.@class.text = this.Info.friendInfo.Class.ToString();
-        if (this.level != null) this.level.text = this.Info.friendInfo.Level.ToString();
-        if (this.title != null) this.level.text = this.Info.friendInfo.Level.ToString();
-        if (this.joinTime != null) this.level.text = this.Info.friendInfo.Level.ToString();
+        if (this.nickname != null) this.nickname.text = this.Info.Info.Name;
+        if (this.@class != null) this.@class.text = this.Info.Info.Class.ToString();
+        if (this.level != null) this.level.text = this.Info.Info.Level.ToString();
+        if (this.title != null) this.title.text = this.Info.Title.ToString();
+        if (this.joinTime != null) this.joinTime.text = this.Info.joinTime.ToString();
 
         if (this.status != null) this.status.text = this.Info.Status == 1 ? "在线" : "离线";
         if (this.status != null)

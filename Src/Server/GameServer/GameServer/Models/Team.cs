@@ -32,7 +32,7 @@ namespace GameServer.Models
             }
             this.Members.Add(member);//添加到成员
             member.Team = this;//当前队伍指定给该成员
-            timestamp = Time.timestamp;//队伍信息变更的时间
+            timestamp = TimeUtil.timestamp;//队伍信息变更的时间
         }
 
         public void Leave(Character member)
@@ -49,7 +49,7 @@ namespace GameServer.Models
                     this.Leader = null;
             }
             member.Team = null;
-            timestamp = Time.timestamp;
+            timestamp = TimeUtil.timestamp;
         }
 
         public void PostProcess(NetMessageResponse message)

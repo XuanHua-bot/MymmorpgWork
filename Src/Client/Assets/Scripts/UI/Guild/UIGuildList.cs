@@ -1,4 +1,6 @@
-﻿using SkillBridge.Message;
+﻿using Models;
+using Services;
+using SkillBridge.Message;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,15 +8,16 @@ using UnityEngine;
 public class UIGuildList : UIWindow {
 
     public GameObject itemPrefab;
-    public ListView itemMain;
+    public ListView listMain;
     public Transform itemRoot;
     public UIGuildInfo uiInfo;
-    public UIGuildItem selecetedItem;
+    public UIGuildItem selectedItem;
 
+    
 
     private void Start()
     {
-        this.listMain.selecetedItem += this.OnGuildMemberSelected;//监听选中事件
+        this.listMain.onItemSelected += this.OnGuildMemberSelected;//监听选中事件
         this.uiInfo.Info = null;
         GuildService.Instance.OnGuildListResult += UpdateGuildList;//监听列表刷新
 
@@ -35,8 +38,8 @@ public class UIGuildList : UIWindow {
 
     public void OnGuildMemberSelected(ListView.ListViewItem item)
     {
-        this.selecetedItem = item as UIGuildItem;
-        this.uiInfo.Info = this.selecetedItem.Info;
+        this.selectedItem = item as UIGuildItem;
+        this.uiInfo.Info = this.selectedItem.Info;
     }
 
 
@@ -59,13 +62,16 @@ public class UIGuildList : UIWindow {
 
     public void OnClickJoin()
     {
-        if (selecetedItem == null)
+        if (selectedItem == null)
         {
             MessageBox.Show("请选择要加入的工会");
             return;
         }
 
-        MessageBox.Show(string.Format("确定要加入工会[{0}]吗 ？", selecetedItem.Info.GuildName, "申请加入工会", MessageBoxType.Confirm, "申请加入", "取消"));
+        MessageBox.Show(string.Format("确定要加入工会[{0}]吗 ？", selectedItem.Info.GuildName, "申请加入工会", MessageBoxType.Confirm, "申请加入", "取消")).OnYes=()=> 
+        {
+            GuildService.Instance.SendGuildJoinRequest(this.selectedItem.Info.Id);
+        };
 
     }
 }

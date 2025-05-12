@@ -22,10 +22,10 @@ namespace GameServer.Services
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<GuildJoinResponse>(this.OnGuildJoinResponse);
 
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<GuildLeaveRequest>(this.OnGuildLeave);
-
+            MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<GuildAdminRequest>(this.OnGuildAdmin);
         }
 
-        
+       
 
         public void Init()
         {
@@ -150,7 +150,38 @@ namespace GameServer.Services
 
         }
 
-       
+
+
+        private void OnGuildAdmin(NetConnection<NetSession> sender, GuildAdminRequest message)
+        {
+            Character character = sender.Session.Character;//获取当前角色
+            Log.InfoFormat("OnGuildLeave ::character:{0}", character.Id);
+            sender.Session.Response.guildAdmin = new GuildAdminResponse();
+            if (character.Guild==null)
+            {
+                sender.Session.Response.guildAdmin.Result = Result.Failed;
+                sender.Session.Response.Guild.Errormsg = "你哪来的工会";
+                sender.SendResponse();
+                return;
+            }
+            //加入成功了
+            character.Guild.ExecuteAdmin(message.Command,message.Target,character.Id);
+
+            var target = SessionManager.Instance.GetSession(message.Target);
+            if (target !=null)//如果他在线 则给他发通知
+            {
+                target.Session.Response.guildAdmin = new GuildAdminResponse();
+                target.Session.Response.guildAdmin.Result = Result.Success;
+                target.Session.Response.guildAdmin.Command = message;
+                target.SendResponse();
+            }
+            //返回调用目标
+            sender.Session.Response.guildAdmin.Result = Result.Success;
+            sender.Session.Response.guildAdmin.Command = message;
+            sender.SendResponse();
+        }
+
+
 
     }
 }

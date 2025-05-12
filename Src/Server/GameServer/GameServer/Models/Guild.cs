@@ -17,10 +17,10 @@ namespace GameServer.Models
 
         public int Id { get { return this.Data.Id; } }
 
-        private char Leader;
+        
         public string Name { get { return this.Data.Name; } }
 
-        public List<TCharacter> Members = new List<TCharacter>();
+        
         public double timestamp;//时间戳  后处理判断更新
 
         public TGuild Data;//工会对应的数据库
@@ -102,12 +102,18 @@ namespace GameServer.Models
                 LastTime = now
             };
             this.Data.Members.Add(dbmember);
+            //添加成员后
+
+            //找到这个角色
             var character = CharacterManager.Instance.GetCharacter(characterId);
             if (character != null)
-                character.Data.GuildId = this.Id;
+                character.Data.GuildId = this.Id;//设置 把工会id 赋值给角色 身上的工会id
             else
             {
+                //直接使用sql 语句
                 //DBService.Instance.Entities.Database.ExecuteSqlCommand("UPDATE Characters SET GuildId = @p0 WHERE CharacterId = @p1", this.Id, characterId);
+                
+                //如果不在线 则放到数据库中
                 TCharacter dbChar = DBService.Instance.Entities.Characters.SingleOrDefault(c => c.ID == characterId);
                 dbChar.GuildId = this.Id;
             }
@@ -116,6 +122,7 @@ namespace GameServer.Models
 
         public void Leave(Character member)
         {
+            //todo 工会离开待完成！
             Log.InfoFormat("Leave Guild: {0}:{1}", member.Id, member.Name);
             timestamp = TimeUtil.timestamp;
         }
@@ -203,6 +210,7 @@ namespace GameServer.Models
             List<NGuildApplyInfo> applies = new List<NGuildApplyInfo>();
             foreach (var apply in this.Data.Applies)
             {
+                //防止重复审批     申请结果为空 才会继续
                 if (apply.Result != (int)ApplyResult.None) continue;
                 applies.Add(new NGuildApplyInfo() 
                 {
@@ -217,6 +225,43 @@ namespace GameServer.Models
             return applies;
         }
 
-        
+        TGuildMember GetDBMember(int characterId)
+        {
+            foreach (var member in this.Data.Members)
+            {
+                if (member.CharacterId == characterId)
+                    return member;
+ 
+            }
+            return null;
+        }
+
+        internal void ExecuteAdmin(GuildAdminCommand command, int targetId, int sourceid)
+        {
+            var target = GetDBMember(targetId);
+            var source = GetDBMember(sourceid);
+
+            switch (command)
+            {
+                case GuildAdminCommand.Kikcout:
+                   //todo kikcout 工会踢人 待完成
+                    break;
+                case GuildAdminCommand.Promote:
+                    target.Title = (int)GuildTitle.VicePresident;
+                    break;
+                case GuildAdminCommand.Depose:
+                    target.Title = (int)GuildTitle.None;
+                    break;
+                case GuildAdminCommand.Transfer:
+                    target.Title = (int)GuildTitle.President;
+                    source.Title = (int)GuildTitle.None;
+                    this.Data.LeaderID = targetId;
+                    this.Data.LeaderName = target.Name;
+                    break;
+                
+            }
+            DBService.Instance.Save();
+            timestamp = TimeUtil.timestamp;
+        }
     }
 }

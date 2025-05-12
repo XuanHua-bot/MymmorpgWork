@@ -189,6 +189,7 @@
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
     <Compile Include="Utils\Time.cs" />
+    <Compile Include="Utils\TimeUtil.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">
